@@ -1,5 +1,5 @@
 .header2
-  background-color: blueviolet //$active-background-color-lite
+  background-color: $active-background-color-lite
   &-info
     display: flex
     justify-content: space-between
@@ -12,13 +12,16 @@
       align-items: center
       background-color: $active-background-color-dark
       padding: 10px
+      border-radius: 0em 0em 0em 0.5em
       &__text
-        padding-top: 5px
-        padding-bottom: 5px
-        padding-left: 5px
+        //padding-top: 5px
+        //padding-bottom: 5px
+        //padding-left: 5px
+        padding: 0.3em 0.5em
+
       &__img
         img
-          min-height: 1em
+          min-height: 2.0em
 
     &-alarm
       display: flex
@@ -26,13 +29,16 @@
       align-items: center
       background-color: $active-background-color-dark
       padding: 10px
+      border-radius: 0em 0em 0em 0.5em
+
       &__text
-        padding-top: 5px
-        padding-bottom: 5px
-        padding-left: 5px
+        //padding-top: 5px
+        //padding-bottom: 5px
+        //padding-left: 5px
+        padding: 0.3em 0.5em
       &__img
         img
-          min-height: 1em
+          min-height: 2.0em
 
     &-city
       display: flex
@@ -40,13 +46,15 @@
       align-items: center
       background-color: $active-background-color-dark
       padding: 10px
+      border-radius: 0em 0em 0em 0.5em
       &__text
-        padding-top: 5px
-        padding-bottom: 5px
-        padding-left: 5px
+        //padding-top: 5px
+        //padding-bottom: 5px
+        //padding-left: 5px
+        padding: 0.3em 0.5em
       &__img
         img
-          min-height: 1em
+          min-height: 2.0em
 
 
     &-social
@@ -57,5 +65,10 @@
       //padding: 10px
       &__img
         img
-          min-height: 1em
+          min-height: 2.0em
           padding-left: 5px
+    &-call
+      &-alarm__text
+        border: 1px solid $active-background-color-gold
+        border-radius: 5px
+        padding: 0.9em

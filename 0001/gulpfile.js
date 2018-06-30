@@ -34,10 +34,9 @@ gulp.task('sass', function() {
 gulp.task('ftp', function () {
     return gulp.src('src/**')
         .pipe(ftp({
-            host: '16265.aqq.ru',
-            user: 'grst_01@seviga-f.ru',
+            host: 'host',
+            user: 'user',
             pass: 'Bo3n]W_8*yEf',
-            //remotePath: 'public_html/seviga-f.ru/grsthtml'
             remotePath: 'dev'
         }))
         .pipe(gutil.noop());

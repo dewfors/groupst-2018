@@ -56,7 +56,6 @@
         img
           min-height: 2.0em
 
-
     &-social
       display: flex
       justify-content: space-between
@@ -72,3 +71,45 @@
         border: 1px solid $active-background-color-gold
         border-radius: 5px
         padding: 0.9em
+  &-menu
+    background-color: $active-background-color-dark
+
+    ul.menu-main-ul
+      display: flex
+      justify-content: space-between
+
+      li
+        padding: 1.5em 0em
+        &:hover
+          //background-color: green
+          cursor: pointer
+          color: $active-background-color-gold
+
+        a
+          display: block
+          color: $text-color-lite
+          font-size: 1.4em
+          text-transform: uppercase
+          text-decoration: none
+          text-align: center
+          &:hover
+
+    ul.menu-main-ul-2
+      display: flex
+      justify-content: space-between
+
+
+      a
+        display: block
+        color: $text-color-lite
+        font-size: 1.4em
+        text-transform: uppercase
+        text-decoration: none
+        text-align: center
+        &:hover
+        li
+          padding: 1.0em 0em
+          &:hover
+            //background-color: green
+            cursor: pointer
+            color: $active-background-color-gold

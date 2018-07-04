@@ -13,20 +13,26 @@ body {
   color: white;
 }
 
-#trap {
-  height: 0px;
-  width: 120px;
-  border-bottom: 100px solid #ec3504;
-  border-left: 60px solid transparent;
-  border-right: 0px solid transparent;
+.btn-poligon-right {
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3em;
 }
 
-#trap-right {
-  height: 0px;
-  width: 50px;
-  border-top: 45px solid #ffb118;
-  border-left: 25px solid transparent;
-  border-right: 0px solid transparent;
+.btn-poligon-right .txt {
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+.btn-poligon-right .poligon-right {
+  width: 20%;
+  height: 100%;
+  background-color: #ffb118;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%);
 }
 
 .header-info {
@@ -239,6 +245,10 @@ body {
   color: #ffb118;
 }
 
+.main {
+  font-size: 10px;
+}
+
 .main .slider-block {
   position: relative;
   background: #373737 url("../img/slider/sl-bg.jpg") center no-repeat;
@@ -263,27 +273,26 @@ body {
   width: 40%;
   top: 0;
   left: 0;
-  font-size: 32px;
   color: #c78030;
   z-index: 1;
 }
 
 .main .slider-block .slider-title__text1 {
   padding-top: 80px;
-  font-size: 37px;
+  font-size: 3.7em;
   font-weight: 400;
 }
 
 .main .slider-block .slider-title__text2 {
   padding-top: 10px;
-  font-size: 45px;
+  font-size: 4.5em;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .main .slider-block .slider-title__text3 {
   padding-top: 37px;
-  font-size: 23px;
+  font-size: 2.3em;
   font-weight: 300;
   line-height: 30px;
 }
@@ -292,42 +301,25 @@ body {
   padding-top: 25px;
 }
 
-.main .slider-block .slider-title-buttons button {
-  display: block;
-  margin-top: 13px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-}
-
 .main .slider-block .slider-title-buttons a {
   text-decoration: none;
 }
 
-.main .slider-block .slider-title-buttons a .btn-1 {
-  position: relative;
-  background-color: #ffffff;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  margin-bottom: 15px;
-  cursor: pointer;
+.main .slider-block .slider-title-buttons a .btn-poligon-right {
   width: 60%;
+  height: 45px;
   border-radius: 0 0 0 5px;
+  margin-bottom: 20px;
 }
 
-.main .slider-block .slider-title-buttons a .btn-1 .txt {
-  color: #333;
+.main .slider-block .slider-title-buttons a .btn-poligon-right .txt {
+  margin: auto;
+  color: #333333;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-}
-
-.main .slider-block .slider-title-buttons a .btn-1 img {
-  position: absolute;
-  right: -1px;
-  top: 0;
-  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .main .slider-block .slider .wrap {

@@ -6,15 +6,18 @@
   text-transform: uppercase
   color: white
 
-#trap
-  height: 0px
-  width: 120px
-  border-bottom: 100px solid #ec3504
-  border-left: 60px solid transparent
-  border-right: 0px solid transparent
-#trap-right
-  height: 0px
-  width: 50px
-  border-top: 45px solid #ffb118
-  border-left: 25px solid transparent
-  border-right: 0px solid transparent
+
+
+.btn-poligon-right
+  width: 100%
+  background-color: #fff
+  display: flex
+  height: 3em
+  .txt
+    margin: 0 auto
+    font-size: 1em
+  .poligon-right
+    width: 20%
+    height: 100%
+    background-color: $active-background-color-gold
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%)

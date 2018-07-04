@@ -1,0 +1,56 @@
+.accept-shipp-block
+  &--title
+    display: flex
+    justify-content: space-around
+    align-items: center
+    text-align: center
+    margin-top: 132px
+    &__accept
+      font-size: 37px
+      font-weight: 700
+      text-transform: uppercase
+      color: #175386
+    &__img
+      //width: 100%
+    &__shipp
+      font-size: 37px
+      font-weight: 700
+      text-transform: uppercase
+      color: #ffb118
+
+  &--items
+    display: flex
+    justify-content: space-between
+    //align-items: center
+    align-items: stretch
+    text-align: center
+    font-size: 20px
+    font-weight: 500
+    text-transform: uppercase
+    margin-top: 35px
+    &__accept
+      width: 50%
+      display: flex
+      flex-direction: column
+      align-items: stretch
+      justify-content: space-around
+      //align-content: space-between
+    &__shipp
+      width: 50%
+      &-item
+        padding: 10px
+        .btn-poligon-right
+          width: 100%
+          background-color: #fff
+          display: flex
+          height: 3em
+          .txt
+            margin: auto
+            font-size: 1em
+          .poligon-right
+            width: 10%
+            height: 100%
+            background-color: $active-background-color-gold
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%)
+
+

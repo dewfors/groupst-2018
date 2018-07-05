@@ -19,20 +19,58 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 3em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .btn-poligon-right .txt {
-  margin: auto;
   font-size: 1em;
 }
 
 .btn-poligon-right .poligon-right {
-  width: 20%;
-  height: 100%;
+  width: 50px;
+  height: 50px;
   background-color: #ffb118;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%);
+}
+
+.btn-poligon-left {
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.btn-poligon-left .txt {
+  font-size: 1em;
+}
+
+.btn-poligon-left .poligon-right {
+  width: 50px;
+  height: 50px;
+  background-color: #175488;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 100%);
 }
 
 .header-info {
@@ -253,6 +291,7 @@ body {
   position: relative;
   background: #373737 url("../img/slider/slider-bg-2.jpg") center no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .main .slider-block .slider-overlay {
@@ -436,17 +475,22 @@ body {
   width: 18px;
 }
 
+.accept-shipp-block {
+  background-color: #f2f2f1;
+}
+
 .accept-shipp-block--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  margin-top: 132px;
+  padding-top: 132px;
 }
 
 .accept-shipp-block--title__accept {
@@ -481,7 +525,7 @@ body {
 }
 
 .accept-shipp-block--items__accept {
-  width: 50%;
+  width: 49.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -492,36 +536,44 @@ body {
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.accept-shipp-block--items__accept-item {
+  padding: 10px;
+  margin-top: 3px;
+  background-color: #fff;
+}
+
+.accept-shipp-block--items__accept-item .btn-poligon-left .txt {
+  font-size: 20px;
 }
 
 .accept-shipp-block--items__shipp {
-  width: 50%;
+  width: 49.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .accept-shipp-block--items__shipp-item {
   padding: 10px;
-}
-
-.accept-shipp-block--items__shipp-item .btn-poligon-right {
-  width: 100%;
+  margin-top: 3px;
   background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 3em;
 }
 
 .accept-shipp-block--items__shipp-item .btn-poligon-right .txt {
-  margin: auto;
-  font-size: 1em;
-}
-
-.accept-shipp-block--items__shipp-item .btn-poligon-right .poligon-right {
-  width: 10%;
-  height: 100%;
-  background-color: #ffb118;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%);
+  font-size: 20px;
 }

@@ -680,3 +680,134 @@ body {
   -webkit-transform: translateX(75%);
   transform: translateX(75%);
 }
+
+.work-with-us-block-inner {
+  padding-top: 136px;
+  padding-bottom: 150px;
+}
+
+.work-with-us-block-inner .title {
+  color: #175386;
+  font-size: 37px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.work-with-us-block-inner .items {
+  padding-top: 100px;
+}
+
+.work-with-us-block-inner .items__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.work-with-us-block-inner .items__item-title {
+  width: 70%;
+  color: #333333;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.work-with-us-block-inner .items__item .imgs {
+  width: 80px;
+  height: 80px;
+}
+
+.work-with-us-block-inner .item1 .items__item-title {
+  margin-right: 150px;
+  text-align: right;
+}
+
+.work-with-us-block-inner .item1 .imgs {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.work-with-us-block-inner .item1 .imgs .items__item-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.work-with-us-block-inner .item1 .imgs .items__item-colon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.work-with-us-block-inner .item2 .items__item-title {
+  margin-left: 150px;
+  text-align: left;
+}
+
+.work-with-us-block-inner .item2 .imgs {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.work-with-us-block-inner .item2 .imgs .items__item-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.work-with-us-block-inner .item2 .imgs .items__item-colon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.work-with-us-block-inner .item3 .items__item-title {
+  margin-right: 150px;
+  text-align: right;
+}
+
+.work-with-us-block-inner .item3 .imgs {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.work-with-us-block-inner .item3 .imgs .items__item-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.work-with-us-block-inner .item3 .imgs .items__item-colon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.work-with-us-block-inner .item4 .items__item-title {
+  margin-left: 150px;
+  text-align: left;
+}
+
+.work-with-us-block-inner .item4 .imgs {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.work-with-us-block-inner .item4 .imgs .items__item-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.work-with-us-block-inner .item4 .imgs .items__item-colon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

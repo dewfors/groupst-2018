@@ -733,7 +733,7 @@ body {
 
 .work-with-us-block-inner .item1 .imgs .items__item-img {
   position: absolute;
-  top: 0;
+  top: -10px;
   right: 0;
 }
 

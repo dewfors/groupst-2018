@@ -811,3 +811,256 @@ body {
   top: 0;
   right: 0;
 }
+
+.calc-block {
+  background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+  color: #ffffff;
+}
+
+.calc-block-inner {
+  padding-top: 120px;
+  padding-bottom: 110px;
+}
+
+.calc-block-inner .title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 75px;
+}
+
+.calc-block-inner #main-calc-form .all-row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.calc-block-inner #main-calc-form .all-row .label {
+  text-align: right;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.calc-block-inner #main-calc-form .all-row input {
+  height: 40px;
+  width: 100%;
+}
+
+.calc-block-inner #main-calc-form .all-row .check-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.calc-block-inner #main-calc-form .all-row .check-box input[type=checkbox] {
+  display: none;
+}
+
+.calc-block-inner #main-calc-form .all-row .check-box label {
+  font-size: 17px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+.calc-block-inner #main-calc-form .all-row .check-box #check1div {
+  width: 25px;
+  height: 25px;
+  background-color: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.calc-block-inner #main-calc-form .all-row .check-box #check1div #check-img1 {
+  width: 70%;
+}
+
+.calc-block-inner #main-calc-form .all-row .check-box #check2div {
+  width: 25px;
+  height: 25px;
+  background-color: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.calc-block-inner #main-calc-form .all-row .check-box #check2div #check-img2 {
+  width: 70%;
+}
+
+.calc-block-inner #main-calc-form .all-row .check-box #check3div {
+  width: 25px;
+  height: 25px;
+  background-color: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.calc-block-inner #main-calc-form .all-row .check-box #check3div #check-img3 {
+  width: 70%;
+}
+
+.calc-block-inner #main-calc-form .all-row .form-btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.calc-block-inner #main-calc-form .all-row .form-btn a .form-submit {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0 0 0 5px;
+}
+
+.calc-block-inner #main-calc-form .all-row .form-btn a .form-submit .txt {
+  font-size: 21px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.calc-block-inner .hr {
+  border-top: 1px solid #7897b5;
+  height: 2px;
+  margin-top: 50px;
+}
+
+.calc-block-inner .calc-result {
+  margin-top: 50px;
+}
+
+.calc-block-inner .calc-result .all-row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.calc-block-inner .calc-result .all-row .meth .txt {
+  text-align: right;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.calc-block-inner .calc-result .all-row .meth .result-meth {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.calc-block-inner .calc-result .all-row .meth .result-meth .price {
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+}
+
+.calc-block-inner .calc-result .all-row .meth .result-meth .img {
+  margin-right: 10px;
+}
+
+.calc-block-inner .calc-result .all-row .meth .result-price {
+  background-color: #ffb118;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  border-radius: 0 5px 0 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.calc-block-inner .calc-descr {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.calc-block-inner .calc-descr-row {
+  margin-top: 30px;
+}
+
+.calc-block-inner .calc-descr-row-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.calc-block-inner .calc-descr-row-wrap .img {
+  width: 50px;
+}
+
+.calc-block-inner .calc-descr-row-wrap .txt {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.calc-block-inner .calc-descr-row-wrap .btn {
+  margin-left: 20px;
+}
+
+.calc-block-inner .calc-descr-row-wrap .btn a {
+  text-decoration: none;
+}
+
+.calc-block-inner .calc-descr-row-wrap .btn a .call {
+  width: 200px;
+  color: #ffffff;
+  background-color: #222222;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-radius: 0 0 0 5px;
+}

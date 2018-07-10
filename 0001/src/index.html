@@ -440,10 +440,485 @@
     <!-- /.work-with-us -->
 
     <div class="calc-block">
-        <div class="title">
-            РАСЧИТАЙ СТОИМОСТЬ ДОСТАВКИ
+        <div class="container">
+            <div class="calc-block-inner">
+
+                <div class="row">
+                    <div class="title col-12">
+                        РАСЧИТАЙ СТОИМОСТЬ ДОСТАВКИ
+                    </div>
+                </div>
+
+                <form id="main-calc-form" action="#">
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="fromCity">Откуда:</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="fromCity" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="toCity">Куда:</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="toCity" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="weight">Вес (кг):</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="weight" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="volume">Объем (м3):</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="volume" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="cargo">Характер груза:</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="cargo" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+
+                            </div>
+                            <div class="input col-8">
+                                <div class="check-box">
+                                    <input id="check1" type="checkbox" checked/>
+                                    <div id="check1div">
+                                        <img id="check-img1" src="img/mainCalc/check-icon.png" alt="check">
+                                    </div>
+                                    <label for="check1" class="label-check">Имеется негабаритный груз (вес одного груза более 80 кг)</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="weight-1">Вес 1 места (кг):</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="weight-1" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="volume-1">Объем 1 места (м3):</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="volume-1" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+
+                            </div>
+                            <div class="input col-8">
+                                <div class="check-box">
+                                    <input id="check2" type="checkbox" checked/>
+                                    <div id="check2div">
+                                        <img id="check-img2" src="img/mainCalc/check-icon.png" alt="check">
+                                    </div>
+                                    <label for="check2" class="label-check">Сопровождение груза в пункте отправления</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="support-departure-from">Откуда:</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="support-departure-from" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="support-departure-to">Куда:</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="support-departure-to" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="support-departure-dist">Расстояние:</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="support-departure-dist" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+
+                            </div>
+                            <div class="input col-8">
+                                <div class="check-box">
+
+                                    <input id="check3" type="checkbox" checked/>
+                                    <div id="check3div">
+                                        <img id="check-img3" src="img/mainCalc/check-icon.png" alt="check">
+                                    </div>
+                                    <label for="check3" class="label-check">Сопровождение груза в пункте назначения</label>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="support-arrival-from">Откуда:</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="support-arrival-from" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="support-arrival-to">Куда:</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="support-arrival-to" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+                                <label for="support-arrival-dist">Расстояние:</label>
+                            </div>
+                            <div class="input col-4">
+                                <input id="support-arrival-dist" type="text" size="40">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+
+                    <div class="all-row">
+                        <div class="row align-items-center">
+                            <div class="label col-4">
+
+                            </div>
+                            <div class="input col-4">
+                                <div class="form-btn">
+                                    <a href="#">
+                                        <div class="form-submit">
+                                            <!--<input type="submit" value="РАССЧИТАТЬ СТОИМОСТЬ">-->
+                                            <div class="txt">РАССЧИТАТЬ СТОИМОСТЬ</div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.all-row -->
+
+                </form>
+
+                <div class="all-row">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="hr"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.all-row -->
+
+
+                <div class="calc-result">
+
+                    <div class="all-row">
+                        <div class="meth">
+                            <div class="row align-items-center">
+                                <div class="col-4">
+                                    <div class="txt">Авиаперевозка</div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="result-meth">
+                                        <div class="price"></div>
+                                        <div class="img"><img src="img/mainCalc/customer-service.png" alt="customer-service"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.meth -->
+                    </div>
+                    <!-- /.all-row -->
+
+
+                    <div class="all-row">
+                        <div class="meth">
+                            <div class="row align-items-center">
+                                <div class="col-4">
+                                    <div class="txt">ЖД перевозка в личном контейнере 20 футов</div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="result-meth">
+                                        <div class="price"></div>
+                                        <div class="img"><img src="img/mainCalc/customer-service.png" alt="customer-service"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.meth -->
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="meth">
+                            <div class="row align-items-center">
+                                <div class="col-4">
+                                    <div class="txt">ЖД перевозка в личном контейнере 40 футов</div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="result-meth">
+                                        <div class="price"></div>
+                                        <div class="img"><img src="img/mainCalc/customer-service.png" alt="customer-service"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.meth -->
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="meth">
+                            <div class="row align-items-center">
+                                <div class="col-4">
+                                    <div class="txt">ЖД перевозка в сборном контейнере (от 1 кг)</div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="result-meth">
+                                        <div class="price"></div>
+                                        <div class="img"><img src="img/mainCalc/customer-service.png" alt="customer-service"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.meth -->
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="meth">
+                            <div class="row align-items-center">
+                                <div class="col-4">
+                                    <div class="txt">Экспресс доставка почтово-багажными вагонами (от 1 кг)</div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="result-meth">
+                                        <div class="price"></div>
+                                        <div class="img"><img src="img/mainCalc/customer-service.png" alt="customer-service"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.meth -->
+                    </div>
+                    <!-- /.all-row -->
+
+                    <div class="all-row">
+                        <div class="meth">
+                            <div class="row align-items-center">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <div class="result-price">Итог: 100.000 р</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.meth -->
+                    </div>
+                    <!-- /.all-row -->
+
+
+
+                </div>
+                <!-- /.calc-result -->
+
+                <div class="all-row">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="hr"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.all-row -->
+
+                <div class="calc-descr">
+                    <div class="calc-descr-row">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="calc-descr-row-wrap">
+                                    <div class="img"><img src="img/mainCalc/money-bag.png" alt="money-bag"></div>
+                                    <div class="txt">Стоимость расчета является предварительной. Для подробного расчета</div>
+                                    <div class="btn">
+                                        <a href="#">
+                                            <div class="call">заказать звонок</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.calc-descr-row -->
+
+                    <div class="calc-descr-row">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="calc-descr-row-wrap">
+                                    <div class="img"><img src="img/mainCalc/delivery-truck.png" alt="delivery-truck"></div>
+                                    <div class="txt">Груз страхуется в обязательном порядке</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.calc-descr-row -->
+
+                    <div class="calc-descr-row">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="calc-descr-row-wrap">
+                                    <div class="img"><img src="img/mainCalc/notes.png" alt="notes"></div>
+                                    <div class="txt">Стоимость и сроки перевозки зависит от виды транспорта</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.calc-descr-row -->
+
+                    <div class="calc-descr-row">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="calc-descr-row-wrap">
+                                    <div class="img"><img src="img/mainCalc/airplane.png" alt="airplane"></div>
+                                    <div class="txt">При авиаперевозки взимаются терминальные сборы: 7р/кг, если негабаритный груз (одно место больше 80кг) 9р/кг</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.calc-descr-row -->
+
+                    <div class="calc-descr-row">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="calc-descr-row-wrap">
+                                    <div class="img"><img src="img/mainCalc/diploma.png" alt="diploma"></div>
+                                    <div class="txt">Оформление справок СЭС для грузов, подложаших вет. контролю</div>
+                                    <div class="btn">
+                                        <a href="#">
+                                            <div class="call">ТАРИФЫ ЗДЕСЬ</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.calc-descr-row -->
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                <!-- /.calc-descr -->
+
+
+
+
+
+
+
+
+                <!-- /.title -->
+            </div>
+            <!-- /.calc-block-inner -->
         </div>
-        <!-- /.title -->
+        <!-- /.container -->
     </div>
     <!-- /.calc-block -->
 
@@ -476,5 +951,6 @@
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
 <script src="js/script_slider.js"></script>
+<script src="js/main_form_calc.js"></script>
 </body>
 </html>

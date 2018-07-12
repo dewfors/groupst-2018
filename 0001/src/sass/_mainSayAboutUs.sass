@@ -1,22 +1,15 @@
-
-.main
-  font-size: 10px
-  .slider-block
-    position: relative
-    //background: #373737 url("../img/slider/111/main-bg.jpg") center no-repeat
-    background: #373737 url("../img/slider/slider-bg-2.jpg") center no-repeat
-    background-size: cover
-    overflow: hidden
-    .slider-overlay
-      position: absolute
-      top: 0
-      left: 0
-      width: 100%
-      height: 100%
-      //background-color: rgba(23,82,134,.8)
-      //z-index: 0
-
-    .slider
+.say-about-us-block
+  .say-about-us-block-inner
+    padding-top: 135px
+    padding-bottom: 135px
+    .title
+      color: #175386
+      font-size: 38px
+      font-weight: 700
+      text-transform: uppercase
+      text-align: center
+      margin-bottom: 120px
+    .slider-sl2
       //margin-top: 150px
       position: relative
       &-title
@@ -62,18 +55,29 @@
                 width: 45px
                 height: 45px
 
-      .wrap
-        width: 100%
+      .wrap-sl2
+        width: 80%
+        margin: 0 auto
         position: relative
-        .slider-item
-          width: 100%
+        .slider-item-sl2
+          width: 80%
           margin: 0 auto
           //margin-top: 50px
           position: relative
+          //display: flex
+          //justify-content: space-around
+          .ifr
+            width: 100%
+            height: 500px
+            iframe
+              margin: 0 auto
+              width: 100%
+              height: 100%
+              text-align: center
           img
             width: 100%
-        .prev
-          display: none
+        .prev-sl2
+          //display: none
           position: absolute
           cursor: pointer
           top: 0
@@ -84,47 +88,47 @@
           transition: 0.3s
           height: 100%
           &:hover
-            background-color: rgba(0,0,0,.4)
-            .arrow-left
+            background-color: rgba(0,0,0,.0)
+            .arrow-left-sl2
               opacity: 1
-          .arrow-left
-            width: 30px
-            height: 30px
-            background: url("../img/slider/111/icons/left-arrow.svg") center no-repeat
+          .arrow-left-sl2
+            width: 50px
+            height: 50px
+            background: url("../img/main-say-about/icons/left.png") center no-repeat
             background-size: cover
             position: absolute
             top: 50%
             left: 50%
             transform: translate(-50%)
-            opacity: .4
+            opacity: .7
             transition: 1s
-        .next
-          display: none
+        .next-sl2
+          //display: none
           position: absolute
           cursor: pointer
           top: 0
           width: 90px
           background-color: rgba(0,0,0,.0)
-          transition: 0.3s
+          //transition: 0.3s
           height: 100%
-          //right: 10%
           right: 0
           &:hover
-            background-color: rgba(0,0,0,.4)
-            .arrow-right
+            background-color: rgba(0,0,0,.0)
+            .arrow-right-sl2
               opacity: 1
-          .arrow-right
-            width: 30px
-            height: 30px
-            background: url("../img/slider/111/icons/right-arrow.svg") center no-repeat
+          .arrow-right-sl2
+            width: 50px
+            height: 50px
+            background: url("../img/main-say-about/icons/right.png") center no-repeat
             background-size: cover
             position: absolute
             top: 50%
             left: 50%
             transform: translate(-50%)
-            opacity: .4
+            opacity: .7
             transition: 1s
-      &-dots
+      .slider-dots-sl2
+        display: none
         width: 90%
         margin: 0 auto
         margin-top: 20px
@@ -135,30 +139,17 @@
         position: absolute
         bottom: 5%
         right: 0
-        .dot-jd
-          background: url("../img/slider/icons/jd.png") center no-repeat
-          //background-color: $main-color
-        .dot-av
-          background: url("../img/slider/icons/airplane.png") center no-repeat
-          //background-color: $main-color
-        .dot-sh
-          background: url("../img/slider/icons/ship.png") center no-repeat
-          //background-color: $main-color
-        .dot-sf
-          background: url("../img/slider/icons/safe.png") center no-repeat
-          //background-color: $main-color
         .dot
           cursor: pointer
           height: 40px
           width: 40px
           margin: 5px 10px
-          background-color: $active-background-color-dark
+          background-color: $main-color
           //border-radius: 50%
           display: inline-block
           transition: background-color 0.6s ease
           position: relative
           &-active
-            background-color: $active-background-color-gold
+            background-color: #ffffff
             height: 40px
             width: 40px
-

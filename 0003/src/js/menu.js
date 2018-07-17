@@ -32,13 +32,29 @@ function ready1() {
 
     //********************************************
     let menuStyle1 = getComputedStyle(ul_menu_01);
-    console.log(menuStyle1.display);
+    //console.log(menuStyle1.display);
     open_menu_01.onclick = function () {
         if (menuStyle1.display == 'none'){
             ul_menu_01.classList.add("active");
             //this.innerHTML = "Закрыть меню";
         } else {
             ul_menu_01.classList.remove("active");
+            //this.innerHTML = "Открыть меню";
+        }
+    }
+
+
+
+
+    //********************************************
+    let menuStyle2 = getComputedStyle(ul_menu_02);
+    //console.log(menuStyle1.display);
+    open_menu_02.onclick = function () {
+        if (menuStyle2.display == 'none'){
+            ul_menu_02.classList.add("active");
+            //this.innerHTML = "Закрыть меню";
+        } else {
+            ul_menu_02.classList.remove("active");
             //this.innerHTML = "Открыть меню";
         }
     }

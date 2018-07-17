@@ -269,6 +269,93 @@ body {
   }
 }
 
+.ad-menu-02 .nav-menu-02 {
+  background-color: gray;
+  position: relative;
+  text-align: center;
+}
+
+.ad-menu-02 .nav-menu-02 .wrap-menu-02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ad-menu-02 .nav-menu-02 .wrap-menu-02 .logo-brend {
+  display: none;
+}
+
+.ad-menu-02 .nav-menu-02 .wrap-menu-02 .open-menu-02 {
+  display: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.ad-menu-02 .nav-menu-02 .ul-menu-02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ad-menu-02 .nav-menu-02 .ul-menu-02 li {
+  display: inline-block;
+}
+
+.ad-menu-02 .nav-menu-02 .ul-menu-02 li a {
+  display: block;
+  padding: 10px 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  #logo_brend {
+    display: block;
+  }
+
+  #open_menu_02 {
+    display: block;
+  }
+
+  #ul_menu_02 {
+    display: none;
+    width: 100%;
+  }
+
+  #ul_menu_02 li {
+    display: block;
+  }
+
+  #ul_menu_02 li.logo {
+    display: none;
+  }
+
+  #ul_menu_02.active {
+    display: block;
+  }
+}
+
 .logo-info {
   padding-top: 1rem;
   padding-bottom: 1rem;

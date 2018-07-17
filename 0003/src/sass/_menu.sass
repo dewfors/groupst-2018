@@ -145,6 +145,61 @@
   #ul_menu_01.active
     display: block
 
-  //.wrap-menu-01
-  //  .logo-brend
-  //    display: block
+
+//*********************
+
+.ad-menu-02
+  .nav-menu-02
+    background-color: gray
+    position: relative
+    text-align: center
+    .wrap-menu-02
+      display: flex
+      flex-direction: row
+      justify-content: flex-end
+      align-items: center
+      .logo-brend
+        display: none
+      .open-menu-02
+        display: none
+        color: #ffffff
+        padding: 10px 15px
+        cursor: pointer
+
+    .ul-menu-02
+      //display: inline-block
+      display: flex
+      justify-content: space-between
+      align-items: center
+      background-color: gray
+      margin: 0
+      padding: 0
+      list-style: none
+      li
+        display: inline-block
+        a
+          display: block
+          padding: 10px 15px
+          color: #ffffff
+          text-decoration: none
+
+@media  (max-width: 1200px)
+  #logo_brend
+    display: block
+  #open_menu_02
+    display: block
+  #ul_menu_02
+    display: none
+    //position: absolute
+    //top: 100%
+    //left: 0
+    width: 100%
+    li
+      display: block
+    li.logo
+      display: none
+
+  #ul_menu_02.active
+    display: block
+
+

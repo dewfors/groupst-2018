@@ -1,0 +1,114 @@
+.menu-primary
+  .nav-menu-main
+    //background-color: gray
+    position: relative
+    text-align: center
+    .wrap-menu-main
+      display: flex
+      flex-direction: row
+      justify-content: flex-end
+      align-items: center
+      .logo-brend
+        display: none
+      .open-menu-main
+        display: none
+        color: #ffffff
+        padding: 10px 15px
+        cursor: pointer
+
+    .ul-menu-main
+      //display: inline-block
+      display: flex
+      justify-content: space-between
+      align-items: center
+      //background-color: gray
+      margin: 0
+      padding: 0
+      list-style: none
+      li
+        display: inline-block
+        //padding: 1rem
+        //border: 1px solid #ffffff
+        a
+          display: block
+          padding: 10px 0
+          text-decoration: none
+          color: #ffffff
+          font-size: 1.4rem
+          font-weight: 400
+          line-height: 24px
+          text-transform: uppercase
+
+@media  (max-width: 1200px)
+  #logo_brend
+    display: block
+  #open_menu_main
+    display: block
+    padding: 0 0.5rem
+  #ul_menu_main
+    display: none
+    //position: absolute
+    //top: 100%
+    //left: 0
+    width: 100%
+    li
+      display: block
+      border-bottom: 1px solid $active-background-color-lite
+    li.logo
+      display: none
+    li:hover
+      background-color: red
+
+
+
+  #ul_menu_main.active
+    display: block
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-primary
+  background-color: $active-background-color-dark
+  .navbar
+    background-color: $active-background-color-dark !important
+    padding: 0
+  .ul-prim-menu
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    margin: 0
+    li
+      button
+        border: none
+        padding-top: 1.5rem
+        padding-bottom: 1.5rem
+        a
+
+          text-decoration: none
+          color: #ffffff
+          font-size: 14px
+          font-weight: 400
+          line-height: 24px
+          text-transform: uppercase

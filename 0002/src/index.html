@@ -12,8 +12,6 @@
 
     <link rel="stylesheet" href="css/reset-all.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/for_slider.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -32,154 +30,138 @@
     <header class="header">
         "header" - sass
         <div class="logo-info">
+
             <div class="container">
-                <nav class="navbar navbar-expand-md navbar-light bg-light">
-                    <a class="navbar-brand" href="#">
-                        <span class="logo-img">
-                            <img src="img/header/header-logo.png" alt="logo">
-                        </span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent__logo-info"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent__logo-info">
-                        <ul class="ul-info">
-
-                            <li class="nav-item">
-                                <div class="logo-info-placeholder">
-                                    <div class="logo-info-placeholder__img">
-                                        <img src="img/header/header-placeholder.png" alt="Адрес">
-                                    </div>
-                                    <div class="logo-info-placeholder__text header-text-prop">
-                                        Территория Кес-Ям
-                                    </div>
-                                </div>
-                                <!-- /.placeholder -->
-                            </li>
-
-                            <li class="nav-item">
-                                <div class="logo-info-alarm">
-                                    <div class="logo-info-alarm__img">
-                                        <img src="img/header/header-alarm-clock.png" alt="Часы работы">
-                                    </div>
-                                    <div class="logo-info-alarm__text header-text-prop">
-                                        10:00 - 21:00
-                                    </div>
-                                </div>
-                                <!-- /.alarm -->
-                            </li>
-
-                            <li class="nav-item">
-                                <div class="logo-info-city">
-                                    <div class="logo-info-city__img">
-                                        <img src="img/header/header-street-map.png" alt="Филиал">
-                                    </div>
-                                    <div class="logo-info-city__text header-text-prop">
-                                        Выберите филиал:
-                                    </div>
-                                </div>
-                                <!-- /.city -->
-                            </li>
-
-
-                            <li class="nav-item">
-                                <div class="logo-info-social">
-                                    <div class="logo-info-social__img">
-                                        <img src="img/header/header-vk-com-logo.png" alt="ВКонтакте">
-                                    </div>
-                                    <div class="logo-info-social__img">
-                                        <img src="img/header/header-facebook-transparent-logo.png" alt="Фейсбук">
-                                    </div>
-                                    <div class="logo-info-social__img">
-                                        <img src="img/header/header-twit.png" alt="Твиттер">
-                                    </div>
-                                </div>
-                                <!-- /.social -->
-                            </li>
-
-
-                            <li class="nav-item">
-                                <div class="logo-info-call">
-                                    <div class="logo-info-call-alarm__text header-text-prop">
-                                        перезвоните мне
-                                    </div>
-                                </div>
-                                <!-- /.call-me -->
-                            </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        </ul>
-
+                <!--<nav class='nav-menu-02' id="nav_menu_02">-->
+                <nav class='nav-logo-info' id="nav_logo_info">
+                    <!--<div class="wrap-menu-02">-->
+                    <div class="wrap-logo-info">
+                        <div class="logo-brend" id="logo_brend">
+                            <div class="logo-img">
+                                <img src="img/header/header-logo.png" alt="logo">
+                            </div>
+                        </div>
+                        <!--<div class="open-menu-02" id="open_menu_02">-->
+                        <div class="open-logo-info" id="open_logo_info">
+                            <div class="img"><img src="img/icons/icon-menu-48.png" alt="icon-menu"></div>
+                            <!--Открыть меню-->
+                        </div>
                     </div>
+
+                    <!--<ul class="ul-menu-02" id="ul_menu_02">-->
+                    <ul class="ul-logo-info" id="ul_logo_info">
+                        <!--<li class="logo"><div class="logo-brend">GROUPST</div></li>-->
+                        <li class="logo">
+                            <div class="logo-img">
+                                <img src="img/header/header-logo.png" alt="logo">
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="logo-info-placeholder">
+                                <div class="logo-info-placeholder__img">
+                                    <img src="img/header/header-placeholder.png" alt="Адрес">
+                                </div>
+                                <div class="logo-info-placeholder__text header-text-prop">
+                                    Территория Кес-Ям
+                                </div>
+                            </div>
+                            <!-- /.placeholder -->
+                        </li>
+
+
+
+                        <li>
+                            <div class="logo-info-alarm">
+                                <div class="logo-info-alarm__img">
+                                    <img src="img/header/header-alarm-clock.png" alt="Часы работы">
+                                </div>
+                                <div class="logo-info-alarm__text header-text-prop">
+                                    10:00 - 21:00
+                                </div>
+                            </div>
+                            <!-- /.alarm -->
+                        </li>
+
+                        <li>
+                            <div class="logo-info-city">
+                                <div class="logo-info-city__img">
+                                    <img src="img/header/header-street-map.png" alt="Филиал">
+                                </div>
+                                <div class="logo-info-city__text header-text-prop">
+                                    Выберите филиал:
+                                </div>
+                            </div>
+                            <!-- /.city -->
+                        </li>
+
+                        <!--<li>-->
+                            <!--<div class="logo-info-social">-->
+                                <!--<div class="logo-info-social__img">-->
+                                    <!--<img src="img/header/header-vk-com-logo.png" alt="ВКонтакте">-->
+                                <!--</div>-->
+                                <!--<div class="logo-info-social__img">-->
+                                    <!--<img src="img/header/header-facebook-transparent-logo.png" alt="Фейсбук">-->
+                                <!--</div>-->
+                                <!--<div class="logo-info-social__img">-->
+                                    <!--<img src="img/header/header-twit.png" alt="Твиттер">-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /.social &ndash;&gt;-->
+                        <!--</li>-->
+
+                        <li>
+                            <div class="logo-info-call">
+                                <div class="logo-info-call-alarm__text header-text-prop">
+                                    перезвоните мне
+                                </div>
+                            </div>
+                            <!-- /.call-me -->
+                        </li>
+
+                    </ul>
                 </nav>
             </div>
-
-
+            <!-- /.container -->
         </div>
         <!-- /.logo-info -->
 
         <div class="menu-primary">
+
             <div class="container">
-                <nav class="navbar navbar-expand-md navbar-light bg-light">
 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <!--<nav class='nav-menu-02' id="nav_menu_02">-->
+                <!--<nav class='nav-menu-02' id="nav_menu_02">-->
+                <nav class='nav-menu-main' id="nav_menu_main">
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="ul-prim-menu">
-                            <li class="nav-item">
-                                <button type="button" class="btn btn-outline-primary"><a href="https://www.yandex.ru/">Услуги</a></button>
-                            </li>
-
-                            <li class="nav-item">
-                                <button type="button" class="btn btn-outline-primary"><a href="https://www.yandex.ru/">Тарифы</a></button>
-                            </li>
-
-                            <li class="nav-item">
-                                <button type="button" class="btn btn-outline-primary"><a href="https://www.yandex.ru/">Направления</a></button>
-                            </li>
-
-                            <li class="nav-item">
-                                <button type="button" class="btn btn-outline-primary"><a href="https://www.yandex.ru/">Калькулятор</a></button>
-                            </li>
-
-                            <li class="nav-item">
-                                <button type="button" class="btn btn-outline-primary"><a href="https://www.yandex.ru/">Отслеживание груза</a></button>
-                            </li>
-
-                            <li class="nav-item">
-                                <button type="button" class="btn btn-outline-primary"><a href="https://www.yandex.ru/">Документы и полезные статьи</a></button>
-                            </li>
-
-                            <li class="nav-item">
-                                <button type="button" class="btn btn-outline-primary"><a href="https://www.yandex.ru/">Контакты</a></button>
-                            </li>
-
-                            <li class="nav-item">
-                                <button type="button" class="btn btn-outline-primary"><a href="https://www.yandex.ru/">О компании</a></button>
-                            </li>
-
-
-                        </ul>
-
+                    <div class="wrap-menu-main">
+                        <!--<div class="logo-brend" id="logo_brend">GROUPST</div>-->
+                        <!--<div class="open-menu-02" id="open_menu_02">-->
+                        <div class="open-menu-main" id="open_menu_main">
+                            <div class="img"><img src="img/icons/icon-menu-48.png" alt="icon-menu"></div>
+                            <!--Открыть меню-->
+                        </div>
                     </div>
+
+                    <!--<ul class="ul-menu-02" id="ul_menu_02">-->
+                    <ul class="ul-menu-main" id="ul_menu_main">
+                        <!--<li class="logo"><div class="logo-brend">GROUPST</div></li>-->
+                        <li><a href='#'>Услуги</a></li>
+                        <li><a href='#'>Тарифы</a></li>
+                        <li><a href='#'>Направления</a></li>
+                        <li><a href='#'>Калькулятор</a></li>
+                        <li><a href='#'>Отслеживание груза</a></li>
+                        <li><a href='#'>Документы и полезные статьи</a></li>
+                        <li><a href='#'>Контакты</a></li>
+                        <li><a href='#'>О компании</a></li>
+                    </ul>
                 </nav>
+
+
             </div>
+            <!-- /.container -->
+
+
         </div>
         <!-- /.menu-primary -->
     </header>
@@ -358,8 +340,10 @@
             crossorigin="anonymous"></script>
 
 
-    <script src="js/script_slider.js"></script>
-    <script src="js/script_slider-2.js"></script>
+    <!--<script src="js/script_primary_slider_01.js"></script>-->
+    <!--<s<script src="js/script_primary_slider_01.js"></script>-->
+    <!--<script src="js/script_primary_slider_02.js"></script>-->
+    <script src="js/script_primary.js"></script>
     <script src="js/main_form_calc.js"></script>
 </body>
 </html>

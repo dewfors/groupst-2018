@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'AgoraSansPro', sans-serif;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 10px;
@@ -1051,7 +1051,7 @@ ul.nav1 {
   width: 40%;
   top: 0;
   left: 0;
-  color: #c78030;
+  color: #ffffff;
   z-index: 1;
 }
 

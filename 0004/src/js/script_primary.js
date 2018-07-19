@@ -13,6 +13,10 @@ window.addEventListener("DOMContentLoaded", ready);
 
 function ready() {
 
+
+    // let Style_ul_logo_info111 = getComputedStyle(idtxt);
+    // console.log(Style_ul_logo_info111.fontFamily);
+
     //header
     //logo-info
     //********************************************

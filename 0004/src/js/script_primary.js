@@ -13,6 +13,7 @@ window.addEventListener("DOMContentLoaded", ready);
 
 function ready() {
 
+    //header
     //logo-info
     //********************************************
     let Style_ul_logo_info = getComputedStyle(ul_logo_info);
@@ -26,6 +27,23 @@ function ready() {
             //this.innerHTML = "Открыть меню";
         }
     }
+
+
+    //footer
+    //logo-info
+    //********************************************
+    let Style_ul_logo_info_f = getComputedStyle(ul_logo_info_f);
+    //console.log(menuStyle1.display);
+    open_logo_info_f.onclick = function () {
+        if (Style_ul_logo_info_f.display == 'none'){
+            ul_logo_info_f.classList.add("active");
+            //this.innerHTML = "Закрыть меню";
+        } else {
+            ul_logo_info_f.classList.remove("active");
+            //this.innerHTML = "Открыть меню";
+        }
+    }
+
 
 
     //menu-primary

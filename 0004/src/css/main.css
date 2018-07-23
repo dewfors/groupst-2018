@@ -129,6 +129,11 @@ body {
   display: none;
 }
 
+.main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img,
+.main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+  display: none;
+}
+
 .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info,
 .main .footer .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
   display: none;
@@ -285,8 +290,95 @@ body {
   padding: 0.9rem;
 }
 
-@media (max-width: 1200px) {
+@media all and (max-width: 992px) {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend,
+  .main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
+    display: none;
+  }
+
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img,
+  .main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+    display: none;
+  }
+
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info,
+  .main .footer .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
+    display: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
+    display: none;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
+    min-height: 2.0rem;
+    padding-left: 0.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
+    height: 3.0rem;
+  }
+}
+
+@media (max-width: 576px) {
   #logo_brend {
+    display: block;
+  }
+
+  #logo_brend .logo-img {
     display: block;
   }
 
@@ -360,6 +452,8 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -380,7 +474,39 @@ body {
   text-transform: uppercase;
 }
 
+.menu-primary .nav-menu-main .ul-menu-main li a:hover {
+  color: #ffb118;
+}
+
 @media (max-width: 1200px) {
+  .menu-primary {
+    font-family: "LatoRegular", sans-serif;
+  }
+
+  .menu-primary .nav-menu-main .ul-menu-main li a {
+    font-size: 1.2rem;
+  }
+
+  .menu-primary .nav-menu-main .ul-menu-main li a:hover {
+    color: #ffb118;
+  }
+}
+
+@media (max-width: 992px) {
+  .menu-primary {
+    font-family: "LatoRegular", sans-serif;
+  }
+
+  .menu-primary .nav-menu-main .ul-menu-main li a {
+    font-size: 0.9rem;
+  }
+
+  .menu-primary .nav-menu-main .ul-menu-main li a:hover {
+    color: #ffb118;
+  }
+}
+
+@media (max-width: 576px) {
   #logo_brend {
     display: block;
   }
@@ -489,6 +615,11 @@ body {
   display: none;
 }
 
+.main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img,
+.main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+  display: none;
+}
+
 .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info,
 .main .footer .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
   display: none;
@@ -645,8 +776,95 @@ body {
   padding: 0.9rem;
 }
 
-@media (max-width: 1200px) {
+@media all and (max-width: 992px) {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend,
+  .main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
+    display: none;
+  }
+
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img,
+  .main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+    display: none;
+  }
+
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info,
+  .main .footer .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
+    display: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
+    display: none;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
+    min-height: 2.0rem;
+    padding-left: 0.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img,
+  .main .footer .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
+    height: 3.0rem;
+  }
+}
+
+@media (max-width: 576px) {
   #logo_brend {
+    display: block;
+  }
+
+  #logo_brend .logo-img {
     display: block;
   }
 

@@ -1,9 +1,6 @@
 .main
   .header, .footer
     .logo-info
-      //font-family: $font-lato
-      //padding: 0
-      //padding: 10px
       padding-top: 1rem
       padding-bottom: 1rem
       background-color: $active-background-color-lite
@@ -18,6 +15,8 @@
           align-items: center
           .logo-brend
             display: none
+            .logo-img
+              display: none
           .open-logo-info
             display: none
             color: #ffffff
@@ -112,13 +111,69 @@
 
 
 
+@media  all and (max-width: 992px)
+  .main
+    .header, .footer
+      .logo-info
+        .nav-logo-info
+          .wrap-logo-info
+            .logo-brend
+              display: none
+              .logo-img
+                display: none
+            .open-logo-info
+              display: none
+              color: #ffffff
+              padding: 10px 15px
+              cursor: pointer
+
+          .ul-logo-info
+            flex-wrap: wrap
+            li
+              a
+              .logo-info-placeholder
+                &__text
+                  font-size: 1.0rem
+                &__img
+                  img
+                    height: 1.5rem
+              .logo-info-alarm
+                &__text
+                  font-size: 1.0rem
+                &__img
+                  img
+                    height: 1.5rem
+              .logo-info-city
+                &__text
+                  font-size: 1.0rem
+                &__img
+                  img
+                    height: 1.5rem
+              .logo-info-social
+                //display: flex
+                display: none
+                justify-content: space-between
+                align-items: center
+                &__img
+                  img
+                    min-height: 2.0rem
+                    padding-left: 0.5rem
+              .logo-info-call
+                &-alarm__text
+                  font-size: 1.0rem
+            li.logo
+              .logo-img
+                img
+                  height: 3.0rem
 
 
 
 
-@media  (max-width: 1200px)
+@media  (max-width: 576px)
   #logo_brend
     display: block
+    .logo-img
+      display: block
   #open_logo_info
     display: block
     padding: 0 0.5rem
@@ -137,94 +192,4 @@
   #ul_logo_info.active
     display: block
 
-  .logo-info
-    //margin-bottom: 1rem
 
-
-
-    //*************************************
-//
-//.logo-info
-//  padding-top: 1rem
-//  padding-bottom: 1rem
-//  background-color: $active-background-color-lite
-//  .navbar
-//    background-color: $active-background-color-lite !important
-//    padding: 0
-//    .logo-img
-//      margin-right: 2rem
-//  .ul-logo-info
-//    width: 100%
-//    display: flex
-//    justify-content: space-between
-//    align-items: center
-//    flex-wrap: wrap
-//    margin: 0
-//    .logo-info-placeholder
-//      display: flex
-//      justify-content: space-between
-//      align-items: center
-//      background-color: $active-background-color-dark
-//      padding: 1rem
-//      border-radius: 0rem 0rem 0rem 0.5rem
-//      &__text
-//        color: #ffffff
-//        font-weight: 500
-//        text-transform: uppercase
-//        font-size: 1.4rem
-//        padding: 0.3rem 0.5rem
-//      &__img
-//        img
-//          min-height: 2.0rem
-//    .logo-info-alarm
-//      display: flex
-//      justify-content: space-between
-//      align-items: center
-//      background-color: $active-background-color-dark
-//      padding: 1rem
-//      border-radius: 0rem 0rem 0rem 0.5rem
-//
-//      &__text
-//        color: #ffffff
-//        font-weight: 500
-//        text-transform: uppercase
-//        font-size: 1.4rem
-//        padding: 0.3rem 0.5rem
-//      &__img
-//        img
-//          min-height: 2.0rem
-//    .logo-info-city
-//      display: flex
-//      justify-content: space-between
-//      align-items: center
-//      background-color: $active-background-color-dark
-//      padding: 1rem
-//      border-radius: 0rem 0rem 0rem 0.5rem
-//      &__text
-//        color: #ffffff
-//        font-weight: 500
-//        text-transform: uppercase
-//        font-size: 1.4rem
-//        padding: 0.3rem 0.5rem
-//      &__img
-//        img
-//          min-height: 2.0rem
-//    .logo-info-social
-//      display: flex
-//      justify-content: space-between
-//      align-items: center
-//      &__img
-//        img
-//          min-height: 2.0rem
-//          padding-left: 0.5rem
-//    .logo-info-call
-//      &-alarm__text
-//        color: #ffffff
-//        font-size: 1.5rem
-//        font-weight: 500
-//        text-transform: uppercase
-//        border: 1px solid $active-background-color-gold
-//        border-radius: 5px
-//        padding: 0.9rem
-//
-//

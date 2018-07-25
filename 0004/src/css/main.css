@@ -2132,3 +2132,89 @@ body {
   height: 40px;
   width: 40px;
 }
+
+.main-tracking-block {
+  padding-top: 16.8rem;
+  padding-bottom: 16.8rem;
+}
+
+.main-tracking-block .tracking-block-inner .get-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main-tracking-block .tracking-block-inner .get-number .input input {
+  padding: 1.0rem;
+  background-color: #333333;
+  color: #ffffff;
+  font-family: "LatoRegular", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.main-tracking-block .tracking-block-inner .get-number .num_or_pin {
+  color: #333333;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.main-tracking-block .tracking-block-inner .tap-find {
+  margin-top: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main-tracking-block .tracking-block-inner .tap-find .btn {
+  width: 22.5rem;
+}
+
+.main-tracking-block .tracking-block-inner .tap-find .btn .btn-poligon-right {
+  background-color: #175488;
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 0 0.5rem 0 0.5rem;
+  cursor: pointer;
+}
+
+.main-tracking-block .tracking-block-inner .tap-find .btn .btn-poligon-right .poligon-right {
+  display: none;
+}

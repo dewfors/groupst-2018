@@ -984,6 +984,187 @@ body {
   background-color: #124673;
 }
 
+.new {
+  height: 10.0rem;
+}
+
+.footer-new .footer-new-top {
+  padding-top: 10.0rem;
+  padding-bottom: 10.0rem;
+  background-color: #ffb118;
+}
+
+.footer-new .footer-new-top .find {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-new .footer-new-top .find-title {
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-new .footer-new-top .find-menu {
+  margin-top: 5.0rem;
+  width: 100%;
+}
+
+.footer-new .footer-new-top .find-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #222222;
+}
+
+.footer-new .footer-new-top .find-menu ul li {
+  padding: 1.5rem 0.5rem;
+  display: inline-block;
+  text-align: center;
+  background-color: #222222;
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.footer-new .footer-new-top .find-menu ul li:hover {
+  background-color: #124673;
+  color: #ffb118;
+}
+
+.footer-new .footer-new-top .find-map {
+  margin-top: 5.0rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.footer-new .footer-new-top .find-map .map {
+  width: 80%;
+}
+
+.footer-new .footer-new-top .phone-managers {
+  margin-top: 5.0rem;
+  width: 100%;
+}
+
+.footer-new .footer-new-top .phone-managers-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.footer-new .footer-new-top .phone-managers-title .title {
+  color: #124673;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 2.0rem;
+  font-weight: 700;
+}
+
+.footer-new .footer-new-top .phone-managers-menu {
+  margin-top: 5.0rem;
+}
+
+.footer-new .footer-new-top .phone-managers-menu .service-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-new .footer-new-top .phone-managers-menu .service-menu img {
+  max-width: 10.0rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.footer-new .footer-new-top .phone-managers-menu .service-menu .sm-title {
+  color: #124673;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footer-new .footer-new-top .phone-managers-menu .service-menu .service-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 10%;
+  text-align: center;
+}
+
+.footer-new .footer-new-top .phone-managers .managers-info {
+  margin-top: 5.0rem;
+}
+
+.footer-new .footer-new-top .phone-managers .managers-info .manager-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.footer-new .footer-new-top .phone-managers .managers-info .manager-info .faceblock {
+  margin-right: 2.0rem;
+}
+
+.footer-new .footer-new-top .phone-managers .managers-info .manager-info .faceblock img {
+  min-width: 5.0rem;
+}
+
+.footer-new .footer-new-top .phone-managers .managers-info .manager-info .infoblock {
+  color: #124673;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 .main {
   font-size: 10px;
 }

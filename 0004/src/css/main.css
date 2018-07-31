@@ -988,13 +988,13 @@ body {
   height: 10.0rem;
 }
 
-.footer-new .footer-new-top {
+.footer-new .footer-find-us {
   padding-top: 10.0rem;
   padding-bottom: 10.0rem;
   background-color: #ffb118;
 }
 
-.footer-new .footer-new-top .find {
+.footer-new .footer-find-us .find {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1010,7 +1010,7 @@ body {
   align-items: center;
 }
 
-.footer-new .footer-new-top .find-title {
+.footer-new .footer-find-us .find-title {
   color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 3.8rem;
@@ -1018,12 +1018,12 @@ body {
   text-transform: uppercase;
 }
 
-.footer-new .footer-new-top .find-menu {
+.footer-new .footer-find-us .find-menu {
   margin-top: 5.0rem;
   width: 100%;
 }
 
-.footer-new .footer-new-top .find-menu ul {
+.footer-new .footer-find-us .find-menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1035,7 +1035,7 @@ body {
   background-color: #222222;
 }
 
-.footer-new .footer-new-top .find-menu ul li {
+.footer-new .footer-find-us .find-menu ul li {
   padding: 1.5rem 0.5rem;
   display: inline-block;
   text-align: center;
@@ -1048,12 +1048,12 @@ body {
   cursor: pointer;
 }
 
-.footer-new .footer-new-top .find-menu ul li:hover {
+.footer-new .footer-find-us .find-menu ul li:hover {
   background-color: #124673;
   color: #ffb118;
 }
 
-.footer-new .footer-new-top .find-map {
+.footer-new .footer-find-us .find-map {
   margin-top: 5.0rem;
   width: 100%;
   display: -webkit-box;
@@ -1064,16 +1064,16 @@ body {
   justify-content: center;
 }
 
-.footer-new .footer-new-top .find-map .map {
+.footer-new .footer-find-us .find-map .map {
   width: 80%;
 }
 
-.footer-new .footer-new-top .phone-managers {
+.footer-new .footer-find-us .phone-managers {
   margin-top: 5.0rem;
   width: 100%;
 }
 
-.footer-new .footer-new-top .phone-managers-title {
+.footer-new .footer-find-us .phone-managers-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1082,18 +1082,18 @@ body {
   justify-content: center;
 }
 
-.footer-new .footer-new-top .phone-managers-title .title {
+.footer-new .footer-find-us .phone-managers-title .title {
   color: #124673;
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 2.0rem;
   font-weight: 700;
 }
 
-.footer-new .footer-new-top .phone-managers-menu {
+.footer-new .footer-find-us .phone-managers-menu {
   margin-top: 5.0rem;
 }
 
-.footer-new .footer-new-top .phone-managers-menu .service-menu {
+.footer-new .footer-find-us .phone-managers-menu .service-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1107,20 +1107,20 @@ body {
   align-items: center;
 }
 
-.footer-new .footer-new-top .phone-managers-menu .service-menu img {
+.footer-new .footer-find-us .phone-managers-menu .service-menu img {
   max-width: 10.0rem;
   margin-bottom: 1rem;
   cursor: pointer;
 }
 
-.footer-new .footer-new-top .phone-managers-menu .service-menu .sm-title {
+.footer-new .footer-find-us .phone-managers-menu .service-menu .sm-title {
   color: #124673;
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-.footer-new .footer-new-top .phone-managers-menu .service-menu .service-img {
+.footer-new .footer-find-us .phone-managers-menu .service-menu .service-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1138,11 +1138,11 @@ body {
   text-align: center;
 }
 
-.footer-new .footer-new-top .phone-managers .managers-info {
+.footer-new .footer-find-us .phone-managers .managers-info {
   margin-top: 5.0rem;
 }
 
-.footer-new .footer-new-top .phone-managers .managers-info .manager-info {
+.footer-new .footer-find-us .phone-managers .managers-info .manager-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1151,18 +1151,85 @@ body {
   justify-content: center;
 }
 
-.footer-new .footer-new-top .phone-managers .managers-info .manager-info .faceblock {
+.footer-new .footer-find-us .phone-managers .managers-info .manager-info .faceblock {
   margin-right: 2.0rem;
 }
 
-.footer-new .footer-new-top .phone-managers .managers-info .manager-info .faceblock img {
+.footer-new .footer-find-us .phone-managers .managers-info .manager-info .faceblock img {
   min-width: 5.0rem;
 }
 
-.footer-new .footer-new-top .phone-managers .managers-info .manager-info .infoblock {
+.footer-new .footer-find-us .phone-managers .managers-info .manager-info .infoblock {
   color: #124673;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+.footer-new .footer-inner .footer-top {
+  background-color: #175488;
+  padding-top: 3.0rem;
+}
+
+.footer-new .footer-inner .footer-top .footer-t-inner .title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.3rem;
+  padding-bottom: 2.0rem;
+}
+
+.footer-new .footer-inner .footer-top .footer-t-inner .descr {
+  color: #ffffff;
+}
+
+.footer-new .footer-inner .footer-top .footer-t-inner .descr ul li {
+  padding: 0.2rem;
+}
+
+.footer-new .footer-inner .footer-top .footer-t-inner .personal-infirmation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1.0rem;
+  padding-top: 2.0rem;
+  color: #ffffff;
+}
+
+.footer-new .footer-inner .footer-top .footer-t-inner .personal-infirmation a {
+  color: #ffffff;
+}
+
+.footer-new .footer-inner .footer-top .footer-t-inner .rights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1.0rem;
+  color: #ffffff;
+}
+
+.footer-new .footer-inner .footer-bottom {
+  background-color: #124673;
+  padding-top: 1.0rem;
+  padding-bottom: 1.0rem;
+}
+
+.footer-new .footer-inner .footer-bottom .footer-b-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
 }
 
 .main {

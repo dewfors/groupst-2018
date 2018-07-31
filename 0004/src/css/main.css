@@ -1174,12 +1174,13 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 1.3rem;
+  font-size: 2.0rem;
   padding-bottom: 2.0rem;
 }
 
 .footer-new .footer-inner .footer-top .footer-t-inner .descr {
   color: #ffffff;
+  font-size: 1.5rem;
 }
 
 .footer-new .footer-inner .footer-top .footer-t-inner .descr ul li {

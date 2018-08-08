@@ -166,7 +166,7 @@
 
 
 
-@media  (max-width: 1200px)
+@media all and (max-width: 1200px)
   .main
     &-slider-block
     .slider-block
@@ -186,15 +186,114 @@
             a
               .btn-poligon-right
                 .txt
-                  font-size: 1.1rem
+                  font-size: 1.3rem
                   padding-top: 10px
                   padding-bottom: 10px
                 .poligon-right
                   width: 45px
                   height: 45px
+      .wrap
+        width: 100%
+        position: relative
+        .slider-item
+          width: 100%
+          margin: 0 auto
+          //margin-top: 50px
+          position: relative
+          img
+            width: 100%
+        .prev
+          display: none
+          position: absolute
+          cursor: pointer
+          top: 0
+          width: 90px
+          //left: 10%
+          left: 0
+          background-color: rgba(0,0,0,.0)
+          transition: 0.3s
+          height: 100%
+          &:hover
+            background-color: rgba(0,0,0,.4)
+            .arrow-left
+              opacity: 1
+          .arrow-left
+            width: 30px
+            height: 30px
+            background: url("../img/slider/111/icons/left-arrow.svg") center no-repeat
+            background-size: cover
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%)
+            opacity: .4
+            transition: 1s
+        .next
+          display: none
+          position: absolute
+          cursor: pointer
+          top: 0
+          width: 90px
+          background-color: rgba(0,0,0,.0)
+          transition: 0.3s
+          height: 100%
+          //right: 10%
+          right: 0
+          &:hover
+            background-color: rgba(0,0,0,.4)
+            .arrow-right
+              opacity: 1
+          .arrow-right
+            width: 30px
+            height: 30px
+            background: url("../img/slider/111/icons/right-arrow.svg") center no-repeat
+            background-size: cover
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%)
+            opacity: .4
+            transition: 1s
+      &-dots
+        width: 90%
+        margin: 0 auto
+        margin-top: 20px
+        display: flex
+        flex-direction: column
+        //justify-content: center
+        align-items: flex-end
+        position: absolute
+        bottom: 15%
+        right: 0
+        .dot-jd
+          background: url("../img/slider/icons/jd.png") center no-repeat
+        //background-color: $main-color
+        .dot-av
+          background: url("../img/slider/icons/airplane.png") center no-repeat
+        //background-color: $main-color
+        .dot-sh
+          background: url("../img/slider/icons/ship.png") center no-repeat
+        //background-color: $main-color
+        .dot-sf
+          background: url("../img/slider/icons/safe.png") center no-repeat
+        //background-color: $main-color
+        .dot
+          cursor: pointer
+          height: 40px
+          width: 40px
+          margin: 5px 10px
+          background-color: $active-background-color-dark
+          //border-radius: 50%
+          display: inline-block
+          transition: background-color 0.6s ease
+          position: relative
+          &-active
+            background-color: $active-background-color-gold
+            height: 40px
+            width: 40px
 
 
-@media  (max-width: 990px)
+@media all and (max-width: 992px)
   .main
     &-slider-block
     .slider-block
@@ -202,92 +301,521 @@
       .slider
         &-title
           &__text1
-            font-size: 1.5rem
-            padding-top: 4.0rem
+            font-size: 2.5rem
+            padding-top: 3.0rem
           &__text2
             font-size: 2.5rem
           &__text3
-            font-size: 1.5rem
-            padding-top: 2rem
+            font-size: 2.0rem
+            padding-top: 2.0rem
+          &-buttons
+            padding-top: 2.0rem
+            a
+              .btn-poligon-right
+                height: 3.0rem
+                width: 80%
+                margin-bottom: 1.5rem
+                .txt
+                  font-size: 1.1rem
+                  padding-top: 0.5rem
+                  padding-bottom: 0.5rem
+                .poligon-right
+                  width: 3.0rem
+                  height: 3.0rem
+        .wrap
+          width: 100%
+          position: relative
+          .slider-item
+            width: 100%
+            margin: 0 auto
+            //margin-top: 50px
+            position: relative
+            img
+              width: 100%
+          .prev
+            display: none
+            position: absolute
+            cursor: pointer
+            top: 0
+            width: 90px
+            //left: 10%
+            left: 0
+            background-color: rgba(0,0,0,.0)
+            transition: 0.3s
+            height: 100%
+            &:hover
+              background-color: rgba(0,0,0,.4)
+              .arrow-left
+                opacity: 1
+            .arrow-left
+              width: 30px
+              height: 30px
+              background: url("../img/slider/111/icons/left-arrow.svg") center no-repeat
+              background-size: cover
+              position: absolute
+              top: 50%
+              left: 50%
+              transform: translate(-50%)
+              opacity: .4
+              transition: 1s
+          .next
+            display: none
+            position: absolute
+            cursor: pointer
+            top: 0
+            width: 90px
+            background-color: rgba(0,0,0,.0)
+            transition: 0.3s
+            height: 100%
+            //right: 10%
+            right: 0
+            &:hover
+              background-color: rgba(0,0,0,.4)
+              .arrow-right
+                opacity: 1
+            .arrow-right
+              width: 30px
+              height: 30px
+              background: url("../img/slider/111/icons/right-arrow.svg") center no-repeat
+              background-size: cover
+              position: absolute
+              top: 50%
+              left: 50%
+              transform: translate(-50%)
+              opacity: .4
+              transition: 1s
+        &-dots
+          width: 90%
+          margin: 0 auto
+          margin-top: 20px
+          display: flex
+          flex-direction: column
+          //justify-content: center
+          align-items: flex-end
+          position: absolute
+          bottom: 10%
+          right: 0
+          .dot-jd
+            background: url("../img/slider/icons/jd.png") center no-repeat
+          //background-color: $main-color
+          .dot-av
+            background: url("../img/slider/icons/airplane.png") center no-repeat
+          //background-color: $main-color
+          .dot-sh
+            background: url("../img/slider/icons/ship.png") center no-repeat
+          //background-color: $main-color
+          .dot-sf
+            background: url("../img/slider/icons/safe.png") center no-repeat
+          //background-color: $main-color
+          .dot
+            cursor: pointer
+            height: 3.5rem
+            width: 3.5rem
+            margin: 5px 10px
+            background-color: $active-background-color-dark
+            //border-radius: 50%
+            display: inline-block
+            transition: background-color 0.6s ease
+            position: relative
+            &-active
+              background-color: $active-background-color-gold
+              height: 3.5rem
+              width: 3.5rem
 
+
+@media all and (max-width: 768px)
+  .main
+    &-slider-block
+    .slider-block
+      .slider-overlay
+      .slider
+        &-title
+          width: 60%
+          &__text1
+            font-size: 1.3rem
+            padding-top: 1.5rem
+          &__text2
+            font-size: 1.5rem
+          &__text3
+            font-size: 1.3rem
+            padding-top: 1.5rem
+            line-height: 2.0rem
           &-buttons
             padding-top: 1.0rem
             a
               .btn-poligon-right
-                width: 70%
-                height: 3rem
+                height: 3.0rem
+                width: 60%
+                margin-bottom: 1.5rem
                 .txt
                   font-size: 1.0rem
-                  padding-top: 10px
-                  padding-bottom: 10px
+                  padding-top: 0.5rem
+                  padding-bottom: 0.5rem
                 .poligon-right
-                  width: 3rem
-                  height: 3rem
+                  width: 3.0rem
+                  height: 3.0rem
+        .wrap
+          width: 100%
+          position: relative
+          .slider-item
+            width: 100%
+            margin: 0 auto
+            //margin-top: 50px
+            position: relative
+            img
+              width: 100%
+          .prev
+            display: none
+            position: absolute
+            cursor: pointer
+            top: 0
+            width: 90px
+            //left: 10%
+            left: 0
+            background-color: rgba(0,0,0,.0)
+            transition: 0.3s
+            height: 100%
+            &:hover
+              background-color: rgba(0,0,0,.4)
+              .arrow-left
+                opacity: 1
+            .arrow-left
+              width: 30px
+              height: 30px
+              background: url("../img/slider/111/icons/left-arrow.svg") center no-repeat
+              background-size: cover
+              position: absolute
+              top: 50%
+              left: 50%
+              transform: translate(-50%)
+              opacity: .4
+              transition: 1s
+          .next
+            display: none
+            position: absolute
+            cursor: pointer
+            top: 0
+            width: 90px
+            background-color: rgba(0,0,0,.0)
+            transition: 0.3s
+            height: 100%
+            //right: 10%
+            right: 0
+            &:hover
+              background-color: rgba(0,0,0,.4)
+              .arrow-right
+                opacity: 1
+            .arrow-right
+              width: 30px
+              height: 30px
+              background: url("../img/slider/111/icons/right-arrow.svg") center no-repeat
+              background-size: cover
+              position: absolute
+              top: 50%
+              left: 50%
+              transform: translate(-50%)
+              opacity: .4
+              transition: 1s
+        &-dots
+          width: 90%
+          margin: 0 auto
+          margin-top: 20px
+          display: flex
+          flex-direction: column
+          //justify-content: center
+          align-items: flex-end
+          position: absolute
+          bottom: 10%
+          right: 0
+          .dot-jd
+            background: url("../img/slider/icons/jd.png") center no-repeat
+          //background-color: $main-color
+          .dot-av
+            background: url("../img/slider/icons/airplane.png") center no-repeat
+          //background-color: $main-color
+          .dot-sh
+            background: url("../img/slider/icons/ship.png") center no-repeat
+          //background-color: $main-color
+          .dot-sf
+            background: url("../img/slider/icons/safe.png") center no-repeat
+          //background-color: $main-color
+          .dot
+            cursor: pointer
+            height: 3.0rem
+            width: 3.0rem
+            margin: 5px 10px
+            background-color: $active-background-color-dark
+            //border-radius: 50%
+            display: inline-block
+            transition: background-color 0.6s ease
+            position: relative
+            &-active
+              background-color: $active-background-color-gold
+              height: 3.0rem
+              width: 3.0rem
 
 
-@media  (max-width: 768px)
+
+@media all and (max-width: 576px)
   .main
     &-slider-block
     .slider-block
       .slider-overlay
       .slider
         &-title
+          width: 60%
           &__text1
-            font-size: 1.5rem
-            padding-top: 2.0rem
+            font-size: 1.2rem
+            padding-top: 1.2rem
           &__text2
-            font-size: 2.0rem
-          &__text3
             font-size: 1.3rem
-            padding-top: 1.5rem
-            line-height: 1.3rem
-
+          &__text3
+            font-size: 1.2rem
+            padding-top: 1.2rem
+            line-height: 2.0rem
           &-buttons
             padding-top: 1.0rem
             a
               .btn-poligon-right
-                width: 80%
-                height: 3rem
+                height: 2.5rem
+                width: 60%
                 margin-bottom: 1.0rem
                 .txt
-                  font-size: 0.9rem
+                  font-size: 1.0rem
                   padding-top: 0.5rem
                   padding-bottom: 0.5rem
                 .poligon-right
-                  width: 3rem
-                  height: 3rem
+                  width: 2.5rem
+                  height: 2.5rem
+        .wrap
+          width: 100%
+          position: relative
+          .slider-item
+            width: 100%
+            margin: 0 auto
+            //margin-top: 50px
+            position: relative
+            img
+              width: 100%
+          .prev
+            display: none
+            position: absolute
+            cursor: pointer
+            top: 0
+            width: 90px
+            //left: 10%
+            left: 0
+            background-color: rgba(0,0,0,.0)
+            transition: 0.3s
+            height: 100%
+            &:hover
+              background-color: rgba(0,0,0,.4)
+              .arrow-left
+                opacity: 1
+            .arrow-left
+              width: 30px
+              height: 30px
+              background: url("../img/slider/111/icons/left-arrow.svg") center no-repeat
+              background-size: cover
+              position: absolute
+              top: 50%
+              left: 50%
+              transform: translate(-50%)
+              opacity: .4
+              transition: 1s
+          .next
+            display: none
+            position: absolute
+            cursor: pointer
+            top: 0
+            width: 90px
+            background-color: rgba(0,0,0,.0)
+            transition: 0.3s
+            height: 100%
+            //right: 10%
+            right: 0
+            &:hover
+              background-color: rgba(0,0,0,.4)
+              .arrow-right
+                opacity: 1
+            .arrow-right
+              width: 30px
+              height: 30px
+              background: url("../img/slider/111/icons/right-arrow.svg") center no-repeat
+              background-size: cover
+              position: absolute
+              top: 50%
+              left: 50%
+              transform: translate(-50%)
+              opacity: .4
+              transition: 1s
+        &-dots
+          width: 90%
+          margin: 0 auto
+          margin-top: 20px
+          display: flex
+          flex-direction: column
+          //justify-content: center
+          align-items: flex-end
+          position: absolute
+          bottom: 10%
+          right: 0
+          .dot-jd
+            background: url("../img/slider/icons/jd.png") center no-repeat
+          //background-color: $main-color
+          .dot-av
+            background: url("../img/slider/icons/airplane.png") center no-repeat
+          //background-color: $main-color
+          .dot-sh
+            background: url("../img/slider/icons/ship.png") center no-repeat
+          //background-color: $main-color
+          .dot-sf
+            background: url("../img/slider/icons/safe.png") center no-repeat
+          //background-color: $main-color
+          .dot
+            cursor: pointer
+            height: 2.5rem
+            width: 2.5rem
+            margin: 5px 10px
+            background-color: $active-background-color-dark
+            //border-radius: 50%
+            display: inline-block
+            transition: background-color 0.6s ease
+            position: relative
+            &-active
+              background-color: $active-background-color-gold
+              height: 2.5rem
+              width: 2.5rem
 
 
-@media  (max-width: 540px)
+@media all and (max-width: 490px)
   .main
     &-slider-block
     .slider-block
-      display: none
       .slider-overlay
       .slider
         &-title
+          width: 80%
           &__text1
-            font-size: 1.5rem
-            padding-top: 2.0rem
+            font-size: 1.2rem
+            padding-top: 1.2rem
           &__text2
-            font-size: 2.0rem
-          &__text3
             font-size: 1.3rem
-            padding-top: 1.5rem
-            line-height: 1.3rem
-
+          &__text3
+            font-size: 1.2rem
+            padding-top: 1.2rem
+            line-height: 2.0rem
           &-buttons
             padding-top: 1.0rem
             a
               .btn-poligon-right
-                width: 80%
-                height: 3rem
+                height: 2.5rem
+                width: 50%
                 margin-bottom: 1.0rem
                 .txt
-                  font-size: 0.9rem
+                  font-size: 1.0rem
                   padding-top: 0.5rem
                   padding-bottom: 0.5rem
                 .poligon-right
-                  width: 3rem
-                  height: 3rem
+                  width: 2.5rem
+                  height: 2.5rem
+        .wrap
+          width: 100%
+          position: relative
+          .slider-item
+            width: 100%
+            margin: 0 auto
+            //margin-top: 50px
+            position: relative
+            img
+              width: 100%
+          .prev
+            display: none
+            position: absolute
+            cursor: pointer
+            top: 0
+            width: 90px
+            //left: 10%
+            left: 0
+            background-color: rgba(0,0,0,.0)
+            transition: 0.3s
+            height: 100%
+            &:hover
+              background-color: rgba(0,0,0,.4)
+              .arrow-left
+                opacity: 1
+            .arrow-left
+              width: 30px
+              height: 30px
+              background: url("../img/slider/111/icons/left-arrow.svg") center no-repeat
+              background-size: cover
+              position: absolute
+              top: 50%
+              left: 50%
+              transform: translate(-50%)
+              opacity: .4
+              transition: 1s
+          .next
+            display: none
+            position: absolute
+            cursor: pointer
+            top: 0
+            width: 90px
+            background-color: rgba(0,0,0,.0)
+            transition: 0.3s
+            height: 100%
+            //right: 10%
+            right: 0
+            &:hover
+              background-color: rgba(0,0,0,.4)
+              .arrow-right
+                opacity: 1
+            .arrow-right
+              width: 30px
+              height: 30px
+              background: url("../img/slider/111/icons/right-arrow.svg") center no-repeat
+              background-size: cover
+              position: absolute
+              top: 50%
+              left: 50%
+              transform: translate(-50%)
+              opacity: .4
+              transition: 1s
+        &-dots
+          width: 90%
+          margin: 0 auto
+          margin-top: 20px
+          display: flex
+          flex-direction: column
+          //justify-content: center
+          align-items: flex-end
+          position: absolute
+          bottom: 10%
+          right: 0
+          .dot-jd
+            background: url("../img/slider/icons/jd.png") center no-repeat
+          //background-color: $main-color
+          .dot-av
+            background: url("../img/slider/icons/airplane.png") center no-repeat
+          //background-color: $main-color
+          .dot-sh
+            background: url("../img/slider/icons/ship.png") center no-repeat
+          //background-color: $main-color
+          .dot-sf
+            background: url("../img/slider/icons/safe.png") center no-repeat
+          //background-color: $main-color
+          .dot
+            cursor: pointer
+            height: 2.5rem
+            width: 2.5rem
+            margin: 5px 10px
+            background-color: $active-background-color-dark
+            //border-radius: 50%
+            display: inline-block
+            transition: background-color 0.6s ease
+            position: relative
+            &-active
+              background-color: $active-background-color-gold
+              height: 2.5rem
+              width: 2.5rem
 

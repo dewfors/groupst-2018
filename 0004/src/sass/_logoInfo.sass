@@ -1,5 +1,5 @@
 .main
-  .header, .footer
+  .header
     .logo-info
       padding-top: 1rem
       padding-bottom: 1rem
@@ -81,6 +81,13 @@
               background-color: $active-background-color-dark
               padding: 1rem
               border-radius: 0rem 0rem 0rem 0.5rem
+              cursor: pointer
+              .filial__text
+                color: #ffffff
+                font-weight: 500
+                text-transform: uppercase
+                font-size: 1.4rem
+                padding: 0.3rem 1.5rem 0.3rem 0.5rem
               &__text
                 color: #ffffff
                 font-weight: 500
@@ -111,9 +118,11 @@
 
 
 
-@media  all and (max-width: 992px)
+
+
+@media  all and (max-width: 1200px)
   .main
-    .header, .footer
+    .header
       .logo-info
         .nav-logo-info
           .wrap-logo-info
@@ -133,19 +142,21 @@
               a
               .logo-info-placeholder
                 &__text
-                  font-size: 1.0rem
+                  font-size: 1.5rem
                 &__img
                   img
                     height: 1.5rem
               .logo-info-alarm
                 &__text
-                  font-size: 1.0rem
+                  font-size: 1.5rem
                 &__img
                   img
                     height: 1.5rem
               .logo-info-city
+                .filial__text
+                  font-size: 1.5rem
                 &__text
-                  font-size: 1.0rem
+                  font-size: 1.5rem
                 &__img
                   img
                     height: 1.5rem
@@ -160,36 +171,149 @@
                     padding-left: 0.5rem
               .logo-info-call
                 &-alarm__text
-                  font-size: 1.0rem
+                  font-size: 1.5rem
             li.logo
               .logo-img
                 img
                   height: 3.0rem
 
 
+@media  all and (max-width: 992px)
+  .main
+    .header
+      .logo-info
+        .nav-logo-info
+          .wrap-logo-info
+            .logo-brend
+              display: none
+              .logo-img
+                display: none
+            .open-logo-info
+              display: none
+              color: #ffffff
+              padding: 10px 15px
+              cursor: pointer
+
+          .ul-logo-info
+            flex-wrap: nowrap
+            li
+              a
+              .logo-info-placeholder
+                padding-left: 0.3rem
+                padding-right: 0.3rem
+                &__text
+                  font-size: 1.0rem
+                &__img
+                  img
+                    height: 1.5rem
+              .logo-info-alarm
+                padding-left: 0.3rem
+                padding-right: 0.3rem
+                &__text
+                  font-size: 1.0rem
+                &__img
+                  img
+                    height: 1.5rem
+              .logo-info-city
+                padding-left: 0.3rem
+                padding-right: 0.3rem
+                .filial__text
+                  font-size: 1.0rem
+                &__text
+                  font-size: 1.0rem
+                &__img
+                  img
+                    height: 1.5rem
+
+              .logo-info-call
+                &-alarm__text
+                  font-size: 1.0rem
+            li.logo
+              .logo-img
+                img
+                  height: 2.5rem
 
 
-@media  (max-width: 576px)
-  #logo_brend
-    display: block
-    .logo-img
-      display: block
-  #open_logo_info
-    display: block
-    padding: 0 0.5rem
-  #ul_logo_info
-    display: none
-    //position: absolute
-    //top: 100%
-    //left: 0
-    width: 100%
-    li
-      display: block
-      border-bottom: 1px solid $active-background-color-lite
-    li.logo
-      display: none
 
-  #ul_logo_info.active
-    display: block
+
+@media  all and (max-width: 768px)
+  .main
+    .header
+      .logo-info
+        .nav-logo-info
+          .wrap-logo-info
+            .logo-brend
+              display: none
+              .logo-img
+                display: none
+            .open-logo-info
+              display: none
+              color: #ffffff
+              padding: 10px 15px
+              cursor: pointer
+
+          .ul-logo-info
+            flex-wrap: nowrap
+            li
+              a
+              .logo-info-placeholder
+                padding-left: 0.3rem
+                padding-right: 0.3rem
+                &__text
+                  font-size: 0.7rem
+                &__img
+                  img
+                    height: 1.5rem
+              .logo-info-alarm
+                padding-left: 0.3rem
+                padding-right: 0.3rem
+                &__text
+                  font-size: 0.7rem
+                &__img
+                  img
+                    height: 1.5rem
+              .logo-info-city
+                padding-left: 0.3rem
+                padding-right: 0.3rem
+                .filial__text
+                  font-size: 0.7rem
+                &__text
+                  font-size: 0.7rem
+                &__img
+                  img
+                    height: 1.5rem
+
+              .logo-info-call
+                &-alarm__text
+                  font-size: 0.7rem
+            li.logo
+              .logo-img
+                img
+                  height: 2.0rem
+
+
+
+//@media  (max-width: 576px)
+  //#logo_brend
+  //  display: block
+  //  .logo-img
+  //    display: block
+  //#open_logo_info
+  //  display: block
+  //  padding: 0 0.5rem
+  //#ul_logo_info
+  //  display: none
+  //  //position: absolute
+  //  //top: 100%
+  //  //left: 0
+  //  width: 100%
+  //  li
+  //    display: block
+  //    border-bottom: 1px solid $active-background-color-lite
+  //  li.logo
+  //    display: none
+  //
+  //#ul_logo_info.active
+  //  display: block
 
 

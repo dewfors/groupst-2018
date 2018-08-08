@@ -112,22 +112,19 @@ body {
   font-size: 10px;
 }
 
-.main .header .logo-info,
-.main .footer .logo-info {
+.main .header .logo-info {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #175488;
 }
 
-.main .header .logo-info .nav-logo-info,
-.main .footer .logo-info .nav-logo-info {
+.main .header .logo-info .nav-logo-info {
   background-color: #124673;
   position: relative;
   text-align: center;
 }
 
-.main .header .logo-info .nav-logo-info .wrap-logo-info,
-.main .footer .logo-info .nav-logo-info .wrap-logo-info {
+.main .header .logo-info .nav-logo-info .wrap-logo-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -143,26 +140,22 @@ body {
   align-items: center;
 }
 
-.main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend,
-.main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
+.main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
   display: none;
 }
 
-.main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img,
-.main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+.main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
   display: none;
 }
 
-.main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info,
-.main .footer .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
+.main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
   display: none;
   color: #ffffff;
   padding: 10px 15px;
   cursor: pointer;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info,
-.main .footer .logo-info .nav-logo-info .ul-logo-info {
+.main .header .logo-info .nav-logo-info .ul-logo-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,21 +171,18 @@ body {
   list-style: none;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li {
+.main .header .logo-info .nav-logo-info .ul-logo-info li {
   display: inline-block;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li a,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li a {
+.main .header .logo-info .nav-logo-info .ul-logo-info li a {
   display: block;
   padding: 10px 15px;
   color: #ffffff;
   text-decoration: none;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,8 +197,7 @@ body {
   border-radius: 0rem 0rem 0rem 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
@@ -216,13 +205,11 @@ body {
   padding: 0.3rem 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
   height: 2.0rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -237,8 +224,7 @@ body {
   border-radius: 0rem 0rem 0rem 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
@@ -246,13 +232,11 @@ body {
   padding: 0.3rem 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
   height: 2.0rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -265,10 +249,18 @@ body {
   background-color: #124673;
   padding: 1rem;
   border-radius: 0rem 0rem 0rem 0.5rem;
+  cursor: pointer;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  padding: 0.3rem 1.5rem 0.3rem 0.5rem;
+}
+
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
@@ -276,13 +268,11 @@ body {
   padding: 0.3rem 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
   height: 2.0rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
   display: none;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -292,14 +282,12 @@ body {
   align-items: center;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
   min-height: 2.0rem;
   padding-left: 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: 500;
@@ -309,63 +297,56 @@ body {
   padding: 0.9rem;
 }
 
-@media all and (max-width: 992px) {
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend,
-  .main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
+@media all and (max-width: 1200px) {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
     display: none;
   }
 
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img,
-  .main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
     display: none;
   }
 
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info,
-  .main .footer .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
     display: none;
     color: #ffffff;
     padding: 10px 15px;
     cursor: pointer;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info {
+  .main .header .logo-info .nav-logo-info .ul-logo-info {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
-    font-size: 1.0rem;
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
+    font-size: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
     height: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
-    font-size: 1.0rem;
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
+    font-size: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
     height: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
-    font-size: 1.0rem;
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
+    font-size: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
+    font-size: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
     height: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
     display: none;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -375,53 +356,163 @@ body {
     align-items: center;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
     min-height: 2.0rem;
     padding-left: 0.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
-    font-size: 1.0rem;
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
+    font-size: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
     height: 3.0rem;
   }
 }
 
-@media (max-width: 576px) {
-  #logo_brend {
-    display: block;
-  }
-
-  #logo_brend .logo-img {
-    display: block;
-  }
-
-  #open_logo_info {
-    display: block;
-    padding: 0 0.5rem;
-  }
-
-  #ul_logo_info {
-    display: none;
-    width: 100%;
-  }
-
-  #ul_logo_info li {
-    display: block;
-    border-bottom: 1px solid #175488;
-  }
-
-  #ul_logo_info li.logo {
+@media all and (max-width: 992px) {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
     display: none;
   }
 
-  #ul_logo_info.active {
-    display: block;
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+    display: none;
+  }
+
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
+    display: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
+    height: 2.5rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
+    display: none;
+  }
+
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+    display: none;
+  }
+
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
+    display: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
+    font-size: 0.7rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
+    font-size: 0.7rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
+    font-size: 0.7rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
+    font-size: 0.7rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
+    font-size: 0.7rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
+    height: 2.0rem;
   }
 }
 
@@ -598,22 +689,19 @@ body {
   text-transform: uppercase;
 }
 
-.main .header .logo-info,
-.main .footer .logo-info {
+.main .header .logo-info {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #175488;
 }
 
-.main .header .logo-info .nav-logo-info,
-.main .footer .logo-info .nav-logo-info {
+.main .header .logo-info .nav-logo-info {
   background-color: #124673;
   position: relative;
   text-align: center;
 }
 
-.main .header .logo-info .nav-logo-info .wrap-logo-info,
-.main .footer .logo-info .nav-logo-info .wrap-logo-info {
+.main .header .logo-info .nav-logo-info .wrap-logo-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -629,26 +717,22 @@ body {
   align-items: center;
 }
 
-.main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend,
-.main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
+.main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
   display: none;
 }
 
-.main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img,
-.main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+.main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
   display: none;
 }
 
-.main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info,
-.main .footer .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
+.main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
   display: none;
   color: #ffffff;
   padding: 10px 15px;
   cursor: pointer;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info,
-.main .footer .logo-info .nav-logo-info .ul-logo-info {
+.main .header .logo-info .nav-logo-info .ul-logo-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -664,21 +748,18 @@ body {
   list-style: none;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li {
+.main .header .logo-info .nav-logo-info .ul-logo-info li {
   display: inline-block;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li a,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li a {
+.main .header .logo-info .nav-logo-info .ul-logo-info li a {
   display: block;
   padding: 10px 15px;
   color: #ffffff;
   text-decoration: none;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -693,8 +774,7 @@ body {
   border-radius: 0rem 0rem 0rem 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
@@ -702,13 +782,11 @@ body {
   padding: 0.3rem 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
   height: 2.0rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -723,8 +801,7 @@ body {
   border-radius: 0rem 0rem 0rem 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
@@ -732,13 +809,11 @@ body {
   padding: 0.3rem 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
   height: 2.0rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -751,10 +826,18 @@ body {
   background-color: #124673;
   padding: 1rem;
   border-radius: 0rem 0rem 0rem 0.5rem;
+  cursor: pointer;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  padding: 0.3rem 1.5rem 0.3rem 0.5rem;
+}
+
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
@@ -762,13 +845,11 @@ body {
   padding: 0.3rem 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
   height: 2.0rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
   display: none;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -778,14 +859,12 @@ body {
   align-items: center;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
   min-height: 2.0rem;
   padding-left: 0.5rem;
 }
 
-.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text,
-.main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
+.main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: 500;
@@ -795,63 +874,56 @@ body {
   padding: 0.9rem;
 }
 
-@media all and (max-width: 992px) {
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend,
-  .main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
+@media all and (max-width: 1200px) {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
     display: none;
   }
 
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img,
-  .main .footer .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
     display: none;
   }
 
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info,
-  .main .footer .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
     display: none;
     color: #ffffff;
     padding: 10px 15px;
     cursor: pointer;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info {
+  .main .header .logo-info .nav-logo-info .ul-logo-info {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
-    font-size: 1.0rem;
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
+    font-size: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
     height: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
-    font-size: 1.0rem;
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
+    font-size: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
     height: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
-    font-size: 1.0rem;
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
+    font-size: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
+    font-size: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
     height: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
     display: none;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -861,53 +933,163 @@ body {
     align-items: center;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
     min-height: 2.0rem;
     padding-left: 0.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
-    font-size: 1.0rem;
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
+    font-size: 1.5rem;
   }
 
-  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img,
-  .main .footer .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
+  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
     height: 3.0rem;
   }
 }
 
-@media (max-width: 576px) {
-  #logo_brend {
-    display: block;
-  }
-
-  #logo_brend .logo-img {
-    display: block;
-  }
-
-  #open_logo_info {
-    display: block;
-    padding: 0 0.5rem;
-  }
-
-  #ul_logo_info {
-    display: none;
-    width: 100%;
-  }
-
-  #ul_logo_info li {
-    display: block;
-    border-bottom: 1px solid #175488;
-  }
-
-  #ul_logo_info li.logo {
+@media all and (max-width: 992px) {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
     display: none;
   }
 
-  #ul_logo_info.active {
-    display: block;
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+    display: none;
+  }
+
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
+    display: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
+    font-size: 1.0rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
+    height: 2.5rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
+    display: none;
+  }
+
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
+    display: none;
+  }
+
+  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
+    display: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
+    font-size: 0.7rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
+    font-size: 0.7rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
+    font-size: 0.7rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
+    font-size: 0.7rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
+    height: 1.5rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
+    font-size: 0.7rem;
+  }
+
+  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
+    height: 2.0rem;
   }
 }
 

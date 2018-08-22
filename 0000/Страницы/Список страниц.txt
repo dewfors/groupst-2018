@@ -4,7 +4,7 @@
 01. Главная - index.html
 02. Услуги - services.html
 03. Тарифы - prices.html
-04. Направления
+04. Направления - routes.html
 05. Калькулятор	- calculator.html
 06. Отслеживание груза - tracking.html
 07. Документы и полезные статьи

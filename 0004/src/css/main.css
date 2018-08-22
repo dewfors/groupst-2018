@@ -5597,3 +5597,58 @@ ul {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.routes-block {
+  background-color: #175488;
+}
+
+.routes-block .routes-block-inner {
+  padding-top: 3.0rem;
+  padding-bottom: 3.0rem;
+}
+
+.routes-block .routes-block-inner .buttons {
+  width: 30%;
+}
+
+.routes-block .routes-block-inner .buttons ul li {
+  display: block;
+  background-color: #124673;
+  margin-top: 0.5rem;
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-top: 2.0rem;
+  padding-bottom: 2.0rem;
+  padding-left: 3.0rem;
+}
+
+.routes-block .routes-block-inner .buttons ul li:hover {
+  background-color: #ffb118;
+  cursor: pointer;
+}
+
+.routes-block .routes-block-inner .description {
+  padding: 3.0rem;
+}
+
+.routes-block .routes-block-inner .description .description-title {
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 3.0rem;
+}
+
+.routes-block .routes-block-inner .description .description-text p {
+  padding: 1.0rem;
+  color: #ffffff;
+  font-family: "LatoRegular", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}

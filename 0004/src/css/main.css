@@ -1172,7 +1172,7 @@ body {
 
 .footer-new .footer-find-us {
   padding-top: 10.0rem;
-  padding-bottom: 10.0rem;
+  padding-bottom: 5.0rem;
   background-color: #ffb118;
 }
 
@@ -1201,7 +1201,7 @@ body {
 }
 
 .footer-new .footer-find-us .find-menu {
-  margin-top: 5.0rem;
+  margin-top: 10.0rem;
   width: 100%;
 }
 
@@ -1214,17 +1214,16 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background-color: #222222;
 }
 
 .footer-new .footer-find-us .find-menu ul li {
-  padding: 1.5rem 0.5rem;
+  padding: 1.5rem 1.5rem;
   display: inline-block;
   text-align: center;
   background-color: #222222;
   color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
-  font-size: 19px;
+  font-size: 1.9rem;
   font-weight: 500;
   text-transform: uppercase;
   cursor: pointer;
@@ -1235,19 +1234,13 @@ body {
   color: #ffb118;
 }
 
-.footer-new .footer-find-us .find-map {
+.footer-new .footer-find-us .find .find-map {
   margin-top: 5.0rem;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
-.footer-new .footer-find-us .find-map .map {
-  width: 80%;
+.footer-new .footer-find-us .find .find-map .map-filial img {
+  width: 100%;
 }
 
 .footer-new .footer-find-us .phone-managers {
@@ -1265,10 +1258,11 @@ body {
 }
 
 .footer-new .footer-find-us .phone-managers-title .title {
-  color: #124673;
+  color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
-  font-size: 2.0rem;
+  font-size: 2.8rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .footer-new .footer-find-us .phone-managers-menu {
@@ -1276,12 +1270,13 @@ body {
 }
 
 .footer-new .footer-find-us .phone-managers-menu .service-menu {
+  background-color: red;
+  margin-top: 10.0rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-align: center;
@@ -1310,14 +1305,24 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 10%;
+  width: 20%;
   text-align: center;
+}
+
+.footer-new .footer-find-us .phone-managers-menu .service-menu .service-img img {
+  width: 100%;
+  margin-bottom: 2.0rem;
+}
+
+.footer-new .footer-find-us .phone-managers-menu .service-menu .service-img .sm-title {
+  min-height: 3.0rem;
+  vertical-align: bottom;
 }
 
 .footer-new .footer-find-us .phone-managers .managers-info {
@@ -1331,6 +1336,8 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin-top: 2.0rem;
+  margin-bottom: 3.0rem;
 }
 
 .footer-new .footer-find-us .phone-managers .managers-info .manager-info .faceblock {
@@ -1342,14 +1349,15 @@ body {
 }
 
 .footer-new .footer-find-us .phone-managers .managers-info .manager-info .infoblock {
-  color: #124673;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
+  color: #222222;
+  text-transform: uppercase;
 }
 
 .footer-new .footer-inner .footer-top {
   background-color: #175488;
-  padding-top: 3.0rem;
+  padding-top: 5.0rem;
 }
 
 .footer-new .footer-inner .footer-top .footer-t-inner .title {
@@ -1357,16 +1365,22 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 2.0rem;
-  padding-bottom: 2.0rem;
+  padding-bottom: 4.0rem;
 }
 
 .footer-new .footer-inner .footer-top .footer-t-inner .descr {
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  line-height: 3.0rem;
 }
 
 .footer-new .footer-inner .footer-top .footer-t-inner .descr ul li {
   padding: 0.2rem;
+}
+
+.footer-new .footer-inner .footer-top .footer-t-inner .descr ul li:hover {
+  background-color: #124673;
+  cursor: pointer;
 }
 
 .footer-new .footer-inner .footer-top .footer-t-inner .personal-infirmation {
@@ -1379,6 +1393,7 @@ body {
   padding: 1.0rem;
   padding-top: 2.0rem;
   color: #ffffff;
+  font-size: 1.5rem;
 }
 
 .footer-new .footer-inner .footer-top .footer-t-inner .personal-infirmation a {
@@ -1394,6 +1409,7 @@ body {
   justify-content: center;
   padding: 1.0rem;
   color: #ffffff;
+  font-size: 1.5rem;
 }
 
 .footer-new .footer-inner .footer-bottom {
@@ -1413,6 +1429,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   color: #ffffff;
+  font-size: 1.5rem;
 }
 
 .main {

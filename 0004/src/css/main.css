@@ -5742,6 +5742,7 @@ ul {
 
 .docs-all-block .docs-all-block-inner .img {
   padding-bottom: 4.0rem;
+  cursor: pointer;
 }
 
 .docs-all-block .docs-all-block-inner .img img {

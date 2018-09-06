@@ -7213,6 +7213,10 @@ ul {
   align-items: center;
 }
 
+.docs-all-block .docs-all-block-inner .articles a {
+  text-decoration: none;
+}
+
 .docs-all-block .docs-all-block-inner .img {
   padding-bottom: 4.0rem;
   cursor: pointer;
@@ -7916,6 +7920,253 @@ ul {
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.main-articles-block {
+  background-color: #175488;
+}
+
+.main-articles-block .main-articles-block-inner {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.main-articles-block .main-articles-block-inner .descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 6.5rem;
+}
+
+.main-articles-block .main-articles-block-inner .descr .title {
+  text-align: center;
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-articles-block .main-articles-block-inner .article-block {
+  width: 100%;
+  margin-bottom: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main-articles-block .main-articles-block-inner .article-block .article-block-inner {
+  background-color: #ffb118;
+  width: 80%;
+  height: 30.0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.main-articles-block .main-articles-block-inner .article-block .article-block-inner .title-block {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.main-articles-block .main-articles-block-inner .article-block .article-block-inner .title-block .title {
+  color: #282828;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 2.0rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-articles-block .main-articles-block-inner .article-block .article-block-inner .descrart-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.main-articles-block .main-articles-block-inner .article-block .article-block-inner .descrart-block .descrart {
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 2.0rem;
+}
+
+.main-articles-block .main-articles-block-inner .article-block .article-block-inner .more-block {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.main-articles-block .main-articles-block-inner .article-block .article-block-inner .more-block .more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main-articles-block .main-articles-block-inner .article-block .article-block-inner .more-block .more .dt {
+  padding-top: 1.5rem;
+  color: #282828;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.main-articles-block .main-articles-block-inner .article-block .article-block-inner .more-block .more .btn-more {
+  padding: 1.5rem 4.0rem;
+  background-color: #282828;
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .main-articles-block {
+    background-color: #175488;
+  }
+
+  .main-articles-block .main-articles-block-inner {
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+  }
+
+  .main-articles-block .main-articles-block-inner .descr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 6.5rem;
+  }
+
+  .main-articles-block .main-articles-block-inner .descr .title {
+    text-align: center;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2.0rem;
+  }
+
+  .main-articles-block .main-articles-block-inner .article-block {
+    width: 100%;
+    margin-bottom: 7.5rem;
+  }
+
+  .main-articles-block .main-articles-block-inner .article-block .article-block-inner {
+    background-color: #ffb118;
+    width: 100%;
+    height: 30.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  .main-articles-block .main-articles-block-inner .article-block .article-block-inner .title-block {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  .main-articles-block .main-articles-block-inner .article-block .article-block-inner .title-block .title {
+    color: #282828;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .main-articles-block .main-articles-block-inner .article-block .article-block-inner .descrart-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 1.5rem;
+  }
+
+  .main-articles-block .main-articles-block-inner .article-block .article-block-inner .descrart-block .descrart {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 2.0rem;
+  }
+
+  .main-articles-block .main-articles-block-inner .article-block .article-block-inner .more-block {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .main-articles-block .main-articles-block-inner .article-block .article-block-inner .more-block .more {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .main-articles-block .main-articles-block-inner .article-block .article-block-inner .more-block .more .dt {
+    padding-top: 1.5rem;
+    color: #282828;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .main-articles-block .main-articles-block-inner .article-block .article-block-inner .more-block .more .btn-more {
+    padding: 1.5rem 4.0rem;
+    background-color: #282828;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
     text-transform: uppercase;
   }
 }

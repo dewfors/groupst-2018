@@ -8004,3 +8004,92 @@ ul {
   line-height: 3.0rem;
   margin-left: 2.0rem;
 }
+
+.contacts-block {
+  background: #175488;
+  padding-top: 1.0rem;
+  padding-bottom: 8.0rem;
+}
+
+.contacts-block .contacts-block-inner .contact .title-dv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 4.0rem;
+}
+
+.contacts-block .contacts-block-inner .contact .title-dv .title {
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contacts-block .contacts-block-inner .contact .title-info-dv {
+  margin-top: 4.0rem;
+}
+
+.contacts-block .contacts-block-inner .contact .title-info-dv .info-dv {
+  background: #ffb118;
+  padding: 1.3rem;
+  margin-bottom: 1.0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contacts-block .contacts-block-inner .contact .title-info-dv .schema img {
+  width: 100%;
+}
+
+.contacts-block .contacts-block-inner .contact .title-info-dv .download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 1.0rem;
+  margin-bottom: 1.0rem;
+}
+
+.contacts-block .contacts-block-inner .contact .title-info-dv .download a {
+  line-height: 5.0rem;
+  height: 5.0rem;
+  display: block;
+  background: #124673;
+  color: white;
+  width: 30%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.0rem;
+}
+
+.contacts-block .contacts-block-inner .contact .title-info-dv .descr-dv {
+  margin-bottom: 2.0rem;
+}
+
+.contacts-block .contacts-block-inner .contact .title-info-dv .descr-dv .descr {
+  padding: 1.0rem;
+}
+
+.contacts-block .contacts-block-inner .contact .title-info-dv .descr-dv .descr p {
+  margin-top: 1.0rem;
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.0rem;
+}

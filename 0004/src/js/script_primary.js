@@ -36,24 +36,24 @@ function ready() {
     //footer
     //logo-info
     //********************************************
-    let Style_ul_logo_info_f = getComputedStyle(ul_logo_info_f);
-    //console.log(menuStyle1.display);
-    open_logo_info_f.onclick = function () {
-        if (Style_ul_logo_info_f.display == 'none'){
-            ul_logo_info_f.classList.add("active");
-            //this.innerHTML = "Закрыть меню";
-        } else {
-            ul_logo_info_f.classList.remove("active");
-            //this.innerHTML = "Открыть меню";
-        }
-    }
+    // let Style_ul_logo_info_f = getComputedStyle(ul_logo_info_f);
+    // //console.log(menuStyle1.display);
+    // open_logo_info_f.onclick = function () {
+    //     if (Style_ul_logo_info_f.display == 'none'){
+    //         ul_logo_info_f.classList.add("active");
+    //         //this.innerHTML = "Закрыть меню";
+    //     } else {
+    //         ul_logo_info_f.classList.remove("active");
+    //         //this.innerHTML = "Открыть меню";
+    //     }
+    // }
 
 
 
     //menu-primary
     //********************************************
     let Style_ul_menu_main = getComputedStyle(ul_menu_main);
-    //console.log(menuStyle1.display);
+    //console.log(Style_ul_menu_main);
     open_menu_main.onclick = function () {
         if (Style_ul_menu_main.display == 'none'){
             ul_menu_main.classList.add("active");

@@ -297,225 +297,6 @@ body {
   padding: 0.9rem;
 }
 
-@media all and (max-width: 1200px) {
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
-    display: none;
-  }
-
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
-    display: none;
-  }
-
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
-    display: none;
-    color: #ffffff;
-    padding: 10px 15px;
-    cursor: pointer;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
-    font-size: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
-    height: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
-    font-size: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
-    height: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
-    font-size: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
-    font-size: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
-    height: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social {
-    display: none;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-social__img img {
-    min-height: 2.0rem;
-    padding-left: 0.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
-    font-size: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
-    height: 3.0rem;
-  }
-}
-
-@media all and (max-width: 992px) {
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
-    display: none;
-  }
-
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
-    display: none;
-  }
-
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
-    display: none;
-    color: #ffffff;
-    padding: 10px 15px;
-    cursor: pointer;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder {
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
-    font-size: 1.0rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
-    height: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm {
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
-    font-size: 1.0rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
-    height: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city {
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
-    font-size: 1.0rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
-    font-size: 1.0rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
-    height: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
-    font-size: 1.0rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
-    height: 2.5rem;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend {
-    display: none;
-  }
-
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .logo-brend .logo-img {
-    display: none;
-  }
-
-  .main .header .logo-info .nav-logo-info .wrap-logo-info .open-logo-info {
-    display: none;
-    color: #ffffff;
-    padding: 10px 15px;
-    cursor: pointer;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder {
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__text {
-    font-size: 0.7rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-placeholder__img img {
-    height: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm {
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__text {
-    font-size: 0.7rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-alarm__img img {
-    height: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city {
-    padding-left: 0.3rem;
-    padding-right: 0.3rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city .filial__text {
-    font-size: 0.7rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__text {
-    font-size: 0.7rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-city__img img {
-    height: 1.5rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li .logo-info-call-alarm__text {
-    font-size: 0.7rem;
-  }
-
-  .main .header .logo-info .nav-logo-info .ul-logo-info li.logo .logo-img img {
-    height: 2.0rem;
-  }
-}
-
 .menu-primary {
   font-family: "LatoRegular", sans-serif;
 }
@@ -8169,4 +7950,57 @@ ul {
     font-weight: 500;
     text-transform: uppercase;
   }
+}
+
+.about-block {
+  background: #175488;
+}
+
+.about-block .about-block-inner {
+  padding-bottom: 8.0rem;
+}
+
+.about-block .about-block-inner .title-dv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 8.0rem;
+  padding-bottom: 8.0rem;
+}
+
+.about-block .about-block-inner .title-dv .title {
+  color: #ffffff;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-block .about-block-inner .descr-dv .descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about-block .about-block-inner .descr-dv .descr .foto {
+  width: 30%;
+  height: 35.0rem;
+  background-color: #ffffff;
+  border-radius: 1.0rem 0;
+}
+
+.about-block .about-block-inner .descr-dv .descr .description {
+  color: #f7f7f7;
+  font-family: "AgoraSansProRegular", sans-serif;
+  font-size: 2.0rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 3.0rem;
+  margin-left: 2.0rem;
 }

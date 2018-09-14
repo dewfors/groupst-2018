@@ -36,153 +36,334 @@
       right: 0
       transform: translateX(75%)
 
-
-@media  all and (max-width: 992px)
-  .safety-block
-    padding-top: 4.0rem
-    padding-bottom: 4.0rem
-    background-color: $active-background-color-gold
-    &-inner
-      display: flex
-      flex-direction: column
-      align-items: center
-      position: relative
-      .title
+.safety2-block
+  padding-top: 63px
+  padding-bottom: 63px
+  background-color: $active-background-color-gold
+  .safety2-block-inner
+    position: relative
+    .title-dv-block
+      .title-dv
         color: #ffffff
-        font-size: 2.5rem
+        font-size: 37px
         font-weight: 500
         text-transform: uppercase
         text-align: center
         line-height: 5rem
-        width: 70%
-      .btn-safety
-        margin-top: 1.5rem
-        width: 30%
-        display: flex
-        align-items: center
+    .safety-btn-dv-block
+      display: flex
+      justify-content: center
+      align-items: flex-end
+      .safety-btn-dv
+        width: 100%
         a
+          width: 100%
+          //height: 5.0rem
+          line-height: 5.0rem
+          display: block
+          background: $active-background-color-dark
+          color: white
           text-decoration: none
-          .txt
-            width: 100%
-            background-color: #fff
-            font-size: 2.0rem
-            font-weight: 700
-            text-transform: uppercase
-            padding: 1.0rem 3.0rem
-            border-radius: 0 0 0 5px
+          text-align: center
+          font-size: 2.0rem
+          text-transform: uppercase
+    .img
+      position: absolute
+      bottom: 0
+      right: 0
+      transform: translateX(50%) translateY(-35%)
+      img
+        width: 25.0rem
 
+
+
+@media  all and (max-width: 1500px)
+  .safety2-block
+    padding-top: 63px
+    padding-bottom: 63px
+    background-color: $active-background-color-gold
+    .safety2-block-inner
+      position: relative
+      .title-dv-block
+        .title-dv
+          color: #ffffff
+          font-size: 37px
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          line-height: 5rem
+      .safety-btn-dv-block
+        display: flex
+        justify-content: center
+        align-items: flex-end
+        .safety-btn-dv
+          width: 100%
+          a
+            width: 100%
+            //height: 5.0rem
+            line-height: 5.0rem
+            display: block
+            background: $active-background-color-dark
+            color: white
+            text-decoration: none
+            text-align: center
+            font-size: 2.0rem
+            text-transform: uppercase
       .img
         position: absolute
         bottom: 0
         right: 0
-        transform: translateX(75%)
+        transform: translateX(0%) translateY(-35%)
+        img
+          width: 25.0rem
 
+@media  all and (max-width: 1200px)
+  .safety2-block
+    padding-top: 63px
+    padding-bottom: 63px
+    background-color: $active-background-color-gold
+    .safety2-block-inner
+      position: relative
+      .title-dv-block
+        .title-dv
+          color: #ffffff
+          font-size: 3.0rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          line-height: 5rem
+      .safety-btn-dv-block
+        display: flex
+        justify-content: center
+        align-items: flex-end
+        .safety-btn-dv
+          width: 100%
+          a
+            width: 100%
+            //height: 5.0rem
+            line-height: 5.0rem
+            display: block
+            background: $active-background-color-dark
+            color: white
+            text-decoration: none
+            text-align: center
+            font-size: 1.8rem
+            text-transform: uppercase
+      .img
+        position: absolute
+        bottom: 0
+        right: 0
+        transform: translateX(0%) translateY(-35%)
+        img
+          width: 20.0rem
 
+@media  all and (max-width: 992px)
+  .safety2-block
+    padding-top: 4.0rem
+    padding-bottom: 4.0rem
+    background-color: $active-background-color-gold
+    .safety2-block-inner
+      position: relative
+      .title-dv-block
+        .title-dv
+          color: #ffffff
+          font-size: 2.5rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          line-height: 5rem
+      .safety-btn-dv-block
+        display: flex
+        justify-content: center
+        align-items: flex-end
+        .safety-btn-dv
+          width: 100%
+          a
+            width: 100%
+            //height: 5.0rem
+            line-height: 5.0rem
+            display: block
+            background: $active-background-color-dark
+            color: white
+            text-decoration: none
+            text-align: center
+            font-size: 1.5rem
+            text-transform: uppercase
+      .img
+        position: absolute
+        bottom: 0
+        right: 0
+        transform: translateX(0%) translateY(-50%)
+        img
+          width: 15.0rem
 
 @media  all and (max-width: 768px)
-  .safety-block
+  .safety2-block
     padding-top: 4.0rem
     padding-bottom: 4.0rem
     background-color: $active-background-color-gold
-    &-inner
-      display: flex
-      flex-direction: column
-      align-items: center
-
+    .safety2-block-inner
       position: relative
-      .title
-        color: #ffffff
-        font-size: 2.5rem
-        font-weight: 500
-        text-transform: uppercase
-        text-align: center
-        line-height: 3rem
-        width: 70%
-      .btn-safety
-        margin-top: 1.5rem
-        width: 40%
+      .title-dv-block
+        .title-dv
+          color: #ffffff
+          font-size: 2.0rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          line-height: 3.0rem
+      .safety-btn-dv-block
         display: flex
-        align-items: center
         justify-content: center
-        a
-          text-decoration: none
-          .txt
+        align-items: flex-end
+        padding-top: 1.0rem
+        .safety-btn-dv
+          width: 40%
+          a
             width: 100%
-            background-color: #fff
-            font-size: 2.0rem
-            font-weight: 700
+            //height: 5.0rem
+            line-height: 4.0rem
+            display: block
+            background: $active-background-color-dark
+            color: white
+            text-decoration: none
+            text-align: center
+            font-size: 1.5rem
             text-transform: uppercase
-            padding: 1.0rem 3.0rem
-            border-radius: 0 0 0 5px
-
       .img
+        //display: none
         position: absolute
         bottom: 0
         right: 0
-        transform: translateX(75%)
-
-
+        transform: translateX(0%) translateY(15%)
+        img
+          width: 10.0rem
 
 @media  all and (max-width: 576px)
-  .safety-block
+  .safety2-block
     padding-top: 4.0rem
     padding-bottom: 4.0rem
     background-color: $active-background-color-gold
-    &-inner
-      display: flex
-      flex-direction: column
-      align-items: center
-
+    .safety2-block-inner
       position: relative
-      .title
-        color: #ffffff
-        font-size: 2.0rem
-        font-weight: 500
-        text-transform: uppercase
-        text-align: center
-        line-height: 3rem
-        width: 70%
-      .btn-safety
-        margin-top: 1.5rem
-        width: 40%
+      .title-dv-block
+        .title-dv
+          color: #ffffff
+          font-size: 2.0rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          line-height: 3.0rem
+      .safety-btn-dv-block
         display: flex
-        align-items: center
         justify-content: center
-        a
-          text-decoration: none
-          .txt
+        align-items: flex-end
+        padding-top: 1.0rem
+        .safety-btn-dv
+          width: 40%
+          a
             width: 100%
-            background-color: #fff
+            //height: 5.0rem
+            line-height: 4.0rem
+            display: block
+            background: $active-background-color-dark
+            color: white
+            text-decoration: none
+            text-align: center
             font-size: 1.5rem
-            font-weight: 700
             text-transform: uppercase
-            padding: 1.0rem 3.0rem
-            border-radius: 0 0 0 5px
-
       .img
+        //display: none
         position: absolute
         bottom: 0
         right: 0
-        transform: translateX(75%)
+        transform: translateX(-20%) translateY(15%)
+        img
+          width: 8.0rem
+
+
+@media  all and (max-width: 480px)
+  .safety2-block
+    padding-top: 3.0rem
+    padding-bottom: 3.0rem
+    background-color: $active-background-color-gold
+    .safety2-block-inner
+      position: relative
+      .title-dv-block
+        .title-dv
+          color: #ffffff
+          font-size: 1.5rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          line-height: 2.0rem
+      .safety-btn-dv-block
+        display: flex
+        justify-content: center
+        align-items: flex-end
+        padding-top: 1.0rem
+        .safety-btn-dv
+          width: 40%
+          a
+            width: 100%
+            //height: 5.0rem
+            line-height: 3.0rem
+            display: block
+            background: $active-background-color-dark
+            color: white
+            text-decoration: none
+            text-align: center
+            font-size: 1.5rem
+            text-transform: uppercase
+      .img
+        //display: none
+        position: absolute
+        bottom: 0
+        right: 0
+        transform: translateX(-10%) translateY(15%)
+        img
+          width: 6.0rem
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media  all and (max-width: 320px)
+  .safety2-block
+    padding-top: 3.0rem
+    padding-bottom: 3.0rem
+    background-color: $active-background-color-gold
+    .safety2-block-inner
+      position: relative
+      .title-dv-block
+        .title-dv
+          color: #ffffff
+          font-size: 1.0rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          line-height: 2.0rem
+      .safety-btn-dv-block
+        display: flex
+        justify-content: center
+        align-items: flex-end
+        padding-top: 1.0rem
+        .safety-btn-dv
+          width: 40%
+          a
+            width: 100%
+            //height: 5.0rem
+            line-height: 3.0rem
+            display: block
+            background: $active-background-color-dark
+            color: white
+            text-decoration: none
+            text-align: center
+            font-size: 1.0rem
+            text-transform: uppercase
+      .img
+        //display: none
+        position: absolute
+        bottom: 0
+        right: 0
+        transform: translateX(-10%) translateY(15%)
+        img
+          width: 4.0rem

@@ -697,20 +697,20 @@
         &-title
           width: 80%
           &__text1
-            font-size: 1.2rem
-            padding-top: 1.2rem
+            font-size: 1.0rem
+            padding-top: 1.0rem
           &__text2
-            font-size: 1.3rem
+            font-size: 1.0rem
           &__text3
-            font-size: 1.2rem
-            padding-top: 1.2rem
-            line-height: 2.0rem
+            font-size: 1.0rem
+            padding-top: 1.0rem
+            line-height: 1.0rem
           &-buttons
             padding-top: 1.0rem
             a
               .btn-poligon-right
                 height: 2.5rem
-                width: 50%
+                width: 60%
                 margin-bottom: 1.0rem
                 .txt
                   font-size: 1.0rem
@@ -821,7 +821,7 @@
 
 
 
-@media all and (max-width: 460px)
+@media all and (max-width: 400px)
   .main
     &-slider-block
     .slider-block
@@ -830,23 +830,24 @@
         &-title
           width: 80%
           &__text1
-            font-size: 1.2rem
-            padding-top: 1.0rem
+            font-size: 1.0rem
+            padding-top: 1.5rem
           &__text2
-            font-size: 1.3rem
+            font-size: 1.0rem
+            padding-top: 0.5rem
           &__text3
-            font-size: 1.2rem
-            padding-top: 1.0rem
-            line-height: 1.0rem
+            font-size: 1.0rem
+            padding-top: 0.5rem
+            line-height: 0.5rem
           &-buttons
-            padding-top: 1.0rem
+            padding-top: 1.5rem
             a
               .btn-poligon-right
                 height: 2.0rem
                 width: 55%
-                margin-bottom: 1.0rem
+                margin-bottom: 2.0vw
                 .txt
-                  font-size: 1.0rem
+                  font-size: 0.8rem
                   padding-top: 0.5rem
                   padding-bottom: 0.5rem
                 .poligon-right
@@ -941,7 +942,7 @@
             cursor: pointer
             height: 2.5rem
             width: 2.5rem
-            margin: 5px 10px
+            margin: 3px 10px
             background-color: $active-background-color-dark
             //border-radius: 50%
             display: inline-block
@@ -953,5 +954,7 @@
               width: 2.5rem
 
 
-
-
+@media all and (max-width: 360px)
+  .main
+    &-slider-block
+      display: none

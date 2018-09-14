@@ -20,17 +20,17 @@ function ready() {
     //header
     //logo-info
     //********************************************
-    let Style_ul_logo_info = getComputedStyle(ul_logo_info);
-    //console.log(menuStyle1.display);
-    open_logo_info.onclick = function () {
-        if (Style_ul_logo_info.display == 'none'){
-            ul_logo_info.classList.add("active");
-            //this.innerHTML = "Закрыть меню";
-        } else {
-            ul_logo_info.classList.remove("active");
-            //this.innerHTML = "Открыть меню";
-        }
-    }
+    // let Style_ul_logo_info = getComputedStyle(ul_logo_info);
+    // //console.log(menuStyle1.display);
+    // open_logo_info.onclick = function () {
+    //     if (Style_ul_logo_info.display == 'none'){
+    //         ul_logo_info.classList.add("active");
+    //         //this.innerHTML = "Закрыть меню";
+    //     } else {
+    //         ul_logo_info.classList.remove("active");
+    //         //this.innerHTML = "Открыть меню";
+    //     }
+    // }
 
 
     //footer

@@ -6014,7 +6014,7 @@ body {
   padding-right: 0.5rem;
 }
 
-.calc-block-inner .rowBlock {
+.calc-block-inner .calcDescriptionBlock .rowBlock {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   width: 100%;
@@ -6029,7 +6029,7 @@ body {
   align-items: center;
 }
 
-.calc-block-inner .rowBlock .calcDescription {
+.calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6039,7 +6039,7 @@ body {
   justify-content: space-between;
 }
 
-.calc-block-inner .rowBlock .calcDescription .img {
+.calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
   width: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6052,12 +6052,12 @@ body {
   align-items: center;
 }
 
-.calc-block-inner .rowBlock .calcDescription .img img {
+.calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
   width: 2.5rem;
   height: 2.5rem;
 }
 
-.calc-block-inner .rowBlock .calcDescription .txt {
+.calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
   width: 70%;
   padding-left: 2.0rem;
   display: -webkit-box;
@@ -6075,7 +6075,7 @@ body {
   font-weight: 400;
 }
 
-.calc-block-inner .rowBlock .calcDescription .btn {
+.calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
   width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6088,7 +6088,7 @@ body {
   align-items: center;
 }
 
-.calc-block-inner .rowBlock .calcDescription .btn a {
+.calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
   background-color: #000000;
   width: 100%;
   height: 3.0rem;
@@ -6106,6 +6106,1888 @@ body {
 .calc-block-inner hr {
   margin-top: 2.0rem;
   margin-bottom: 2.0rem;
+}
+
+@media all and (max-width: 1200px) {
+  .calc-block {
+    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    color: #ffffff;
+  }
+
+  .calc-block-inner {
+    padding-top: 8.0rem;
+    padding-bottom: 8.0rem;
+  }
+
+  .calc-block-inner .titleBlockH1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .calc-block-inner .titleBlockH1 .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 3.0rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner form {
+    margin-top: 6.0rem;
+  }
+
+  .calc-block-inner form .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .label {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .label label {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlock .input {
+    width: 60%;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .input input {
+    width: 50%;
+    font-size: 2.0rem;
+    line-height: 2.0rem;
+    background-color: #ffffff;
+  }
+
+  .calc-block-inner form .rowBlock .check-box {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlock .check-box label {
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 20px;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div,
+  .calc-block-inner form .rowBlock .check-box #check2div,
+  .calc-block-inner form .rowBlock .check-box #check3div {
+    width: 25px;
+    height: 25px;
+    background-color: #222222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
+    width: 70%;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit {
+    margin-top: 3.0rem;
+    width: 60%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit .txt {
+    width: 50%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: black;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner form .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .key .txt {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key .txt {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap {
+    width: 60%;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
+    width: 50%;
+    background: #ffffff;
+    height: 3.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .price {
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.0rem;
+    line-height: 2.0rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
+    padding-right: 0.5rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
+    width: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
+    width: 70%;
+    padding-left: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
+    background-color: #000000;
+    width: 100%;
+    height: 3.0rem;
+    display: block;
+    line-height: 3.0rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: "LatoRegular", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .calc-block {
+    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    color: #ffffff;
+  }
+
+  .calc-block-inner {
+    padding-top: 6.0rem;
+    padding-bottom: 5.0rem;
+  }
+
+  .calc-block-inner .titleBlockH1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .calc-block-inner .titleBlockH1 .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner form {
+    margin-top: 4.0rem;
+  }
+
+  .calc-block-inner form .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .label {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .label label {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlock .input {
+    width: 60%;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .input input {
+    width: 50%;
+    font-size: 2.0rem;
+    line-height: 2.0rem;
+    background-color: #ffffff;
+  }
+
+  .calc-block-inner form .rowBlock .check-box {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlock .check-box label {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-left: 20px;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div,
+  .calc-block-inner form .rowBlock .check-box #check2div,
+  .calc-block-inner form .rowBlock .check-box #check3div {
+    width: 25px;
+    height: 25px;
+    background-color: #222222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
+    width: 70%;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit {
+    margin-top: 3.0rem;
+    width: 60%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit .txt {
+    width: 50%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: black;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner form .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .key .txt {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key .txt {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap {
+    width: 60%;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
+    width: 50%;
+    background: #ffffff;
+    height: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .price {
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.0rem;
+    line-height: 2.0rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
+    padding-right: 0.5rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
+    width: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
+    width: 70%;
+    padding-left: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
+    background-color: #000000;
+    width: 100%;
+    height: 3.0rem;
+    display: block;
+    line-height: 3.0rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: "LatoRegular", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .calc-block {
+    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    color: #ffffff;
+  }
+
+  .calc-block-inner {
+    padding-top: 4.0rem;
+    padding-bottom: 3.0rem;
+  }
+
+  .calc-block-inner .titleBlockH1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .calc-block-inner .titleBlockH1 .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.0rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner form {
+    margin-top: 3.0rem;
+  }
+
+  .calc-block-inner form .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .label {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .label label {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlock .input {
+    width: 60%;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .input input {
+    width: 50%;
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    background-color: #ffffff;
+  }
+
+  .calc-block-inner form .rowBlock .check-box {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 2.0rem;
+  }
+
+  .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlock .check-box label {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-left: 20px;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div,
+  .calc-block-inner form .rowBlock .check-box #check2div,
+  .calc-block-inner form .rowBlock .check-box #check3div {
+    width: 20px;
+    height: 20px;
+    background-color: #222222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
+    width: 1.3rem;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit {
+    margin-top: 1.0rem;
+    width: 60%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit .txt {
+    width: 50%;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    background-color: black;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner form .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .key .txt {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key .txt {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap {
+    width: 60%;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
+    width: 50%;
+    background: #ffffff;
+    height: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .price {
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
+    padding-right: 0.5rem;
+    width: 1.8rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
+    width: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
+    width: 70%;
+    padding-left: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
+    background-color: #000000;
+    width: 100%;
+    height: 3.0rem;
+    display: block;
+    line-height: 3.0rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.0rem;
+    font-family: "LatoRegular", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .calc-block {
+    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    color: #ffffff;
+  }
+
+  .calc-block-inner {
+    padding-top: 4.0rem;
+    padding-bottom: 3.0rem;
+  }
+
+  .calc-block-inner .titleBlockH1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .calc-block-inner .titleBlockH1 .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.0rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner form {
+    margin-top: 3.0rem;
+  }
+
+  .calc-block-inner form .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .label {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .label label {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlock .input {
+    width: 60%;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .input input {
+    width: 50%;
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    background-color: #ffffff;
+  }
+
+  .calc-block-inner form .rowBlock .check-box {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 2.0rem;
+  }
+
+  .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlock .check-box label {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-left: 20px;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div,
+  .calc-block-inner form .rowBlock .check-box #check2div,
+  .calc-block-inner form .rowBlock .check-box #check3div {
+    width: 20px;
+    height: 20px;
+    background-color: #222222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
+    width: 1.3rem;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit {
+    margin-top: 1.0rem;
+    width: 60%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit .txt {
+    width: 50%;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    background-color: black;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.0rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner form .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .key .txt {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key .txt {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.0rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap {
+    width: 60%;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
+    width: 50%;
+    background: #ffffff;
+    height: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .price {
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
+    padding-right: 0.5rem;
+    width: 1.8rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
+    width: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
+    width: 70%;
+    padding-left: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.0rem;
+    font-weight: 400;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
+    background-color: #000000;
+    width: 100%;
+    height: 3.0rem;
+    display: block;
+    line-height: 3.0rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: "LatoRegular", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .calc-block {
+    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    color: #ffffff;
+  }
+
+  .calc-block-inner {
+    padding-top: 4.0rem;
+    padding-bottom: 3.0rem;
+  }
+
+  .calc-block-inner .titleBlockH1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .calc-block-inner .titleBlockH1 .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner form {
+    margin-top: 3.0rem;
+  }
+
+  .calc-block-inner form .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .label {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .label label {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlock .input {
+    width: 60%;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .input input {
+    width: 70%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    background-color: #ffffff;
+  }
+
+  .calc-block-inner form .rowBlock .check-box {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 2.0rem;
+  }
+
+  .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlock .check-box label {
+    font-size: 1.0rem;
+    font-weight: 300;
+    margin-left: 20px;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div,
+  .calc-block-inner form .rowBlock .check-box #check2div,
+  .calc-block-inner form .rowBlock .check-box #check3div {
+    width: 20px;
+    height: 20px;
+    background-color: #222222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
+    width: 1.1rem;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit {
+    margin-top: 1.0rem;
+    width: 60%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit .txt {
+    width: 70%;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    background-color: black;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner form .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .key .txt {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key .txt {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap {
+    width: 60%;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
+    width: 70%;
+    background: #ffffff;
+    height: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .price {
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.0rem;
+    line-height: 2.0rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
+    padding-right: 0.5rem;
+    width: 1.5rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
+    width: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
+    width: 65%;
+    padding-left: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
+    background-color: #000000;
+    width: 100%;
+    height: 3.0rem;
+    display: block;
+    line-height: 3.0rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.6rem;
+    font-family: "LatoRegular", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .calc-block {
+    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    color: #ffffff;
+  }
+
+  .calc-block-inner {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .calc-block-inner .titleBlockH1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .calc-block-inner .titleBlockH1 .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.0rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner form {
+    margin-top: 2.0rem;
+  }
+
+  .calc-block-inner form .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .label {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .label label {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlock .input {
+    width: 60%;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .input input {
+    width: 70%;
+    font-size: 0.7rem;
+    line-height: 1.0rem;
+    background-color: #ffffff;
+  }
+
+  .calc-block-inner form .rowBlock .check-box {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 2.0rem;
+  }
+
+  .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlock .check-box label {
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin-left: 15px;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div,
+  .calc-block-inner form .rowBlock .check-box #check2div,
+  .calc-block-inner form .rowBlock .check-box #check3div {
+    width: 15px;
+    height: 15px;
+    background-color: #222222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
+    width: 1.1rem;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit {
+    margin-top: 1.0rem;
+    width: 60%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit .txt {
+    width: 70%;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    background-color: black;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner form .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .key .txt {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key .txt {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap {
+    width: 60%;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
+    width: 70%;
+    background: #ffffff;
+    height: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .price {
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 0.8rem;
+    line-height: 2.0rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
+    padding-right: 0.5rem;
+    width: 1.5rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
+    width: 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
+    width: 65%;
+    padding-left: 1.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
+    width: 27%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
+    background-color: #000000;
+    width: 100%;
+    height: 2.5rem;
+    display: block;
+    line-height: 3.0rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.5rem;
+    font-family: "LatoRegular", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 0 0 0 0.5rem;
+  }
+
+  .calc-block-inner hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
 }
 
 .say-about-us-block .say-about-us-block-inner {

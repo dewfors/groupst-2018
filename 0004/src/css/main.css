@@ -8009,26 +8009,34 @@ body {
 }
 
 .say-about-us-block .say-about-us-block-inner .slider-sl2 .wrap-sl2 {
-  width: 80%;
+  width: 100%;
+  height: 35vw;
   margin: 0 auto;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .say-about-us-block .say-about-us-block-inner .slider-sl2 .wrap-sl2 .slider-item-sl2 {
-  width: 80%;
+  width: 90%;
+  height: 35vw;
   margin: 0 auto;
   position: relative;
 }
 
 .say-about-us-block .say-about-us-block-inner .slider-sl2 .wrap-sl2 .slider-item-sl2 .ifr {
   width: 100%;
-  height: 500px;
+  height: inherit;
 }
 
 .say-about-us-block .say-about-us-block-inner .slider-sl2 .wrap-sl2 .slider-item-sl2 .ifr iframe {
   margin: 0 auto;
   width: 100%;
-  height: 100%;
+  height: inherit;
   text-align: center;
 }
 
@@ -8037,19 +8045,26 @@ body {
 }
 
 .say-about-us-block .say-about-us-block-inner .slider-sl2 .wrap-sl2 .prev-sl2 {
-  position: absolute;
+  background-color: #124673;
   cursor: pointer;
-  top: 0;
-  width: 90px;
-  left: 0;
+  width: 5%;
+  height: 35.0vw;
   background-color: rgba(0, 0, 0, 0);
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .say-about-us-block .say-about-us-block-inner .slider-sl2 .wrap-sl2 .prev-sl2:hover {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .say-about-us-block .say-about-us-block-inner .slider-sl2 .wrap-sl2 .prev-sl2:hover .arrow-left-sl2 {
@@ -8061,28 +8076,32 @@ body {
   height: 50px;
   background: url("../img/main-say-about/icons/left.png") center no-repeat;
   background-size: cover;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-  transform: translate(-50%);
   opacity: .7;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
 .say-about-us-block .say-about-us-block-inner .slider-sl2 .wrap-sl2 .next-sl2 {
-  position: absolute;
+  background-color: #124673;
   cursor: pointer;
-  top: 0;
-  width: 90px;
+  width: 5%;
+  height: 35.0vw;
   background-color: rgba(0, 0, 0, 0);
-  height: 100%;
-  right: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .say-about-us-block .say-about-us-block-inner .slider-sl2 .wrap-sl2 .next-sl2:hover {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .say-about-us-block .say-about-us-block-inner .slider-sl2 .wrap-sl2 .next-sl2:hover .arrow-right-sl2 {
@@ -8094,52 +8113,9 @@ body {
   height: 50px;
   background: url("../img/main-say-about/icons/right.png") center no-repeat;
   background-size: cover;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-  transform: translate(-50%);
   opacity: .7;
   -webkit-transition: 1s;
   transition: 1s;
-}
-
-.say-about-us-block .say-about-us-block-inner .slider-sl2 .slider-dots-sl2 {
-  display: none;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  position: absolute;
-  bottom: 5%;
-  right: 0;
-}
-
-.say-about-us-block .say-about-us-block-inner .slider-sl2 .slider-dots-sl2 .dot {
-  cursor: pointer;
-  height: 40px;
-  width: 40px;
-  margin: 5px 10px;
-  background-color: #c78030;
-  display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
-  transition: background-color 0.6s ease;
-  position: relative;
-}
-
-.say-about-us-block .say-about-us-block-inner .slider-sl2 .slider-dots-sl2 .dot-active {
-  background-color: #ffffff;
-  height: 40px;
-  width: 40px;
 }
 
 .main-tracking-block {

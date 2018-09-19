@@ -10,85 +10,41 @@
       text-align: center
       margin-bottom: 120px
     .slider-sl2
-      //margin-top: 150px
       position: relative
-      //&-title
-      //  position: absolute
-      //  width: 40%
-      //  top: 0
-      //  left: 0
-      //  //font-size: 3.2em
-      //  color: $main-color
-      //  z-index: 1
-      //  &__text1
-      //    padding-top: 80px
-      //    font-size: 3.7em
-      //    font-weight: 400
-      //  &__text2
-      //    padding-top: 10px
-      //    font-size: 4.5em
-      //    font-weight: 400
-      //    text-transform: uppercase
-      //  &__text3
-      //    padding-top: 37px
-      //    font-size: 2.3em
-      //    font-weight: 300
-      //    line-height: 30px
-      //  &-buttons
-      //    padding-top: 25px
-      //    a
-      //      text-decoration: none
-      //      .btn-poligon-right
-      //        width: 60%
-      //        height: 45px
-      //        border-radius: 0 0 0 5px
-      //        margin-bottom: 20px
-      //        .txt
-      //          margin: auto
-      //          color: #333333
-      //          font-size: 14px
-      //          font-weight: 500
-      //          text-transform: uppercase
-      //          padding-top: 10px
-      //          padding-bottom: 10px
-      //        .poligon-right
-      //          width: 45px
-      //          height: 45px
-      //
       .wrap-sl2
-        width: 80%
+        width: 100%
+        height: 35vw
         margin: 0 auto
         position: relative
+        display: flex
+        justify-content: space-between
         .slider-item-sl2
-          width: 80%
+          width: 90%
+          height: 35vw
           margin: 0 auto
-          //margin-top: 50px
           position: relative
-          //display: flex
-          //justify-content: space-around
           .ifr
             width: 100%
-            height: 500px
+            height: inherit
             iframe
               margin: 0 auto
               width: 100%
-              height: 100%
+              height: inherit
               text-align: center
           img
             width: 100%
         .prev-sl2
-          //display: none
-          position: absolute
+          background-color: #124673
           cursor: pointer
-          top: 0
-          width: 90px
-          //left: 10%
-          left: 0
+          width: 5%
+          height: 35.0vw
           background-color: rgba(0,0,0,.0)
           transition: 0.3s
-          height: 100%
+          display: flex
+          justify-content: center
+          align-items: center
           &:hover
-            background-color: rgba(0,0,0,.0)
+            background-color: rgba(0,0,0,.1)
             .arrow-left-sl2
               opacity: 1
           .arrow-left-sl2
@@ -96,24 +52,20 @@
             height: 50px
             background: url("../img/main-say-about/icons/left.png") center no-repeat
             background-size: cover
-            position: absolute
-            top: 50%
-            left: 50%
-            transform: translate(-50%)
             opacity: .7
             transition: 1s
         .next-sl2
-          //display: none
-          position: absolute
+          background-color: #124673
           cursor: pointer
-          top: 0
-          width: 90px
+          width: 5%
+          height: 35.0vw
           background-color: rgba(0,0,0,.0)
-          //transition: 0.3s
-          height: 100%
-          right: 0
+          transition: 0.3s
+          display: flex
+          justify-content: center
+          align-items: center
           &:hover
-            background-color: rgba(0,0,0,.0)
+            background-color: rgba(0,0,0,.1)
             .arrow-right-sl2
               opacity: 1
           .arrow-right-sl2
@@ -121,39 +73,8 @@
             height: 50px
             background: url("../img/main-say-about/icons/right.png") center no-repeat
             background-size: cover
-            position: absolute
-            top: 50%
-            left: 50%
-            transform: translate(-50%)
             opacity: .7
             transition: 1s
-      .slider-dots-sl2
-        display: none
-        width: 90%
-        margin: 0 auto
-        margin-top: 20px
-        display: flex
-        flex-direction: column
-        //justify-content: center
-        align-items: flex-end
-        position: absolute
-        bottom: 5%
-        right: 0
-        .dot
-          cursor: pointer
-          height: 40px
-          width: 40px
-          margin: 5px 10px
-          background-color: $main-color
-          //border-radius: 50%
-          display: inline-block
-          transition: background-color 0.6s ease
-          position: relative
-          &-active
-            background-color: #ffffff
-            height: 40px
-            width: 40px
-
 
 
 

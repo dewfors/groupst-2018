@@ -1229,13 +1229,13 @@ body {
   }
 }
 
-.footer .footer-find-us {
+.footer .footer-find-us .ffuFindTitle {
   padding-top: 10.0rem;
   padding-bottom: 5.0rem;
   background-color: #ffb118;
 }
 
-.footer .footer-find-us .find {
+.footer .footer-find-us .ffuFindTitle .find {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1251,7 +1251,7 @@ body {
   align-items: center;
 }
 
-.footer .footer-find-us .find-title {
+.footer .footer-find-us .ffuFindTitle .find-title {
   color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 3.8rem;
@@ -1259,12 +1259,24 @@ body {
   text-transform: uppercase;
 }
 
-.footer .footer-find-us .find-menu {
-  margin-top: 10.0rem;
+.footer .footer-find-us .ffuFindTitle .find .find-map {
+  margin-top: 5.0rem;
   width: 100%;
 }
 
-.footer .footer-find-us .find-menu ul {
+.footer .footer-find-us .ffuFindTitle .find .find-map .map-filial img {
+  width: 100%;
+}
+
+.footer .footer-find-us .ffuFindMenuBlock {
+  background-color: #124673;
+}
+
+.footer .footer-find-us .ffuFindMenuBlock .find-menu {
+  width: 100%;
+}
+
+.footer .footer-find-us .ffuFindMenuBlock .find-menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1275,11 +1287,11 @@ body {
   justify-content: space-between;
 }
 
-.footer .footer-find-us .find-menu ul li {
+.footer .footer-find-us .ffuFindMenuBlock .find-menu ul li {
   padding: 1.5rem 1.5rem;
   display: inline-block;
   text-align: center;
-  background-color: #222222;
+  background-color: #124673;
   color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 1.9rem;
@@ -1288,35 +1300,32 @@ body {
   cursor: pointer;
 }
 
-.footer .footer-find-us .find-menu ul li:hover {
-  background-color: #124673;
+.footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
+  background-color: #175488;
   color: #ffb118;
 }
 
-.footer .footer-find-us .find .find-map {
-  margin-top: 5.0rem;
+.footer .footer-find-us .ffuPhoneManagers {
+  padding-top: 5.0rem;
+  padding-bottom: 3.0rem;
+  background-color: #ffb118;
+}
+
+.footer .footer-find-us .ffuPhoneManagers .phone-managers {
   width: 100%;
 }
 
-.footer .footer-find-us .find .find-map .map-filial img {
-  width: 100%;
-}
-
-.footer .footer-find-us .phone-managers {
-  margin-top: 5.0rem;
-  width: 100%;
-}
-
-.footer .footer-find-us .phone-managers-title {
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  padding-bottom: 5.0rem;
 }
 
-.footer .footer-find-us .phone-managers-title .title {
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title .title {
   color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 2.8rem;
@@ -1324,39 +1333,93 @@ body {
   text-transform: uppercase;
 }
 
-.footer .footer-find-us .phone-managers-menu {
-  margin-top: 5.0rem;
-}
-
-.footer .footer-find-us .phone-managers-menu .service-menu {
-  background-color: red;
-  margin-top: 10.0rem;
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside {
+  padding-top: 3.0rem;
+  padding-bottom: 3.0rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 {
+  cursor: pointer;
+  width: 10%;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.footer .footer-find-us .phone-managers-menu .service-menu img {
-  max-width: 10.0rem;
-  margin-bottom: 1rem;
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover .arrow-left-sl4 {
+  opacity: 1;
+}
+
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 .arrow-left-sl4 {
+  width: 50px;
+  height: 50px;
+  background: url("../img/main-say-about/icons/left.png") center no-repeat;
+  background-size: cover;
+  opacity: .7;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 {
   cursor: pointer;
+  width: 10%;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.footer .footer-find-us .phone-managers-menu .service-menu .sm-title {
-  color: #124673;
-  font-family: "AgoraSansProRegular", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-.footer .footer-find-us .phone-managers-menu .service-menu .service-img {
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover .arrow-right-sl4 {
+  opacity: 1;
+}
+
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 .arrow-right-sl4 {
+  width: 50px;
+  height: 50px;
+  background: url("../img/main-say-about/icons/right.png") center no-repeat;
+  background-size: cover;
+  opacity: .7;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 {
+  width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1364,31 +1427,47 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 20%;
+}
+
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img img {
+  width: 12.0rem;
+  height: 12.0rem;
+}
+
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .sm-title {
+  padding-top: 1.0rem;
+  font-size: 1.4rem;
   text-align: center;
+  color: #175386;
 }
 
-.footer .footer-find-us .phone-managers-menu .service-menu .service-img img {
-  width: 100%;
-  margin-bottom: 2.0rem;
-}
-
-.footer .footer-find-us .phone-managers-menu .service-menu .service-img .sm-title {
-  min-height: 3.0rem;
-  vertical-align: bottom;
-}
-
-.footer .footer-find-us .phone-managers .managers-info {
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info {
   margin-top: 5.0rem;
 }
 
-.footer .footer-find-us .phone-managers .managers-info .manager-info {
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1399,15 +1478,15 @@ body {
   margin-bottom: 3.0rem;
 }
 
-.footer .footer-find-us .phone-managers .managers-info .manager-info .faceblock {
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock {
   margin-right: 2.0rem;
 }
 
-.footer .footer-find-us .phone-managers .managers-info .manager-info .faceblock img {
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock img {
   min-width: 5.0rem;
 }
 
-.footer .footer-find-us .phone-managers .managers-info .manager-info .infoblock {
+.footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .infoblock {
   font-size: 1.6rem;
   font-weight: 700;
   color: #222222;
@@ -1415,13 +1494,13 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .footer .footer-find-us {
-    padding-top: 5.0rem;
+  .footer .footer-find-us .ffuFindTitle {
+    padding-top: 6.0rem;
     padding-bottom: 5.0rem;
     background-color: #ffb118;
   }
 
-  .footer .footer-find-us .find {
+  .footer .footer-find-us .ffuFindTitle .find {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1437,7 +1516,7 @@ body {
     align-items: center;
   }
 
-  .footer .footer-find-us .find-title {
+  .footer .footer-find-us .ffuFindTitle .find-title {
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 3.0rem;
@@ -1445,12 +1524,24 @@ body {
     text-transform: uppercase;
   }
 
-  .footer .footer-find-us .find-menu {
+  .footer .footer-find-us .ffuFindTitle .find .find-map {
     margin-top: 5.0rem;
     width: 100%;
   }
 
-  .footer .footer-find-us .find-menu ul {
+  .footer .footer-find-us .ffuFindTitle .find .find-map .map-filial img {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock {
+    background-color: #124673;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1461,11 +1552,277 @@ body {
     justify-content: space-between;
   }
 
-  .footer .footer-find-us .find-menu ul li {
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li {
     padding: 1.5rem 1.5rem;
     display: inline-block;
     text-align: center;
-    background-color: #222222;
+    background-color: #124673;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
+    background-color: #175488;
+    color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers {
+    padding-top: 5.0rem;
+    padding-bottom: 3.0rem;
+    background-color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 5.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside {
+    padding-top: 3.0rem;
+    padding-bottom: 3.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover .arrow-left-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 .arrow-left-sl4 {
+    width: 50px;
+    height: 50px;
+    background: url("../img/main-say-about/icons/left.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover .arrow-right-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 .arrow-right-sl4 {
+    width: 50px;
+    height: 50px;
+    background: url("../img/main-say-about/icons/right.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img img {
+    width: 11.0rem;
+    height: 11.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .sm-title {
+    padding-top: 1.0rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #175386;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info {
+    margin-top: 5.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1.0rem;
+    margin-bottom: 3.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock {
+    margin-right: 2.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock img {
+    min-width: 5.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .infoblock {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer .footer-find-us .ffuFindTitle {
+    padding-top: 4.0rem;
+    padding-bottom: 4.0rem;
+    background-color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find-title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find .find-map {
+    margin-top: 5.0rem;
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find .find-map .map-filial img {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock {
+    background-color: #124673;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li {
+    padding: 1.5rem 1.5rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #124673;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 1.5rem;
@@ -1474,162 +1831,32 @@ body {
     cursor: pointer;
   }
 
-  .footer .footer-find-us .find-menu ul li:hover {
-    background-color: #124673;
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
+    background-color: #175488;
     color: #ffb118;
   }
 
-  .footer .footer-find-us .find .find-map {
-    margin-top: 5.0rem;
-    width: 100%;
-  }
-
-  .footer .footer-find-us .find .find-map .map-filial img {
-    width: 100%;
-  }
-
-  .footer .footer-find-us .phone-managers {
-    margin-top: 5.0rem;
-    width: 100%;
-  }
-
-  .footer .footer-find-us .phone-managers-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  .footer .footer-find-us .phone-managers-title .title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .footer .footer-find-us .phone-managers .managers-info {
-    margin-top: 4.0rem;
-  }
-
-  .footer .footer-find-us .phone-managers .managers-info .manager-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-top: 2.0rem;
-    margin-bottom: 3.0rem;
-  }
-
-  .footer .footer-find-us .phone-managers .managers-info .manager-info .faceblock {
-    margin-right: 2.0rem;
-  }
-
-  .footer .footer-find-us .phone-managers .managers-info .manager-info .faceblock img {
-    min-width: 5.0rem;
-  }
-
-  .footer .footer-find-us .phone-managers .managers-info .manager-info .infoblock {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #222222;
-    text-transform: uppercase;
-  }
-}
-
-@media (max-width: 992px) {
-  .footer .footer-find-us {
-    padding-top: 5.0rem;
-    padding-bottom: 5.0rem;
+  .footer .footer-find-us .ffuPhoneManagers {
+    padding-top: 4.0rem;
+    padding-bottom: 3.0rem;
     background-color: #ffb118;
   }
 
-  .footer .footer-find-us .find {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .footer .footer-find-us .find-title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .footer .footer-find-us .find-menu {
-    margin-top: 5.0rem;
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers {
     width: 100%;
   }
 
-  .footer .footer-find-us .find-menu ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-
-  .footer .footer-find-us .find-menu ul li {
-    padding: 1.0rem 1.0rem;
-    display: inline-block;
-    text-align: center;
-    background-color: #222222;
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-
-  .footer .footer-find-us .find-menu ul li:hover {
-    background-color: #124673;
-    color: #ffb118;
-  }
-
-  .footer .footer-find-us .find .find-map {
-    margin-top: 5.0rem;
-    width: 100%;
-  }
-
-  .footer .footer-find-us .find .find-map .map-filial img {
-    width: 100%;
-  }
-
-  .footer .footer-find-us .phone-managers {
-    margin-top: 5.0rem;
-    width: 100%;
-  }
-
-  .footer .footer-find-us .phone-managers-title {
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    padding-bottom: 3.0rem;
   }
 
-  .footer .footer-find-us .phone-managers-title .title {
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title .title {
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 2.0rem;
@@ -1637,31 +1864,161 @@ body {
     text-transform: uppercase;
   }
 
-  .footer .footer-find-us .phone-managers .managers-info {
-    margin-top: 4.0rem;
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 
-  .footer .footer-find-us .phone-managers .managers-info .manager-info {
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 2.0rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover .arrow-left-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 .arrow-left-sl4 {
+    width: 50px;
+    height: 50px;
+    background: url("../img/main-say-about/icons/left.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover .arrow-right-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 .arrow-right-sl4 {
+    width: 50px;
+    height: 50px;
+    background: url("../img/main-say-about/icons/right.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img img {
+    width: 9.0rem;
+    height: 9.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .sm-title {
+    padding-top: 1.0rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #175386;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info {
+    margin-top: 3.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1.0rem;
     margin-bottom: 3.0rem;
   }
 
-  .footer .footer-find-us .phone-managers .managers-info .manager-info .faceblock {
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock {
     margin-right: 2.0rem;
   }
 
-  .footer .footer-find-us .phone-managers .managers-info .manager-info .faceblock img {
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock img {
     min-width: 5.0rem;
   }
 
-  .footer .footer-find-us .phone-managers .managers-info .manager-info .infoblock {
-    font-size: 1.4rem;
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .infoblock {
+    font-size: 1.3rem;
     font-weight: 700;
     color: #222222;
     text-transform: uppercase;
@@ -1669,13 +2026,13 @@ body {
 }
 
 @media (max-width: 768px) {
-  .footer .footer-find-us {
-    padding-top: 5.0rem;
-    padding-bottom: 5.0rem;
+  .footer .footer-find-us .ffuFindTitle {
+    padding-top: 3.0rem;
+    padding-bottom: 3.0rem;
     background-color: #ffb118;
   }
 
-  .footer .footer-find-us .find {
+  .footer .footer-find-us .ffuFindTitle .find {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1691,7 +2048,7 @@ body {
     align-items: center;
   }
 
-  .footer .footer-find-us .find-title {
+  .footer .footer-find-us .ffuFindTitle .find-title {
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 2.5rem;
@@ -1699,12 +2056,24 @@ body {
     text-transform: uppercase;
   }
 
-  .footer .footer-find-us .find-menu {
+  .footer .footer-find-us .ffuFindTitle .find .find-map {
     margin-top: 3.0rem;
     width: 100%;
   }
 
-  .footer .footer-find-us .find-menu ul {
+  .footer .footer-find-us .ffuFindTitle .find .find-map .map-filial img {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock {
+    background-color: #124673;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1715,11 +2084,11 @@ body {
     justify-content: space-between;
   }
 
-  .footer .footer-find-us .find-menu ul li {
-    padding: 1.0rem 1.5rem;
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li {
+    padding: 1.5rem 1.5rem;
     display: inline-block;
     text-align: center;
-    background-color: #222222;
+    background-color: #124673;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 1.3rem;
@@ -1728,67 +2097,996 @@ body {
     cursor: pointer;
   }
 
-  .footer .footer-find-us .find-menu ul li:hover {
-    background-color: #124673;
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
+    background-color: #175488;
     color: #ffb118;
   }
 
-  .footer .footer-find-us .find .find-map {
-    margin-top: 5.0rem;
+  .footer .footer-find-us .ffuPhoneManagers {
+    padding-top: 4.0rem;
+    padding-bottom: 3.0rem;
+    background-color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers {
     width: 100%;
   }
 
-  .footer .footer-find-us .find .find-map .map-filial img {
-    width: 100%;
-  }
-
-  .footer .footer-find-us .phone-managers {
-    margin-top: 5.0rem;
-    width: 100%;
-  }
-
-  .footer .footer-find-us .phone-managers-title {
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    padding-bottom: 3.0rem;
   }
 
-  .footer .footer-find-us .phone-managers-title .title {
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title .title {
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover .arrow-left-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 .arrow-left-sl4 {
+    width: 50px;
+    height: 50px;
+    background: url("../img/main-say-about/icons/left.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover .arrow-right-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 .arrow-right-sl4 {
+    width: 50px;
+    height: 50px;
+    background: url("../img/main-say-about/icons/right.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img img {
+    width: 7.0rem;
+    height: 7.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .sm-title {
+    padding-top: 1.0rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #175386;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info {
+    margin-top: 3.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1.0rem;
+    margin-bottom: 3.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock {
+    margin-right: 2.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock img {
+    min-width: 5.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .infoblock {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer .footer-find-us .ffuFindTitle {
+    padding-top: 3.0rem;
+    padding-bottom: 3.0rem;
+    background-color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find-title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 3.0vw;
     font-weight: 700;
     text-transform: uppercase;
   }
 
-  .footer .footer-find-us .phone-managers .managers-info {
-    margin-top: 4.0rem;
+  .footer .footer-find-us .ffuFindTitle .find .find-map {
+    margin-top: 3.0rem;
+    width: 100%;
   }
 
-  .footer .footer-find-us .phone-managers .managers-info .manager-info {
+  .footer .footer-find-us .ffuFindTitle .find .find-map .map-filial img {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock {
+    background-color: #124673;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li {
+    padding: 1.5rem 1.5rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #124673;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.0vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
+    background-color: #175488;
+    color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers {
+    padding-top: 4.0rem;
+    padding-bottom: 3.0rem;
+    background-color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 2.0rem;
-    margin-bottom: 3.0rem;
+    padding-bottom: 3.0rem;
   }
 
-  .footer .footer-find-us .phone-managers .managers-info .manager-info .faceblock {
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 3.0vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside {
+    padding-top: 2.0rem;
+    padding-bottom: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover .arrow-left-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 .arrow-left-sl4 {
+    width: 50px;
+    height: 50px;
+    background: url("../img/main-say-about/icons/left.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover .arrow-right-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 .arrow-right-sl4 {
+    width: 50px;
+    height: 50px;
+    background: url("../img/main-say-about/icons/right.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img img {
+    width: 10.0vw;
+    height: 10.0vw;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .sm-title {
+    padding-top: 1.0rem;
+    font-size: 2.0vw;
+    text-align: center;
+    color: #175386;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info {
+    margin-top: 2.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1.0rem;
+    margin-bottom: 2.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock {
     margin-right: 2.0rem;
   }
 
-  .footer .footer-find-us .phone-managers .managers-info .manager-info .faceblock img {
-    min-width: 5.0rem;
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock img {
+    min-width: 3.0rem;
   }
 
-  .footer .footer-find-us .phone-managers .managers-info .manager-info .infoblock {
-    font-size: 1.4rem;
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .infoblock {
+    font-size: 2.0vw;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer .footer-find-us .ffuFindTitle {
+    padding-top: 3.0rem;
+    padding-bottom: 3.0rem;
+    background-color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find-title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 3.0vw;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find .find-map {
+    margin-top: 3.0rem;
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find .find-map .map-filial img {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock {
+    background-color: #124673;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li {
+    padding: 1.5rem 1.5rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #124673;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.0vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
+    background-color: #175488;
+    color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers {
+    padding-top: 2.0rem;
+    padding-bottom: 2.0rem;
+    background-color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 1.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 3.0vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside {
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover .arrow-left-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 .arrow-left-sl4 {
+    width: 4.0vw;
+    height: 4.0vw;
+    background: url("../img/main-say-about/icons/left.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover .arrow-right-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 .arrow-right-sl4 {
+    width: 4.0vw;
+    height: 4.0vw;
+    background: url("../img/main-say-about/icons/right.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img img {
+    width: 10.0vw;
+    height: 10.0vw;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .sm-title {
+    padding-top: 1.0rem;
+    font-size: 2.0vw;
+    text-align: center;
+    color: #175386;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info {
+    margin-top: 1.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock {
+    margin-right: 2.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock img {
+    min-width: 3.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .infoblock {
+    font-size: 2.0vw;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer .footer-find-us .ffuFindTitle {
+    padding-top: 3.0rem;
+    padding-bottom: 3.0rem;
+    background-color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find-title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 3.0vw;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find .find-map {
+    margin-top: 3.0rem;
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindTitle .find .find-map .map-filial img {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock {
+    background-color: #124673;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li {
+    padding: 1.0rem 1.0rem;
+    display: inline-block;
+    text-align: center;
+    background-color: #124673;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.0vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
+    background-color: #175488;
+    color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers {
+    padding-top: 2.0rem;
+    padding-bottom: 2.0rem;
+    background-color: #ffb118;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers {
+    width: 100%;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 1.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .phone-managers-title .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 3.0vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside {
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4:hover .arrow-left-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .prevSL4 .arrow-left-sl4 {
+    width: 4.0vw;
+    height: 4.0vw;
+    background: url("../img/main-say-about/icons/left.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 {
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4:hover .arrow-right-sl4 {
+    opacity: 1;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .nextSL4 .arrow-right-sl4 {
+    width: 4.0vw;
+    height: 4.0vw;
+    background: url("../img/main-say-about/icons/right.png") center no-repeat;
+    background-size: cover;
+    opacity: .7;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .img img {
+    width: 10.0vw;
+    height: 10.0vw;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .pmSlider .pmSliderInside .sliderItemSL4 .sm-title {
+    padding-top: 1.0rem;
+    font-size: 2.0vw;
+    text-align: center;
+    color: #175386;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info {
+    margin-top: 1.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock {
+    margin-right: 2.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .faceblock img {
+    min-width: 3.0rem;
+  }
+
+  .footer .footer-find-us .ffuPhoneManagers .phone-managers .managers-info .manager-info .infoblock {
+    font-size: 2.0vw;
     font-weight: 700;
     color: #222222;
     text-transform: uppercase;
@@ -8590,6 +9888,136 @@ ul {
   list-style: none;
 }
 
+.main .pricesSliderBlock .pricesSliderBlockInside {
+  padding-top: 3.0rem;
+  padding-bottom: 3.0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .prevSL3 {
+  cursor: pointer;
+  width: 10%;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .prevSL3:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .prevSL3:hover .arrow-left-sl3 {
+  opacity: 1;
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .prevSL3 .arrow-left-sl3 {
+  width: 50px;
+  height: 50px;
+  background: url("../img/main-say-about/icons/left.png") center no-repeat;
+  background-size: cover;
+  opacity: .7;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .nextSL3 {
+  cursor: pointer;
+  width: 10%;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .nextSL3:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .nextSL3:hover .arrow-right-sl3 {
+  opacity: 1;
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .nextSL3 .arrow-right-sl3 {
+  width: 50px;
+  height: 50px;
+  background: url("../img/main-say-about/icons/right.png") center no-repeat;
+  background-size: cover;
+  opacity: .7;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .sliderItemSL3 {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .sliderItemSL3 .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .sliderItemSL3 .img img {
+  width: 12.0rem;
+  height: 12.0rem;
+}
+
+.main .pricesSliderBlock .pricesSliderBlockInside .sliderItemSL3 .sm-title {
+  padding-top: 1.0rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #175386;
+}
+
 .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price {
   width: 100%;
   margin: 0 auto;
@@ -8617,8 +10045,6 @@ ul {
 }
 
 .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide {
-  margin-left: 2.0rem;
-  margin-right: 2.0rem;
   width: 20.0rem;
   height: 20.0rem;
   display: -webkit-box;
@@ -8668,7 +10094,7 @@ ul {
   top: 0;
   width: 90px;
   left: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.3s;
   transition: 0.3s;
   height: 100%;
@@ -8702,7 +10128,7 @@ ul {
   cursor: pointer;
   top: 0;
   width: 90px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
   right: 0;
 }
@@ -8838,574 +10264,6 @@ ul {
   font-size: 21px;
   font-weight: 700;
   text-transform: uppercase;
-}
-
-@media (max-width: 1200px) {
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport {
-    width: 100%;
-    display: table;
-    position: relative;
-    overflow-x: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding-top: 6.0rem;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide {
-    margin-left: 2.0rem;
-    margin-right: 2.0rem;
-    width: 20.0rem;
-    height: 20.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img {
-    width: 100%;
-    height: 20.0rem;
-    padding-top: 2.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img img {
-    width: 10.0rem;
-    margin-bottom: 2.0rem;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img .sm-title {
-    font-size: 1.4rem;
-    text-align: center;
-    color: #175386;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3 {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    width: 90px;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0);
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    height: 100%;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3:hover .arrow-left-sl3 {
-    opacity: 1;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3 .arrow-left-sl3 {
-    width: 50px;
-    height: 50px;
-    background: url("../img/main-say-about/icons/left.png") center no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    opacity: .7;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3 {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    width: 90px;
-    background-color: rgba(0, 0, 0, 0);
-    height: 100%;
-    right: 0;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3:hover .arrow-right-sl3 {
-    opacity: 1;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3 .arrow-right-sl3 {
-    width: 50px;
-    height: 50px;
-    background: url("../img/main-say-about/icons/right.png") center no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    opacity: .7;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
-}
-
-@media (max-width: 992px) {
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport {
-    width: 100%;
-    display: table;
-    position: relative;
-    overflow-x: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding-top: 6.0rem;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide {
-    margin-left: 2.0rem;
-    margin-right: 2.0rem;
-    width: 11.0rem;
-    height: 11.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img {
-    width: 100%;
-    height: 20.0rem;
-    padding-top: 2.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img img {
-    width: 10.0rem;
-    margin-bottom: 2.0rem;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img .sm-title {
-    font-size: 1.2rem;
-    text-align: center;
-    color: #175386;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3 {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    width: 5.0rem;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0);
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    height: 100%;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3:hover .arrow-left-sl3 {
-    opacity: 1;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3 .arrow-left-sl3 {
-    width: 50px;
-    height: 50px;
-    background: url("../img/main-say-about/icons/left.png") center no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    opacity: .7;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3 {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    width: 5.0rem;
-    background-color: rgba(0, 0, 0, 0);
-    height: 100%;
-    right: 0;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3:hover .arrow-right-sl3 {
-    opacity: 1;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3 .arrow-right-sl3 {
-    width: 50px;
-    height: 50px;
-    background: url("../img/main-say-about/icons/right.png") center no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    opacity: .7;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
-}
-
-@media (max-width: 768px) {
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport {
-    width: 100%;
-    display: table;
-    position: relative;
-    overflow-x: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding-top: 6.0rem;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide {
-    margin-left: 2.0rem;
-    margin-right: 2.0rem;
-    width: 8.0rem;
-    height: 8.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img {
-    width: 100%;
-    height: 20.0rem;
-    padding-top: 2.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img img {
-    width: 8.0rem;
-    margin-bottom: 2.0rem;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img .sm-title {
-    font-size: 1.0rem;
-    text-align: center;
-    color: #175386;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3 {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    width: 3.0rem;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0);
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    height: 100%;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3:hover .arrow-left-sl3 {
-    opacity: 1;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3 .arrow-left-sl3 {
-    width: 50px;
-    height: 50px;
-    background: url("../img/main-say-about/icons/left.png") center no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    opacity: .7;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3 {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    width: 3.0rem;
-    background-color: rgba(0, 0, 0, 0);
-    height: 100%;
-    right: 0;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3:hover .arrow-right-sl3 {
-    opacity: 1;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3 .arrow-right-sl3 {
-    width: 50px;
-    height: 50px;
-    background: url("../img/main-say-about/icons/right.png") center no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    opacity: .7;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
-}
-
-@media (max-width: 576px) {
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport {
-    width: 100%;
-    display: table;
-    position: relative;
-    overflow-x: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding-top: 6.0rem;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide {
-    margin-left: 2.0rem;
-    margin-right: 2.0rem;
-    width: 5.0rem;
-    height: 5.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img {
-    width: 100%;
-    height: 20.0rem;
-    padding-top: 2.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img img {
-    width: 5.0rem;
-    margin-bottom: 2.0rem;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport ul.slidewrapper li.slide .img .sm-title {
-    font-size: 0.8rem;
-    text-align: center;
-    color: #175386;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3 {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    width: 2.5rem;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0);
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    height: 100%;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3:hover .arrow-left-sl3 {
-    opacity: 1;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .prev-sl3 .arrow-left-sl3 {
-    width: 50px;
-    height: 50px;
-    background: url("../img/main-say-about/icons/left.png") center no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    opacity: .7;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3 {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    width: 2.5rem;
-    background-color: rgba(0, 0, 0, 0);
-    height: 100%;
-    right: 0;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3:hover .arrow-right-sl3 {
-    opacity: 1;
-  }
-
-  .prices-slider-block .price-slider-block .price-slider-block-inner .slider-page-price .wrap-sl3-viewport .next-sl3 .arrow-right-sl3 {
-    width: 50px;
-    height: 50px;
-    background: url("../img/main-say-about/icons/right.png") center no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    opacity: .7;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
 }
 
 .routes-block {

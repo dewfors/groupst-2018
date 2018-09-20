@@ -16,10 +16,8 @@ function ready() {
     //Slider
     let slideIndex_s4 = 1,
         slides_s4 = 6,
-        // prev_s4 = document.querySelector('.prev-sl3'),
-        // next_s4 = document.querySelector('.next-sl3'),
-        prev_s4 = document.getElementById('prev_sl4'),
-        next_s4 = document.getElementById('next_sl4'),
+        prev_s4 = document.getElementById('prevSL4'),
+        next_s4 = document.getElementById('nextSL4'),
 
 
         sl4_slide1 = document.getElementById('sl4_slide1'),

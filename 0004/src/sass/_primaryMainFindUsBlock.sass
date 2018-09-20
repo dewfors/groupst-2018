@@ -1,121 +1,8 @@
 .footer
   .footer-find-us
-    padding-top: 10.0rem
-    padding-bottom: 5.0rem
-    background-color: $active-background-color-gold
-    .find
-      display: flex
-      flex-direction: column
-      justify-content: center
-      align-items: center
-      &-title
-        color: #ffffff
-        font-family: $font-agora
-        font-size: 3.8rem
-        font-weight: 700
-        text-transform: uppercase
-      &-menu
-        margin-top: 10.0rem
-        width: 100%
-        ul
-          display: flex
-          flex-wrap: wrap
-          justify-content: space-between
-          //background-color: #222222 //$active-background-color-lite
-          li
-            //width: 100%
-            padding: 1.5rem 1.5rem
-            display: inline-block
-            text-align: center
-            background-color: #222222 //$active-background-color-lite
-            //border: 0.1rem solid $active-background-color-dark
-            color: #ffffff
-            font-family: $font-agora
-            font-size: 1.9rem
-            font-weight: 500
-            text-transform: uppercase
-            cursor: pointer
-          li:hover
-            background-color: $active-background-color-dark
-            color: $active-background-color-gold
-
-
-      .find-map
-        margin-top: 5.0rem
-        width: 100%
-        .map-filial
-          img
-            width: 100%
-
-
-    .phone-managers
-      margin-top: 5.0rem
-      width: 100%
-      &-title
-        display: flex
-        justify-content: center
-        .title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 2.8rem
-          font-weight: 700
-          text-transform: uppercase
-      &-menu
-        margin-top: 5.0rem
-        .service-menu
-          background-color: red
-          margin-top: 10.0rem
-          display: flex
-          justify-content: space-around
-          flex-wrap: wrap
-          align-items: center
-          img
-            max-width: 10.0rem
-            margin-bottom: 1rem
-            cursor: pointer
-          .sm-title
-            color: $active-background-color-dark
-            font-family: $font-agora
-            font-size: 1.5rem
-            font-weight: 700
-          .service-img
-            display: flex
-            flex-direction: column
-            justify-content: space-between
-            align-items: center
-            width: 20%
-            //min-height: 20.0rem
-            text-align: center
-            img
-              width: 100%
-              margin-bottom: 2.0rem
-            .sm-title
-              min-height: 3.0rem
-              vertical-align: bottom
-
-
-      .managers-info
-        margin-top: 5.0rem
-        .manager-info
-          display: flex
-          justify-content: center
-          margin-top: 2.0rem
-          margin-bottom: 3.0rem
-          .faceblock
-            margin-right: 2.0rem
-            img
-              min-width: 5.0rem
-          .infoblock
-            font-size: 1.6rem
-            font-weight: 700
-            color: #222222
-            text-transform: uppercase
-
-
-@media (max-width: 1200px)
-  .footer
-    .footer-find-us
-      padding-top: 5.0rem
+    //padding-bottom: 5.0rem
+    .ffuFindTitle
+      padding-top: 10.0rem
       padding-bottom: 5.0rem
       background-color: $active-background-color-gold
       .find
@@ -126,11 +13,20 @@
         &-title
           color: #ffffff
           font-family: $font-agora
-          font-size: 3.0rem
+          font-size: 3.8rem
           font-weight: 700
           text-transform: uppercase
-        &-menu
+        .find-map
           margin-top: 5.0rem
+          width: 100%
+          .map-filial
+            img
+              width: 100%
+
+    .ffuFindMenuBlock
+      background-color: $active-background-color-dark
+      .find
+        &-menu
           width: 100%
           ul
             display: flex
@@ -142,42 +38,105 @@
               padding: 1.5rem 1.5rem
               display: inline-block
               text-align: center
-              background-color: #222222 //$active-background-color-lite
+              background-color: $active-background-color-dark
               //border: 0.1rem solid $active-background-color-dark
               color: #ffffff
               font-family: $font-agora
-              font-size: 1.5rem
+              font-size: 1.9rem
               font-weight: 500
               text-transform: uppercase
               cursor: pointer
             li:hover
-              background-color: $active-background-color-dark
+              background-color: $active-background-color-lite
               color: $active-background-color-gold
 
-
-        .find-map
-          margin-top: 5.0rem
-          width: 100%
-          .map-filial
-            img
-              width: 100%
-
-
+    .ffuPhoneManagers
+      padding-top: 5.0rem
+      padding-bottom: 3.0rem
+      background-color: $active-background-color-gold
       .phone-managers
-        margin-top: 5.0rem
         width: 100%
-        &-title
+        .phone-managers-title
           display: flex
           justify-content: center
+
+          padding-bottom: 5.0rem
           .title
             color: #ffffff
             font-family: $font-agora
-            font-size: 2.5rem
+            font-size: 2.8rem
             font-weight: 700
             text-transform: uppercase
+        .pmSlider
+          .pmSliderInside
+            padding-top: 3.0rem
+            padding-bottom: 3.0rem
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            .prevSL4
+              cursor: pointer
+              width: 10%
+              background-color: rgba(0,0,0,.0)
+              transition: 0.3s
+              display: flex
+              justify-content: center
+              align-items: center
+              &:hover
+                background-color: rgba(0,0,0,.1)
+                .arrow-left-sl4
+                  opacity: 1
+              .arrow-left-sl4
+                width: 50px
+                height: 50px
+                background: url("../img/main-say-about/icons/left.png") center no-repeat
+                background-size: cover
+                //transform: translateX(-50%) translateY(-50%)
+                opacity: .7
+                transition: 1s
+            .nextSL4
+              cursor: pointer
+              width: 10%
+              background-color: rgba(0,0,0,.0)
+              transition: 0.3s
+              display: flex
+              justify-content: center
+              align-items: center
+              &:hover
+                background-color: rgba(0,0,0,.1)
+                .arrow-right-sl4
+                  opacity: 1
+              .arrow-right-sl4
+                width: 50px
+                height: 50px
+                background: url("../img/main-say-about/icons/right.png") center no-repeat
+                background-size: cover
+                //transform: translateX(-50%) translateY(-50%)
+                opacity: .7
+                transition: 1s
+            .sliderItemSL4
+              width: 20%
+              display: flex
+              flex-direction: column
+              justify-content: flex-start
+              align-items: center
+              .img
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: center
+                //min-height: 15.0rem
+                img
+                  width: 12.0rem
+                  height: 12.0rem
+              .sm-title
+                padding-top: 1.0rem
+                font-size: 1.4rem
+                text-align: center
+                color: #175386
 
         .managers-info
-          margin-top: 4.0rem
+          margin-top: 5.0rem
           .manager-info
             display: flex
             justify-content: center
@@ -188,171 +147,934 @@
               img
                 min-width: 5.0rem
             .infoblock
-              font-size: 1.4rem
+              font-size: 1.6rem
               font-weight: 700
               color: #222222
               text-transform: uppercase
+
+@media (max-width: 1200px)
+  .footer
+    .footer-find-us
+      .ffuFindTitle
+        padding-top: 6.0rem
+        padding-bottom: 5.0rem
+        background-color: $active-background-color-gold
+        .find
+          display: flex
+          flex-direction: column
+          justify-content: center
+          align-items: center
+          &-title
+            color: #ffffff
+            font-family: $font-agora
+            font-size: 3.0rem
+            font-weight: 700
+            text-transform: uppercase
+          .find-map
+            margin-top: 5.0rem
+            width: 100%
+            .map-filial
+              img
+                width: 100%
+
+      .ffuFindMenuBlock
+        background-color: $active-background-color-dark
+        .find
+          &-menu
+            width: 100%
+            ul
+              display: flex
+              flex-wrap: wrap
+              justify-content: space-between
+              //background-color: #222222 //$active-background-color-lite
+              li
+                //width: 100%
+                padding: 1.5rem 1.5rem
+                display: inline-block
+                text-align: center
+                background-color: $active-background-color-dark
+                //border: 0.1rem solid $active-background-color-dark
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 1.6rem
+                font-weight: 500
+                text-transform: uppercase
+                cursor: pointer
+              li:hover
+                background-color: $active-background-color-lite
+                color: $active-background-color-gold
+
+      .ffuPhoneManagers
+        padding-top: 5.0rem
+        padding-bottom: 3.0rem
+        background-color: $active-background-color-gold
+        .phone-managers
+          width: 100%
+          .phone-managers-title
+            display: flex
+            justify-content: center
+            padding-bottom: 5.0rem
+            .title
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 2.5rem
+              font-weight: 700
+              text-transform: uppercase
+          .pmSlider
+            .pmSliderInside
+              padding-top: 3.0rem
+              padding-bottom: 3.0rem
+              display: flex
+              flex-direction: row
+              justify-content: space-between
+              .prevSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-left-sl4
+                    opacity: 1
+                .arrow-left-sl4
+                  width: 50px
+                  height: 50px
+                  background: url("../img/main-say-about/icons/left.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .nextSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-right-sl4
+                    opacity: 1
+                .arrow-right-sl4
+                  width: 50px
+                  height: 50px
+                  background: url("../img/main-say-about/icons/right.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .sliderItemSL4
+                width: 20%
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: center
+                .img
+                  display: flex
+                  flex-direction: column
+                  justify-content: flex-start
+                  align-items: center
+                  //min-height: 15.0rem
+                  img
+                    width: 11.0rem
+                    height: 11.0rem
+                .sm-title
+                  padding-top: 1.0rem
+                  font-size: 1.4rem
+                  text-align: center
+                  color: #175386
+
+          .managers-info
+            margin-top: 5.0rem
+            .manager-info
+              display: flex
+              justify-content: center
+              margin-top: 1.0rem
+              margin-bottom: 3.0rem
+              .faceblock
+                margin-right: 2.0rem
+                img
+                  min-width: 5.0rem
+              .infoblock
+                font-size: 1.5rem
+                font-weight: 700
+                color: #222222
+                text-transform: uppercase
 
 
 @media (max-width: 992px)
   .footer
     .footer-find-us
-      padding-top: 5.0rem
-      padding-bottom: 5.0rem
-      background-color: $active-background-color-gold
-      .find
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-items: center
-        &-title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 2.5rem
-          font-weight: 700
-          text-transform: uppercase
-        &-menu
-          margin-top: 5.0rem
-          width: 100%
-          ul
-            display: flex
-            flex-wrap: wrap
-            justify-content: space-between
-            //background-color: #222222 //$active-background-color-lite
-            li
-              //width: 100%
-              padding: 1.0rem 1.0rem
-              display: inline-block
-              text-align: center
-              background-color: #222222 //$active-background-color-lite
-              //border: 0.1rem solid $active-background-color-dark
-              color: #ffffff
-              font-family: $font-agora
-              font-size: 1.1rem
-              font-weight: 500
-              text-transform: uppercase
-              cursor: pointer
-            li:hover
-              background-color: $active-background-color-dark
-              color: $active-background-color-gold
-
-
-        .find-map
-          margin-top: 5.0rem
-          width: 100%
-          .map-filial
-            img
-              width: 100%
-
-
-      .phone-managers
-        margin-top: 5.0rem
-        width: 100%
-        &-title
+      .ffuFindTitle
+        padding-top: 4.0rem
+        padding-bottom: 4.0rem
+        background-color: $active-background-color-gold
+        .find
           display: flex
+          flex-direction: column
           justify-content: center
-          .title
+          align-items: center
+          &-title
             color: #ffffff
             font-family: $font-agora
-            font-size: 2.0rem
+            font-size: 2.8rem
             font-weight: 700
             text-transform: uppercase
+          .find-map
+            margin-top: 5.0rem
+            width: 100%
+            .map-filial
+              img
+                width: 100%
 
-        .managers-info
-          margin-top: 4.0rem
-          .manager-info
+      .ffuFindMenuBlock
+        background-color: $active-background-color-dark
+        .find
+          &-menu
+            width: 100%
+            ul
+              display: flex
+              flex-wrap: wrap
+              justify-content: space-between
+              //background-color: #222222 //$active-background-color-lite
+              li
+                //width: 100%
+                padding: 1.5rem 1.5rem
+                display: inline-block
+                text-align: center
+                background-color: $active-background-color-dark
+                //border: 0.1rem solid $active-background-color-dark
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 1.5rem
+                font-weight: 500
+                text-transform: uppercase
+                cursor: pointer
+              li:hover
+                background-color: $active-background-color-lite
+                color: $active-background-color-gold
+
+      .ffuPhoneManagers
+        padding-top: 4.0rem
+        padding-bottom: 3.0rem
+        background-color: $active-background-color-gold
+        .phone-managers
+          width: 100%
+          .phone-managers-title
             display: flex
             justify-content: center
-            margin-top: 2.0rem
-            margin-bottom: 3.0rem
-            .faceblock
-              margin-right: 2.0rem
-              img
-                min-width: 5.0rem
-            .infoblock
-              font-size: 1.4rem
+            padding-bottom: 3.0rem
+            .title
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 2.0rem
               font-weight: 700
-              color: #222222
               text-transform: uppercase
+          .pmSlider
+            .pmSliderInside
+              padding-top: 2.5rem
+              padding-bottom: 2.5rem
+              display: flex
+              flex-direction: row
+              justify-content: space-between
+              .prevSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-left-sl4
+                    opacity: 1
+                .arrow-left-sl4
+                  width: 50px
+                  height: 50px
+                  background: url("../img/main-say-about/icons/left.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .nextSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-right-sl4
+                    opacity: 1
+                .arrow-right-sl4
+                  width: 50px
+                  height: 50px
+                  background: url("../img/main-say-about/icons/right.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .sliderItemSL4
+                width: 20%
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: center
+                .img
+                  display: flex
+                  flex-direction: column
+                  justify-content: flex-start
+                  align-items: center
+                  //min-height: 15.0rem
+                  img
+                    width: 9.0rem
+                    height: 9.0rem
+                .sm-title
+                  padding-top: 1.0rem
+                  font-size: 1.3rem
+                  text-align: center
+                  color: #175386
+
+          .managers-info
+            margin-top: 3.0rem
+            .manager-info
+              display: flex
+              justify-content: center
+              margin-top: 1.0rem
+              margin-bottom: 3.0rem
+              .faceblock
+                margin-right: 2.0rem
+                img
+                  min-width: 5.0rem
+              .infoblock
+                font-size: 1.3rem
+                font-weight: 700
+                color: #222222
+                text-transform: uppercase
 
 
 @media (max-width: 768px)
   .footer
     .footer-find-us
-      padding-top: 5.0rem
-      padding-bottom: 5.0rem
-      background-color: $active-background-color-gold
-      .find
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-items: center
-        &-title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 2.5rem
-          font-weight: 700
-          text-transform: uppercase
-        &-menu
-          margin-top: 3.0rem
-          width: 100%
-          ul
-            display: flex
-            flex-wrap: wrap
-            justify-content: space-between
-            //background-color: #222222 //$active-background-color-lite
-            li
-              //width: 18%
-              padding: 1.0rem 1.5rem
-              display: inline-block
-              text-align: center
-              background-color: #222222 //$active-background-color-lite
-              //border: 0.1rem solid $active-background-color-dark
-              color: #ffffff
-              font-family: $font-agora
-              font-size: 1.3rem
-              font-weight: 500
-              text-transform: uppercase
-              cursor: pointer
-            li:hover
-              background-color: $active-background-color-dark
-              color: $active-background-color-gold
-
-
-        .find-map
-          margin-top: 5.0rem
-          width: 100%
-          .map-filial
-            img
-              width: 100%
-
-
-      .phone-managers
-        margin-top: 5.0rem
-        width: 100%
-        &-title
+      .ffuFindTitle
+        padding-top: 3.0rem
+        padding-bottom: 3.0rem
+        background-color: $active-background-color-gold
+        .find
           display: flex
+          flex-direction: column
           justify-content: center
-          .title
+          align-items: center
+          &-title
             color: #ffffff
             font-family: $font-agora
-            font-size: 1.5rem
+            font-size: 2.5rem
             font-weight: 700
             text-transform: uppercase
+          .find-map
+            margin-top: 3.0rem
+            width: 100%
+            .map-filial
+              img
+                width: 100%
 
-        .managers-info
-          margin-top: 4.0rem
-          .manager-info
+      .ffuFindMenuBlock
+        background-color: $active-background-color-dark
+        .find
+          &-menu
+            width: 100%
+            ul
+              display: flex
+              flex-wrap: wrap
+              justify-content: space-between
+              //background-color: #222222 //$active-background-color-lite
+              li
+                //width: 100%
+                padding: 1.5rem 1.5rem
+                display: inline-block
+                text-align: center
+                background-color: $active-background-color-dark
+                //border: 0.1rem solid $active-background-color-dark
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 1.3rem
+                font-weight: 500
+                text-transform: uppercase
+                cursor: pointer
+              li:hover
+                background-color: $active-background-color-lite
+                color: $active-background-color-gold
+
+      .ffuPhoneManagers
+        padding-top: 4.0rem
+        padding-bottom: 3.0rem
+        background-color: $active-background-color-gold
+        .phone-managers
+          width: 100%
+          .phone-managers-title
             display: flex
             justify-content: center
-            margin-top: 2.0rem
-            margin-bottom: 3.0rem
-            .faceblock
-              margin-right: 2.0rem
-              img
-                min-width: 5.0rem
-            .infoblock
-              font-size: 1.4rem
+            padding-bottom: 3.0rem
+            .title
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 1.6rem
               font-weight: 700
-              color: #222222
               text-transform: uppercase
+              text-align: center
+          .pmSlider
+            .pmSliderInside
+              padding-top: 2.5rem
+              padding-bottom: 2.5rem
+              display: flex
+              flex-direction: row
+              justify-content: space-between
+              .prevSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-left-sl4
+                    opacity: 1
+                .arrow-left-sl4
+                  width: 50px
+                  height: 50px
+                  background: url("../img/main-say-about/icons/left.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .nextSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-right-sl4
+                    opacity: 1
+                .arrow-right-sl4
+                  width: 50px
+                  height: 50px
+                  background: url("../img/main-say-about/icons/right.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .sliderItemSL4
+                width: 20%
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: center
+                .img
+                  display: flex
+                  flex-direction: column
+                  justify-content: flex-start
+                  align-items: center
+                  //min-height: 15.0rem
+                  img
+                    width: 7.0rem
+                    height: 7.0rem
+                .sm-title
+                  padding-top: 1.0rem
+                  font-size: 1.1rem
+                  text-align: center
+                  color: #175386
+
+          .managers-info
+            margin-top: 3.0rem
+            .manager-info
+              display: flex
+              justify-content: center
+              margin-top: 1.0rem
+              margin-bottom: 3.0rem
+              .faceblock
+                margin-right: 2.0rem
+                img
+                  min-width: 5.0rem
+              .infoblock
+                font-size: 1.3rem
+                font-weight: 700
+                color: #222222
+                text-transform: uppercase
+
+
+@media (max-width: 576px)
+  .footer
+    .footer-find-us
+      .ffuFindTitle
+        padding-top: 3.0rem
+        padding-bottom: 3.0rem
+        background-color: $active-background-color-gold
+        .find
+          display: flex
+          flex-direction: column
+          justify-content: center
+          align-items: center
+          &-title
+            color: #ffffff
+            font-family: $font-agora
+            font-size: 3.0vw
+            font-weight: 700
+            text-transform: uppercase
+          .find-map
+            margin-top: 3.0rem
+            width: 100%
+            .map-filial
+              img
+                width: 100%
+
+      .ffuFindMenuBlock
+        background-color: $active-background-color-dark
+        .find
+          &-menu
+            width: 100%
+            ul
+              display: flex
+              flex-wrap: wrap
+              justify-content: space-between
+              //background-color: #222222 //$active-background-color-lite
+              li
+                //width: 100%
+                padding: 1.5rem 1.5rem
+                display: inline-block
+                text-align: center
+                background-color: $active-background-color-dark
+                //border: 0.1rem solid $active-background-color-dark
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 2.0vw
+                font-weight: 500
+                text-transform: uppercase
+                cursor: pointer
+              li:hover
+                background-color: $active-background-color-lite
+                color: $active-background-color-gold
+
+      .ffuPhoneManagers
+        padding-top: 4.0rem
+        padding-bottom: 3.0rem
+        background-color: $active-background-color-gold
+        .phone-managers
+          width: 100%
+          .phone-managers-title
+            display: flex
+            justify-content: center
+            padding-bottom: 3.0rem
+            .title
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 3.0vw
+              font-weight: 700
+              text-transform: uppercase
+              text-align: center
+          .pmSlider
+            .pmSliderInside
+              padding-top: 2.0rem
+              padding-bottom: 2.0rem
+              display: flex
+              flex-direction: row
+              justify-content: space-between
+              .prevSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-left-sl4
+                    opacity: 1
+                .arrow-left-sl4
+                  width: 50px
+                  height: 50px
+                  background: url("../img/main-say-about/icons/left.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .nextSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-right-sl4
+                    opacity: 1
+                .arrow-right-sl4
+                  width: 50px
+                  height: 50px
+                  background: url("../img/main-say-about/icons/right.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .sliderItemSL4
+                width: 20%
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: center
+                .img
+                  display: flex
+                  flex-direction: column
+                  justify-content: flex-start
+                  align-items: center
+                  //min-height: 15.0rem
+                  img
+                    width: 10.0vw
+                    height: 10.0vw
+                .sm-title
+                  padding-top: 1.0rem
+                  font-size: 2.0vw
+                  text-align: center
+                  color: #175386
+
+          .managers-info
+            margin-top: 2.0rem
+            .manager-info
+              display: flex
+              justify-content: center
+              margin-top: 1.0rem
+              margin-bottom: 2.0rem
+              .faceblock
+                margin-right: 2.0rem
+                img
+                  min-width: 3.0rem
+              .infoblock
+                font-size: 2.0vw
+                font-weight: 700
+                color: #222222
+                text-transform: uppercase
+
+
+@media (max-width: 480px)
+  .footer
+    .footer-find-us
+      .ffuFindTitle
+        padding-top: 3.0rem
+        padding-bottom: 3.0rem
+        background-color: $active-background-color-gold
+        .find
+          display: flex
+          flex-direction: column
+          justify-content: center
+          align-items: center
+          &-title
+            color: #ffffff
+            font-family: $font-agora
+            font-size: 3.0vw
+            font-weight: 700
+            text-transform: uppercase
+          .find-map
+            margin-top: 3.0rem
+            width: 100%
+            .map-filial
+              img
+                width: 100%
+
+      .ffuFindMenuBlock
+        background-color: $active-background-color-dark
+        .find
+          &-menu
+            width: 100%
+            ul
+              display: flex
+              flex-wrap: wrap
+              justify-content: space-between
+              //background-color: #222222 //$active-background-color-lite
+              li
+                //width: 100%
+                padding: 1.5rem 1.5rem
+                display: inline-block
+                text-align: center
+                background-color: $active-background-color-dark
+                //border: 0.1rem solid $active-background-color-dark
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 2.0vw
+                font-weight: 500
+                text-transform: uppercase
+                cursor: pointer
+              li:hover
+                background-color: $active-background-color-lite
+                color: $active-background-color-gold
+
+      .ffuPhoneManagers
+        padding-top: 2.0rem
+        padding-bottom: 2.0rem
+        background-color: $active-background-color-gold
+        .phone-managers
+          width: 100%
+          .phone-managers-title
+            display: flex
+            justify-content: center
+            padding-bottom: 1.0rem
+            .title
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 3.0vw
+              font-weight: 700
+              text-transform: uppercase
+              text-align: center
+          .pmSlider
+            .pmSliderInside
+              padding-top: 1.0rem
+              padding-bottom: 1.0rem
+              display: flex
+              flex-direction: row
+              justify-content: space-between
+              .prevSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-left-sl4
+                    opacity: 1
+                .arrow-left-sl4
+                  width: 4.0vw
+                  height: 4.0vw
+                  background: url("../img/main-say-about/icons/left.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .nextSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-right-sl4
+                    opacity: 1
+                .arrow-right-sl4
+                  width: 4.0vw
+                  height: 4.0vw
+                  background: url("../img/main-say-about/icons/right.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .sliderItemSL4
+                width: 20%
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: center
+                .img
+                  display: flex
+                  flex-direction: column
+                  justify-content: flex-start
+                  align-items: center
+                  //min-height: 15.0rem
+                  img
+                    width: 10.0vw
+                    height: 10.0vw
+                .sm-title
+                  padding-top: 1.0rem
+                  font-size: 2.0vw
+                  text-align: center
+                  color: #175386
+
+          .managers-info
+            margin-top: 1.0rem
+            .manager-info
+              display: flex
+              justify-content: center
+              margin-top: 1.0rem
+              margin-bottom: 1.0rem
+              .faceblock
+                margin-right: 2.0rem
+                img
+                  min-width: 3.0rem
+              .infoblock
+                font-size: 2.0vw
+                font-weight: 700
+                color: #222222
+                text-transform: uppercase
+
+
+@media (max-width: 320px)
+  .footer
+    .footer-find-us
+      .ffuFindTitle
+        padding-top: 3.0rem
+        padding-bottom: 3.0rem
+        background-color: $active-background-color-gold
+        .find
+          display: flex
+          flex-direction: column
+          justify-content: center
+          align-items: center
+          &-title
+            color: #ffffff
+            font-family: $font-agora
+            font-size: 3.0vw
+            font-weight: 700
+            text-transform: uppercase
+          .find-map
+            margin-top: 3.0rem
+            width: 100%
+            .map-filial
+              img
+                width: 100%
+
+      .ffuFindMenuBlock
+        background-color: $active-background-color-dark
+        .find
+          &-menu
+            width: 100%
+            ul
+              display: flex
+              flex-wrap: wrap
+              justify-content: space-between
+              //background-color: #222222 //$active-background-color-lite
+              li
+                //width: 100%
+                padding: 1.0rem 1.0rem
+                display: inline-block
+                text-align: center
+                background-color: $active-background-color-dark
+                //border: 0.1rem solid $active-background-color-dark
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 2.0vw
+                font-weight: 500
+                text-transform: uppercase
+                cursor: pointer
+              li:hover
+                background-color: $active-background-color-lite
+                color: $active-background-color-gold
+
+      .ffuPhoneManagers
+        padding-top: 2.0rem
+        padding-bottom: 2.0rem
+        background-color: $active-background-color-gold
+        .phone-managers
+          width: 100%
+          .phone-managers-title
+            display: flex
+            justify-content: center
+            padding-bottom: 1.0rem
+            .title
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 3.0vw
+              font-weight: 700
+              text-transform: uppercase
+              text-align: center
+          .pmSlider
+            .pmSliderInside
+              padding-top: 1.0rem
+              padding-bottom: 1.0rem
+              display: flex
+              flex-direction: row
+              justify-content: space-between
+              .prevSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-left-sl4
+                    opacity: 1
+                .arrow-left-sl4
+                  width: 4.0vw
+                  height: 4.0vw
+                  background: url("../img/main-say-about/icons/left.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .nextSL4
+                cursor: pointer
+                width: 10%
+                background-color: rgba(0,0,0,.0)
+                transition: 0.3s
+                display: flex
+                justify-content: center
+                align-items: center
+                &:hover
+                  background-color: rgba(0,0,0,.1)
+                  .arrow-right-sl4
+                    opacity: 1
+                .arrow-right-sl4
+                  width: 4.0vw
+                  height: 4.0vw
+                  background: url("../img/main-say-about/icons/right.png") center no-repeat
+                  background-size: cover
+                  //transform: translateX(-50%) translateY(-50%)
+                  opacity: .7
+                  transition: 1s
+              .sliderItemSL4
+                width: 20%
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: center
+                .img
+                  display: flex
+                  flex-direction: column
+                  justify-content: flex-start
+                  align-items: center
+                  //min-height: 15.0rem
+                  img
+                    width: 10.0vw
+                    height: 10.0vw
+                .sm-title
+                  padding-top: 1.0rem
+                  font-size: 2.0vw
+                  text-align: center
+                  color: #175386
+
+          .managers-info
+            margin-top: 1.0rem
+            .manager-info
+              display: flex
+              justify-content: center
+              margin-top: 1.0rem
+              margin-bottom: 1.0rem
+              .faceblock
+                margin-right: 2.0rem
+                img
+                  min-width: 3.0rem
+              .infoblock
+                font-size: 2.0vw
+                font-weight: 700
+                color: #222222
+                text-transform: uppercase

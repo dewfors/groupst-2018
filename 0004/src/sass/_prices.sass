@@ -3,7 +3,78 @@ ul
   margin: 0
   list-style: none
 
-.main
+//********************************************************************************
+//.pricesSliderBlock
+.pricesSliderBlock
+  .pricesSliderBlockInside
+    padding-top: 3.0rem
+    padding-bottom: 3.0rem
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    .prevSL3
+      cursor: pointer
+      width: 10%
+      background-color: rgba(0,0,0,.0)
+      transition: 0.3s
+      display: flex
+      justify-content: center
+      align-items: center
+      &:hover
+        background-color: rgba(0,0,0,.1)
+        .arrow-left-sl3
+          opacity: 1
+      .arrow-left-sl3
+        width: 50px
+        height: 50px
+        background: url("../img/main-say-about/icons/left.png") center no-repeat
+        background-size: cover
+        //transform: translateX(-50%) translateY(-50%)
+        opacity: .7
+        transition: 1s
+    .nextSL3
+      cursor: pointer
+      width: 10%
+      background-color: rgba(0,0,0,.0)
+      transition: 0.3s
+      display: flex
+      justify-content: center
+      align-items: center
+      &:hover
+        background-color: rgba(0,0,0,.1)
+        .arrow-right-sl3
+          opacity: 1
+      .arrow-right-sl3
+        width: 50px
+        height: 50px
+        background: url("../img/main-say-about/icons/right.png") center no-repeat
+        background-size: cover
+        //transform: translateX(-50%) translateY(-50%)
+        opacity: .7
+        transition: 1s
+    .sliderItemSL3
+      width: 20%
+      display: flex
+      flex-direction: column
+      justify-content: flex-start
+      align-items: center
+      .img
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        //min-height: 15.0rem
+        img
+          width: 12.0rem
+          height: 12.0rem
+      .sm-title
+        padding-top: 1.0rem
+        font-size: 1.4rem
+        text-align: center
+        color: #175386
+
+
+@media all and (min-width: 992px) and (max-width: 1199px)
   .pricesSliderBlock
     .pricesSliderBlockInside
       padding-top: 3.0rem
@@ -64,115 +135,387 @@ ul
           align-items: center
           //min-height: 15.0rem
           img
-            width: 12.0rem
-            height: 12.0rem
+            width: 10.0rem
+            height: 10.0rem
         .sm-title
+          width: 90%
           padding-top: 1.0rem
           font-size: 1.4rem
           text-align: center
           color: #175386
 
+@media all and (min-width: 768px) and (max-width: 991px)
+  .pricesSliderBlock
+    .pricesSliderBlockInside
+      padding-top: 3.0rem
+      padding-bottom: 3.0rem
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      .prevSL3
+        cursor: pointer
+        width: 10%
+        background-color: rgba(0,0,0,.0)
+        transition: 0.3s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background-color: rgba(0,0,0,.1)
+          .arrow-left-sl3
+            opacity: 1
+        .arrow-left-sl3
+          width: 50px
+          height: 50px
+          background: url("../img/main-say-about/icons/left.png") center no-repeat
+          background-size: cover
+          //transform: translateX(-50%) translateY(-50%)
+          opacity: .7
+          transition: 1s
+      .nextSL3
+        cursor: pointer
+        width: 10%
+        background-color: rgba(0,0,0,.0)
+        transition: 0.3s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background-color: rgba(0,0,0,.1)
+          .arrow-right-sl3
+            opacity: 1
+        .arrow-right-sl3
+          width: 50px
+          height: 50px
+          background: url("../img/main-say-about/icons/right.png") center no-repeat
+          background-size: cover
+          //transform: translateX(-50%) translateY(-50%)
+          opacity: .7
+          transition: 1s
+      .sliderItemSL3
+        width: 20%
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        .img
+          display: flex
+          flex-direction: column
+          justify-content: flex-start
+          align-items: center
+          //min-height: 15.0rem
+          img
+            width: 9.0rem
+            height: 9.0rem
+        .sm-title
+          width: 90%
+          padding-top: 1.0rem
+          font-size: 1.3rem
+          text-align: center
+          color: #175386
 
-.prices-slider-block
-  .price-slider-block
-    .price-slider-block-inner
-      .slider-page-price
-        width: 100%
-        margin: 0 auto
-        //background-color: red
-        .wrap-sl3-viewport
-          width: 100%
-          display: table
-          position: relative
-          overflow-x: hidden
-          user-select: none
-          //position: relative
-          ul.slidewrapper
-            display: flex
-            justify-content: center
-            padding-top: 8.0rem
-            li.slide
-              //background-color: lightblue
-              //margin-left: 2.0rem
-              //margin-right: 2.0rem
-              width: 20.0rem
-              height: 20.0rem
-              //border: 1px solid blue
-              display: flex
-              justify-content: center
-              align-items: center
-              //font-size: 2.0rem
-              .img
-                width: 100%
-                height: 20.0rem
-                padding-top: 2.0rem
-                display: flex
-                flex-direction: column
-                align-items: center
-                img
-                  width: 10.0rem
-                  margin-bottom: 2.0rem
-                .sm-title
-                  font-size: 1.4rem
-                  text-align: center
-                  color: #175386
-                  font-family: $font-agora
-                  font-weight: 700
-                  text-transform: uppercase
+
+@media all and (min-width: 576px) and (max-width: 767px)
+  .pricesSliderBlock
+    .pricesSliderBlockInside
+      padding-top: 3.0rem
+      padding-bottom: 3.0rem
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      .prevSL3
+        cursor: pointer
+        width: 10%
+        background-color: rgba(0,0,0,.0)
+        transition: 0.3s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background-color: rgba(0,0,0,.1)
+          .arrow-left-sl3
+            opacity: 1
+        .arrow-left-sl3
+          width: 50px
+          height: 50px
+          background: url("../img/main-say-about/icons/left.png") center no-repeat
+          background-size: cover
+          //transform: translateX(-50%) translateY(-50%)
+          opacity: .7
+          transition: 1s
+      .nextSL3
+        cursor: pointer
+        width: 10%
+        background-color: rgba(0,0,0,.0)
+        transition: 0.3s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background-color: rgba(0,0,0,.1)
+          .arrow-right-sl3
+            opacity: 1
+        .arrow-right-sl3
+          width: 50px
+          height: 50px
+          background: url("../img/main-say-about/icons/right.png") center no-repeat
+          background-size: cover
+          //transform: translateX(-50%) translateY(-50%)
+          opacity: .7
+          transition: 1s
+      .sliderItemSL3
+        width: 20%
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        .img
+          display: flex
+          flex-direction: column
+          justify-content: flex-start
+          align-items: center
+          //min-height: 15.0rem
+          img
+            width: 7.0rem
+            height: 7.0rem
+        .sm-title
+          width: 90%
+          padding-top: 1.0rem
+          font-size: 1.1rem
+          text-align: center
+          color: #175386
 
 
-          .prev-sl3
-            position: absolute
-            cursor: pointer
-            top: 0
-            width: 90px
-            //left: 10%
-            left: 0
-            background-color: rgba(0,0,0,.5)
-            transition: 0.3s
-            height: 100%
-            //background-color: red
-            &:hover
-              background-color: rgba(0,0,0,.1)
-              .arrow-left-sl3
-                opacity: 1
-            .arrow-left-sl3
-              width: 50px
-              height: 50px
-              background: url("../img/main-say-about/icons/left.png") center no-repeat
-              background-size: cover
-              position: absolute
-              top: 50%
-              left: 50%
-              transform: translateX(-50%) translateY(-50%)
-              opacity: .7
-              transition: 1s
-          .next-sl3
-            position: absolute
-            cursor: pointer
-            top: 0
-            width: 90px
-            background-color: rgba(0,0,0,.5)
-            //transition: 0.3s
-            height: 100%
-            right: 0
-            //background-color: red
-            &:hover
-              background-color: rgba(0,0,0,.1)
-              .arrow-right-sl3
-                opacity: 1
-            .arrow-right-sl3
-              width: 50px
-              height: 50px
-              background: url("../img/main-say-about/icons/right.png") center no-repeat
-              background-size: cover
-              position: absolute
-              top: 50%
-              left: 50%
-              transform: translateX(-50%) translateY(-50%)
-              opacity: .7
-              transition: 1s
 
+@media all and (min-width: 480px) and (max-width: 575px)
+  .pricesSliderBlock
+    .pricesSliderBlockInside
+      padding-top: 3.0rem
+      padding-bottom: 3.0rem
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      .prevSL3
+        cursor: pointer
+        width: 10%
+        background-color: rgba(0,0,0,.0)
+        transition: 0.3s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background-color: rgba(0,0,0,.1)
+          .arrow-left-sl3
+            opacity: 1
+        .arrow-left-sl3
+          width: 40px
+          height: 40px
+          background: url("../img/main-say-about/icons/left.png") center no-repeat
+          background-size: cover
+          //transform: translateX(-50%) translateY(-50%)
+          opacity: .7
+          transition: 1s
+      .nextSL3
+        cursor: pointer
+        width: 10%
+        background-color: rgba(0,0,0,.0)
+        transition: 0.3s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background-color: rgba(0,0,0,.1)
+          .arrow-right-sl3
+            opacity: 1
+        .arrow-right-sl3
+          width: 40px
+          height: 40px
+          background: url("../img/main-say-about/icons/right.png") center no-repeat
+          background-size: cover
+          //transform: translateX(-50%) translateY(-50%)
+          opacity: .7
+          transition: 1s
+      .sliderItemSL3
+        width: 20%
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        .img
+          display: flex
+          flex-direction: column
+          justify-content: flex-start
+          align-items: center
+          //min-height: 15.0rem
+          img
+            width: 5.0rem
+            height: 5.0rem
+        .sm-title
+          width: 90%
+          padding-top: 1.0rem
+          font-size: 1.1rem
+          text-align: center
+          color: #175386
+
+
+@media all and (min-width: 320px) and (max-width: 479px)
+  .pricesSliderBlock
+    .pricesSliderBlockInside
+      padding-top: 3.0rem
+      padding-bottom: 3.0rem
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      .prevSL3
+        cursor: pointer
+        width: 10%
+        background-color: rgba(0,0,0,.0)
+        transition: 0.3s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background-color: rgba(0,0,0,.1)
+          .arrow-left-sl3
+            opacity: 1
+        .arrow-left-sl3
+          width: 40px
+          height: 40px
+          background: url("../img/main-say-about/icons/left.png") center no-repeat
+          background-size: cover
+          //transform: translateX(-50%) translateY(-50%)
+          opacity: .7
+          transition: 1s
+      .nextSL3
+        cursor: pointer
+        width: 10%
+        background-color: rgba(0,0,0,.0)
+        transition: 0.3s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background-color: rgba(0,0,0,.1)
+          .arrow-right-sl3
+            opacity: 1
+        .arrow-right-sl3
+          width: 40px
+          height: 40px
+          background: url("../img/main-say-about/icons/right.png") center no-repeat
+          background-size: cover
+          //transform: translateX(-50%) translateY(-50%)
+          opacity: .7
+          transition: 1s
+      .sliderItemSL3
+        width: 20%
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        .img
+          display: flex
+          flex-direction: column
+          justify-content: flex-start
+          align-items: center
+          //min-height: 15.0rem
+          img
+            width: 4.0rem
+            height: 4.0rem
+        .sm-title
+          width: 90%
+          padding-top: 1.0rem
+          font-size: 1.0rem
+          text-align: center
+          color: #175386
+
+
+@media all and (min-width: 240px) and (max-width: 319px)
+  .pricesSliderBlock
+    .pricesSliderBlockInside
+      padding-top: 3.0rem
+      padding-bottom: 3.0rem
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      .prevSL3
+        cursor: pointer
+        width: 10%
+        background-color: rgba(0,0,0,.0)
+        transition: 0.3s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background-color: rgba(0,0,0,.1)
+          .arrow-left-sl3
+            opacity: 1
+        .arrow-left-sl3
+          width: 40px
+          height: 40px
+          background: url("../img/main-say-about/icons/left.png") center no-repeat
+          background-size: cover
+          //transform: translateX(-50%) translateY(-50%)
+          opacity: .7
+          transition: 1s
+      .nextSL3
+        cursor: pointer
+        width: 10%
+        background-color: rgba(0,0,0,.0)
+        transition: 0.3s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+          background-color: rgba(0,0,0,.1)
+          .arrow-right-sl3
+            opacity: 1
+        .arrow-right-sl3
+          width: 40px
+          height: 40px
+          background: url("../img/main-say-about/icons/right.png") center no-repeat
+          background-size: cover
+          //transform: translateX(-50%) translateY(-50%)
+          opacity: .7
+          transition: 1s
+      .sliderItemSL3
+        width: 20%
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        .img
+          display: flex
+          flex-direction: column
+          justify-content: flex-start
+          align-items: center
+          //min-height: 15.0rem
+          img
+            width: 3.0rem
+            height: 3.0rem
+        .sm-title
+          width: 90%
+          padding-top: 1.0rem
+          font-size: 0.7rem
+          text-align: center
+          color: #175386
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//**********************************************************************
+//.price-grid-block
 .price-grid-block
   background-color: $active-background-color-lite
   .price-grid-block-inner
@@ -183,7 +526,7 @@ ul
       .title
         color: #ffffff
         font-family: $font-agora
-        font-size: 3.8rem
+        font-size: 3.0rem
         font-weight: 700
         text-transform: uppercase
     .direction
@@ -197,10 +540,11 @@ ul
       .label
         color: #ffffff
         font-family: $font-agora
-        font-size: 3.0rem
+        font-size: 2.8rem
         font-weight: 700
         text-transform: uppercase
       input
+        width: 30.0rem
         height: 3.0rem
         margin-left: 2.0rem
     .table-grid
@@ -243,5 +587,493 @@ ul
         font-size: 21px
         font-weight: 700
         text-transform: uppercase
+
+
+
+
+@media all and (min-width: 992px) and (max-width: 1199px)
+  .price-grid-block
+    background-color: $active-background-color-lite
+    .price-grid-block-inner
+      padding-top: 8.0rem
+      padding-bottom: 8.0rem
+      .price-title-block
+        text-align: center
+        .title
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 3.0rem
+          font-weight: 700
+          text-transform: uppercase
+      .direction
+        padding-top: 8.0rem
+        .direction-from
+          display: flex
+          justify-content: flex-start
+        .direction-to
+          display: flex
+          justify-content: flex-end
+        .label
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 2.8rem
+          font-weight: 700
+          text-transform: uppercase
+        input
+          width: 25.0rem
+          height: 3.0rem
+          margin-left: 2.0rem
+      .table-grid
+        margin-top: 8.0rem
+        table
+          width: 100%
+          border-collapse: collapse
+          //border: 1px solid red
+          background-color: #f6f6f6
+          th
+            height: 5.0rem
+            border-bottom: 5px solid #ffb118
+            text-align: center
+            vertical-align: middle
+            color: #333333
+            font-family: $font-agora
+            font-size: 1.6rem
+            font-weight: 700
+            text-transform: uppercase
+          td
+            height: 5.0rem
+            //border: 1px solid red
+            text-align: center
+            vertical-align: middle
+            color: #777777
+            font-family: $font-lato
+            font-size: 1.4rem
+            font-weight: 300
+            line-height: 48px
+      .btn-to-calc
+        margin-top: 8.0rem
+        display: flex
+        justify-content: center
+        .btn-title
+          background-color: #ffffff
+          padding: 2.0rem
+          border-radius: 0 5px 0 5px
+          color: #333333
+          font-family: $font-agora
+          font-size: 2.0rem
+          font-weight: 700
+          text-transform: uppercase
+
+@media all and (min-width: 768px) and (max-width: 991px)
+  .price-grid-block
+    background-color: $active-background-color-lite
+    .price-grid-block-inner
+      padding-top: 6.0rem
+      padding-bottom: 6.0rem
+      .price-title-block
+        text-align: center
+        .title
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 2.5rem
+          font-weight: 700
+          text-transform: uppercase
+      .direction
+        padding-top: 6.0rem
+        .direction-from
+          display: flex
+          justify-content: center
+        .direction-to
+          display: flex
+          justify-content: center
+        .label
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 2.0rem
+          font-weight: 700
+          text-transform: uppercase
+        input
+          width: 25.0rem
+          height: 2.0rem
+          margin-left: 2.0rem
+      .table-grid
+        margin-top: 6.0rem
+        table
+          width: 100%
+          border-collapse: collapse
+          //border: 1px solid red
+          background-color: #f6f6f6
+          th
+            height: 5.0rem
+            border-bottom: 5px solid #ffb118
+            text-align: center
+            vertical-align: middle
+            color: #333333
+            font-family: $font-agora
+            font-size: 1.5rem
+            font-weight: 700
+            text-transform: uppercase
+          td
+            height: 5.0rem
+            //border: 1px solid red
+            text-align: center
+            vertical-align: middle
+            color: #777777
+            font-family: $font-lato
+            font-size: 1.4rem
+            font-weight: 300
+            line-height: 48px
+      .btn-to-calc
+        margin-top: 6.0rem
+        display: flex
+        justify-content: center
+        .btn-title
+          background-color: #ffffff
+          padding: 1.5rem
+          border-radius: 0 5px 0 5px
+          color: #333333
+          font-family: $font-agora
+          font-size: 1.5rem
+          font-weight: 700
+          text-transform: uppercase
+
+
+
+@media all and (min-width: 576px) and (max-width: 767px)
+  .price-grid-block
+    background-color: $active-background-color-lite
+    .price-grid-block-inner
+      padding-top: 5.0rem
+      padding-bottom: 5.0rem
+      .price-title-block
+        text-align: center
+        .title
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 2.0rem
+          font-weight: 700
+          text-transform: uppercase
+      .direction
+        padding-top: 5.0rem
+        .direction-from
+          display: flex
+          justify-content: center
+        .direction-to
+          display: flex
+          justify-content: center
+        .label
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 1.8rem
+          font-weight: 700
+          text-transform: uppercase
+        input
+          width: 15.0rem
+          height: 1.8rem
+          margin-left: 2.0rem
+      .table-grid
+        margin-top: 5.0rem
+        table
+          width: 100%
+          border-collapse: collapse
+          //border: 1px solid red
+          background-color: #f6f6f6
+          th
+            height: 5.0rem
+            border-bottom: 5px solid #ffb118
+            text-align: center
+            vertical-align: middle
+            color: #333333
+            font-family: $font-agora
+            font-size: 1.4em
+            font-weight: 700
+            text-transform: uppercase
+          td
+            height: 5.0rem
+            //border: 1px solid red
+            text-align: center
+            vertical-align: middle
+            color: #777777
+            font-family: $font-lato
+            font-size: 1.3rem
+            font-weight: 300
+            line-height: 48px
+      .btn-to-calc
+        margin-top: 5.0rem
+        display: flex
+        justify-content: center
+        .btn-title
+          background-color: #ffffff
+          padding: 1.5rem
+          border-radius: 0 5px 0 5px
+          color: #333333
+          font-family: $font-agora
+          font-size: 1.3rem
+          font-weight: 700
+          text-transform: uppercase
+
+
+
+@media all and (min-width: 480px) and (max-width: 575px)
+  .price-grid-block
+    background-color: $active-background-color-lite
+    .price-grid-block-inner
+      padding-top: 4.0rem
+      padding-bottom: 4.0rem
+      .price-title-block
+        text-align: center
+        .title
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 2.0rem
+          font-weight: 700
+          text-transform: uppercase
+      .direction
+        padding-top: 2.0rem
+        .direction-from
+          display: flex
+          justify-content: center
+
+        .direction-to
+          display: flex
+          justify-content: center
+        .label
+          width: 20%
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 1.5rem
+          font-weight: 700
+          text-transform: uppercase
+          text-align: right
+        input
+          width: 80%
+          height: 1.8rem
+          margin-left: 2.0rem
+      .table-grid
+        margin-top: 4.0rem
+        table
+          width: 100%
+          border-collapse: collapse
+          //border: 1px solid red
+          background-color: #f6f6f6
+          th
+            height: 3.0rem
+            border-bottom: 5px solid #ffb118
+            text-align: center
+            vertical-align: middle
+            color: #333333
+            font-family: $font-agora
+            font-size: 1.1em
+            font-weight: 700
+            text-transform: uppercase
+          td
+            height: 3.0rem
+            //border: 1px solid red
+            text-align: center
+            vertical-align: middle
+            color: #777777
+            font-family: $font-lato
+            font-size: 1.1rem
+            font-weight: 300
+            line-height: 2.0rem
+      .btn-to-calc
+        margin-top: 4.0rem
+        display: flex
+        justify-content: center
+        .btn-title
+          background-color: #ffffff
+          padding: 1.3rem
+          border-radius: 0 5px 0 5px
+          color: #333333
+          font-family: $font-agora
+          font-size: 1.3rem
+          font-weight: 700
+          text-transform: uppercase
+
+
+
+@media all and (min-width: 320px) and (max-width: 479px)
+  .price-grid-block
+    background-color: $active-background-color-lite
+    .price-grid-block-inner
+      padding-top: 3.0rem
+      padding-bottom: 3.0rem
+      .price-title-block
+        text-align: center
+        .title
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 1.5rem
+          font-weight: 700
+          text-transform: uppercase
+      .direction
+        padding-top: 1.5rem
+        .direction-from
+          display: flex
+          justify-content: center
+
+        .direction-to
+          display: flex
+          justify-content: center
+        .label
+          width: 20%
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 1.3rem
+          font-weight: 700
+          text-transform: uppercase
+          text-align: right
+        input
+          width: 80%
+          height: 1.3rem
+          margin-left: 2.0rem
+      .table-grid
+        margin-top: 3.0rem
+        table
+          width: 100%
+          border-collapse: collapse
+          //border: 1px solid red
+          background-color: #f6f6f6
+          th
+            height: 2.5rem
+            border-bottom: 3px solid #ffb118
+            text-align: center
+            vertical-align: middle
+            color: #333333
+            font-family: $font-agora
+            font-size: 1.0em
+            font-weight: 700
+            text-transform: uppercase
+          td
+            height: 2.5rem
+            //border: 1px solid red
+            text-align: center
+            vertical-align: middle
+            color: #777777
+            font-family: $font-lato
+            font-size: 1.0rem
+            font-weight: 300
+            line-height: 2.0rem
+      .btn-to-calc
+        margin-top: 3.0rem
+        display: flex
+        justify-content: center
+        .btn-title
+          background-color: #ffffff
+          padding: 1.1rem
+          border-radius: 0 5px 0 5px
+          color: #333333
+          font-family: $font-agora
+          font-size: 1.1rem
+          font-weight: 700
+          text-transform: uppercase
+
+
+
+@media all and (min-width: 240px) and (max-width: 319px)
+  .price-grid-block
+    background-color: $active-background-color-lite
+    .price-grid-block-inner
+      padding-top: 2.0rem
+      padding-bottom: 2.0rem
+      .price-title-block
+        text-align: center
+        .title
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 1.0rem
+          font-weight: 700
+          text-transform: uppercase
+      .direction
+        padding-top: 1.0rem
+        .direction-from
+          display: flex
+          justify-content: center
+
+        .direction-to
+          display: flex
+          justify-content: center
+        .label
+          width: 20%
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 0.8rem
+          font-weight: 700
+          text-transform: uppercase
+          text-align: right
+        input
+          width: 80%
+          height: 0.8rem
+          margin-left: 1.0rem
+      .table-grid
+        margin-top: 2.0rem
+        table
+          width: 100%
+          border-collapse: collapse
+          //border: 1px solid red
+          background-color: #f6f6f6
+          th
+            height: 2.0rem
+            border-bottom: 1px solid #ffb118
+            text-align: center
+            vertical-align: middle
+            color: #333333
+            font-family: $font-agora
+            font-size: 0.7em
+            font-weight: 700
+            text-transform: uppercase
+          td
+            height: 2.0rem
+            //border: 1px solid red
+            text-align: center
+            vertical-align: middle
+            color: #777777
+            font-family: $font-lato
+            font-size: 0.7rem
+            font-weight: 300
+            line-height: 2.0rem
+      .btn-to-calc
+        margin-top: 2.0rem
+        display: flex
+        justify-content: center
+        .btn-title
+          background-color: #ffffff
+          padding: 0.8rem
+          border-radius: 0 5px 0 5px
+          color: #333333
+          font-family: $font-agora
+          font-size: 0.8rem
+          font-weight: 700
+          text-transform: uppercase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,58 +1,461 @@
 .main-tracking-block
-  padding-top: 16.8rem
-  padding-bottom: 16.8rem
   .tracking-block
-    &-inner
-      .get-number
+    .tracking-block-inner
+      padding-top: 15.0rem
+      padding-bottom: 15.0rem
+      .input-invoce
         display: flex
-        flex-direction: row
+        justify-content: flex-end
+        input
+          width: 50%
+          color: #ffffff
+          background-color: #333333
+      .input-pin
+        display: flex
+        justify-content: flex-start
+        input
+          width: 50%
+          color: #ffffff
+          background-color: #333333
+      .num_or_pin
+        text-align: center
+        height: 4.0rem
+        line-height: 4.0rem
+        color: #333333
+        font-family: $font-agora
+        font-size: 22px
+        font-weight: 500
+      .tap-find
+        margin-top: 7.0rem
+        display: flex
         justify-content: center
-        .input
+        a
+          display: block
+          width: 22.0rem
+          height: 4.0rem
+          line-height: 4.0rem
+          background-color: #1b6397
+          color: #ffffff
+          text-decoration: none
+          text-align: center
+          font-family: $font-agora
+          font-size: 1.4rem
+          font-weight: 500
+          text-transform: uppercase
+      .exist-lk
+        margin-top: 7.0rem
+        display: flex
+        justify-content: center
+        a
+          display: block
+          width: 22.0rem
+          height: 4.0rem
+          line-height: 4.0rem
+          background-color: #1b6397
+          color: #ffffff
+          text-decoration: none
+          text-align: center
+          font-family: $font-agora
+          font-size: 1.4rem
+          font-weight: 500
+          text-transform: uppercase
+
+@media all and (min-width: 992px) and (max-width: 1199px)
+  .main-tracking-block
+    .tracking-block
+      .tracking-block-inner
+        padding-top: 10.0rem
+        padding-bottom: 10.0rem
+        .input-invoce
+          display: flex
+          justify-content: flex-end
           input
-            padding: 1.0rem
-            background-color: #333333
+            width: 50%
             color: #ffffff
-            font-family: $font-lato
-            font-size: 1.4rem
-            font-weight: 300
+            background-color: #333333
+        .input-pin
+          display: flex
+          justify-content: flex-start
+          input
+            width: 50%
+            color: #ffffff
+            background-color: #333333
         .num_or_pin
+          text-align: center
+          height: 4.0rem
+          line-height: 4.0rem
           color: #333333
           font-family: $font-agora
-          font-size: 2.2rem
+          font-size: 22px
           font-weight: 500
+        .tap-find
+          margin-top: 7.0rem
           display: flex
           justify-content: center
-          align-items: center
-          margin-left: 5rem
-          margin-right: 5rem
-      .tap-find
-        margin-top: 7.5rem
-        display: flex
-        flex-direction: row
-        justify-content: center
-        .btn-standart
-          width: 22.5rem
-      .exist-lk
-        display: flex
-        flex-direction: row
-        justify-content: center
-        align-items: center
-        padding-top: 13.0rem
-        .txt-q
+          a
+            display: block
+            width: 22.0rem
+            height: 4.0rem
+            line-height: 4.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.4rem
+            font-weight: 500
+            text-transform: uppercase
+        .exist-lk
+          margin-top: 7.0rem
+          display: flex
+          justify-content: center
+          a
+            display: block
+            width: 22.0rem
+            height: 4.0rem
+            line-height: 4.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.4rem
+            font-weight: 500
+            text-transform: uppercase
+
+@media all and (min-width: 768px) and (max-width: 991px)
+  .main-tracking-block
+    .tracking-block
+      .tracking-block-inner
+        padding-top: 7.0rem
+        padding-bottom: 7.0rem
+        .input-invoce
+          display: flex
+          justify-content: flex-end
+          input
+            width: 50%
+            color: #ffffff
+            background-color: #333333
+        .input-pin
+          display: flex
+          justify-content: flex-start
+          input
+            width: 50%
+            color: #ffffff
+            background-color: #333333
+        .num_or_pin
+          text-align: center
+          height: 3.0rem
+          line-height: 3.0rem
           color: #333333
           font-family: $font-agora
-          font-size: 2.2rem
+          font-size: 22px
           font-weight: 500
-          padding-right: 2.0rem
-        .btn-standart
-          padding: 0
-          text-align: center
+        .tap-find
+          margin-top: 5.0rem
+          display: flex
+          justify-content: center
           a
-            text-decoration: none
+            display: block
+            width: 22.0rem
+            height: 3.0rem
+            line-height: 3.0rem
+            background-color: #1b6397
             color: #ffffff
-            width: 100%
-            padding-top: 1.5rem
-            padding-bottom: 1.5rem
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.3rem
+            font-weight: 500
+            text-transform: uppercase
+        .exist-lk
+          margin-top: 5.0rem
+          display: flex
+          justify-content: center
+          a
+            display: block
+            width: 22.0rem
+            height: 3.0rem
+            line-height: 3.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.3rem
+            font-weight: 500
+            text-transform: uppercase
+
+
+@media all and (min-width: 576px) and (max-width: 767px)
+  .main-tracking-block
+    .tracking-block
+      .tracking-block-inner
+        padding-top: 5.0rem
+        padding-bottom: 5.0rem
+        .input-invoce
+          display: flex
+          justify-content: flex-end
+          input
+            width: 70%
+            color: #ffffff
+            background-color: #333333
+        .input-pin
+          display: flex
+          justify-content: flex-start
+          input
+            width: 70%
+            color: #ffffff
+            background-color: #333333
+        .num_or_pin
+          text-align: center
+          height: 3.0rem
+          line-height: 3.0rem
+          color: #333333
+          font-family: $font-agora
+          font-size: 22px
+          font-weight: 500
+        .tap-find
+          margin-top: 5.0rem
+          display: flex
+          justify-content: center
+          a
+            display: block
+            width: 22.0rem
+            height: 3.0rem
+            line-height: 3.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.0rem
+            font-weight: 500
+            text-transform: uppercase
+        .exist-lk
+          margin-top: 4.0rem
+          display: flex
+          justify-content: center
+          a
+            display: block
+            width: 22.0rem
+            height: 3.0rem
+            line-height: 3.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.0rem
+            font-weight: 500
+            text-transform: uppercase
+
+
+
+@media all and (min-width: 480px) and (max-width: 575px)
+  .main-tracking-block
+    .tracking-block
+      .tracking-block-inner
+        padding-top: 5.0rem
+        padding-bottom: 5.0rem
+        .input-invoce
+          display: flex
+          justify-content: center
+          input
+            width: 22.0rem
+            height: 2.5rem
+            color: #ffffff
+            background-color: #333333
+        .input-pin
+          display: flex
+          justify-content: center
+          input
+            width: 22.0rem
+            height: 2.5rem
+            color: #ffffff
+            background-color: #333333
+        .num_or_pin
+          text-align: center
+          height: 3.0rem
+          line-height: 3.0rem
+          color: #333333
+          font-family: $font-agora
+          font-size: 22px
+          font-weight: 500
+        .tap-find
+          margin-top: 4.0rem
+          display: flex
+          justify-content: center
+          a
+            display: block
+            width: 22.0rem
+            height: 3.0rem
+            line-height: 3.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.0rem
+            font-weight: 500
+            text-transform: uppercase
+        .exist-lk
+          margin-top: 3.0rem
+          display: flex
+          justify-content: center
+          a
+            display: block
+            width: 22.0rem
+            height: 3.0rem
+            line-height: 3.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.0rem
+            font-weight: 500
+            text-transform: uppercase
+
+
+@media all and (min-width: 320px) and (max-width: 479px)
+  .main-tracking-block
+    .tracking-block
+      .tracking-block-inner
+        padding-top: 4.0rem
+        padding-bottom: 4.0rem
+        .input-invoce
+          display: flex
+          justify-content: center
+          input
+            width: 22.0rem
+            height: 2.5rem
+            color: #ffffff
+            background-color: #333333
+        .input-pin
+          display: flex
+          justify-content: center
+          input
+            width: 22.0rem
+            height: 2.5rem
+            color: #ffffff
+            background-color: #333333
+        .num_or_pin
+          text-align: center
+          height: 3.0rem
+          line-height: 3.0rem
+          color: #333333
+          font-family: $font-agora
+          font-size: 1.5rem
+          font-weight: 500
+        .tap-find
+          margin-top: 4.0rem
+          display: flex
+          justify-content: center
+          a
+            display: block
+            width: 22.0rem
+            height: 3.0rem
+            line-height: 3.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.0rem
+            font-weight: 500
+            text-transform: uppercase
+        .exist-lk
+          margin-top: 2.0rem
+          display: flex
+          justify-content: center
+          a
+            display: block
+            width: 22.0rem
+            height: 3.0rem
+            line-height: 3.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.0rem
+            font-weight: 500
+            text-transform: uppercase
+
+
+@media all and (min-width: 240px) and (max-width: 319px)
+  .main-tracking-block
+    .tracking-block
+      .tracking-block-inner
+        padding-top: 4.0rem
+        padding-bottom: 4.0rem
+        .input-invoce
+          display: flex
+          justify-content: center
+          input
+            width: 22.0rem
+            height: 2.5rem
+            color: #ffffff
+            background-color: #333333
+        .input-pin
+          display: flex
+          justify-content: center
+          input
+            width: 22.0rem
+            height: 2.5rem
+            color: #ffffff
+            background-color: #333333
+        .num_or_pin
+          text-align: center
+          height: 3.0rem
+          line-height: 3.0rem
+          color: #333333
+          font-family: $font-agora
+          font-size: 1.5rem
+          font-weight: 500
+        .tap-find
+          margin-top: 4.0rem
+          display: flex
+          justify-content: center
+          a
+            display: block
+            width: 22.0rem
+            height: 3.0rem
+            line-height: 3.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.0rem
+            font-weight: 500
+            text-transform: uppercase
+        .exist-lk
+          margin-top: 2.0rem
+          display: flex
+          justify-content: center
+          a
+            display: block
+            width: 22.0rem
+            height: 3.0rem
+            line-height: 3.0rem
+            background-color: #1b6397
+            color: #ffffff
+            text-decoration: none
+            text-align: center
+            font-family: $font-agora
+            font-size: 1.0rem
+            font-weight: 500
+            text-transform: uppercase
+
+
+
+
+
+
+
+
 
 
 

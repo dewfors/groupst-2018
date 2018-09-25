@@ -35,13 +35,24 @@
             color: #282828
             font-family: $font-agora
             font-size: 2.0rem
+            line-height: 3.0rem
+            max-height: 3.0rem
+            overflow: hidden
             font-weight: 700
             text-transform: uppercase
         .descrart-block
           display: flex
-          align-items: center
+          align-items: flex-start
           padding-left: 1.5rem
+          .descrart-img
+            width: 7.0rem
+            height: 7.0rem
+            background-color: white
+            margin-right: 2.0rem
           .descrart
+            width: 60%
+            max-height: 6.0rem
+            overflow: hidden
             color: #ffffff
             font-family: $font-agora
             font-size: 1.4rem
@@ -71,12 +82,13 @@
               text-transform: uppercase
 
 
-@media (max-width: 1200px)
+
+@media all and (min-width: 992px) and (max-width: 1199px)
   .main-articles-block
     background-color: $active-background-color-lite
     .main-articles-block-inner
-      padding-top: 6.5rem
-      padding-bottom: 6.5rem
+      padding-top: 5.0rem
+      padding-bottom: 5.0rem
       .descr
         display: flex
         justify-content: center
@@ -85,16 +97,19 @@
           text-align: center
           color: #ffffff
           font-family: $font-agora
-          font-size: 1.5rem
+          font-size: 2.1rem
+          line-height: 3.0rem
           font-weight: 700
           text-transform: uppercase
-          line-height: 2.0rem
+
       .article-block
         width: 100%
         margin-bottom: 7.5rem
+        display: flex
+        justify-content: center
         .article-block-inner
           background-color: $active-background-color-gold
-          width: 100%
+          width: 80%
           height: 30.0rem
           display: flex
           flex-direction: column
@@ -105,19 +120,31 @@
             justify-content: center
             margin-top: 1.5rem
             .title
+              text-align: center
               color: #282828
               font-family: $font-agora
-              font-size: 1.5rem
+              font-size: 2.0rem
+              line-height: 3.0rem
+              max-height: 3.0rem
+              overflow: hidden
               font-weight: 700
               text-transform: uppercase
           .descrart-block
             display: flex
-            align-items: center
+            align-items: flex-start
             padding-left: 1.5rem
+            .descrart-img
+              width: 7.0rem
+              height: 7.0rem
+              background-color: white
+              margin-right: 2.0rem
             .descrart
+              width: 60%
+              max-height: 6.0rem
+              overflow: hidden
               color: #ffffff
               font-family: $font-agora
-              font-size: 1.2rem
+              font-size: 1.4rem
               font-weight: 500
               text-transform: uppercase
               line-height: 2.0rem
@@ -131,7 +158,95 @@
                 padding-top: 1.5rem
                 color: #282828
                 font-family: $font-agora
-                font-size: 1.2rem
+                font-size: 14px
+                font-weight: 500
+                text-transform: uppercase
+              .btn-more
+                padding: 1.5rem 4.0rem
+                background-color: #282828
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 14px
+                font-weight: 500
+                text-transform: uppercase
+
+
+@media all and (min-width: 768px) and (max-width: 991px)
+  .main-articles-block
+    background-color: $active-background-color-lite
+    .main-articles-block-inner
+      padding-top: 5.0rem
+      padding-bottom: 0.0rem
+      .descr
+        display: flex
+        justify-content: center
+        margin-bottom: 4.5rem
+        .title
+          text-align: center
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 1.9rem
+          line-height: 3.0rem
+          font-weight: 700
+          text-transform: uppercase
+
+      .article-block
+        width: 100%
+        margin-bottom: 4.5rem
+        display: flex
+        justify-content: center
+        .article-block-inner
+          background-color: $active-background-color-gold
+          width: 100%
+          height: 25.0rem
+          display: flex
+          flex-direction: column
+          justify-content: space-around
+          .title-block
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-top: 1.5rem
+            .title
+              text-align: center
+              color: #282828
+              font-family: $font-agora
+              font-size: 1.8rem
+              line-height: 3.0rem
+              max-height: 3.0rem
+              overflow: hidden
+              font-weight: 700
+              text-transform: uppercase
+          .descrart-block
+            display: flex
+            align-items: flex-start
+            padding-left: 1.5rem
+            .descrart-img
+              width: 7.0rem
+              height: 7.0rem
+              background-color: white
+              margin-right: 2.0rem
+            .descrart
+              width: 60%
+              max-height: 6.0rem
+              overflow: hidden
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 1.4rem
+              font-weight: 500
+              text-transform: uppercase
+              line-height: 2.0rem
+          .more-block
+            padding-left: 1.5rem
+            padding-right: 1.5rem
+            .more
+              display: flex
+              justify-content: space-between
+              .dt
+                padding-top: 1.5rem
+                color: #282828
+                font-family: $font-agora
+                font-size: 14px
                 font-weight: 500
                 text-transform: uppercase
               .btn-more
@@ -142,3 +257,372 @@
                 font-size: 1.2rem
                 font-weight: 500
                 text-transform: uppercase
+
+@media all and (min-width: 576px) and (max-width: 767px)
+  .main-articles-block
+    background-color: $active-background-color-lite
+    .main-articles-block-inner
+      padding-top: 3.0rem
+      padding-bottom: 0.0rem
+      .descr
+        display: flex
+        justify-content: center
+        margin-bottom: 2.5rem
+        .title
+          text-align: center
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 1.7rem
+          line-height: 2.5rem
+          font-weight: 700
+          text-transform: uppercase
+
+      .article-block
+        width: 100%
+        margin-bottom: 2.5rem
+        display: flex
+        justify-content: center
+        .article-block-inner
+          background-color: $active-background-color-gold
+          width: 80%
+          height: 25.0rem
+          display: flex
+          flex-direction: column
+          justify-content: space-around
+          .title-block
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-top: 1.5rem
+            .title
+              text-align: center
+              color: #282828
+              font-family: $font-agora
+              font-size: 1.6rem
+              line-height: 3.0rem
+              max-height: 3.0rem
+              overflow: hidden
+              font-weight: 700
+              text-transform: uppercase
+          .descrart-block
+            display: flex
+            align-items: flex-start
+            padding-left: 1.5rem
+            .descrart-img
+              width: 7.0rem
+              height: 7.0rem
+              background-color: white
+              margin-right: 2.0rem
+            .descrart
+              width: 60%
+              max-height: 6.0rem
+              overflow: hidden
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 1.4rem
+              font-weight: 500
+              text-transform: uppercase
+              line-height: 2.0rem
+          .more-block
+            padding-left: 1.5rem
+            padding-right: 1.5rem
+            .more
+              display: flex
+              justify-content: space-between
+              .dt
+                padding-top: 1.5rem
+                color: #282828
+                font-family: $font-agora
+                font-size: 14px
+                font-weight: 500
+                text-transform: uppercase
+              .btn-more
+                padding: 1.5rem 4.0rem
+                background-color: #282828
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 1.2rem
+                font-weight: 500
+                text-transform: uppercase
+
+
+@media all and (min-width: 480px) and (max-width: 575px)
+  .main-articles-block
+    background-color: $active-background-color-lite
+    .main-articles-block-inner
+      padding-top: 3.0rem
+      padding-bottom: 0.0rem
+      .descr
+        display: flex
+        justify-content: center
+        margin-bottom: 2.5rem
+        .title
+          text-align: center
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 1.6rem
+          line-height: 2.5rem
+          font-weight: 500
+          text-transform: uppercase
+
+      .article-block
+        width: 100%
+        margin-bottom: 2.5rem
+        display: flex
+        justify-content: center
+        .article-block-inner
+          background-color: $active-background-color-gold
+          width: 80%
+          height: 25.0rem
+          display: flex
+          flex-direction: column
+          justify-content: space-around
+          .title-block
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-top: 1.5rem
+            .title
+              text-align: center
+              color: #282828
+              font-family: $font-agora
+              font-size: 1.6rem
+              line-height: 3.0rem
+              max-height: 3.0rem
+              overflow: hidden
+              font-weight: 700
+              text-transform: uppercase
+          .descrart-block
+            display: flex
+            align-items: flex-start
+            padding-left: 1.5rem
+            .descrart-img
+              width: 7.0rem
+              height: 7.0rem
+              background-color: white
+              margin-right: 2.0rem
+            .descrart
+              width: 60%
+              max-height: 6.0rem
+              overflow: hidden
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 1.4rem
+              font-weight: 500
+              text-transform: uppercase
+              line-height: 2.0rem
+          .more-block
+            padding-left: 1.5rem
+            padding-right: 1.5rem
+            .more
+              display: flex
+              justify-content: space-between
+              .dt
+                padding-top: 1.5rem
+                color: #282828
+                font-family: $font-agora
+                font-size: 14px
+                font-weight: 500
+                text-transform: uppercase
+              .btn-more
+                padding: 1.5rem 4.0rem
+                background-color: #282828
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 1.2rem
+                font-weight: 500
+                text-transform: uppercase
+
+@media all and (min-width: 320px) and (max-width: 479px)
+  .main-articles-block
+    background-color: $active-background-color-lite
+    .main-articles-block-inner
+      padding-top: 3.0rem
+      padding-bottom: 0.0rem
+      .descr
+        display: flex
+        justify-content: center
+        margin-bottom: 2.5rem
+        .title
+          text-align: center
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 1.5rem
+          line-height: 2.0rem
+          font-weight: 500
+          text-transform: uppercase
+
+      .article-block
+        width: 100%
+        margin-bottom: 2.5rem
+        display: flex
+        justify-content: center
+        .article-block-inner
+          background-color: $active-background-color-gold
+          width: 100%
+          height: 20.0rem
+          display: flex
+          flex-direction: column
+          justify-content: space-around
+          .title-block
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-top: 1.5rem
+            .title
+              text-align: center
+              color: #282828
+              font-family: $font-agora
+              font-size: 1.6rem
+              line-height: 3.0rem
+              max-height: 3.0rem
+              overflow: hidden
+              font-weight: 700
+              text-transform: uppercase
+          .descrart-block
+            display: flex
+            align-items: flex-start
+            padding-left: 1.5rem
+            .descrart-img
+              width: 7.0rem
+              height: 7.0rem
+              background-color: white
+              margin-right: 2.0rem
+            .descrart
+              width: 60%
+              max-height: 6.0rem
+              overflow: hidden
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 1.4rem
+              font-weight: 500
+              text-transform: uppercase
+              line-height: 2.0rem
+          .more-block
+            padding-left: 1.5rem
+            padding-right: 1.5rem
+            .more
+              display: flex
+              justify-content: space-between
+              .dt
+                padding-top: 1.5rem
+                color: #282828
+                font-family: $font-agora
+                font-size: 14px
+                font-weight: 500
+                text-transform: uppercase
+              .btn-more
+                padding: 1.3rem 2.0rem
+                background-color: #282828
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 1.2rem
+                font-weight: 500
+                text-transform: uppercase
+
+
+@media all and (min-width: 240px) and (max-width: 319px)
+  .main-articles-block
+    background-color: $active-background-color-lite
+    .main-articles-block-inner
+      padding-top: 3.0rem
+      padding-bottom: 0.0rem
+      .descr
+        display: flex
+        justify-content: center
+        margin-bottom: 2.5rem
+        .title
+          text-align: center
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 1.0rem
+          line-height: 1.5rem
+          font-weight: 500
+          text-transform: uppercase
+
+      .article-block
+        width: 100%
+        margin-bottom: 2.5rem
+        display: flex
+        justify-content: center
+        .article-block-inner
+          background-color: $active-background-color-gold
+          width: 100%
+          height: 15.0rem
+          display: flex
+          flex-direction: column
+          justify-content: space-around
+          .title-block
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-top: 0.0rem
+            .title
+              text-align: center
+              color: #282828
+              font-family: $font-agora
+              font-size: 1.0rem
+              line-height: 3.0rem
+              max-height: 3.0rem
+              overflow: hidden
+              font-weight: 700
+              text-transform: uppercase
+          .descrart-block
+            display: flex
+            align-items: flex-start
+            padding-left: 1.5rem
+            .descrart-img
+              width: 5.0rem
+              height: 5.0rem
+              background-color: white
+              margin-right: 2.0rem
+            .descrart
+              width: 60%
+              max-height: 5.0rem
+              overflow: hidden
+              color: #ffffff
+              font-family: $font-agora
+              font-size: 1.0rem
+              font-weight: 500
+              text-transform: uppercase
+              line-height: 1.3rem
+          .more-block
+            padding-left: 1.5rem
+            padding-right: 1.5rem
+            .more
+              display: flex
+              justify-content: space-between
+              .dt
+                padding-top: 1.5rem
+                color: #282828
+                font-family: $font-agora
+                font-size: 1.0rem
+                font-weight: 500
+                text-transform: uppercase
+              .btn-more
+                padding: 0.7rem 0.5rem
+                background-color: #282828
+                color: #ffffff
+                font-family: $font-agora
+                font-size: 1.0rem
+                font-weight: 500
+                text-transform: uppercase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

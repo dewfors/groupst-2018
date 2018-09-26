@@ -49,13 +49,12 @@ function ready() {
     // }
 
 
-
     //menu-primary
     //********************************************
     let Style_ul_menu_main = getComputedStyle(ul_menu_main);
     //console.log(Style_ul_menu_main);
     open_menu_main.onclick = function () {
-        if (Style_ul_menu_main.display == 'none'){
+        if (Style_ul_menu_main.display == 'none') {
             ul_menu_main.classList.add("active");
             //this.innerHTML = "Закрыть меню";
         } else {
@@ -64,14 +63,26 @@ function ready() {
         }
     }
 
-
-
-
-
-
-
-
-
+    // //кнопка наверх
+    // //********************************************
+    // $(document).ready(function () {
+    //     $("#back-top").hide();
+    //     $(function () {
+    //         $(window).scroll(function () {
+    //             if ($(this).scrollTop() > 100) {
+    //                 $('#back-top').fadeIn();
+    //             } else {
+    //                 $('#back-top').fadeOut();
+    //             }
+    //         });
+    //         $('#back-top a').click(function () {
+    //             $('body,html').animate({
+    //                 scrollTop: 0
+    //             }, 310);
+    //             return false;
+    //         });
+    //     });
+    // });
 
 
 }

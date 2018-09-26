@@ -33,6 +33,21 @@ ul.nav1 {
   border-radius: 0 0.5rem 0 0.5rem;
 }
 
+#back-top {
+  position: fixed;
+  bottom: 60px;
+  right: 10%;
+}
+
+#back-top a {
+  background: url("../img/up/up4.png") no-repeat;
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-bottom: 7px;
+}
+
 .header-text-prop {
   font-size: 1.4em;
   font-weight: 500;
@@ -13011,30 +13026,44 @@ ul {
 }
 
 .routes-block .routes-block-inner .buttons {
-  width: 30%;
+  width: 100%;
+}
+
+.routes-block .routes-block-inner .buttons ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .routes-block .routes-block-inner .buttons ul li {
   display: block;
-  background-color: #124673;
   margin-top: 0.5rem;
   color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 500;
   text-transform: uppercase;
-  padding-top: 2.0rem;
-  padding-bottom: 2.0rem;
-  padding-left: 3.0rem;
+  padding: 1.0rem;
+}
+
+.routes-block .routes-block-inner .buttons ul li a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .routes-block .routes-block-inner .buttons ul li:hover {
   background-color: #ffb118;
+  color: #124673;
+  font-weight: 700;
   cursor: pointer;
 }
 
 .routes-block .routes-block-inner .description {
-  padding: 3.0rem;
+  padding-top: 4.0rem;
 }
 
 .routes-block .routes-block-inner .description .description-title {
@@ -13042,9 +13071,8 @@ ul {
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 3.8rem;
   font-weight: 700;
-  text-transform: uppercase;
   text-align: center;
-  margin-bottom: 3.0rem;
+  margin-bottom: 2.0rem;
 }
 
 .routes-block .routes-block-inner .description .description-text p {
@@ -13054,370 +13082,6 @@ ul {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.4rem;
-}
-
-@media all and (min-width: 992px) and (max-width: 1199px) {
-  .routes-block {
-    background-color: #175488;
-  }
-
-  .routes-block .routes-block-inner {
-    padding-top: 3.0rem;
-    padding-bottom: 3.0rem;
-  }
-
-  .routes-block .routes-block-inner .buttons {
-    width: 30%;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li {
-    display: block;
-    background-color: #124673;
-    margin-top: 0.5rem;
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding-top: 2.0rem;
-    padding-bottom: 2.0rem;
-    padding-left: 3.0rem;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li:hover {
-    background-color: #ffb118;
-    cursor: pointer;
-  }
-
-  .routes-block .routes-block-inner .description {
-    padding: 3.0rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 3.0rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 3.0rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-text p {
-    padding: 1.0rem;
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 2.4rem;
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 991px) {
-  .routes-block {
-    background-color: #175488;
-  }
-
-  .routes-block .routes-block-inner {
-    padding-top: 3.0rem;
-    padding-bottom: 3.0rem;
-  }
-
-  .routes-block .routes-block-inner .buttons {
-    width: 30%;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li {
-    display: block;
-    background-color: #124673;
-    margin-top: 0.5rem;
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 1.5rem;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li:hover {
-    background-color: #ffb118;
-    cursor: pointer;
-  }
-
-  .routes-block .routes-block-inner .description {
-    padding: 0 2.0rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 2.0rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-text p {
-    padding: 1.0rem;
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 2.4rem;
-  }
-}
-
-@media all and (min-width: 576px) and (max-width: 767px) {
-  .routes-block {
-    background-color: #175488;
-  }
-
-  .routes-block .routes-block-inner {
-    padding-top: 3.0rem;
-    padding-bottom: 3.0rem;
-  }
-
-  .routes-block .routes-block-inner .buttons ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    background-color: #124673;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li {
-    display: block;
-    background-color: #124673;
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 1.0rem;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li:hover {
-    background-color: #ffb118;
-    cursor: pointer;
-  }
-
-  .routes-block .routes-block-inner .description {
-    margin-top: 3.0rem;
-    padding: 0 2.0rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 2.0rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-text p {
-    padding: 1.0rem;
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 2.4rem;
-  }
-}
-
-@media all and (min-width: 480px) and (max-width: 575px) {
-  .routes-block {
-    background-color: #175488;
-  }
-
-  .routes-block .routes-block-inner {
-    padding-top: 3.0rem;
-    padding-bottom: 3.0rem;
-  }
-
-  .routes-block .routes-block-inner .buttons ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    background-color: #124673;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li {
-    display: block;
-    background-color: #124673;
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 1.0rem;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li:hover {
-    background-color: #ffb118;
-    cursor: pointer;
-  }
-
-  .routes-block .routes-block-inner .description {
-    margin-top: 3.0rem;
-    padding: 0 2.0rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 2.0rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-text p {
-    padding: 1.0rem;
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 2.4rem;
-  }
-}
-
-@media all and (min-width: 320px) and (max-width: 479px) {
-  .routes-block {
-    background-color: #175488;
-  }
-
-  .routes-block .routes-block-inner {
-    padding-top: 3.0rem;
-    padding-bottom: 3.0rem;
-  }
-
-  .routes-block .routes-block-inner .buttons ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    background-color: #124673;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li {
-    display: block;
-    background-color: #124673;
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.0rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 0.8rem;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li:hover {
-    background-color: #ffb118;
-    cursor: pointer;
-  }
-
-  .routes-block .routes-block-inner .description {
-    margin-top: 3.0rem;
-    padding: 0 2.0rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-text p {
-    padding: 1.0rem;
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 2.0rem;
-  }
-}
-
-@media all and (min-width: 240px) and (max-width: 319px) {
-  .routes-block {
-    background-color: #175488;
-  }
-
-  .routes-block .routes-block-inner {
-    padding-top: 3.0rem;
-    padding-bottom: 3.0rem;
-  }
-
-  .routes-block .routes-block-inner .buttons ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    background-color: #124673;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li {
-    display: block;
-    background-color: #124673;
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 0.9rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 0.5rem;
-  }
-
-  .routes-block .routes-block-inner .buttons ul li:hover {
-    background-color: #ffb118;
-    cursor: pointer;
-  }
-
-  .routes-block .routes-block-inner .description {
-    margin-top: 3.0rem;
-    padding: 0 2.0rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.0rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-
-  .routes-block .routes-block-inner .description .description-text p {
-    padding: 1.0rem;
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.0rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-  }
 }
 
 .personal-grid-block {

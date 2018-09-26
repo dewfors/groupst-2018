@@ -151,6 +151,7 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
+  line-height: 1.8rem;
 }
 
 .brend-info-block .brend-info-block-inner .callselect-dv-block {
@@ -214,6 +215,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
+    line-height: 1.8rem;
   }
 
   .brend-info-block .brend-info-block-inner .callselect-dv-block {
@@ -278,6 +280,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
+    line-height: 1.5rem;
   }
 
   .brend-info-block .brend-info-block-inner .callselect-dv-block {
@@ -342,6 +345,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
+    line-height: 1.5rem;
   }
 
   .brend-info-block .brend-info-block-inner .callselect-dv-block {
@@ -407,6 +411,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
+    line-height: 1.5rem;
   }
 
   .brend-info-block .brend-info-block-inner .callselect-dv-block {
@@ -933,7 +938,7 @@ body {
 @media (max-width: 576px) {
   .footer .footer-inner .footer-top {
     background-color: #175488;
-    padding-top: 3.0rem;
+    padding-top: 1.0rem;
   }
 
   .footer .footer-inner .footer-top .footer-t-inner .title {
@@ -941,7 +946,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     font-size: 1.5rem;
-    padding-top: 1.0rem;
+    padding-top: 2.5rem;
     padding-bottom: 1.0rem;
   }
 

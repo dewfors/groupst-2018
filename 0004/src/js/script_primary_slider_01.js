@@ -45,9 +45,14 @@ function ready() {
 
         // показываем нужный слайд
         slides[slideIndex-1].style.display = 'block';
+
+        slides[slideIndex-1].classList.remove('fade');
+
+        //console.log(slideIndex-1);
         // к  активной точке добавляем класс dot-active
         dots[slideIndex-1].classList.add('dot-active');
 
+        //slides[1].style.display = 'block';
 
     }
 
@@ -72,6 +77,7 @@ function ready() {
 
     dotWrap.addEventListener('click', function (event) {
 
+        //console.log(event);
         for (let i=0; i < dots.length+1; i++){
             if (event.target.classList.contains('dot') && event.target == dots[i-1]){
                 currentSlide(i);
@@ -79,4 +85,6 @@ function ready() {
             }
         }
     });
+
+
 }

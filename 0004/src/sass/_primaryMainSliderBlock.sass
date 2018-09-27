@@ -19,8 +19,8 @@
       //margin-top: 150px
       position: relative
       display: flex
-      &-title
-        width: 40%
+      .slider-title
+        width: 60%
         position: absolute
         top: 0
         left: 0
@@ -30,41 +30,93 @@
         display: flex
         flex-direction: column
         //justify-content: space-between
-        &__text1
-          padding-top: 8.0rem
+        .slider-title__text1
+          padding-top: 5.0rem
           font-size: 3.7em
           font-weight: 400
-        &__text2
+        .slider-title__text2
+          //display: none
           padding-top: 10px
           font-size: 4.5em
           font-weight: 400
           text-transform: uppercase
-        &__text3
+        .slider-title__text3
+          display: none
           padding-top: 6.0rem
           font-family: $font-lato
           font-size: 2.3em
           font-weight: 300
           line-height: 30px
-        &-buttons
-          padding-top: 2.5rem
-          a
-            text-decoration: none
-            .btn-poligon-right
-              width: 60%
+      .slider-title-buttons
+        position: absolute
+        left: 0
+        bottom: 5.0rem
+        width: 60%
+        padding-top: 20.5rem
+        z-index: 1
+        a
+          text-decoration: none
+          .btn-poligon-right
+            width: 60%
+            height: 45px
+            border-radius: 0 0 0 5px
+            margin-bottom: 20px
+            .txt
+              margin: auto
+              color: #333333
+              font-size: 14px
+              font-weight: 500
+              text-transform: uppercase
+              padding-top: 10px
+              padding-bottom: 10px
+            .poligon-right
+              width: 45px
               height: 45px
-              border-radius: 0 0 0 5px
-              margin-bottom: 20px
-              .txt
-                margin: auto
-                color: #333333
-                font-size: 14px
-                font-weight: 500
-                text-transform: uppercase
-                padding-top: 10px
-                padding-bottom: 10px
-              .poligon-right
-                width: 45px
-                height: 45px
+      .st-btn-filial
+        width: 15.0rem
+        position: absolute
+        top: 5.0rem
+        right: 0
+        color: #ffffff
+        font-size: 1.3rem
+        font-weight: 500
+        text-transform: uppercase
+        text-align: center
+        border: 1px solid #ffffff
+        background-color: rgba(0, 0, 0, 0.5)
+        padding: 1.0rem 0.5rem
+        cursor: pointer
+        z-index: 1
+      .st-btn-call
+        width: 15.0rem
+        position: absolute
+        top: 10.0rem
+        right: 0
+        color: #ffffff
+        font-size: 1.3rem
+        font-weight: 500
+        text-transform: uppercase
+        text-align: center
+        border: 1px solid #ffffff
+        background-color: rgba(0, 0, 0, 0.5)
+        padding: 1.0rem 0.5rem
+        cursor: pointer
+        z-index: 1
+      .st-btn-personal
+        width: 15.0rem
+        position: absolute
+        top: 15.0rem
+        right: 0
+        color: #ffffff
+        font-size: 1.3rem
+        font-weight: 500
+        text-transform: uppercase
+        text-align: center
+        border: 1px solid #ffffff
+        background-color: rgba(0, 0, 0, 0.5)
+        padding: 1.0rem 0.5rem
+        cursor: pointer
+        z-index: 1
 
       .wrap
         width: 100%
@@ -129,10 +181,12 @@
             opacity: .4
             transition: 1s
       &-dots
+        //display: none
         width: 90%
         margin: 0 auto
         margin-top: 20px
-        display: flex
+        //display: flex
+        display: none
         flex-direction: column
         //justify-content: center
         align-items: flex-end
@@ -168,6 +222,7 @@
 
 
 
+
 @media all and (min-width: 992px) and (max-width: 1199px)
   .main
     font-size: 10px
@@ -190,8 +245,8 @@
         //margin-top: 150px
         position: relative
         display: flex
-        &-title
-          width: 40%
+        .slider-title
+          width: 60%
           position: absolute
           top: 0
           left: 0
@@ -201,41 +256,93 @@
           display: flex
           flex-direction: column
           //justify-content: space-between
-          &__text1
+          .slider-title__text1
             padding-top: 5.0rem
-            font-size: 3.5em
+            font-size: 3.7em
             font-weight: 400
-          &__text2
-            padding-top: 1.0rem
-            font-size: 4.0em
+          .slider-title__text2
+            //display: none
+            padding-top: 10px
+            font-size: 4.5em
             font-weight: 400
             text-transform: uppercase
-          &__text3
-            padding-top: 3.5rem
+          .slider-title__text3
+            display: none
+            padding-top: 6.0rem
             font-family: $font-lato
             font-size: 2.3em
             font-weight: 300
             line-height: 30px
-          &-buttons
-            padding-top: 2.0rem
-            a
-              text-decoration: none
-              .btn-poligon-right
-                width: 70%
+        .slider-title-buttons
+          position: absolute
+          left: 0
+          bottom: 5.0rem
+          width: 60%
+          padding-top: 20.5rem
+          z-index: 1
+          a
+            text-decoration: none
+            .btn-poligon-right
+              width: 60%
+              height: 45px
+              border-radius: 0 0 0 5px
+              margin-bottom: 20px
+              .txt
+                margin: auto
+                color: #333333
+                font-size: 14px
+                font-weight: 500
+                text-transform: uppercase
+                padding-top: 10px
+                padding-bottom: 10px
+              .poligon-right
+                width: 45px
                 height: 45px
-                border-radius: 0 0 0 5px
-                margin-bottom: 20px
-                .txt
-                  margin: auto
-                  color: #333333
-                  font-size: 14px
-                  font-weight: 500
-                  text-transform: uppercase
-                  padding-top: 10px
-                  padding-bottom: 10px
-                .poligon-right
-                  width: 45px
-                  height: 45px
+        .st-btn-filial
+          width: 15.0rem
+          position: absolute
+          top: 5.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.3rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 1.0rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-call
+          width: 15.0rem
+          position: absolute
+          top: 10.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.3rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 1.0rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-personal
+          width: 15.0rem
+          position: absolute
+          top: 15.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.3rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 1.0rem 0.5rem
+          cursor: pointer
+          z-index: 1
 
         .wrap
           width: 100%
@@ -300,10 +407,12 @@
               opacity: .4
               transition: 1s
         &-dots
+          //display: none
           width: 90%
           margin: 0 auto
           margin-top: 20px
-          display: flex
+          //display: flex
+          display: none
           flex-direction: column
           //justify-content: center
           align-items: flex-end
@@ -360,7 +469,7 @@
         //margin-top: 150px
         position: relative
         display: flex
-        &-title
+        .slider-title
           width: 60%
           position: absolute
           top: 0
@@ -371,41 +480,93 @@
           display: flex
           flex-direction: column
           //justify-content: space-between
-          &__text1
-            padding-top: 4.0rem
+          .slider-title__text1
+            padding-top: 2.5rem
             font-size: 2.5em
             font-weight: 400
-          &__text2
-            padding-top: 1.0rem
-            font-size: 3.0em
+          .slider-title__text2
+            //display: none
+            padding-top: 10px
+            font-size: 3.5em
             font-weight: 400
             text-transform: uppercase
-          &__text3
-            padding-top: 3.0rem
+          .slider-title__text3
+            display: none
+            padding-top: 6.0rem
             font-family: $font-lato
-            font-size: 1.9em
+            font-size: 2.3em
             font-weight: 300
             line-height: 30px
-          &-buttons
-            padding-top: 1.0rem
-            a
-              text-decoration: none
-              .btn-poligon-right
-                width: 55%
-                height: 3.0rem
-                border-radius: 0 0 0 5px
-                margin-bottom: 1.0rem
-                .txt
-                  margin: auto
-                  color: #333333
-                  font-size: 1.2rem
-                  font-weight: 500
-                  text-transform: uppercase
-                  padding-top: 0.5rem
-                  padding-bottom: 0.5rem
-                .poligon-right
-                  width: 3.0rem
-                  height: 3.0rem
+        .slider-title-buttons
+          position: absolute
+          left: 0
+          bottom: 2.0rem
+          width: 60%
+          //padding-top: 20.5rem
+          z-index: 1
+          a
+            text-decoration: none
+            .btn-poligon-right
+              width: 60%
+              height: 35px
+              border-radius: 0 0 0 5px
+              margin-bottom: 20px
+              .txt
+                margin: auto
+                color: #333333
+                font-size: 12px
+                font-weight: 500
+                text-transform: uppercase
+                padding-top: 5px
+                padding-bottom: 5px
+              .poligon-right
+                width: 35px
+                height: 35px
+        .st-btn-filial
+          width: 15.0rem
+          position: absolute
+          top: 3.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.3rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-call
+          width: 15.0rem
+          position: absolute
+          top: 7.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.3rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-personal
+          width: 15.0rem
+          position: absolute
+          top: 11.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.3rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
 
         .wrap
           width: 100%
@@ -470,10 +631,12 @@
               opacity: .4
               transition: 1s
         &-dots
+          //display: none
           width: 90%
           margin: 0 auto
           margin-top: 20px
-          display: flex
+          //display: flex
+          display: none
           flex-direction: column
           //justify-content: center
           align-items: flex-end
@@ -507,6 +670,7 @@
               height: 40px
               width: 40px
 
+
 @media all and (min-width: 576px) and (max-width: 767px)
   .main
     font-size: 10px
@@ -529,7 +693,7 @@
         //margin-top: 150px
         position: relative
         display: flex
-        &-title
+        .slider-title
           width: 60%
           position: absolute
           top: 0
@@ -540,41 +704,93 @@
           display: flex
           flex-direction: column
           //justify-content: space-between
-          &__text1
+          .slider-title__text1
             padding-top: 2.0rem
-            font-size: 1.5em
+            font-size: 2.5em
             font-weight: 400
-          &__text2
-            padding-top: 1.0rem
-            font-size: 2.0em
+          .slider-title__text2
+            //display: none
+            padding-top: 0px
+            font-size: 3.0em
             font-weight: 400
             text-transform: uppercase
-          &__text3
-            padding-top: 2.0rem
+          .slider-title__text3
+            display: none
+            padding-top: 6.0rem
             font-family: $font-lato
-            font-size: 1.5em
+            font-size: 2.3em
             font-weight: 300
-            line-height: 2.0rem
-          &-buttons
-            padding-top: 1.0rem
-            a
-              text-decoration: none
-              .btn-poligon-right
-                width: 55%
-                height: 3.0rem
-                border-radius: 0 0 0 5px
-                margin-bottom: 0.5rem
-                .txt
-                  margin: auto
-                  color: #333333
-                  font-size: 1.0rem
-                  font-weight: 500
-                  text-transform: uppercase
-                  padding-top: 0.5rem
-                  padding-bottom: 0.5rem
-                .poligon-right
-                  width: 3.0rem
-                  height: 3.0rem
+            line-height: 30px
+        .slider-title-buttons
+          position: absolute
+          left: 0
+          bottom: 1.0rem
+          width: 70%
+          //padding-top: 20.5rem
+          z-index: 1
+          a
+            text-decoration: none
+            .btn-poligon-right
+              width: 60%
+              height: 35px
+              border-radius: 0 0 0 5px
+              margin-bottom: 10px
+              .txt
+                margin: auto
+                color: #333333
+                font-size: 12px
+                font-weight: 500
+                text-transform: uppercase
+                padding-top: 5px
+                padding-bottom: 5px
+              .poligon-right
+                width: 35px
+                height: 35px
+        .st-btn-filial
+          width: 13.0rem
+          position: absolute
+          top: 3.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.1rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-call
+          width: 13.0rem
+          position: absolute
+          top: 7.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.1rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-personal
+          width: 13.0rem
+          position: absolute
+          top: 11.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.1rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
 
         .wrap
           width: 100%
@@ -639,10 +855,12 @@
               opacity: .4
               transition: 1s
         &-dots
+          //display: none
           width: 90%
           margin: 0 auto
           margin-top: 20px
-          display: flex
+          //display: flex
+          display: none
           flex-direction: column
           //justify-content: center
           align-items: flex-end
@@ -663,8 +881,8 @@
           //background-color: $main-color
           .dot
             cursor: pointer
-            height: 3.0rem
-            width: 3.0rem
+            height: 40px
+            width: 40px
             margin: 5px 10px
             background-color: $active-background-color-dark
             //border-radius: 50%
@@ -673,8 +891,8 @@
             position: relative
             &-active
               background-color: $active-background-color-gold
-              height: 3.0rem
-              width: 3.0rem
+              height: 40px
+              width: 40px
 
 
 @media all and (min-width: 480px) and (max-width: 575px)
@@ -699,8 +917,8 @@
         //margin-top: 150px
         position: relative
         display: flex
-        &-title
-          width: 50%
+        .slider-title
+          width: 60%
           position: absolute
           top: 0
           left: 0
@@ -710,43 +928,93 @@
           display: flex
           flex-direction: column
           //justify-content: space-between
-          &__text1
-            padding-top: 6.0vw
-            font-size: 3.0vw
+          .slider-title__text1
+            padding-top: 1.0rem
+            font-size: 2.0em
             font-weight: 400
-          &__text2
-            padding-top: 1.0vw
-            font-size: 3.0vw
+          .slider-title__text2
+            //display: none
+            padding-top: 0px
+            font-size: 2.5em
             font-weight: 400
             text-transform: uppercase
-          &__text3
-            padding-top: 4.0vw
-
+          .slider-title__text3
+            display: none
+            padding-top: 6.0rem
             font-family: $font-lato
-            font-size: 2.5vw
+            font-size: 2.3em
             font-weight: 300
-            line-height: 2.5vw
-            //min-height: 10.0rem
-          &-buttons
-            padding-top: 3.0vw
-            a
-              text-decoration: none
-              .btn-poligon-right
-                width: 55%
-                height: 5.0vw
-                border-radius: 0 0 0 5px
-                margin-bottom: 1.0vw
-                .txt
-                  margin: auto
-                  color: #333333
-                  font-size: 0.7rem
-                  font-weight: 500
-                  text-transform: uppercase
-                  padding-top: 1.0vw
-                  padding-bottom: 1.0vw
-                .poligon-right
-                  width: 5.0vw
-                  height: 5.0vw
+            line-height: 30px
+        .slider-title-buttons
+          position: absolute
+          left: 0
+          bottom: 1.0rem
+          width: 70%
+          //padding-top: 20.5rem
+          z-index: 1
+          a
+            text-decoration: none
+            .btn-poligon-right
+              width: 55%
+              height: 35px
+              border-radius: 0 0 0 5px
+              margin-bottom: 10px
+              .txt
+                margin: auto
+                color: #333333
+                font-size: 10px
+                font-weight: 500
+                text-transform: uppercase
+                padding-top: 5px
+                padding-bottom: 5px
+              .poligon-right
+                width: 35px
+                height: 35px
+        .st-btn-filial
+          width: 11.0rem
+          position: absolute
+          top: 2.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.0rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-call
+          width: 11.0rem
+          position: absolute
+          top: 6.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.0rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-personal
+          width: 11.0rem
+          position: absolute
+          top: 10.0rem
+          right: 0
+          color: #ffffff
+          font-size: 1.0rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
 
         .wrap
           width: 100%
@@ -811,10 +1079,12 @@
               opacity: .4
               transition: 1s
         &-dots
+          //display: none
           width: 90%
           margin: 0 auto
           margin-top: 20px
-          display: flex
+          //display: flex
+          display: none
           flex-direction: column
           //justify-content: center
           align-items: flex-end
@@ -835,9 +1105,9 @@
           //background-color: $main-color
           .dot
             cursor: pointer
-            height: 5.0vw
-            width: 5.0vw
-            margin: 3px 10px
+            height: 40px
+            width: 40px
+            margin: 5px 10px
             background-color: $active-background-color-dark
             //border-radius: 50%
             display: inline-block
@@ -845,8 +1115,8 @@
             position: relative
             &-active
               background-color: $active-background-color-gold
-              height: 5.0vw
-              width: 5.0vw
+              height: 40px
+              width: 40px
 
 
 @media all and (min-width: 320px) and (max-width: 479px)
@@ -871,8 +1141,8 @@
         //margin-top: 150px
         position: relative
         display: flex
-        &-title
-          width: 50.0vw
+        .slider-title
+          width: 80%
           position: absolute
           top: 0
           left: 0
@@ -882,43 +1152,93 @@
           display: flex
           flex-direction: column
           //justify-content: space-between
-          &__text1
-            padding-top: 6.0vw
-            font-size: 3.0vw
+          .slider-title__text1
+            padding-top: 1.0rem
+            font-size: 1.0em
             font-weight: 400
-          &__text2
-            padding-top: 1.0vw
-            font-size: 3.0vw
+          .slider-title__text2
+            //display: none
+            padding-top: 0px
+            font-size: 2.0em
             font-weight: 400
             text-transform: uppercase
-          &__text3
-            padding-top: 4.0vw
-
+          .slider-title__text3
+            display: none
+            padding-top: 6.0rem
             font-family: $font-lato
-            font-size: 2.5vw
+            font-size: 2.3em
             font-weight: 300
-            line-height: 2.5vw
-          //min-height: 10.0rem
-          &-buttons
-            padding-top: 3.0vw
-            a
-              text-decoration: none
-              .btn-poligon-right
-                width: 70%
-                height: 5.0vw
-                border-radius: 0 0 0 5px
-                margin-bottom: 1.0vw
-                .txt
-                  margin: auto
-                  color: #333333
-                  font-size: 0.7rem
-                  font-weight: 500
-                  text-transform: uppercase
-                  padding-top: 1.0vw
-                  padding-bottom: 1.0vw
-                .poligon-right
-                  width: 5.0vw
-                  height: 5.0vw
+            line-height: 30px
+        .slider-title-buttons
+          position: absolute
+          left: 0
+          bottom: 1.0rem
+          width: 70%
+          //padding-top: 20.5rem
+          z-index: 1
+          a
+            text-decoration: none
+            .btn-poligon-right
+              width: 70%
+              height: 25px
+              border-radius: 0 0 0 5px
+              margin-bottom: 5px
+              .txt
+                margin: auto
+                color: #333333
+                font-size: 8px
+                font-weight: 500
+                text-transform: uppercase
+                padding-top: 5px
+                padding-bottom: 5px
+              .poligon-right
+                width: 25px
+                height: 25px
+        .st-btn-filial
+          width: 8.0rem
+          position: absolute
+          top: 1.0rem
+          right: 0
+          color: #ffffff
+          font-size: 0.7rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-call
+          width: 8.0rem
+          position: absolute
+          top: 4.0rem
+          right: 0
+          color: #ffffff
+          font-size: 0.7rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-personal
+          width: 8.0rem
+          position: absolute
+          top: 7.0rem
+          right: 0
+          color: #ffffff
+          font-size: 0.7rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.8rem 0.5rem
+          cursor: pointer
+          z-index: 1
 
         .wrap
           width: 100%
@@ -983,15 +1303,17 @@
               opacity: .4
               transition: 1s
         &-dots
+          //display: none
           width: 90%
           margin: 0 auto
           margin-top: 20px
-          display: flex
+          //display: flex
+          display: none
           flex-direction: column
           //justify-content: center
           align-items: flex-end
           position: absolute
-          bottom: 10%
+          bottom: 5%
           right: 0
           .dot-jd
             background: url("../img/slider/icons/jd.png") center no-repeat
@@ -1007,9 +1329,9 @@
           //background-color: $main-color
           .dot
             cursor: pointer
-            height: 7.0vw
-            width: 7.0vw
-            margin: 3px 10px
+            height: 40px
+            width: 40px
+            margin: 5px 10px
             background-color: $active-background-color-dark
             //border-radius: 50%
             display: inline-block
@@ -1017,8 +1339,9 @@
             position: relative
             &-active
               background-color: $active-background-color-gold
-              height: 7.0vw
-              width: 7.0vw
+              height: 40px
+              width: 40px
+
 
 @media all and (min-width: 240px) and (max-width: 319px)
   .main
@@ -1042,8 +1365,8 @@
         //margin-top: 150px
         position: relative
         display: flex
-        &-title
-          width: 50.0vw
+        .slider-title
+          width: 80%
           position: absolute
           top: 0
           left: 0
@@ -1053,43 +1376,93 @@
           display: flex
           flex-direction: column
           //justify-content: space-between
-          &__text1
-            padding-top: 5.0vw
-            font-size: 3.0vw
+          .slider-title__text1
+            padding-top: 0.5rem
+            font-size: 1.0em
             font-weight: 400
-          &__text2
-            padding-top: 1.0vw
-            font-size: 3.0vw
+          .slider-title__text2
+            //display: none
+            padding-top: 0px
+            font-size: 1.5em
             font-weight: 400
             text-transform: uppercase
-          &__text3
-            padding-top: 4.0vw
-
+          .slider-title__text3
+            display: none
+            padding-top: 6.0rem
             font-family: $font-lato
-            font-size: 2.5vw
+            font-size: 2.3em
             font-weight: 300
-            line-height: 2.5vw
-          //min-height: 10.0rem
-          &-buttons
-            padding-top: 3.0vw
-            a
-              text-decoration: none
-              .btn-poligon-right
-                width: 80%
-                height: 5.0vw
-                border-radius: 0 0 0 5px
-                margin-bottom: 1.0vw
-                .txt
-                  margin: auto
-                  color: #333333
-                  font-size: 2.5vw
-                  font-weight: 500
-                  text-transform: uppercase
-                  padding-top: 1.0vw
-                  padding-bottom: 1.0vw
-                .poligon-right
-                  width: 5.0vw
-                  height: 5.0vw
+            line-height: 30px
+        .slider-title-buttons
+          position: absolute
+          left: 0
+          bottom: 0.0rem
+          width: 70%
+          //padding-top: 20.5rem
+          z-index: 1
+          a
+            text-decoration: none
+            .btn-poligon-right
+              width: 70%
+              height: 20px
+              border-radius: 0 0 0 5px
+              margin-bottom: 5px
+              .txt
+                margin: auto
+                color: #333333
+                font-size: 6px
+                font-weight: 500
+                text-transform: uppercase
+                padding-top: 5px
+                padding-bottom: 5px
+              .poligon-right
+                width: 20px
+                height: 20px
+        .st-btn-filial
+          width: 6.0rem
+          position: absolute
+          top: 0.0rem
+          right: 0
+          color: #ffffff
+          font-size: 0.5rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.5rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-call
+          width: 6.0rem
+          position: absolute
+          top: 2.0rem
+          right: 0
+          color: #ffffff
+          font-size: 0.5rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.5rem 0.5rem
+          cursor: pointer
+          z-index: 1
+        .st-btn-personal
+          width: 6.0rem
+          position: absolute
+          top: 4.0rem
+          right: 0
+          color: #ffffff
+          font-size: 0.5rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          border: 1px solid #ffffff
+          background-color: rgba(0, 0, 0, 0.5)
+          padding: 0.5rem 0.5rem
+          cursor: pointer
+          z-index: 1
 
         .wrap
           width: 100%
@@ -1154,15 +1527,17 @@
               opacity: .4
               transition: 1s
         &-dots
+          //display: none
           width: 90%
           margin: 0 auto
           margin-top: 20px
-          display: flex
+          //display: flex
+          display: none
           flex-direction: column
           //justify-content: center
           align-items: flex-end
           position: absolute
-          bottom: 10%
+          bottom: 5%
           right: 0
           .dot-jd
             background: url("../img/slider/icons/jd.png") center no-repeat
@@ -1178,9 +1553,9 @@
           //background-color: $main-color
           .dot
             cursor: pointer
-            height: 7.0vw
-            width: 7.0vw
-            margin: 3px 10px
+            height: 40px
+            width: 40px
+            margin: 5px 10px
             background-color: $active-background-color-dark
             //border-radius: 50%
             display: inline-block
@@ -1188,8 +1563,19 @@
             position: relative
             &-active
               background-color: $active-background-color-gold
-              height: 7.0vw
-              width: 7.0vw
+              height: 40px
+              width: 40px
+
+
+
+
+
+
+
+
+
+
+
 
 
 

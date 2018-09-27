@@ -5,21 +5,25 @@
     .logo-dv-block
       padding-top: 1.0rem
       padding-bottom: 1.0rem
+      //margin-left: -1.0rem
       display: flex
-      justify-content: center
+      justify-content: flex-start
       align-items: center
+      a
+        img
+          width: 100px
     .info-dv-block
       padding-top: 1.0rem
       padding-bottom: 1.0rem
       display: flex
-      justify-content: center
+      justify-content: flex-end
       align-items: center
       .info
         color: #ffffff
         font-size: 1.3rem
         font-weight: 500
         text-transform: uppercase
-        text-align: center
+        text-align: right
         line-height: 1.8rem
     .callselect-dv-block
       display: flex
@@ -35,8 +39,7 @@
         padding: 1.0rem 0.5rem
         margin-left: 0.5rem
 
-
-@media  all and (max-width: 992px)
+@media all and (min-width: 992px) and (max-width: 1199px)
   .brend-info-block
     background: $active-background-color-lite
     padding-top: 1.0rem
@@ -44,21 +47,25 @@
       .logo-dv-block
         padding-top: 1.0rem
         padding-bottom: 1.0rem
+        //margin-left: -1.0rem
         display: flex
-        justify-content: center
+        justify-content: flex-start
         align-items: center
+        a
+          img
+            width: 100px
       .info-dv-block
         padding-top: 1.0rem
         padding-bottom: 1.0rem
         display: flex
-        justify-content: center
+        justify-content: flex-end
         align-items: center
         .info
           color: #ffffff
           font-size: 1.3rem
           font-weight: 500
           text-transform: uppercase
-          text-align: center
+          text-align: right
           line-height: 1.8rem
       .callselect-dv-block
         display: flex
@@ -66,7 +73,7 @@
         padding: 1.0rem
         .callselect
           color: #ffffff
-          font-size: 1.0rem
+          font-size: 1.3rem
           font-weight: 500
           text-transform: uppercase
           border: 1px solid $active-background-color-gold
@@ -75,7 +82,7 @@
           margin-left: 0.5rem
 
 
-@media  all and (max-width: 768px)
+@media all and (min-width: 768px) and (max-width: 991px)
   .brend-info-block
     background: $active-background-color-lite
     padding-top: 1.0rem
@@ -83,112 +90,215 @@
       .logo-dv-block
         padding-top: 1.0rem
         padding-bottom: 1.0rem
+        //margin-left: -1.0rem
         display: flex
-        justify-content: center
+        justify-content: flex-start
         align-items: center
+        a
+          img
+            width: 100px
       .info-dv-block
         padding-top: 1.0rem
         padding-bottom: 1.0rem
         display: flex
-        justify-content: center
-        align-items: center
-        .info
-          color: #ffffff
-          font-size: 1.2rem
-          font-weight: 500
-          text-transform: uppercase
-          text-align: center
-          line-height: 1.5rem
-      .callselect-dv-block
-        display: flex
-        justify-content: center
-        padding: 1.0rem
-        .callselect
-          color: #ffffff
-          font-size: 1.0rem
-          font-weight: 500
-          text-transform: uppercase
-          border: 1px solid $active-background-color-gold
-          border-radius: 5px
-          padding: 1.0rem 0.5rem
-          margin-left: 0.5rem
-
-@media  all and (max-width: 576px)
-  .brend-info-block
-    background: $active-background-color-lite
-    padding-top: 1.0rem
-    .brend-info-block-inner
-      .logo-dv-block
-        padding-top: 1.0rem
-        padding-bottom: 1.0rem
-        display: none
-        justify-content: center
-        align-items: center
-      .info-dv-block
-        padding-top: 0.5rem
-        padding-bottom: 1.0rem
-        display: flex
-        justify-content: center
-        align-items: center
-        .info
-          color: #ffffff
-          font-size: 1.2rem
-          font-weight: 500
-          text-transform: uppercase
-          text-align: center
-          line-height: 1.5rem
-      .callselect-dv-block
-        display: flex
-        justify-content: center
-        padding: 1.0rem
-        padding-top: 0
-        .callselect
-          color: #ffffff
-          font-size: 1.0rem
-          font-weight: 500
-          text-transform: uppercase
-          border: 1px solid $active-background-color-gold
-          border-radius: 5px
-          padding: 1.0rem 0.5rem
-          margin-left: 0.5rem
-
-
-
-@media  all and (max-width: 480px)
-  .brend-info-block
-    background: $active-background-color-lite
-    padding-top: 1.0rem
-    .brend-info-block-inner
-      .logo-dv-block
-        padding-top: 1.0rem
-        padding-bottom: 1.0rem
-        display: flex
-        justify-content: center
-        align-items: center
-      .info-dv-block
-        padding-top: 0.5rem
-        padding-bottom: 1.0rem
-        display: flex
-        justify-content: center
+        justify-content: flex-end
         align-items: center
         .info
           color: #ffffff
           font-size: 1.1rem
           font-weight: 500
           text-transform: uppercase
-          text-align: center
-          line-height: 1.5rem
+          text-align: right
+          line-height: 1.8rem
       .callselect-dv-block
         display: flex
         justify-content: center
         padding: 1.0rem
-        padding-top: 0
         .callselect
           color: #ffffff
-          font-size: 0.9rem
-          font-weight: 400
+          font-size: 1.3rem
+          font-weight: 500
           text-transform: uppercase
           border: 1px solid $active-background-color-gold
           border-radius: 5px
           padding: 1.0rem 0.5rem
           margin-left: 0.5rem
+
+@media all and (min-width: 576px) and (max-width: 767px)
+  .brend-info-block
+    background: $active-background-color-lite
+    padding-top: 1.0rem
+    .brend-info-block-inner
+      .logo-dv-block
+        padding-top: 1.0rem
+        padding-bottom: 1.0rem
+        //margin-left: -1.0rem
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        a
+          img
+            width: 80px
+      .info-dv-block
+        padding-top: 1.0rem
+        padding-bottom: 1.0rem
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        .info
+          color: #ffffff
+          font-size: 0.8rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: right
+          line-height: 1.8rem
+      .callselect-dv-block
+        display: flex
+        justify-content: center
+        padding: 1.0rem
+        .callselect
+          color: #ffffff
+          font-size: 1.3rem
+          font-weight: 500
+          text-transform: uppercase
+          border: 1px solid $active-background-color-gold
+          border-radius: 5px
+          padding: 1.0rem 0.5rem
+          margin-left: 0.5rem
+
+
+@media all and (min-width: 480px) and (max-width: 575px)
+  .brend-info-block
+    background: $active-background-color-lite
+    padding-top: 1.0rem
+    .brend-info-block-inner
+      .logo-dv-block
+        padding-top: 1.0rem
+        padding-bottom: 1.0rem
+        //margin-left: -1.0rem
+        display: none
+        justify-content: flex-start
+        align-items: center
+        a
+          img
+            width: 80px
+      .info-dv-block
+        padding-top: 1.0rem
+        padding-bottom: 1.0rem
+        display: flex
+        justify-content: center
+        align-items: center
+        border-top: 1px solid $active-background-color-dark
+        .info
+          color: #ffffff
+          font-size: 0.8rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: right
+          line-height: 1.8rem
+
+      .callselect-dv-block
+        display: flex
+        justify-content: center
+        padding: 1.0rem
+        .callselect
+          color: #ffffff
+          font-size: 1.3rem
+          font-weight: 500
+          text-transform: uppercase
+          border: 1px solid $active-background-color-gold
+          border-radius: 5px
+          padding: 1.0rem 0.5rem
+          margin-left: 0.5rem
+
+
+@media all and (min-width: 320px) and (max-width: 479px)
+  .brend-info-block
+    background: $active-background-color-lite
+    padding-top: 1.0rem
+    .brend-info-block-inner
+      .logo-dv-block
+        padding-top: 1.0rem
+        padding-bottom: 1.0rem
+        //margin-left: -1.0rem
+        display: none
+        justify-content: flex-start
+        align-items: center
+        a
+          img
+            width: 80px
+      .info-dv-block
+        padding-top: 1.0rem
+        padding-bottom: 1.0rem
+        display: flex
+        justify-content: center
+        align-items: center
+        border-top: 1px solid $active-background-color-dark
+        .info
+          color: #ffffff
+          font-size: 0.8rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          line-height: 1.3rem
+
+      .callselect-dv-block
+        display: flex
+        justify-content: center
+        padding: 1.0rem
+        .callselect
+          color: #ffffff
+          font-size: 1.3rem
+          font-weight: 500
+          text-transform: uppercase
+          border: 1px solid $active-background-color-gold
+          border-radius: 5px
+          padding: 1.0rem 0.5rem
+          margin-left: 0.5rem
+
+
+@media all and (min-width: 240px) and (max-width: 319px)
+  .brend-info-block
+    background: $active-background-color-lite
+    padding-top: 1.0rem
+    .brend-info-block-inner
+      .logo-dv-block
+        padding-top: 1.0rem
+        padding-bottom: 1.0rem
+        //margin-left: -1.0rem
+        display: none
+        justify-content: flex-start
+        align-items: center
+        a
+          img
+            width: 80px
+      .info-dv-block
+        padding-top: 1.0rem
+        padding-bottom: 1.0rem
+        display: flex
+        justify-content: center
+        align-items: center
+        border-top: 1px solid $active-background-color-dark
+        .info
+          color: #ffffff
+          font-size: 0.8rem
+          font-weight: 500
+          text-transform: uppercase
+          text-align: center
+          line-height: 1.3rem
+
+      .callselect-dv-block
+        display: flex
+        justify-content: center
+        padding: 1.0rem
+        .callselect
+          color: #ffffff
+          font-size: 1.3rem
+          font-weight: 500
+          text-transform: uppercase
+          border: 1px solid $active-background-color-gold
+          border-radius: 5px
+          padding: 1.0rem 0.5rem
+          margin-left: 0.5rem
+
+

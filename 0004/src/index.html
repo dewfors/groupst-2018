@@ -31,8 +31,10 @@
     <header class="header">
 
         <div class="container">
-            <nav class="navbar navbar-expand-sm navbar-light bg-light d-sm-none xsNavBar">
-                <a class="navbar-brand" href="#">Surfhouse</a>
+            <nav class="navbar navbar-expand-sm navbar-light d-sm-none xsNavBar">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/header/header-logo.png" alt="logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span>menu</span>
@@ -1054,5 +1056,33 @@
 
     <script src="js/script_primary.js"></script>
     <script src="js/main_form_calc.js"></script>
+
+
+    <!--наверх-->
+    <p id="back-top"><a href="#top"><span></span></a></p>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#back-top").hide();
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        $('#back-top').fadeIn();
+                    } else {
+                        $('#back-top').fadeOut();
+                    }
+                });
+                $('#back-top a').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 400);
+                    return false;
+                });
+            });
+        });
+    </script>
+
+
+
 </body>
 </html>

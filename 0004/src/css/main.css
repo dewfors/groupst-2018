@@ -11251,6 +11251,352 @@ ul {
   list-style: none;
 }
 
+.pricesTransportTipes .pricesTransportTipesInside {
+  padding-top: 4.0rem;
+}
+
+.pricesTransportTipes .pricesTransportTipesInside .service-img {
+  margin-top: 3.0rem;
+  margin-bottom: 3.0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pricesTransportTipes .pricesTransportTipesInside .service-img a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pricesTransportTipes .pricesTransportTipesInside .service-img a img {
+  width: 50%;
+}
+
+.pricesTransportTipes .pricesTransportTipesInside .service-img a .sm-title {
+  width: 100%;
+  height: 3.0rem;
+  overflow: hidden;
+  margin-top: 2.0rem;
+  font-family: "AgoraSansProRegular", sans-serif, sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #124673;
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .pricesTransportTipes .pricesTransportTipesInside {
+    padding-top: 4.0rem;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img {
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a img {
+    width: 50%;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a .sm-title {
+    width: 100%;
+    height: 3.0rem;
+    overflow: hidden;
+    margin-top: 2.0rem;
+    font-family: "AgoraSansProRegular", sans-serif, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #124673;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .pricesTransportTipes .pricesTransportTipesInside {
+    padding-top: 4.0rem;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img {
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a img {
+    width: 50%;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a .sm-title {
+    width: 100%;
+    height: 3.0rem;
+    overflow: hidden;
+    margin-top: 2.0rem;
+    font-family: "AgoraSansProRegular", sans-serif, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #124673;
+  }
+}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .pricesTransportTipes .pricesTransportTipesInside {
+    padding-top: 4.0rem;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img {
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a img {
+    width: 50%;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a .sm-title {
+    width: 100%;
+    height: 3.0rem;
+    overflow: hidden;
+    margin-top: 2.0rem;
+    font-family: "AgoraSansProRegular", sans-serif, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #124673;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 575px) {
+  .pricesTransportTipes .pricesTransportTipesInside {
+    padding-top: 4.0rem;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img {
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a img {
+    width: 50%;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a .sm-title {
+    width: 100%;
+    height: 3.0rem;
+    overflow: hidden;
+    margin-top: 2.0rem;
+    font-family: "AgoraSansProRegular", sans-serif, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #124673;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .pricesTransportTipes .pricesTransportTipesInside {
+    padding-top: 4.0rem;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img {
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a img {
+    width: 50%;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a .sm-title {
+    width: 100%;
+    height: 3.0rem;
+    overflow: hidden;
+    margin-top: 2.0rem;
+    font-family: "AgoraSansProRegular", sans-serif, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #124673;
+  }
+}
+
+@media all and (min-width: 240px) and (max-width: 319px) {
+  .pricesTransportTipes .pricesTransportTipesInside {
+    padding-top: 2.0rem;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a img {
+    width: 50%;
+  }
+
+  .pricesTransportTipes .pricesTransportTipesInside .service-img a .sm-title {
+    width: 100%;
+    height: 3.0rem;
+    overflow: hidden;
+    margin-top: 1.0rem;
+    font-family: "AgoraSansProRegular", sans-serif, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #124673;
+  }
+}
+
 .pricesSliderBlock .pricesSliderBlockInside {
   padding-top: 3.0rem;
   padding-bottom: 3.0rem;

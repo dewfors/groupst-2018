@@ -519,9 +519,10 @@ ul
 .price-grid-block
   background-color: $active-background-color-lite
   .price-grid-block-inner
-    padding-top: 10.0rem
-    padding-bottom: 12.0rem
+    //padding-top: 10.0rem
+    padding-bottom: 5.0rem
     .price-title-block
+      margin-top: 5.0rem
       text-align: center
       .title
         color: #ffffff
@@ -529,102 +530,9 @@ ul
         font-size: 3.0rem
         font-weight: 700
         text-transform: uppercase
-    .direction
-      padding-top: 9.0rem
-      .direction-from
-        display: flex
-        justify-content: flex-start
-      .direction-to
-        display: flex
-        justify-content: flex-end
-      .label
-        color: #ffffff
-        font-family: $font-agora
-        font-size: 2.8rem
-        font-weight: 700
-        text-transform: uppercase
-      input
-        width: 30.0rem
-        height: 3.0rem
-        margin-left: 2.0rem
-    .table-grid
-      margin-top: 10.0rem
-      table
-        width: 100%
-        border-collapse: collapse
-        //border: 1px solid red
-        background-color: #f6f6f6
-        th
-          height: 5.0rem
-          border-bottom: 5px solid #ffb118
-          text-align: center
-          vertical-align: middle
-          color: #333333
-          font-family: $font-agora
-          font-size: 1.6rem
-          font-weight: 700
-          text-transform: uppercase
-        td
-          height: 5.0rem
-          //border: 1px solid red
-          text-align: center
-          vertical-align: middle
-          color: #777777
-          font-family: $font-lato
-          font-size: 1.4rem
-          font-weight: 300
-          line-height: 48px
-    .btn-to-calc
-      margin-top: 10.0rem
-      display: flex
-      justify-content: center
-      .btn-title
-        background-color: #ffffff
-        padding: 2.0rem
-        border-radius: 0 5px 0 5px
-        color: #333333
-        font-family: $font-agora
-        font-size: 21px
-        font-weight: 700
-        text-transform: uppercase
-
-
-
-
-@media all and (min-width: 992px) and (max-width: 1199px)
-  .price-grid-block
-    background-color: $active-background-color-lite
-    .price-grid-block-inner
-      padding-top: 8.0rem
-      padding-bottom: 8.0rem
-      .price-title-block
-        text-align: center
-        .title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 3.0rem
-          font-weight: 700
-          text-transform: uppercase
-      .direction
-        padding-top: 8.0rem
-        .direction-from
-          display: flex
-          justify-content: flex-start
-        .direction-to
-          display: flex
-          justify-content: flex-end
-        .label
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 2.8rem
-          font-weight: 700
-          text-transform: uppercase
-        input
-          width: 25.0rem
-          height: 3.0rem
-          margin-left: 2.0rem
+    .tbl
       .table-grid
-        margin-top: 8.0rem
+        margin-top: 5.0rem
         table
           width: 100%
           border-collapse: collapse
@@ -650,27 +558,171 @@ ul
             font-size: 1.4rem
             font-weight: 300
             line-height: 48px
+    .prim
+      margin-top: 3.0rem
+      color: #ffffff
+      font-size: 2.0rem
+      .prim-title
+        font-weight: 700
+        color: $active-background-color-gold
+      .prim-items
+        .pi-item
+          margin-top: 0.5rem
+        ul
+          li
+
+            table
+              width: 100%
+              border-collapse: collapse
+              //border: 1px solid red
+              background-color: #f6f6f6
+              th
+                height: 5.0rem
+                border: 1px solid rgba(175, 175, 175, 0.9)
+                border-bottom: 5px solid rgba(175, 175, 175, 0.9)
+                text-align: center
+                vertical-align: middle
+                color: #333333
+                font-family: $font-agora
+                font-size: 1.6rem
+                font-weight: 700
+                text-transform: uppercase
+              td
+                height: 5.0rem
+                border: 1px solid rgba(175, 175, 175, 0.9)
+                text-align: center
+                vertical-align: middle
+                color: #777777
+                font-family: $font-lato
+                font-size: 1.4rem
+                font-weight: 300
+                line-height: 48px
+
+
+    .btn-to-calc
+      margin-top: 10.0rem
+      display: flex
+      justify-content: center
+      .btn-title
+        background-color: #ffffff
+        padding: 2.0rem
+        border-radius: 0 5px 0 5px
+        color: #333333
+        font-family: $font-agora
+        font-size: 21px
+        font-weight: 700
+        text-transform: uppercase
+
+
+
+
+@media all and (min-width: 992px) and (max-width: 1199px)
+  .price-grid-block
+    background-color: $active-background-color-lite
+    .price-grid-block-inner
+      //padding-top: 10.0rem
+      padding-bottom: 6.0rem
+      .price-title-block
+        margin-top: 6.0rem
+        text-align: center
+        .title
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 3.0rem
+          font-weight: 700
+          text-transform: uppercase
+      .tbl
+        .table-grid
+          margin-top: 5.0rem
+          table
+            width: 100%
+            border-collapse: collapse
+            //border: 1px solid red
+            background-color: #f6f6f6
+            th
+              height: 5.0rem
+              border-bottom: 5px solid #ffb118
+              text-align: center
+              vertical-align: middle
+              color: #333333
+              font-family: $font-agora
+              font-size: 1.6rem
+              font-weight: 700
+              text-transform: uppercase
+            td
+              height: 5.0rem
+              //border: 1px solid red
+              text-align: center
+              vertical-align: middle
+              color: #777777
+              font-family: $font-lato
+              font-size: 1.4rem
+              font-weight: 300
+              line-height: 48px
+      .prim
+        margin-top: 3.0rem
+        color: #ffffff
+        font-size: 1.8rem
+        .prim-title
+          font-weight: 700
+          color: $active-background-color-gold
+        .prim-items
+          .pi-item
+            margin-top: 0.5rem
+          ul
+            li
+
+              table
+                width: 100%
+                border-collapse: collapse
+                //border: 1px solid red
+                background-color: #f6f6f6
+                th
+                  height: 5.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  border-bottom: 5px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #333333
+                  font-family: $font-agora
+                  font-size: 1.6rem
+                  font-weight: 700
+                  text-transform: uppercase
+                td
+                  height: 5.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #777777
+                  font-family: $font-lato
+                  font-size: 1.4rem
+                  font-weight: 300
+                  line-height: 48px
+
+
       .btn-to-calc
         margin-top: 8.0rem
         display: flex
         justify-content: center
         .btn-title
           background-color: #ffffff
-          padding: 2.0rem
+          padding: 1.5rem
           border-radius: 0 5px 0 5px
           color: #333333
           font-family: $font-agora
-          font-size: 2.0rem
+          font-size: 1.8rem
           font-weight: 700
           text-transform: uppercase
+
 
 @media all and (min-width: 768px) and (max-width: 991px)
   .price-grid-block
     background-color: $active-background-color-lite
     .price-grid-block-inner
-      padding-top: 6.0rem
-      padding-bottom: 6.0rem
+      //padding-top: 10.0rem
+      padding-bottom: 5.0rem
       .price-title-block
+        margin-top: 5.0rem
         text-align: center
         .title
           color: #ffffff
@@ -678,53 +730,77 @@ ul
           font-size: 2.5rem
           font-weight: 700
           text-transform: uppercase
-      .direction
-        padding-top: 6.0rem
-        .direction-from
-          display: flex
-          justify-content: center
-        .direction-to
-          display: flex
-          justify-content: center
-        .label
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 2.0rem
-          font-weight: 700
-          text-transform: uppercase
-        input
-          width: 25.0rem
-          height: 2.0rem
-          margin-left: 2.0rem
-      .table-grid
-        margin-top: 6.0rem
-        table
-          width: 100%
-          border-collapse: collapse
-          //border: 1px solid red
-          background-color: #f6f6f6
-          th
-            height: 5.0rem
-            border-bottom: 5px solid #ffb118
-            text-align: center
-            vertical-align: middle
-            color: #333333
-            font-family: $font-agora
-            font-size: 1.5rem
-            font-weight: 700
-            text-transform: uppercase
-          td
-            height: 5.0rem
+      .tbl
+        .table-grid
+          margin-top: 5.0rem
+          table
+            width: 100%
+            border-collapse: collapse
             //border: 1px solid red
-            text-align: center
-            vertical-align: middle
-            color: #777777
-            font-family: $font-lato
-            font-size: 1.4rem
-            font-weight: 300
-            line-height: 48px
+            background-color: #f6f6f6
+            th
+              height: 5.0rem
+              border-bottom: 5px solid #ffb118
+              text-align: center
+              vertical-align: middle
+              color: #333333
+              font-family: $font-agora
+              font-size: 1.5rem
+              font-weight: 700
+              text-transform: uppercase
+            td
+              height: 5.0rem
+              //border: 1px solid red
+              text-align: center
+              vertical-align: middle
+              color: #777777
+              font-family: $font-lato
+              font-size: 1.4rem
+              font-weight: 300
+              line-height: 48px
+      .prim
+        margin-top: 3.0rem
+        color: #ffffff
+        font-size: 1.6rem
+        .prim-title
+          font-weight: 700
+          color: $active-background-color-gold
+        .prim-items
+          .pi-item
+            margin-top: 0.5rem
+          ul
+            li
+
+              table
+                width: 100%
+                border-collapse: collapse
+                //border: 1px solid red
+                background-color: #f6f6f6
+                th
+                  height: 5.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  border-bottom: 5px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #333333
+                  font-family: $font-agora
+                  font-size: 1.4rem
+                  font-weight: 700
+                  text-transform: uppercase
+                td
+                  height: 5.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #777777
+                  font-family: $font-lato
+                  font-size: 1.4rem
+                  font-weight: 300
+                  line-height: 48px
+
+
       .btn-to-calc
-        margin-top: 6.0rem
+        margin-top: 4.0rem
         display: flex
         justify-content: center
         .btn-title
@@ -737,15 +813,115 @@ ul
           font-weight: 700
           text-transform: uppercase
 
-
-
+//
+//
 @media all and (min-width: 576px) and (max-width: 767px)
   .price-grid-block
     background-color: $active-background-color-lite
     .price-grid-block-inner
-      padding-top: 5.0rem
-      padding-bottom: 5.0rem
+      //padding-top: 10.0rem
+      padding-bottom: 4.0rem
       .price-title-block
+        margin-top: 4.0rem
+        text-align: center
+        .title
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 2.2rem
+          font-weight: 700
+          text-transform: uppercase
+      .tbl
+        .table-grid
+          margin-top: 4.0rem
+          table
+            width: 100%
+            border-collapse: collapse
+            //border: 1px solid red
+            background-color: #f6f6f6
+            th
+              height: 5.0rem
+              border-bottom: 5px solid #ffb118
+              text-align: center
+              vertical-align: middle
+              color: #333333
+              font-family: $font-agora
+              font-size: 1.4rem
+              font-weight: 700
+              text-transform: uppercase
+            td
+              height: 5.0rem
+              //border: 1px solid red
+              text-align: center
+              vertical-align: middle
+              color: #777777
+              font-family: $font-lato
+              font-size: 1.4rem
+              font-weight: 300
+              line-height: 48px
+      .prim
+        margin-top: 3.0rem
+        color: #ffffff
+        font-size: 1.5rem
+        .prim-title
+          font-weight: 700
+          color: $active-background-color-gold
+        .prim-items
+          .pi-item
+            margin-top: 0.5rem
+          ul
+            li
+
+              table
+                width: 100%
+                border-collapse: collapse
+                //border: 1px solid red
+                background-color: #f6f6f6
+                th
+                  height: 5.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  border-bottom: 5px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #333333
+                  font-family: $font-agora
+                  font-size: 1.3rem
+                  font-weight: 700
+                  text-transform: uppercase
+                td
+                  height: 5.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #777777
+                  font-family: $font-lato
+                  font-size: 1.4rem
+                  font-weight: 300
+                  line-height: 48px
+
+
+      .btn-to-calc
+        margin-top: 4.0rem
+        display: flex
+        justify-content: center
+        .btn-title
+          background-color: #ffffff
+          padding: 1.5rem
+          border-radius: 0 5px 0 5px
+          color: #333333
+          font-family: $font-agora
+          font-size: 1.5rem
+          font-weight: 700
+          text-transform: uppercase
+//
+//
+@media all and (min-width: 480px) and (max-width: 575px)
+  .price-grid-block
+    background-color: $active-background-color-lite
+    .price-grid-block-inner
+      //padding-top: 10.0rem
+      padding-bottom: 4.0rem
+      .price-title-block
+        margin-top: 4.0rem
         text-align: center
         .title
           color: #ffffff
@@ -753,207 +929,174 @@ ul
           font-size: 2.0rem
           font-weight: 700
           text-transform: uppercase
-      .direction
-        padding-top: 5.0rem
-        .direction-from
-          display: flex
-          justify-content: center
-        .direction-to
-          display: flex
-          justify-content: center
-        .label
+      .tbl
+        .table-grid
+          margin-top: 4.0rem
+          table
+            width: 100%
+            border-collapse: collapse
+            //border: 1px solid red
+            background-color: #f6f6f6
+            th
+              height: 5.0rem
+              border-bottom: 5px solid #ffb118
+              text-align: center
+              vertical-align: middle
+              color: #333333
+              font-family: $font-agora
+              font-size: 1.3rem
+              font-weight: 700
+              text-transform: uppercase
+            td
+              height: 5.0rem
+              //border: 1px solid red
+              text-align: center
+              vertical-align: middle
+              color: #777777
+              font-family: $font-lato
+              font-size: 1.3rem
+              font-weight: 300
+              line-height: 48px
+      .prim
+        margin-top: 3.0rem
+        color: #ffffff
+        font-size: 1.4rem
+        .prim-title
+          font-weight: 700
+          color: $active-background-color-gold
+        .prim-items
+          .pi-item
+            margin-top: 0.5rem
+          ul
+            li
+
+              table
+                width: 100%
+                border-collapse: collapse
+                //border: 1px solid red
+                background-color: #f6f6f6
+                th
+                  height: 5.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  border-bottom: 5px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #333333
+                  font-family: $font-agora
+                  font-size: 1.2rem
+                  font-weight: 700
+                  text-transform: uppercase
+                td
+                  height: 5.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #777777
+                  font-family: $font-lato
+                  font-size: 1.3rem
+                  font-weight: 300
+                  line-height: 48px
+
+
+      .btn-to-calc
+        margin-top: 4.0rem
+        display: flex
+        justify-content: center
+        .btn-title
+          background-color: #ffffff
+          padding: 1.5rem
+          border-radius: 0 5px 0 5px
+          color: #333333
+          font-family: $font-agora
+          font-size: 1.3rem
+          font-weight: 700
+          text-transform: uppercase
+//
+//
+@media all and (min-width: 320px) and (max-width: 479px)
+  .price-grid-block
+    background-color: $active-background-color-lite
+    .price-grid-block-inner
+      //padding-top: 10.0rem
+      padding-bottom: 3.0rem
+      .price-title-block
+        margin-top: 3.0rem
+        text-align: center
+        .title
           color: #ffffff
           font-family: $font-agora
           font-size: 1.8rem
           font-weight: 700
           text-transform: uppercase
-        input
-          width: 15.0rem
-          height: 1.8rem
-          margin-left: 2.0rem
-      .table-grid
-        margin-top: 5.0rem
-        table
-          width: 100%
-          border-collapse: collapse
-          //border: 1px solid red
-          background-color: #f6f6f6
-          th
-            height: 5.0rem
-            border-bottom: 5px solid #ffb118
-            text-align: center
-            vertical-align: middle
-            color: #333333
-            font-family: $font-agora
-            font-size: 1.4em
-            font-weight: 700
-            text-transform: uppercase
-          td
-            height: 5.0rem
+      .tbl
+        .table-grid
+          margin-top: 3.0rem
+          table
+            width: 100%
+            border-collapse: collapse
             //border: 1px solid red
-            text-align: center
-            vertical-align: middle
-            color: #777777
-            font-family: $font-lato
-            font-size: 1.3rem
-            font-weight: 300
-            line-height: 48px
-      .btn-to-calc
-        margin-top: 5.0rem
-        display: flex
-        justify-content: center
-        .btn-title
-          background-color: #ffffff
-          padding: 1.5rem
-          border-radius: 0 5px 0 5px
-          color: #333333
-          font-family: $font-agora
-          font-size: 1.3rem
-          font-weight: 700
-          text-transform: uppercase
-
-
-
-@media all and (min-width: 480px) and (max-width: 575px)
-  .price-grid-block
-    background-color: $active-background-color-lite
-    .price-grid-block-inner
-      padding-top: 4.0rem
-      padding-bottom: 4.0rem
-      .price-title-block
-        text-align: center
-        .title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 2.0rem
-          font-weight: 700
-          text-transform: uppercase
-      .direction
-        padding-top: 2.0rem
-        .direction-from
-          display: flex
-          justify-content: center
-
-        .direction-to
-          display: flex
-          justify-content: center
-        .label
-          width: 20%
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 1.5rem
-          font-weight: 700
-          text-transform: uppercase
-          text-align: right
-        input
-          width: 80%
-          height: 1.8rem
-          margin-left: 2.0rem
-      .table-grid
-        margin-top: 4.0rem
-        table
-          width: 100%
-          border-collapse: collapse
-          //border: 1px solid red
-          background-color: #f6f6f6
-          th
-            height: 3.0rem
-            border-bottom: 5px solid #ffb118
-            text-align: center
-            vertical-align: middle
-            color: #333333
-            font-family: $font-agora
-            font-size: 1.1em
-            font-weight: 700
-            text-transform: uppercase
-          td
-            height: 3.0rem
-            //border: 1px solid red
-            text-align: center
-            vertical-align: middle
-            color: #777777
-            font-family: $font-lato
-            font-size: 1.1rem
-            font-weight: 300
-            line-height: 2.0rem
-      .btn-to-calc
-        margin-top: 4.0rem
-        display: flex
-        justify-content: center
-        .btn-title
-          background-color: #ffffff
-          padding: 1.3rem
-          border-radius: 0 5px 0 5px
-          color: #333333
-          font-family: $font-agora
-          font-size: 1.3rem
-          font-weight: 700
-          text-transform: uppercase
-
-
-
-@media all and (min-width: 320px) and (max-width: 479px)
-  .price-grid-block
-    background-color: $active-background-color-lite
-    .price-grid-block-inner
-      padding-top: 3.0rem
-      padding-bottom: 3.0rem
-      .price-title-block
-        text-align: center
-        .title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 1.5rem
-          font-weight: 700
-          text-transform: uppercase
-      .direction
-        padding-top: 1.5rem
-        .direction-from
-          display: flex
-          justify-content: center
-
-        .direction-to
-          display: flex
-          justify-content: center
-        .label
-          width: 20%
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 1.3rem
-          font-weight: 700
-          text-transform: uppercase
-          text-align: right
-        input
-          width: 80%
-          height: 1.3rem
-          margin-left: 2.0rem
-      .table-grid
+            background-color: #f6f6f6
+            th
+              height: 5.0rem
+              border-bottom: 5px solid #ffb118
+              text-align: center
+              vertical-align: middle
+              color: #333333
+              font-family: $font-agora
+              font-size: 1.2rem
+              font-weight: 700
+              text-transform: uppercase
+            td
+              height: 5.0rem
+              //border: 1px solid red
+              text-align: center
+              vertical-align: middle
+              color: #777777
+              font-family: $font-lato
+              font-size: 1.2rem
+              font-weight: 300
+              line-height: 48px
+      .prim
         margin-top: 3.0rem
-        table
-          width: 100%
-          border-collapse: collapse
-          //border: 1px solid red
-          background-color: #f6f6f6
-          th
-            height: 2.5rem
-            border-bottom: 3px solid #ffb118
-            text-align: center
-            vertical-align: middle
-            color: #333333
-            font-family: $font-agora
-            font-size: 1.0em
-            font-weight: 700
-            text-transform: uppercase
-          td
-            height: 2.5rem
-            //border: 1px solid red
-            text-align: center
-            vertical-align: middle
-            color: #777777
-            font-family: $font-lato
-            font-size: 1.0rem
-            font-weight: 300
-            line-height: 2.0rem
+        color: #ffffff
+        font-size: 1.3rem
+        .prim-title
+          font-weight: 700
+          color: $active-background-color-gold
+        .prim-items
+          .pi-item
+            margin-top: 0.5rem
+          ul
+            li
+
+              table
+                width: 100%
+                border-collapse: collapse
+                //border: 1px solid red
+                background-color: #f6f6f6
+                th
+                  height: 4.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  border-bottom: 5px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #333333
+                  font-family: $font-agora
+                  font-size: 1.1rem
+                  font-weight: 700
+                  text-transform: uppercase
+                td
+                  height: 5.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #777777
+                  font-family: $font-lato
+                  font-size: 1.2rem
+                  font-weight: 300
+                  line-height: 48px
+
+
       .btn-to-calc
         margin-top: 3.0rem
         display: flex
@@ -964,88 +1107,108 @@ ul
           border-radius: 0 5px 0 5px
           color: #333333
           font-family: $font-agora
-          font-size: 1.1rem
+          font-size: 1.2rem
           font-weight: 700
           text-transform: uppercase
-
-
-
+//
+//
 @media all and (min-width: 240px) and (max-width: 319px)
   .price-grid-block
     background-color: $active-background-color-lite
     .price-grid-block-inner
-      padding-top: 2.0rem
+      //padding-top: 10.0rem
       padding-bottom: 2.0rem
       .price-title-block
+        margin-top: 2.0rem
         text-align: center
         .title
           color: #ffffff
           font-family: $font-agora
-          font-size: 1.0rem
+          font-size: 1.4rem
           font-weight: 700
           text-transform: uppercase
-      .direction
-        padding-top: 1.0rem
-        .direction-from
-          display: flex
-          justify-content: center
-
-        .direction-to
-          display: flex
-          justify-content: center
-        .label
-          width: 20%
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 0.8rem
-          font-weight: 700
-          text-transform: uppercase
-          text-align: right
-        input
-          width: 80%
-          height: 0.8rem
-          margin-left: 1.0rem
-      .table-grid
-        margin-top: 2.0rem
-        table
-          width: 100%
-          border-collapse: collapse
-          //border: 1px solid red
-          background-color: #f6f6f6
-          th
-            height: 2.0rem
-            border-bottom: 1px solid #ffb118
-            text-align: center
-            vertical-align: middle
-            color: #333333
-            font-family: $font-agora
-            font-size: 0.7em
-            font-weight: 700
-            text-transform: uppercase
-          td
-            height: 2.0rem
+      .tbl
+        .table-grid
+          margin-top: 2.0rem
+          table
+            width: 100%
+            border-collapse: collapse
             //border: 1px solid red
-            text-align: center
-            vertical-align: middle
-            color: #777777
-            font-family: $font-lato
-            font-size: 0.7rem
-            font-weight: 300
-            line-height: 2.0rem
-      .btn-to-calc
+            background-color: #f6f6f6
+            th
+              height: 5.0rem
+              border-bottom: 5px solid #ffb118
+              text-align: center
+              vertical-align: middle
+              color: #333333
+              font-family: $font-agora
+              font-size: 1.1rem
+              font-weight: 700
+              text-transform: uppercase
+            td
+              height: 5.0rem
+              //border: 1px solid red
+              text-align: center
+              vertical-align: middle
+              color: #777777
+              font-family: $font-lato
+              font-size: 1.1rem
+              font-weight: 300
+              line-height: 48px
+      .prim
         margin-top: 2.0rem
+        color: #ffffff
+        font-size: 1.1rem
+        .prim-title
+          font-weight: 700
+          color: $active-background-color-gold
+        .prim-items
+          .pi-item
+            margin-top: 0.5rem
+          ul
+            li
+
+              table
+                width: 100%
+                border-collapse: collapse
+                //border: 1px solid red
+                background-color: #f6f6f6
+                th
+                  height: 4.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  border-bottom: 5px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #333333
+                  font-family: $font-agora
+                  font-size: 1.0rem
+                  font-weight: 700
+                  text-transform: uppercase
+                td
+                  height: 5.0rem
+                  border: 1px solid rgba(175, 175, 175, 0.9)
+                  text-align: center
+                  vertical-align: middle
+                  color: #777777
+                  font-family: $font-lato
+                  font-size: 1.2rem
+                  font-weight: 300
+                  line-height: 48px
+
+
+      .btn-to-calc
+        margin-top: 3.0rem
         display: flex
         justify-content: center
         .btn-title
           background-color: #ffffff
-          padding: 0.8rem
+          padding: 1.1rem
           border-radius: 0 5px 0 5px
           color: #333333
           font-family: $font-agora
-          font-size: 0.8rem
+          font-size: 1.0rem
           font-weight: 700
           text-transform: uppercase
-
 
 
 

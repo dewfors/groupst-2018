@@ -11,7 +11,8 @@
     <title>Тарифы</title>
 
     <link rel="stylesheet" href="css/reset-all.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/for_slider.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -29,23 +30,51 @@
 
     <header class="header">
 
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light d-sm-none xsNavBar">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/header/header-logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span>menu</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item"><a href='services.html' class="nav-link mItem">Услуги</a></li>
+                        <li class="nav-item"><a href='prices.html' class="nav-link mItem">Тарифы</a></li>
+                        <li class="nav-item"><a href='routes.html' class="nav-link mItem">Направления</a></li>
+                        <li class="nav-item"><a href='calculator.html' class="nav-link mItem">Калькулятор</a></li>
+                        <li class="nav-item"><a href='tracking.html' class="nav-link mItem">Отслеживание груза</a></li>
+                        <li class="nav-item"><a href='docsArticles.html' class="nav-link mItem">Документы и полезные статьи</a></li>
+                        <li class="nav-item"><a href='contacts.html' class="nav-link mItem">Контакты</a></li>
+                        <li class="nav-item"><a href='about.html' class="nav-link mItem">О компании</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
 
         <div class="brend-info-block">
             <div class="container">
                 <div class="brend-info-block-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-sm-12 col-md-2 logo-dv-block">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 logo-dv-block">
                             <a href="index.html">
                                 <img src="img/header/header-logo.png" alt="logo">
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-6 info-dv-block">
-                            <div class="info">Головной офис Москва: Г. ДОМОДЕДОВО, ТЕРРИТОРИЯ "КЕС"-"ЯМ", часы работы: 10:00-21:00</div>
+                        <div class="col-12 col-sm-10 col-md-10 info-dv-block">
+                            <div class="info">Центральный офис Москва: Г. ДОМОДЕДОВО, ТЕРРИТОРИЯ "КЕС"-"ЯМ", часы работы: 10:00-21:00</div>
                         </div>
-                        <div class="col-sm-12 col-md-4 callselect-dv-block">
-                            <div class="callselect" id="callselect_select">Выбрать филиал</div>
-                            <div class="callselect" id="callselect_call">Перезвоните мне</div>
-                        </div>
+                        <!--<div class="col-sm-12 col-md-4 callselect-dv-block">-->
+                        <!--<div class="callselect" id="callselect_select">Выбрать филиал</div>-->
+                        <!--<div class="callselect" id="callselect_call">Перезвоните мне</div>-->
+                        <!--</div>-->
                     </div>
                 </div>
             </div>
@@ -99,69 +128,708 @@
         <div class="container">
             <div class="pricesSliderBlockInside">
                 <div class="prevSL3"><div class="arrow-left-sl3"></div></div>
-                <div class="slide sliderItemSL3 fade" id="sl3_slide1"></div>
-                <div class="slide sliderItemSL3 fade" id="sl3_slide2"></div>
-                <div class="slide sliderItemSL3 fade" id="sl3_slide3"></div>
-                <div class="slide sliderItemSL3 fade" id="sl3_slide4"></div>
+                <div class="slide sliderItemSL3" id="sl3_slide1"></div>
+                <div class="slide sliderItemSL3" id="sl3_slide2"></div>
+                <div class="slide sliderItemSL3" id="sl3_slide3"></div>
+                <div class="slide sliderItemSL3" id="sl3_slide4"></div>
                 <div class="nextSL3"><div class="arrow-right-sl3"></div></div>
             </div>
         </div>
     </div>
 
     <div class="price-grid-block">
+        <script src="js/script_prices_slider_03.js"></script>
+
         <div class="container">
             <div class="price-grid-block-inner">
 
+                <a name="avia"></a>
                 <div class="row">
                     <div class="col-12 price-title-block">
-                        <div class="title">Тарифная сетка</div>
+                        <div class="title">Тарифы по авиа-перевозкам</div>
                     </div>
                 </div>
-                <!-- /.row -->
-
-                <div class="row">
-                    <div class="col-12 col-sm-6 direction">
-                        <div class="direction-from">
-                            <div class="label">
-                                <label for="fromCity">Откуда</label>
-                            </div>
-                            <div class="input">
-                                <input id="fromCity" type="text">
-                            </div>
+                <div class="tbl">
+                    <div class="row">
+                        <div class="col-12 table-grid">
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Плотность груза</th>
+                                    <th>Тариф</th>
+                                    <th>Единица измерения</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0.000</td>
+                                    <td>123.000</td>
+                                    <td>m3</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 direction">
-                        <div class="direction-to">
-                            <div class="label">
-                                <label for="toCity">Куда</label>
-                            </div>
-                            <div class="input">
-                                <input id="toCity" type="text">
-                            </div>
+                    <!-- /.row -->
+                </div>
+                <div class="prim">
+                    <div class="row">
+                        <div class="col-12 prim-title">Примечание:</div>
+                        <div class="col-12 prim-items">
+                            <ul>
+                                <li>
+                                    <div class="pi-item">
+                                        Дополнительные тарифы и сборы (действуют для всех направлений):
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="pi-item">
+                                        1. При перевозке тяжеловесных грузов (одно место свыше 80 кг) авиатариф увеличивается на 9 руб/кг;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        2. Оформление перевозочной документации - 600 руб. 00 коп за одну партию груза;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        3. Оформление справки СЭС для грузов, подлежащих ветеренарному контролю:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Вес партии груза (кг)</th>
+                                            <th>от 0 до 100</th>
+                                            <th>от 100 до 500</th>
+                                            <th>от 500 до 9999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (руб)</td>
+                                            <td>287,71</td>
+                                            <td>575,42</td>
+                                            <td>925,00</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        4. Стоимость страховки исчисляется в процентах от суммарной стоимости груза и перевозки:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Суммарная стоимость груза и перевозки, руб.</th>
+                                            <th>от 0  до 500000</th>
+                                            <th>от 500001 до 1000000</th>
+                                            <th>от 1000001 до 1500000</th>
+                                            <th>от 1500001 до 9999999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (%)</td>
+                                            <td>0,19</td>
+                                            <td>0,18</td>
+                                            <td>0,17</td>
+                                            <td>0,16</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        5. Стоимость автодоставки груза с адреса на склад и со склада в адрес - уточнять у менеджера.
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        6. Стоимость услуг по обрешетке и дополнительной упаковке определяется в зависимости от используемого материала и сложности работ - уточнять у менеджера.
+                                    </div>
+                                </li>
+
+
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <!-- /.row -->
 
+                <a name="jd_l"></a>
                 <div class="row">
-                    <div class="col-12 table-grid">
-                        <table>
-                            <tr>
-                                <th>#</th>
-                                <th>Плотность груза</th>
-                                <th>Тариф</th>
-                                <th>Единица измерения</th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>0.000</td>
-                                <td>123.000</td>
-                                <td>m3</td>
-                            </tr>
-                        </table>
+                    <div class="col-12 price-title-block">
+                        <div class="title">Тарифы по ЖД перевозкам - личные контейнера</div>
                     </div>
                 </div>
-                <!-- /.row -->
+                <div class="tbl">
+                    <div class="row">
+                        <div class="col-12 table-grid">
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Плотность груза</th>
+                                    <th>Тариф</th>
+                                    <th>Единица измерения</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0.000</td>
+                                    <td>123.000</td>
+                                    <td>m3</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <div class="prim">
+                    <div class="row">
+                        <div class="col-12 prim-title">Примечание:</div>
+                        <div class="col-12 prim-items">
+                            <ul>
+                                <li>
+                                    <div class="pi-item">
+                                        Дополнительные тарифы и сборы (действуют для всех направлений):
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="pi-item">
+                                        1. При перевозке тяжеловесных грузов (одно место свыше 80 кг) авиатариф увеличивается на 9 руб/кг;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        2. Оформление перевозочной документации - 600 руб. 00 коп за одну партию груза;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        3. Оформление справки СЭС для грузов, подлежащих ветеренарному контролю:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Вес партии груза (кг)</th>
+                                            <th>от 0 до 100</th>
+                                            <th>от 100 до 500</th>
+                                            <th>от 500 до 9999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (руб)</td>
+                                            <td>287,71</td>
+                                            <td>575,42</td>
+                                            <td>925,00</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        4. Стоимость страховки исчисляется в процентах от суммарной стоимости груза и перевозки:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Суммарная стоимость груза и перевозки, руб.</th>
+                                            <th>от 0  до 500000</th>
+                                            <th>от 500001 до 1000000</th>
+                                            <th>от 1000001 до 1500000</th>
+                                            <th>от 1500001 до 9999999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (%)</td>
+                                            <td>0,19</td>
+                                            <td>0,18</td>
+                                            <td>0,17</td>
+                                            <td>0,16</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        5. Стоимость автодоставки груза с адреса на склад и со склада в адрес - уточнять у менеджера.
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        6. Стоимость услуг по обрешетке и дополнительной упаковке определяется в зависимости от используемого материала и сложности работ - уточнять у менеджера.
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <a name="jd_s"></a>
+                <div class="row">
+                    <div class="col-12 price-title-block">
+                        <div class="title">Тарифы по ЖД перевозкам - сборные контейнера</div>
+                    </div>
+                </div>
+                <div class="tbl">
+                    <div class="row">
+                        <div class="col-12 table-grid">
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Плотность груза</th>
+                                    <th>Тариф</th>
+                                    <th>Единица измерения</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0.000</td>
+                                    <td>123.000</td>
+                                    <td>m3</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <div class="prim">
+                    <div class="row">
+                        <div class="col-12 prim-title">Примечание:</div>
+                        <div class="col-12 prim-items">
+                            <ul>
+                                <li>
+                                    <div class="pi-item">
+                                        Дополнительные тарифы и сборы (действуют для всех направлений):
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="pi-item">
+                                        1. При перевозке тяжеловесных грузов (одно место свыше 80 кг) авиатариф увеличивается на 9 руб/кг;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        2. Оформление перевозочной документации - 600 руб. 00 коп за одну партию груза;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        3. Оформление справки СЭС для грузов, подлежащих ветеренарному контролю:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Вес партии груза (кг)</th>
+                                            <th>от 0 до 100</th>
+                                            <th>от 100 до 500</th>
+                                            <th>от 500 до 9999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (руб)</td>
+                                            <td>287,71</td>
+                                            <td>575,42</td>
+                                            <td>925,00</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        4. Стоимость страховки исчисляется в процентах от суммарной стоимости груза и перевозки:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Суммарная стоимость груза и перевозки, руб.</th>
+                                            <th>от 0  до 500000</th>
+                                            <th>от 500001 до 1000000</th>
+                                            <th>от 1000001 до 1500000</th>
+                                            <th>от 1500001 до 9999999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (%)</td>
+                                            <td>0,19</td>
+                                            <td>0,18</td>
+                                            <td>0,17</td>
+                                            <td>0,16</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        5. Стоимость автодоставки груза с адреса на склад и со склада в адрес - уточнять у менеджера.
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        6. Стоимость услуг по обрешетке и дополнительной упаковке определяется в зависимости от используемого материала и сложности работ - уточнять у менеджера.
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <a name="exp"></a>
+                <div class="row">
+                    <div class="col-12 price-title-block">
+                        <div class="title">Тарифы по экспресс доставкам</div>
+                    </div>
+                </div>
+                <div class="tbl">
+                    <div class="row">
+                        <div class="col-12 table-grid">
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Плотность груза</th>
+                                    <th>Тариф</th>
+                                    <th>Единица измерения</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0.000</td>
+                                    <td>123.000</td>
+                                    <td>m3</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <div class="prim">
+                    <div class="row">
+                        <div class="col-12 prim-title">Примечание:</div>
+                        <div class="col-12 prim-items">
+                            <ul>
+                                <li>
+                                    <div class="pi-item">
+                                        Дополнительные тарифы и сборы (действуют для всех направлений):
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="pi-item">
+                                        1. При перевозке тяжеловесных грузов (одно место свыше 80 кг) авиатариф увеличивается на 9 руб/кг;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        2. Оформление перевозочной документации - 600 руб. 00 коп за одну партию груза;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        3. Оформление справки СЭС для грузов, подлежащих ветеренарному контролю:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Вес партии груза (кг)</th>
+                                            <th>от 0 до 100</th>
+                                            <th>от 100 до 500</th>
+                                            <th>от 500 до 9999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (руб)</td>
+                                            <td>287,71</td>
+                                            <td>575,42</td>
+                                            <td>925,00</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        4. Стоимость страховки исчисляется в процентах от суммарной стоимости груза и перевозки:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Суммарная стоимость груза и перевозки, руб.</th>
+                                            <th>от 0  до 500000</th>
+                                            <th>от 500001 до 1000000</th>
+                                            <th>от 1000001 до 1500000</th>
+                                            <th>от 1500001 до 9999999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (%)</td>
+                                            <td>0,19</td>
+                                            <td>0,18</td>
+                                            <td>0,17</td>
+                                            <td>0,16</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        5. Стоимость автодоставки груза с адреса на склад и со склада в адрес - уточнять у менеджера.
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        6. Стоимость услуг по обрешетке и дополнительной упаковке определяется в зависимости от используемого материала и сложности работ - уточнять у менеджера.
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <a name="multi"></a>
+                <div class="row">
+                    <div class="col-12 price-title-block">
+                        <div class="title">Тарифы по мультимодальным перевозкам</div>
+                    </div>
+                </div>
+                <div class="tbl">
+                    <div class="row">
+                        <div class="col-12 table-grid">
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Плотность груза</th>
+                                    <th>Тариф</th>
+                                    <th>Единица измерения</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0.000</td>
+                                    <td>123.000</td>
+                                    <td>m3</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <div class="prim">
+                    <div class="row">
+                        <div class="col-12 prim-title">Примечание:</div>
+                        <div class="col-12 prim-items">
+                            <ul>
+                                <li>
+                                    <div class="pi-item">
+                                        Дополнительные тарифы и сборы (действуют для всех направлений):
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="pi-item">
+                                        1. При перевозке тяжеловесных грузов (одно место свыше 80 кг) авиатариф увеличивается на 9 руб/кг;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        2. Оформление перевозочной документации - 600 руб. 00 коп за одну партию груза;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        3. Оформление справки СЭС для грузов, подлежащих ветеренарному контролю:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Вес партии груза (кг)</th>
+                                            <th>от 0 до 100</th>
+                                            <th>от 100 до 500</th>
+                                            <th>от 500 до 9999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (руб)</td>
+                                            <td>287,71</td>
+                                            <td>575,42</td>
+                                            <td>925,00</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        4. Стоимость страховки исчисляется в процентах от суммарной стоимости груза и перевозки:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Суммарная стоимость груза и перевозки, руб.</th>
+                                            <th>от 0  до 500000</th>
+                                            <th>от 500001 до 1000000</th>
+                                            <th>от 1000001 до 1500000</th>
+                                            <th>от 1500001 до 9999999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (%)</td>
+                                            <td>0,19</td>
+                                            <td>0,18</td>
+                                            <td>0,17</td>
+                                            <td>0,16</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        5. Стоимость автодоставки груза с адреса на склад и со склада в адрес - уточнять у менеджера.
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        6. Стоимость услуг по обрешетке и дополнительной упаковке определяется в зависимости от используемого материала и сложности работ - уточнять у менеджера.
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <a name="more"></a>
+                <div class="row">
+                    <div class="col-12 price-title-block">
+                        <div class="title">Тарифы по морским перевозкам</div>
+                    </div>
+                </div>
+                <div class="tbl">
+                    <div class="row">
+                        <div class="col-12 table-grid">
+                            <table>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Плотность груза</th>
+                                    <th>Тариф</th>
+                                    <th>Единица измерения</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0.000</td>
+                                    <td>123.000</td>
+                                    <td>m3</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <div class="prim">
+                    <div class="row">
+                        <div class="col-12 prim-title">Примечание:</div>
+                        <div class="col-12 prim-items">
+                            <ul>
+                                <li>
+                                    <div class="pi-item">
+                                        Дополнительные тарифы и сборы (действуют для всех направлений):
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="pi-item">
+                                        1. При перевозке тяжеловесных грузов (одно место свыше 80 кг) авиатариф увеличивается на 9 руб/кг;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        2. Оформление перевозочной документации - 600 руб. 00 коп за одну партию груза;
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        3. Оформление справки СЭС для грузов, подлежащих ветеренарному контролю:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Вес партии груза (кг)</th>
+                                            <th>от 0 до 100</th>
+                                            <th>от 100 до 500</th>
+                                            <th>от 500 до 9999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (руб)</td>
+                                            <td>287,71</td>
+                                            <td>575,42</td>
+                                            <td>925,00</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        4. Стоимость страховки исчисляется в процентах от суммарной стоимости груза и перевозки:
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <th>Суммарная стоимость груза и перевозки, руб.</th>
+                                            <th>от 0  до 500000</th>
+                                            <th>от 500001 до 1000000</th>
+                                            <th>от 1000001 до 1500000</th>
+                                            <th>от 1500001 до 9999999999</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Тариф (%)</td>
+                                            <td>0,19</td>
+                                            <td>0,18</td>
+                                            <td>0,17</td>
+                                            <td>0,16</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        5. Стоимость автодоставки груза с адреса на склад и со склада в адрес - уточнять у менеджера.
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pi-item">
+                                        6. Стоимость услуг по обрешетке и дополнительной упаковке определяется в зависимости от используемого материала и сложности работ - уточнять у менеджера.
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--<div class="row">-->
+                    <!--<div class="col-12 col-sm-6 direction">-->
+                        <!--<div class="direction-from">-->
+                            <!--<div class="label">-->
+                                <!--<label for="fromCity">Откуда</label>-->
+                            <!--</div>-->
+                            <!--<div class="input">-->
+                                <!--<input id="fromCity" type="text">-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-12 col-sm-6 direction">-->
+                        <!--<div class="direction-to">-->
+                            <!--<div class="label">-->
+                                <!--<label for="toCity">Куда</label>-->
+                            <!--</div>-->
+                            <!--<div class="input">-->
+                                <!--<input id="toCity" type="text">-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; /.row &ndash;&gt;-->
+
+                <!--<div class="row">-->
+                    <!--<div class="col-12 table-grid">-->
+                        <!--<table>-->
+                            <!--<tr>-->
+                                <!--<th>#</th>-->
+                                <!--<th>Плотность груза</th>-->
+                                <!--<th>Тариф</th>-->
+                                <!--<th>Единица измерения</th>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td>1</td>-->
+                                <!--<td>0.000</td>-->
+                                <!--<td>123.000</td>-->
+                                <!--<td>m3</td>-->
+                            <!--</tr>-->
+                        <!--</table>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; /.row &ndash;&gt;-->
 
 
 
@@ -180,110 +848,110 @@
     </div>
     <!-- /.price-grid-block -->
 
-    <div class="main-work-with-us-block">
+    <!--<div class="main-work-with-us-block">-->
 
-        <div class="work-with-us-block">
-            <div class="container">
-                <div class="work-with-us-block-inner">
+        <!--<div class="work-with-us-block">-->
+            <!--<div class="container">-->
+                <!--<div class="work-with-us-block-inner">-->
 
-                    <div class="row">
-                        <div class="title col-12">
-                            ПОЧЕМУ СТОИТ РАБОТАТЬ С НАМИ?
-                        </div>
-                        <!-- /.title -->
-                    </div>
-                    <!-- /.row -->
-                    <div class="items">
+                    <!--<div class="row">-->
+                        <!--<div class="title col-12">-->
+                            <!--ПОЧЕМУ СТОИТ РАБОТАТЬ С НАМИ?-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; /.title &ndash;&gt;-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash; /.row &ndash;&gt;-->
+                    <!--<div class="items">-->
 
-                        <div class="row">
-                            <div class="items__item item1 col-sm-12 col-md-6">
-                                <div class="items__item-title">
-                                    Один из самых низких цен
-                                    по направлению
-                                    Дальний Восток,
-                                    Сахалин и Камчатка
-                                </div>
-                                <div class="imgs">
-                                    <div class="items__item-colon">
-                                        <img src="img/icons/colon.png" alt="colon">
-                                    </div>
-                                    <div class="items__item-img">
-                                        <img src="img/icons/price-tag.png" alt="price">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.items__item -->
-                            <div class="items__item item2 col-sm-12 col-md-6">
-                                <div class="items__item-title">
-                                    Скорость доставки и
-                                    развитая структура
-                                    из филиалов
-                                    и представительства
-                                </div>
+                        <!--<div class="row">-->
+                            <!--<div class="items__item item1 col-sm-12 col-md-6">-->
+                                <!--<div class="items__item-title">-->
+                                    <!--Один из самых низких цен-->
+                                    <!--по направлению-->
+                                    <!--Дальний Восток,-->
+                                    <!--Сахалин и Камчатка-->
+                                <!--</div>-->
+                                <!--<div class="imgs">-->
+                                    <!--<div class="items__item-colon">-->
+                                        <!--<img src="img/icons/colon.png" alt="colon">-->
+                                    <!--</div>-->
+                                    <!--<div class="items__item-img">-->
+                                        <!--<img src="img/icons/price-tag.png" alt="price">-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /.items__item &ndash;&gt;-->
+                            <!--<div class="items__item item2 col-sm-12 col-md-6">-->
+                                <!--<div class="items__item-title">-->
+                                    <!--Скорость доставки и-->
+                                    <!--развитая структура-->
+                                    <!--из филиалов-->
+                                    <!--и представительства-->
+                                <!--</div>-->
 
-                                <div class="imgs">
-                                    <div class="items__item-colon">
-                                        <img src="img/icons/colon.png" alt="colon">
-                                    </div>
-                                    <div class="items__item-img">
-                                        <img src="img/icons/automobile.png" alt="automobile">
-                                    </div>
-                                </div>
+                                <!--<div class="imgs">-->
+                                    <!--<div class="items__item-colon">-->
+                                        <!--<img src="img/icons/colon.png" alt="colon">-->
+                                    <!--</div>-->
+                                    <!--<div class="items__item-img">-->
+                                        <!--<img src="img/icons/automobile.png" alt="automobile">-->
+                                    <!--</div>-->
+                                <!--</div>-->
 
-                            </div>
-                            <!-- /.items__item -->
-                            <div class="items__item item3 col-sm-12 col-md-6">
-                                <div class="items__item-title">
-                                    Наш опыт
-                                    более 20 лет на рынке!
-                                </div>
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /.items__item &ndash;&gt;-->
+                            <!--<div class="items__item item3 col-sm-12 col-md-6">-->
+                                <!--<div class="items__item-title">-->
+                                    <!--Наш опыт-->
+                                    <!--более 20 лет на рынке!-->
+                                <!--</div>-->
 
-                                <div class="imgs">
-                                    <div class="items__item-colon">
-                                        <img src="img/icons/colon.png" alt="colon">
-                                    </div>
-                                    <div class="items__item-img">
-                                        <img src="img/icons/thumbs-up.png" alt="thumbs-up">
-                                    </div>
-                                </div>
+                                <!--<div class="imgs">-->
+                                    <!--<div class="items__item-colon">-->
+                                        <!--<img src="img/icons/colon.png" alt="colon">-->
+                                    <!--</div>-->
+                                    <!--<div class="items__item-img">-->
+                                        <!--<img src="img/icons/thumbs-up.png" alt="thumbs-up">-->
+                                    <!--</div>-->
+                                <!--</div>-->
 
-                            </div>
-                            <!-- /.items__item -->
-                            <div class="items__item item4 col-sm-12 col-md-6">
-                                <div class="items__item-title">
-                                    Мы несем ответственность
-                                    на всех этапах
-                                    доставки груза
-                                </div>
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /.items__item &ndash;&gt;-->
+                            <!--<div class="items__item item4 col-sm-12 col-md-6">-->
+                                <!--<div class="items__item-title">-->
+                                    <!--Мы несем ответственность-->
+                                    <!--на всех этапах-->
+                                    <!--доставки груза-->
+                                <!--</div>-->
 
-                                <div class="imgs">
-                                    <div class="items__item-colon">
-                                        <img src="img/icons/colon.png" alt="colon">
-                                    </div>
-                                    <div class="items__item-img">
-                                        <img src="img/icons/medal.png" alt="medal">
-                                    </div>
-                                </div>
+                                <!--<div class="imgs">-->
+                                    <!--<div class="items__item-colon">-->
+                                        <!--<img src="img/icons/colon.png" alt="colon">-->
+                                    <!--</div>-->
+                                    <!--<div class="items__item-img">-->
+                                        <!--<img src="img/icons/medal.png" alt="medal">-->
+                                    <!--</div>-->
+                                <!--</div>-->
 
-                            </div>
-                            <!-- /.items__item -->
-                        </div>
-                        <!-- /.row -->
-
-
-                    </div>
-                    <!-- /.items -->
-
-                </div>
-                <!-- /.work-with-us-block-inner -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /.work-with-us -->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; /.items__item &ndash;&gt;-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash; /.row &ndash;&gt;-->
 
 
-    </div>
-    <!-- /.main-work-with-us-block -->
+                    <!--</div>-->
+                    <!--&lt;!&ndash; /.items &ndash;&gt;-->
+
+                <!--</div>-->
+                <!--&lt;!&ndash; /.work-with-us-block-inner &ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash; /.container &ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash; /.work-with-us &ndash;&gt;-->
+
+
+    <!--</div>-->
+    <!--&lt;!&ndash; /.main-work-with-us-block &ndash;&gt;-->
 
     <footer class="footer">
 
@@ -545,12 +1213,41 @@
             crossorigin="anonymous"></script>
 
 
-<script src="js/script_primary_slider_01.js"></script>
-<!--<s<script src="js/script_primary_slider_01.js"></script>-->
-<script src="js/script_primary_slider_02.js"></script>
-<script src="js/script_prices_slider_03.js"></script>
-<script src="js/script_main_slider_04.js"></script>
-<script src="js/script_primary.js"></script>
-<script src="js/main_form_calc.js"></script>
+    <script src="js/script_primary_slider_01.js"></script>
+    <!--<s<script src="js/script_primary_slider_01.js"></script>-->
+    <script src="js/script_primary_slider_02.js"></script>
+
+    <script src="js/script_main_slider_04.js"></script>
+    <script src="js/script_primary.js"></script>
+    <script src="js/main_form_calc.js"></script>
+
+    <!--наверх-->
+    <p id="back-top"><a href="#top"><span></span></a></p>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#back-top").hide();
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        $('#back-top').fadeIn();
+                    } else {
+                        $('#back-top').fadeOut();
+                    }
+                });
+                $('#back-top a').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 400);
+                    return false;
+                });
+            });
+        });
+    </script>
+
+
+
+
+
 </body>
 </html>

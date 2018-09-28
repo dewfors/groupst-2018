@@ -28,32 +28,48 @@ function ready() {
         dotWrap_s3 = document.querySelector('.slider-dots-sl3'),
         dots_s3 = document.getElementsByClassName('dot-sl3');
 
-    var div1 = `<div class="img">
+    var div1 = `<a href="#avia">
+                    <div class="img">
                         <img src="img/icons/services/airplane.png" alt="Авиа перевозка">
                         <div class="sm-title">Авиа перевозки</div>
-                </div>`;
-    var div2 = `<div class="img">
+                    </div>
+                </a>`;
+
+    var div2 = `<a href="#jd_l">
+                    <div class="img">
                         <img src="img/icons/services/subway.png" alt="ЖД перевозка">
                         <div class="sm-title">ЖД перевозка - личный контейнер</div>
-                </div>`;
+                    </div>
+                </a>`;
 
-    var div3 = `<div class="img">
+    var div3 = `<a href="#jd_s">
+                    <div class="img">
                         <img src="img/icons/services/subway.png" alt="ЖД перевозка">
                         <div class="sm-title">ЖД перевозка - сборный груз</div>
-                </div>`;
+                    </div>
+                </a>`;
 
-    var div4 = `<div class="img">
+    var div4 = `<a href="#exp">
+                    <div class="img">
                         <img src="img/icons/services/subpost.png" alt="Экспресс доставка">
                         <div class="sm-title">Экспресс доставка</div>
-                </div>`;
-    var div5 = `<div class="img">
+                    </div>
+                </a>`;
+
+    var div5 = `<a href="#multi">
+                    <div class="img">
                         <img src="img/icons/services/hook.png" alt="Мультимодальная перевозка">
                         <div class="sm-title">Мультимодальная перевозка</div>
-                </div>`;
-    var div6 = `<div class="img">
+                    </div>
+                </a>`;
+
+    var div6 = `<a href="#more">
+                    <div class="img">
                         <img src="img/icons/services/cruise.png" alt="Морская перевозка">
                         <div class="sm-title">Морская перевозка</div>
-                </div>`;
+                    </div>
+                </a>`;
+
     var div7 = `<div class="img">
                         <img src="img/icons/services/truck.png" alt="Автодоставка">
                         <div class="sm-title">Автодоставка</div>

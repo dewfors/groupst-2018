@@ -16,7 +16,7 @@ ul.nav1 {
 
 .btn-standart {
   width: 20%;
-  background-color: #175488;
+  background-color: #0257c7;
   color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 1.4rem;
@@ -110,7 +110,7 @@ ul.nav1 {
 .btn-poligon-left .poligon-left {
   width: 50px;
   height: 50px;
-  background-color: #175488;
+  background-color: #0257c7;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 100%);
 }
@@ -128,7 +128,7 @@ body {
 }
 
 .brend-info-block {
-  background: #175488;
+  background: #0257c7;
   padding-top: 1.0rem;
 }
 
@@ -196,7 +196,7 @@ body {
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .brend-info-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
   }
 
@@ -265,7 +265,7 @@ body {
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .brend-info-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
   }
 
@@ -334,7 +334,7 @@ body {
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   .brend-info-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
   }
 
@@ -403,7 +403,7 @@ body {
 
 @media all and (min-width: 480px) and (max-width: 575px) {
   .brend-info-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
   }
 
@@ -472,7 +472,7 @@ body {
 
 @media all and (min-width: 320px) and (max-width: 479px) {
   .brend-info-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
   }
 
@@ -504,7 +504,7 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    border-top: 1px solid #124673;
+    border-top: 1px solid #02458D;
   }
 
   .brend-info-block .brend-info-block-inner .info-dv-block .info {
@@ -540,7 +540,7 @@ body {
 
 @media all and (min-width: 240px) and (max-width: 319px) {
   .brend-info-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
   }
 
@@ -572,7 +572,7 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    border-top: 1px solid #124673;
+    border-top: 1px solid #02458D;
   }
 
   .brend-info-block .brend-info-block-inner .info-dv-block .info {
@@ -727,7 +727,7 @@ body {
 
   #ul_menu_main li {
     display: block;
-    border-bottom: 1px solid #175488;
+    border-bottom: 1px solid #0257c7;
   }
 
   #ul_menu_main li.logo {
@@ -744,11 +744,11 @@ body {
 }
 
 .menu-primary {
-  background-color: #124673;
+  background-color: #02458D;
 }
 
 .menu-primary .navbar {
-  background-color: #124673 !important;
+  background-color: #02458D !important;
   padding: 0;
 }
 
@@ -787,7 +787,7 @@ body {
   margin-left: -15px;
   margin-right: -15px;
   padding: 1.0rem 1.5rem 0.0rem 0.0rem;
-  background-color: #175488;
+  background-color: #0257c7;
 }
 
 .header .navbar .navbar-toggler {
@@ -854,7 +854,7 @@ body {
 }
 
 .footer .footer-inner .footer-top {
-  background-color: #175488;
+  background-color: #0257c7;
   padding-top: 5.0rem;
 }
 
@@ -907,7 +907,7 @@ body {
 }
 
 .footer .footer-inner .footer-top .footer-t-inner .descr ul li:hover {
-  background-color: #124673;
+  background-color: #02458D;
   cursor: pointer;
 }
 
@@ -941,7 +941,7 @@ body {
 }
 
 .footer .footer-inner .footer-bottom {
-  background-color: #124673;
+  background-color: #02458D;
   padding-top: 1.0rem;
   padding-bottom: 1.0rem;
 }
@@ -962,7 +962,7 @@ body {
 
 @media (max-width: 992px) {
   .footer .footer-inner .footer-top {
-    background-color: #175488;
+    background-color: #0257c7;
     padding-top: 3.0rem;
   }
 
@@ -1015,7 +1015,7 @@ body {
   }
 
   .footer .footer-inner .footer-top .footer-t-inner .descr ul li:hover {
-    background-color: #124673;
+    background-color: #02458D;
     cursor: pointer;
   }
 
@@ -1049,7 +1049,7 @@ body {
   }
 
   .footer .footer-inner .footer-bottom {
-    background-color: #124673;
+    background-color: #02458D;
     padding-top: 1.0rem;
     padding-bottom: 1.0rem;
   }
@@ -1071,7 +1071,7 @@ body {
 
 @media (max-width: 768px) {
   .footer .footer-inner .footer-top {
-    background-color: #175488;
+    background-color: #0257c7;
     padding-top: 3.0rem;
   }
 
@@ -1124,7 +1124,7 @@ body {
   }
 
   .footer .footer-inner .footer-top .footer-t-inner .descr ul li:hover {
-    background-color: #124673;
+    background-color: #02458D;
     cursor: pointer;
   }
 
@@ -1158,7 +1158,7 @@ body {
   }
 
   .footer .footer-inner .footer-bottom {
-    background-color: #124673;
+    background-color: #02458D;
     padding-top: 1.0rem;
     padding-bottom: 1.0rem;
   }
@@ -1180,7 +1180,7 @@ body {
 
 @media (max-width: 576px) {
   .footer .footer-inner .footer-top {
-    background-color: #175488;
+    background-color: #0257c7;
     padding-top: 1.0rem;
   }
 
@@ -1234,7 +1234,7 @@ body {
   }
 
   .footer .footer-inner .footer-top .footer-t-inner .descr ul li:hover {
-    background-color: #124673;
+    background-color: #02458D;
     cursor: pointer;
   }
 
@@ -1268,7 +1268,7 @@ body {
   }
 
   .footer .footer-inner .footer-bottom {
-    background-color: #124673;
+    background-color: #02458D;
     padding-top: 1.0rem;
     padding-bottom: 1.0rem;
   }
@@ -1332,7 +1332,7 @@ body {
 }
 
 .footer .footer-find-us .ffuFindMenuBlock {
-  background-color: #124673;
+  background-color: #02458D;
 }
 
 .footer .footer-find-us .ffuFindMenuBlock .find-menu {
@@ -1354,7 +1354,7 @@ body {
   padding: 1.5rem 1.5rem;
   display: inline-block;
   text-align: center;
-  background-color: #124673;
+  background-color: #02458D;
   color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 1.9rem;
@@ -1364,7 +1364,7 @@ body {
 }
 
 .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
-  background-color: #175488;
+  background-color: #0257c7;
   color: #ffb118;
 }
 
@@ -1597,7 +1597,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock {
-    background-color: #124673;
+    background-color: #02458D;
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu {
@@ -1619,7 +1619,7 @@ body {
     padding: 1.5rem 1.5rem;
     display: inline-block;
     text-align: center;
-    background-color: #124673;
+    background-color: #02458D;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 1.6rem;
@@ -1629,7 +1629,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
-    background-color: #175488;
+    background-color: #0257c7;
     color: #ffb118;
   }
 
@@ -1863,7 +1863,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock {
-    background-color: #124673;
+    background-color: #02458D;
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu {
@@ -1885,7 +1885,7 @@ body {
     padding: 1.5rem 1.5rem;
     display: inline-block;
     text-align: center;
-    background-color: #124673;
+    background-color: #02458D;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 1.5rem;
@@ -1895,7 +1895,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
-    background-color: #175488;
+    background-color: #0257c7;
     color: #ffb118;
   }
 
@@ -2129,7 +2129,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock {
-    background-color: #124673;
+    background-color: #02458D;
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu {
@@ -2151,7 +2151,7 @@ body {
     padding: 1.5rem 1.5rem;
     display: inline-block;
     text-align: center;
-    background-color: #124673;
+    background-color: #02458D;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 1.3rem;
@@ -2161,7 +2161,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
-    background-color: #175488;
+    background-color: #0257c7;
     color: #ffb118;
   }
 
@@ -2396,7 +2396,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock {
-    background-color: #124673;
+    background-color: #02458D;
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu {
@@ -2418,7 +2418,7 @@ body {
     padding: 1.5rem 1.5rem;
     display: inline-block;
     text-align: center;
-    background-color: #124673;
+    background-color: #02458D;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 2.0vw;
@@ -2428,7 +2428,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
-    background-color: #175488;
+    background-color: #0257c7;
     color: #ffb118;
   }
 
@@ -2663,7 +2663,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock {
-    background-color: #124673;
+    background-color: #02458D;
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu {
@@ -2685,7 +2685,7 @@ body {
     padding: 1.5rem 1.5rem;
     display: inline-block;
     text-align: center;
-    background-color: #124673;
+    background-color: #02458D;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 2.0vw;
@@ -2695,7 +2695,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
-    background-color: #175488;
+    background-color: #0257c7;
     color: #ffb118;
   }
 
@@ -2930,7 +2930,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock {
-    background-color: #124673;
+    background-color: #02458D;
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu {
@@ -2952,7 +2952,7 @@ body {
     padding: 1.0rem 1.0rem;
     display: inline-block;
     text-align: center;
-    background-color: #124673;
+    background-color: #02458D;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 2.0vw;
@@ -2962,7 +2962,7 @@ body {
   }
 
   .footer .footer-find-us .ffuFindMenuBlock .find-menu ul li:hover {
-    background-color: #175488;
+    background-color: #0257c7;
     color: #ffb118;
   }
 
@@ -3162,7 +3162,7 @@ body {
 
 .main .slider-block {
   position: relative;
-  background: #373737 url("../img/slider/slider-bg-2.jpg") center no-repeat;
+  background: #02458D url("../img/slider/slider-bg-2.jpg") center no-repeat;
   background-size: cover;
   overflow: hidden;
 }
@@ -3431,7 +3431,7 @@ body {
   height: 40px;
   width: 40px;
   margin: 5px 10px;
-  background-color: #124673;
+  background-color: #02458D;
   display: inline-block;
   -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
@@ -3720,7 +3720,7 @@ body {
     height: 40px;
     width: 40px;
     margin: 5px 10px;
-    background-color: #124673;
+    background-color: #02458D;
     display: inline-block;
     -webkit-transition: background-color 0.6s ease;
     transition: background-color 0.6s ease;
@@ -4009,7 +4009,7 @@ body {
     height: 40px;
     width: 40px;
     margin: 5px 10px;
-    background-color: #124673;
+    background-color: #02458D;
     display: inline-block;
     -webkit-transition: background-color 0.6s ease;
     transition: background-color 0.6s ease;
@@ -4298,7 +4298,7 @@ body {
     height: 40px;
     width: 40px;
     margin: 5px 10px;
-    background-color: #124673;
+    background-color: #02458D;
     display: inline-block;
     -webkit-transition: background-color 0.6s ease;
     transition: background-color 0.6s ease;
@@ -4587,7 +4587,7 @@ body {
     height: 40px;
     width: 40px;
     margin: 5px 10px;
-    background-color: #124673;
+    background-color: #02458D;
     display: inline-block;
     -webkit-transition: background-color 0.6s ease;
     transition: background-color 0.6s ease;
@@ -4876,7 +4876,7 @@ body {
     height: 40px;
     width: 40px;
     margin: 5px 10px;
-    background-color: #124673;
+    background-color: #02458D;
     display: inline-block;
     -webkit-transition: background-color 0.6s ease;
     transition: background-color 0.6s ease;
@@ -5165,7 +5165,7 @@ body {
     height: 40px;
     width: 40px;
     margin: 5px 10px;
-    background-color: #124673;
+    background-color: #02458D;
     display: inline-block;
     -webkit-transition: background-color 0.6s ease;
     transition: background-color 0.6s ease;
@@ -6420,7 +6420,7 @@ body {
   width: 100%;
   line-height: 5.0rem;
   display: block;
-  background: #124673;
+  background: #02458D;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -6480,7 +6480,7 @@ body {
     width: 100%;
     line-height: 5.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -6541,7 +6541,7 @@ body {
     width: 100%;
     line-height: 5.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -6602,7 +6602,7 @@ body {
     width: 100%;
     line-height: 5.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -6664,7 +6664,7 @@ body {
     width: 100%;
     line-height: 4.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -6726,7 +6726,7 @@ body {
     width: 100%;
     line-height: 4.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -6788,7 +6788,7 @@ body {
     width: 100%;
     line-height: 3.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -6850,7 +6850,7 @@ body {
     width: 100%;
     line-height: 3.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -7263,7 +7263,7 @@ body {
 }
 
 .calc-block {
-  background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+  background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
   color: #ffffff;
 }
 
@@ -7575,7 +7575,7 @@ body {
 
 @media all and (max-width: 1200px) {
   .calc-block {
-    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
     color: #ffffff;
   }
 
@@ -7888,7 +7888,7 @@ body {
 
 @media all and (max-width: 992px) {
   .calc-block {
-    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
     color: #ffffff;
   }
 
@@ -8201,7 +8201,7 @@ body {
 
 @media all and (max-width: 768px) {
   .calc-block {
-    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
     color: #ffffff;
   }
 
@@ -8515,7 +8515,7 @@ body {
 
 @media all and (max-width: 576px) {
   .calc-block {
-    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
     color: #ffffff;
   }
 
@@ -8829,7 +8829,7 @@ body {
 
 @media all and (max-width: 480px) {
   .calc-block {
-    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
     color: #ffffff;
   }
 
@@ -9143,7 +9143,7 @@ body {
 
 @media all and (max-width: 320px) {
   .calc-block {
-    background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat;
+    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
     color: #ffffff;
   }
 
@@ -10777,7 +10777,7 @@ body {
 }
 
 .manager-block {
-  background-color: #175488;
+  background-color: #0257c7;
 }
 
 .manager-block-inner {
@@ -10848,7 +10848,7 @@ body {
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .manager-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .manager-block-inner {
@@ -10920,7 +10920,7 @@ body {
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .manager-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .manager-block-inner {
@@ -10992,7 +10992,7 @@ body {
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   .manager-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .manager-block-inner {
@@ -11064,7 +11064,7 @@ body {
 
 @media all and (min-width: 480px) and (max-width: 575px) {
   .manager-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .manager-block-inner {
@@ -11137,7 +11137,7 @@ body {
 
 @media all and (min-width: 320px) and (max-width: 479px) {
   .manager-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .manager-block-inner {
@@ -11210,7 +11210,7 @@ body {
 
 @media all and (min-width: 240px) and (max-width: 319px) {
   .manager-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .manager-block-inner {
@@ -11331,7 +11331,7 @@ ul {
   font-family: "AgoraSansProRegular", sans-serif, sans-serif;
   text-align: center;
   font-size: 1.5rem;
-  color: #124673;
+  color: #02458D;
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
@@ -11379,7 +11379,7 @@ ul {
     font-family: "AgoraSansProRegular", sans-serif, sans-serif;
     text-align: center;
     font-size: 1.5rem;
-    color: #124673;
+    color: #02458D;
   }
 }
 
@@ -11429,7 +11429,7 @@ ul {
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: #124673;
+    color: #02458D;
   }
 }
 
@@ -11479,7 +11479,7 @@ ul {
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: #124673;
+    color: #02458D;
   }
 }
 
@@ -11529,7 +11529,7 @@ ul {
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: #124673;
+    color: #02458D;
   }
 }
 
@@ -11579,7 +11579,7 @@ ul {
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: #124673;
+    color: #02458D;
   }
 }
 
@@ -11629,7 +11629,7 @@ ul {
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    color: #124673;
+    color: #02458D;
   }
 }
 
@@ -12562,7 +12562,7 @@ ul {
 }
 
 .price-grid-block {
-  background-color: #175488;
+  background-color: #0257c7;
 }
 
 .price-grid-block .price-grid-block-inner {
@@ -12684,7 +12684,7 @@ ul {
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .price-grid-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .price-grid-block .price-grid-block-inner {
@@ -12807,7 +12807,7 @@ ul {
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .price-grid-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .price-grid-block .price-grid-block-inner {
@@ -12930,7 +12930,7 @@ ul {
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   .price-grid-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .price-grid-block .price-grid-block-inner {
@@ -13053,7 +13053,7 @@ ul {
 
 @media all and (min-width: 480px) and (max-width: 575px) {
   .price-grid-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .price-grid-block .price-grid-block-inner {
@@ -13176,7 +13176,7 @@ ul {
 
 @media all and (min-width: 320px) and (max-width: 479px) {
   .price-grid-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .price-grid-block .price-grid-block-inner {
@@ -13299,7 +13299,7 @@ ul {
 
 @media all and (min-width: 240px) and (max-width: 319px) {
   .price-grid-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .price-grid-block .price-grid-block-inner {
@@ -13421,7 +13421,7 @@ ul {
 }
 
 .routes-block {
-  background-color: #175488;
+  background-color: #0257c7;
 }
 
 .routes-block .routes-block-inner {
@@ -13475,7 +13475,7 @@ ul {
 
 .routes-block .routes-block-inner .buttons ul li:hover {
   background-color: #ffb118;
-  color: #124673;
+  color: #02458D;
   font-weight: 700;
   cursor: pointer;
 }
@@ -13504,7 +13504,7 @@ ul {
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .routes-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .routes-block .routes-block-inner {
@@ -13558,7 +13558,7 @@ ul {
 
   .routes-block .routes-block-inner .buttons ul li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -13588,7 +13588,7 @@ ul {
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .routes-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .routes-block .routes-block-inner {
@@ -13642,7 +13642,7 @@ ul {
 
   .routes-block .routes-block-inner .buttons ul li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -13672,7 +13672,7 @@ ul {
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   .routes-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .routes-block .routes-block-inner {
@@ -13726,7 +13726,7 @@ ul {
 
   .routes-block .routes-block-inner .buttons ul li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -13756,7 +13756,7 @@ ul {
 
 @media all and (min-width: 480px) and (max-width: 575px) {
   .routes-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .routes-block .routes-block-inner {
@@ -13811,7 +13811,7 @@ ul {
 
   .routes-block .routes-block-inner .buttons ul li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -13841,7 +13841,7 @@ ul {
 
 @media all and (min-width: 320px) and (max-width: 479px) {
   .routes-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .routes-block .routes-block-inner {
@@ -13896,7 +13896,7 @@ ul {
 
   .routes-block .routes-block-inner .buttons ul li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -13926,7 +13926,7 @@ ul {
 
 @media all and (min-width: 240px) and (max-width: 319px) {
   .routes-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .routes-block .routes-block-inner {
@@ -13981,7 +13981,7 @@ ul {
 
   .routes-block .routes-block-inner .buttons ul li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -15524,7 +15524,7 @@ ul {
 }
 
 .main-articles-block {
-  background-color: #175488;
+  background-color: #0257c7;
 }
 
 .main-articles-block .main-articles-block-inner {
@@ -15663,7 +15663,7 @@ ul {
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .main-articles-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .main-articles-block .main-articles-block-inner {
@@ -15805,7 +15805,7 @@ ul {
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .main-articles-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .main-articles-block .main-articles-block-inner {
@@ -15947,7 +15947,7 @@ ul {
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   .main-articles-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .main-articles-block .main-articles-block-inner {
@@ -16089,7 +16089,7 @@ ul {
 
 @media all and (min-width: 480px) and (max-width: 575px) {
   .main-articles-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .main-articles-block .main-articles-block-inner {
@@ -16231,7 +16231,7 @@ ul {
 
 @media all and (min-width: 320px) and (max-width: 479px) {
   .main-articles-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .main-articles-block .main-articles-block-inner {
@@ -16373,7 +16373,7 @@ ul {
 
 @media all and (min-width: 240px) and (max-width: 319px) {
   .main-articles-block {
-    background-color: #175488;
+    background-color: #0257c7;
   }
 
   .main-articles-block .main-articles-block-inner {
@@ -16514,7 +16514,7 @@ ul {
 }
 
 .about-block {
-  background: #175488;
+  background: #0257c7;
 }
 
 .about-block .about-block-inner {
@@ -16569,7 +16569,7 @@ ul {
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .about-block {
-    background: #175488;
+    background: #0257c7;
   }
 
   .about-block .about-block-inner {
@@ -16625,7 +16625,7 @@ ul {
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .about-block {
-    background: #175488;
+    background: #0257c7;
   }
 
   .about-block .about-block-inner {
@@ -16681,7 +16681,7 @@ ul {
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   .about-block {
-    background: #175488;
+    background: #0257c7;
   }
 
   .about-block .about-block-inner {
@@ -16737,7 +16737,7 @@ ul {
 
 @media all and (min-width: 480px) and (max-width: 575px) {
   .about-block {
-    background: #175488;
+    background: #0257c7;
   }
 
   .about-block .about-block-inner {
@@ -16793,7 +16793,7 @@ ul {
 
 @media all and (min-width: 320px) and (max-width: 479px) {
   .about-block {
-    background: #175488;
+    background: #0257c7;
   }
 
   .about-block .about-block-inner {
@@ -16849,7 +16849,7 @@ ul {
 
 @media all and (min-width: 240px) and (max-width: 319px) {
   .about-block {
-    background: #175488;
+    background: #0257c7;
   }
 
   .about-block .about-block-inner {
@@ -16904,7 +16904,7 @@ ul {
 }
 
 .contacts-block {
-  background: #175488;
+  background: #0257c7;
   padding-top: 1.0rem;
   padding-bottom: 8.0rem;
 }
@@ -16962,7 +16962,7 @@ ul {
 
 .contacts-block .contacts-block-inner .contact .buttons li:hover {
   background-color: #ffb118;
-  color: #124673;
+  color: #02458D;
   font-weight: 700;
   cursor: pointer;
 }
@@ -17017,7 +17017,7 @@ ul {
   line-height: 5.0rem;
   height: 5.0rem;
   display: block;
-  background: #124673;
+  background: #02458D;
   color: white;
   width: 30%;
   text-decoration: none;
@@ -17044,7 +17044,7 @@ ul {
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .contacts-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
     padding-bottom: 8.0rem;
   }
@@ -17102,7 +17102,7 @@ ul {
 
   .contacts-block .contacts-block-inner .contact .buttons li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -17157,7 +17157,7 @@ ul {
     line-height: 5.0rem;
     height: 5.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     width: 30%;
     text-decoration: none;
@@ -17185,7 +17185,7 @@ ul {
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .contacts-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
     padding-bottom: 8.0rem;
   }
@@ -17243,7 +17243,7 @@ ul {
 
   .contacts-block .contacts-block-inner .contact .buttons li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -17298,7 +17298,7 @@ ul {
     line-height: 5.0rem;
     height: 5.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     width: 30%;
     text-decoration: none;
@@ -17326,7 +17326,7 @@ ul {
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   .contacts-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
     padding-bottom: 8.0rem;
   }
@@ -17384,7 +17384,7 @@ ul {
 
   .contacts-block .contacts-block-inner .contact .buttons li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -17439,7 +17439,7 @@ ul {
     line-height: 5.0rem;
     height: 5.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     width: 30%;
     text-decoration: none;
@@ -17467,7 +17467,7 @@ ul {
 
 @media all and (min-width: 480px) and (max-width: 575px) {
   .contacts-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
     padding-bottom: 8.0rem;
   }
@@ -17525,7 +17525,7 @@ ul {
 
   .contacts-block .contacts-block-inner .contact .buttons li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -17580,7 +17580,7 @@ ul {
     line-height: 5.0rem;
     height: 5.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     width: 30%;
     text-decoration: none;
@@ -17608,7 +17608,7 @@ ul {
 
 @media all and (min-width: 320px) and (max-width: 479px) {
   .contacts-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
     padding-bottom: 8.0rem;
   }
@@ -17666,7 +17666,7 @@ ul {
 
   .contacts-block .contacts-block-inner .contact .buttons li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -17721,7 +17721,7 @@ ul {
     line-height: 4.0rem;
     height: 4.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     width: 30%;
     text-decoration: none;
@@ -17749,7 +17749,7 @@ ul {
 
 @media all and (min-width: 240px) and (max-width: 319px) {
   .contacts-block {
-    background: #175488;
+    background: #0257c7;
     padding-top: 1.0rem;
     padding-bottom: 1.0rem;
   }
@@ -17807,7 +17807,7 @@ ul {
 
   .contacts-block .contacts-block-inner .contact .buttons li:hover {
     background-color: #ffb118;
-    color: #124673;
+    color: #02458D;
     font-weight: 700;
     cursor: pointer;
   }
@@ -17862,7 +17862,7 @@ ul {
     line-height: 4.0rem;
     height: 4.0rem;
     display: block;
-    background: #124673;
+    background: #02458D;
     color: white;
     width: 30%;
     text-decoration: none;

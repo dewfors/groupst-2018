@@ -2,14 +2,39 @@
   .navbar
     margin-left: -15px
     margin-right: -15px
-    padding: 1.0rem 1.0rem 0.0rem
+    padding: 1.0rem 1.5rem 0.0rem 0.0rem
     background-color: $active-background-color-lite
     .navbar-toggler
-      padding: .5rem .75rem
-      background-color: $active-background-color-gold
+      width: 8.0rem
+      //padding: .8rem .5rem
+      padding: 0
+      //background-color: $active-background-color-gold
+      background-color: transparent
+      border: 1px solid $active-background-color-gold
+      border-radius: 0
+      color: $active-background-color-gold
+      display: flex
+      justify-content: space-between
+      .menu
+        width: 70%
+        margin-right: 0.5rem
+        display: flex
+        justify-content: center
+        align-items: center
+        padding-top: 0.5rem
+        padding-bottom: 0.5rem
+        border-right: 1px solid $active-background-color-gold
+        font-family: $font-agora
+        font-size: 1.0rem
+      .toggler
+        display: block
+        padding-top: 0.5rem
+        padding-right: 0.5rem
+
     a.navbar-brand
       img
-        width: 100px
+        width: 180px
+        height: 30px
     .navbar-collapse
       ul.navbar-nav
         li.nav-item

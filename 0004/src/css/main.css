@@ -7364,6 +7364,13 @@ body {
   min-height: 1rem;
 }
 
+.calc-block-inner form .rowBlock .input select {
+  width: 50%;
+  font-size: 2.0rem;
+  line-height: 2.0rem;
+  background-color: #ffffff;
+}
+
 .calc-block-inner form .rowBlock .input input {
   width: 50%;
   font-size: 2.0rem;

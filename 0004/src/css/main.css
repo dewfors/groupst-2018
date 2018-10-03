@@ -3231,18 +3231,18 @@ body {
   z-index: 1;
 }
 
-.main .slider-block .slider .slider-title-buttons-1 a {
+.main .slider-block .slider .slider-title-buttons-1 a.btn1 {
   text-decoration: none;
 }
 
-.main .slider-block .slider .slider-title-buttons-1 a .btn-poligon-right {
+.main .slider-block .slider .slider-title-buttons-1 a.btn1 .btn-poligon-right {
   width: 60%;
   height: 45px;
   border-radius: 0 0 0 5px;
   margin-bottom: 20px;
 }
 
-.main .slider-block .slider .slider-title-buttons-1 a .btn-poligon-right .txt {
+.main .slider-block .slider .slider-title-buttons-1 a.btn1 .btn-poligon-right .txt {
   margin: auto;
   color: #333333;
   font-size: 14px;
@@ -3252,9 +3252,26 @@ body {
   padding-bottom: 10px;
 }
 
-.main .slider-block .slider .slider-title-buttons-1 a .btn-poligon-right .poligon-right {
+.main .slider-block .slider .slider-title-buttons-1 a.btn1 .btn-poligon-right .poligon-right {
   width: 45px;
   height: 45px;
+}
+
+.main .slider-block .slider .slider-title-buttons-1 a.btn2 {
+  display: block;
+  width: 60%;
+  height: 5.0rem;
+  line-height: 5.0rem;
+  margin-bottom: 2.0rem;
+  background-color: transparent;
+  border: 1px solid #ffb118;
+  font-size: 2.0rem;
+  text-align: center;
+  color: #ffb118;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0px;
 }
 
 .main .slider-block .slider .slider-title-buttons-2 {
@@ -3521,18 +3538,18 @@ body {
     z-index: 1;
   }
 
-  .main .slider-block .slider .slider-title-buttons-1 a {
+  .main .slider-block .slider .slider-title-buttons-1 a.btn1 {
     text-decoration: none;
   }
 
-  .main .slider-block .slider .slider-title-buttons-1 a .btn-poligon-right {
+  .main .slider-block .slider .slider-title-buttons-1 a.btn1 .btn-poligon-right {
     width: 50%;
     height: 45px;
     border-radius: 0 0 0 5px;
     margin-bottom: 1.0rem;
   }
 
-  .main .slider-block .slider .slider-title-buttons-1 a .btn-poligon-right .txt {
+  .main .slider-block .slider .slider-title-buttons-1 a.btn1 .btn-poligon-right .txt {
     margin: auto;
     color: #333333;
     font-size: 14px;
@@ -3542,9 +3559,26 @@ body {
     padding-bottom: 10px;
   }
 
-  .main .slider-block .slider .slider-title-buttons-1 a .btn-poligon-right .poligon-right {
+  .main .slider-block .slider .slider-title-buttons-1 a.btn1 .btn-poligon-right .poligon-right {
     width: 45px;
     height: 45px;
+  }
+
+  .main .slider-block .slider .slider-title-buttons-1 a.btn2 {
+    display: block;
+    width: 60%;
+    height: 5.0rem;
+    line-height: 5.0rem;
+    margin-bottom: 2.0rem;
+    background-color: transparent;
+    border: 1px solid #ffb118;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #ffb118;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0px;
   }
 
   .main .slider-block .slider .slider-title-buttons-2 {
@@ -3838,6 +3872,24 @@ body {
     height: 45px;
   }
 
+  .main .slider-block .slider .slider-title-buttons-1 a.btn2 {
+    display: block;
+    width: 70%;
+    height: 5.0rem;
+    line-height: 5.0rem;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    border: 1px solid #ffb118;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #ffb118;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0px;
+    overflow: hidden;
+  }
+
   .main .slider-block .slider .slider-title-buttons-2 {
     position: absolute;
     right: 0;
@@ -4128,6 +4180,24 @@ body {
   .main .slider-block .slider .slider-title-buttons-1 a .btn-poligon-right .poligon-right {
     width: 3.0rem;
     height: 3.0rem;
+  }
+
+  .main .slider-block .slider .slider-title-buttons-1 a.btn2 {
+    display: block;
+    width: 80%;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    border: 1px solid #ffb118;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #ffb118;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0px;
+    overflow: hidden;
   }
 
   .main .slider-block .slider .slider-title-buttons-2 {
@@ -4428,6 +4498,24 @@ body {
     height: 3.0rem;
   }
 
+  .main .slider-block .slider .slider-title-buttons-1 a.btn2 {
+    display: block;
+    width: 80%;
+    height: 4.0rem;
+    line-height: 4.0rem;
+    margin-bottom: 1.0rem;
+    background-color: transparent;
+    border: 1px solid #ffb118;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #ffb118;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0px;
+    overflow: hidden;
+  }
+
   .main .slider-block .slider .slider-title-buttons-2 {
     position: absolute;
     right: 0;
@@ -4726,6 +4814,24 @@ body {
     height: 2.5rem;
   }
 
+  .main .slider-block .slider .slider-title-buttons-1 a.btn2 {
+    display: block;
+    width: 80%;
+    height: 3.0rem;
+    line-height: 3.0rem;
+    margin-bottom: 0.7rem;
+    background-color: transparent;
+    border: 1px solid #ffb118;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #ffb118;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0px;
+    overflow: hidden;
+  }
+
   .main .slider-block .slider .slider-title-buttons-2 {
     position: absolute;
     right: 0;
@@ -5022,6 +5128,24 @@ body {
   .main .slider-block .slider .slider-title-buttons-1 a .btn-poligon-right .poligon-right {
     width: 2.1rem;
     height: 2.1rem;
+  }
+
+  .main .slider-block .slider .slider-title-buttons-1 a.btn2 {
+    display: block;
+    width: 90%;
+    height: 2.0rem;
+    line-height: 2.0rem;
+    margin-bottom: 0.7rem;
+    background-color: transparent;
+    border: 1px solid #ffb118;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffb118;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0px;
+    overflow: hidden;
   }
 
   .main .slider-block .slider .slider-title-buttons-2 {
@@ -7310,16 +7434,32 @@ body {
 }
 
 .calc-block-inner {
-  padding-top: 120px;
   padding-bottom: 110px;
 }
 
-.calc-block-inner .titleBlockH1 {
+.calc-block-inner a.linkCalculator {
+  display: block;
   width: 100%;
-  text-align: center;
+  height: 10.0rem;
+  text-decoration: none;
 }
 
-.calc-block-inner .titleBlockH1 .title {
+.calc-block-inner a.linkCalculator .titleBlockH1 {
+  width: 100%;
+  height: 10.0rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.calc-block-inner a.linkCalculator .titleBlockH1 .title {
   color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 38px;
@@ -7328,7 +7468,7 @@ body {
 }
 
 .calc-block-inner form {
-  margin-top: 7.0rem;
+  margin-top: 1.0rem;
 }
 
 .calc-block-inner form .rowBlock {
@@ -7447,14 +7587,14 @@ body {
   width: 50%;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: black;
+  background-color: transparent;
   color: #ffffff;
   font-family: "AgoraSansProRegular", sans-serif;
   font-size: 2.0rem;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
-  border-radius: 0 0 0 0.5rem;
+  border: 1px solid #ffb118;
 }
 
 .calc-block-inner form .rowBlock .key {
@@ -7524,8 +7664,8 @@ body {
   text-transform: uppercase;
 }
 
-.calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
-  padding-right: 0.5rem;
+.calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .img a img {
+  padding-right: 1.5rem;
 }
 
 .calc-block-inner .calcDescriptionBlock .rowBlock {
@@ -7548,9 +7688,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
@@ -7589,32 +7729,9 @@ body {
   font-weight: 400;
 }
 
-.calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
-  width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
-  background-color: #000000;
-  width: 100%;
-  height: 3.0rem;
-  display: block;
-  line-height: 3.0rem;
-  text-decoration: none;
-  text-align: center;
-  font-size: 14px;
-  font-family: "LatoRegular", sans-serif;
+.calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt a {
   text-transform: uppercase;
-  color: #ffffff;
-  border-radius: 0 0 0 0.5rem;
+  color: #ffb118;
 }
 
 .calc-block-inner hr {
@@ -7622,23 +7739,39 @@ body {
   margin-bottom: 2.0rem;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (min-width: 992px) and (max-width: 1199px) {
   .calc-block {
     background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
     color: #ffffff;
   }
 
   .calc-block-inner {
-    padding-top: 8.0rem;
-    padding-bottom: 8.0rem;
+    padding-bottom: 110px;
   }
 
-  .calc-block-inner .titleBlockH1 {
+  .calc-block-inner a.linkCalculator {
+    display: block;
     width: 100%;
-    text-align: center;
+    height: 10.0rem;
+    text-decoration: none;
   }
 
-  .calc-block-inner .titleBlockH1 .title {
+  .calc-block-inner a.linkCalculator .titleBlockH1 {
+    width: 100%;
+    height: 10.0rem;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner a.linkCalculator .titleBlockH1 .title {
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 3.0rem;
@@ -7647,7 +7780,7 @@ body {
   }
 
   .calc-block-inner form {
-    margin-top: 6.0rem;
+    margin-top: 1.0rem;
   }
 
   .calc-block-inner form .rowBlock {
@@ -7672,15 +7805,23 @@ body {
   }
 
   .calc-block-inner form .rowBlock .label label {
+    margin: 0;
     color: #ffffff;
     font-family: "LatoRegular", sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     font-weight: 500;
   }
 
   .calc-block-inner form .rowBlock .input {
     width: 60%;
     min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .input select {
+    width: 50%;
+    font-size: 2.0rem;
+    line-height: 2.0rem;
+    background-color: #ffffff;
   }
 
   .calc-block-inner form .rowBlock .input input {
@@ -7759,14 +7900,14 @@ body {
     width: 50%;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    background-color: black;
+    background-color: transparent;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    border-radius: 0 0 0 0.5rem;
+    border: 1px solid #ffb118;
   }
 
   .calc-block-inner form .rowBlock .key {
@@ -7836,8 +7977,8 @@ body {
     text-transform: uppercase;
   }
 
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
-    padding-right: 0.5rem;
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .img a img {
+    padding-right: 1.5rem;
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock {
@@ -7860,9 +8001,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
@@ -7901,8 +8042,38 @@ body {
     font-weight: 400;
   }
 
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
-    width: 20%;
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt a {
+    text-transform: uppercase;
+    color: #ffb118;
+  }
+
+  .calc-block-inner hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .calc-block {
+    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
+    color: #ffffff;
+  }
+
+  .calc-block-inner {
+    padding-bottom: 110px;
+  }
+
+  .calc-block-inner a.linkCalculator {
+    display: block;
+    width: 100%;
+    height: 8.0rem;
+    text-decoration: none;
+  }
+
+  .calc-block-inner a.linkCalculator .titleBlockH1 {
+    width: 100%;
+    height: 10.0rem;
+    text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -7914,44 +8085,7 @@ body {
     align-items: center;
   }
 
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
-    background-color: #000000;
-    width: 100%;
-    height: 3.0rem;
-    display: block;
-    line-height: 3.0rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 14px;
-    font-family: "LatoRegular", sans-serif;
-    text-transform: uppercase;
-    color: #ffffff;
-    border-radius: 0 0 0 0.5rem;
-  }
-
-  .calc-block-inner hr {
-    margin-top: 2.0rem;
-    margin-bottom: 2.0rem;
-  }
-}
-
-@media all and (max-width: 992px) {
-  .calc-block {
-    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
-    color: #ffffff;
-  }
-
-  .calc-block-inner {
-    padding-top: 6.0rem;
-    padding-bottom: 5.0rem;
-  }
-
-  .calc-block-inner .titleBlockH1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  .calc-block-inner .titleBlockH1 .title {
+  .calc-block-inner a.linkCalculator .titleBlockH1 .title {
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
     font-size: 2.5rem;
@@ -7960,7 +8094,7 @@ body {
   }
 
   .calc-block-inner form {
-    margin-top: 4.0rem;
+    margin-top: 1.0rem;
   }
 
   .calc-block-inner form .rowBlock {
@@ -7985,9 +8119,10 @@ body {
   }
 
   .calc-block-inner form .rowBlock .label label {
+    margin: 0;
     color: #ffffff;
     font-family: "LatoRegular", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
   }
 
@@ -7996,10 +8131,17 @@ body {
     min-height: 1rem;
   }
 
+  .calc-block-inner form .rowBlock .input select {
+    width: 50%;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    background-color: #ffffff;
+  }
+
   .calc-block-inner form .rowBlock .input input {
     width: 50%;
-    font-size: 2.0rem;
-    line-height: 2.0rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
     background-color: #ffffff;
   }
 
@@ -8011,7 +8153,7 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 2.0rem;
   }
 
   .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
@@ -8019,9 +8161,10 @@ body {
   }
 
   .calc-block-inner form .rowBlock .check-box label {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 300;
     margin-left: 20px;
+    margin-bottom: 0;
   }
 
   .calc-block-inner form .rowBlock .check-box #check1div,
@@ -8069,17 +8212,17 @@ body {
   }
 
   .calc-block-inner form .rowBlock .form-submit .txt {
-    width: 50%;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    background-color: black;
+    width: 70%;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    background-color: transparent;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    border-radius: 0 0 0 0.5rem;
+    border: 1px solid #ffb118;
   }
 
   .calc-block-inner form .rowBlock .key {
@@ -8129,7 +8272,7 @@ body {
   .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
     width: 50%;
     background: #ffffff;
-    height: 2.5rem;
+    height: 3.0rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -8143,14 +8286,14 @@ body {
     text-align: center;
     color: #000000;
     font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     line-height: 2.0rem;
     font-weight: 500;
     text-transform: uppercase;
   }
 
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
-    padding-right: 0.5rem;
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .img a img {
+    padding-right: 1.5rem;
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock {
@@ -8173,9 +8316,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
@@ -8197,7 +8340,7 @@ body {
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
-    width: 70%;
+    width: 90%;
     padding-left: 2.0rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8210,698 +8353,63 @@ body {
     align-items: center;
     color: #ffffff;
     font-family: "LatoRegular", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
-    width: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
-    background-color: #000000;
-    width: 100%;
-    height: 3.0rem;
-    display: block;
-    line-height: 3.0rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.1rem;
-    font-family: "LatoRegular", sans-serif;
-    text-transform: uppercase;
-    color: #ffffff;
-    border-radius: 0 0 0 0.5rem;
-  }
-
-  .calc-block-inner hr {
-    margin-top: 2.0rem;
-    margin-bottom: 2.0rem;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .calc-block {
-    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
-    color: #ffffff;
-  }
-
-  .calc-block-inner {
-    padding-top: 4.0rem;
-    padding-bottom: 3.0rem;
-  }
-
-  .calc-block-inner .titleBlockH1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  .calc-block-inner .titleBlockH1 .title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 2.0rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .calc-block-inner form {
-    margin-top: 3.0rem;
-  }
-
-  .calc-block-inner form .rowBlock {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner form .rowBlock .label {
-    width: 39%;
-    text-align: right;
-    min-height: 1rem;
-  }
-
-  .calc-block-inner form .rowBlock .label label {
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 500;
-  }
-
-  .calc-block-inner form .rowBlock .input {
-    width: 60%;
-    min-height: 1rem;
-  }
-
-  .calc-block-inner form .rowBlock .input input {
-    width: 50%;
-    font-size: 1.3rem;
-    line-height: 2.0rem;
-    background-color: #ffffff;
-  }
-
-  .calc-block-inner form .rowBlock .check-box {
-    width: 60%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-top: 2.0rem;
-  }
-
-  .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
-    display: none;
-  }
-
-  .calc-block-inner form .rowBlock .check-box label {
-    font-size: 1.3rem;
-    font-weight: 300;
-    margin-left: 20px;
-  }
-
-  .calc-block-inner form .rowBlock .check-box #check1div,
-  .calc-block-inner form .rowBlock .check-box #check2div,
-  .calc-block-inner form .rowBlock .check-box #check3div {
-    width: 20px;
-    height: 20px;
-    background-color: #222222;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  .calc-block-inner form .rowBlock .check-box #check1div #check-img1,
-  .calc-block-inner form .rowBlock .check-box #check1div #check-img2,
-  .calc-block-inner form .rowBlock .check-box #check1div #check-img3,
-  .calc-block-inner form .rowBlock .check-box #check2div #check-img1,
-  .calc-block-inner form .rowBlock .check-box #check2div #check-img2,
-  .calc-block-inner form .rowBlock .check-box #check2div #check-img3,
-  .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
-  .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
-  .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
-    width: 1.3rem;
-  }
-
-  .calc-block-inner form .rowBlock .form-submit {
-    margin-top: 1.0rem;
-    width: 60%;
-    height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner form .rowBlock .form-submit .txt {
-    width: 50%;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-    background-color: black;
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-align: center;
-    border-radius: 0 0 0 0.5rem;
-  }
-
-  .calc-block-inner form .rowBlock .key {
-    width: 39%;
-    text-align: right;
-    min-height: 1rem;
-  }
-
-  .calc-block-inner form .rowBlock .key .txt {
-    width: 39%;
-    text-align: right;
-    min-height: 1rem;
-  }
-
-  .calc-block-inner .calc-result .rowBlock {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .key {
-    width: 39%;
-    text-align: right;
-    min-height: 1rem;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .key .txt {
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap {
-    width: 60%;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
-    width: 50%;
-    background: #ffffff;
-    height: 2.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .price {
-    width: 100%;
-    text-align: center;
-    color: #000000;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.3rem;
-    line-height: 2.0rem;
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
-    padding-right: 0.5rem;
-    width: 1.8rem;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
-    width: 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
-    width: 2.3rem;
-    height: 2.3rem;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
-    width: 70%;
-    padding-left: 2.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 400;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
-    width: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
-    background-color: #000000;
-    width: 100%;
-    height: 3.0rem;
-    display: block;
-    line-height: 3.0rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.0rem;
-    font-family: "LatoRegular", sans-serif;
-    text-transform: uppercase;
-    color: #ffffff;
-    border-radius: 0 0 0 0.5rem;
-  }
-
-  .calc-block-inner hr {
-    margin-top: 2.0rem;
-    margin-bottom: 2.0rem;
-  }
-}
-
-@media all and (max-width: 576px) {
-  .calc-block {
-    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
-    color: #ffffff;
-  }
-
-  .calc-block-inner {
-    padding-top: 4.0rem;
-    padding-bottom: 3.0rem;
-  }
-
-  .calc-block-inner .titleBlockH1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  .calc-block-inner .titleBlockH1 .title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 2.0rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .calc-block-inner form {
-    margin-top: 3.0rem;
-  }
-
-  .calc-block-inner form .rowBlock {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner form .rowBlock .label {
-    width: 39%;
-    text-align: right;
-    min-height: 1rem;
-  }
-
-  .calc-block-inner form .rowBlock .label label {
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 500;
-  }
-
-  .calc-block-inner form .rowBlock .input {
-    width: 60%;
-    min-height: 1rem;
-  }
-
-  .calc-block-inner form .rowBlock .input input {
-    width: 50%;
-    font-size: 1.3rem;
-    line-height: 2.0rem;
-    background-color: #ffffff;
-  }
-
-  .calc-block-inner form .rowBlock .check-box {
-    width: 60%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-top: 2.0rem;
-  }
-
-  .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
-    display: none;
-  }
-
-  .calc-block-inner form .rowBlock .check-box label {
-    font-size: 1.1rem;
-    font-weight: 300;
-    margin-left: 20px;
-  }
-
-  .calc-block-inner form .rowBlock .check-box #check1div,
-  .calc-block-inner form .rowBlock .check-box #check2div,
-  .calc-block-inner form .rowBlock .check-box #check3div {
-    width: 20px;
-    height: 20px;
-    background-color: #222222;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  .calc-block-inner form .rowBlock .check-box #check1div #check-img1,
-  .calc-block-inner form .rowBlock .check-box #check1div #check-img2,
-  .calc-block-inner form .rowBlock .check-box #check1div #check-img3,
-  .calc-block-inner form .rowBlock .check-box #check2div #check-img1,
-  .calc-block-inner form .rowBlock .check-box #check2div #check-img2,
-  .calc-block-inner form .rowBlock .check-box #check2div #check-img3,
-  .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
-  .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
-  .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
-    width: 1.3rem;
-  }
-
-  .calc-block-inner form .rowBlock .form-submit {
-    margin-top: 1.0rem;
-    width: 60%;
-    height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner form .rowBlock .form-submit .txt {
-    width: 50%;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-    background-color: black;
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.0rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-align: center;
-    border-radius: 0 0 0 0.5rem;
-  }
-
-  .calc-block-inner form .rowBlock .key {
-    width: 39%;
-    text-align: right;
-    min-height: 1rem;
-  }
-
-  .calc-block-inner form .rowBlock .key .txt {
-    width: 39%;
-    text-align: right;
-    min-height: 1rem;
-  }
-
-  .calc-block-inner .calc-result .rowBlock {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .key {
-    width: 39%;
-    text-align: right;
-    min-height: 1rem;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .key .txt {
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.0rem;
-    font-weight: 500;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap {
-    width: 60%;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
-    width: 50%;
-    background: #ffffff;
-    height: 2.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .price {
-    width: 100%;
-    text-align: center;
-    color: #000000;
-    font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.3rem;
-    line-height: 2.0rem;
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
-    padding-right: 0.5rem;
-    width: 1.8rem;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
-    width: 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
-    width: 2.3rem;
-    height: 2.3rem;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
-    width: 70%;
-    padding-left: 2.0rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    color: #ffffff;
-    font-family: "LatoRegular", sans-serif;
-    font-size: 1.0rem;
-    font-weight: 400;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
-    width: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
-    background-color: #000000;
-    width: 100%;
-    height: 3.0rem;
-    display: block;
-    line-height: 3.0rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 0.8rem;
-    font-family: "LatoRegular", sans-serif;
-    text-transform: uppercase;
-    color: #ffffff;
-    border-radius: 0 0 0 0.5rem;
-  }
-
-  .calc-block-inner hr {
-    margin-top: 2.0rem;
-    margin-bottom: 2.0rem;
-  }
-}
-
-@media all and (max-width: 480px) {
-  .calc-block {
-    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
-    color: #ffffff;
-  }
-
-  .calc-block-inner {
-    padding-top: 4.0rem;
-    padding-bottom: 3.0rem;
-  }
-
-  .calc-block-inner .titleBlockH1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  .calc-block-inner .titleBlockH1 .title {
-    color: #ffffff;
-    font-family: "AgoraSansProRegular", sans-serif;
     font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt a {
+    text-transform: uppercase;
+    color: #ffb118;
+  }
+
+  .calc-block-inner hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .calc-block {
+    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
+    color: #ffffff;
+  }
+
+  .calc-block-inner {
+    padding-bottom: 5.0rem;
+  }
+
+  .calc-block-inner a.linkCalculator {
+    display: block;
+    width: 100%;
+    height: 8.0rem;
+    text-decoration: none;
+  }
+
+  .calc-block-inner a.linkCalculator .titleBlockH1 {
+    width: 100%;
+    height: 10.0rem;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner a.linkCalculator .titleBlockH1 .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.0rem;
     font-weight: 700;
     text-transform: uppercase;
   }
 
   .calc-block-inner form {
-    margin-top: 3.0rem;
+    margin-top: 1.0rem;
   }
 
   .calc-block-inner form .rowBlock {
@@ -8926,9 +8434,10 @@ body {
   }
 
   .calc-block-inner form .rowBlock .label label {
+    margin: 0;
     color: #ffffff;
     font-family: "LatoRegular", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     font-weight: 500;
   }
 
@@ -8937,9 +8446,331 @@ body {
     min-height: 1rem;
   }
 
+  .calc-block-inner form .rowBlock .input select {
+    width: 50%;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    background-color: #ffffff;
+  }
+
   .calc-block-inner form .rowBlock .input input {
+    width: 50%;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    background-color: #ffffff;
+  }
+
+  .calc-block-inner form .rowBlock .check-box {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+
+  .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlock .check-box label {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div,
+  .calc-block-inner form .rowBlock .check-box #check2div,
+  .calc-block-inner form .rowBlock .check-box #check3div {
+    width: 25px;
+    height: 25px;
+    background-color: #222222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check1div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check2div #check-img3,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
+  .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
     width: 70%;
-    font-size: 1.1rem;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit {
+    margin-top: 2.0rem;
+    width: 60%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .form-submit .txt {
+    width: 70%;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #ffb118;
+  }
+
+  .calc-block-inner form .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .key .txt {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .key .txt {
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap {
+    width: 60%;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
+    width: 50%;
+    background: #ffffff;
+    height: 3.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .price {
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .img a img {
+    padding-right: 1.5rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
+    width: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
+    width: 100%;
+    padding-left: 2.0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt a {
+    text-transform: uppercase;
+    color: #ffb118;
+  }
+
+  .calc-block-inner hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 575px) {
+  .calc-block {
+    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
+    color: #ffffff;
+  }
+
+  .calc-block-inner {
+    padding-bottom: 5.0rem;
+  }
+
+  .calc-block-inner a.linkCalculator {
+    display: block;
+    width: 100%;
+    height: 8.0rem;
+    text-decoration: none;
+  }
+
+  .calc-block-inner a.linkCalculator .titleBlockH1 {
+    width: 100%;
+    height: 10.0rem;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner a.linkCalculator .titleBlockH1 .title {
+    color: #ffffff;
+    font-family: "AgoraSansProRegular", sans-serif;
+    font-size: 2.0rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .calc-block-inner form {
+    margin-top: 1.0rem;
+  }
+
+  .calc-block-inner form .rowBlock {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlock .label {
+    width: 39%;
+    text-align: right;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .label label {
+    margin: 0;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlock .input {
+    width: 60%;
+    min-height: 1rem;
+  }
+
+  .calc-block-inner form .rowBlock .input select {
+    width: 50%;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    background-color: #ffffff;
+  }
+
+  .calc-block-inner form .rowBlock .input input {
+    width: 50%;
+    font-size: 1.5rem;
     line-height: 1.5rem;
     background-color: #ffffff;
   }
@@ -8952,7 +8783,7 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 2.0rem;
+    margin-top: 1.3rem;
   }
 
   .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
@@ -8960,9 +8791,10 @@ body {
   }
 
   .calc-block-inner form .rowBlock .check-box label {
-    font-size: 1.0rem;
+    font-size: 1.3rem;
     font-weight: 300;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 0;
   }
 
   .calc-block-inner form .rowBlock .check-box #check1div,
@@ -8991,11 +8823,11 @@ body {
   .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
   .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
   .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
-    width: 1.1rem;
+    width: 1.5rem;
   }
 
   .calc-block-inner form .rowBlock .form-submit {
-    margin-top: 1.0rem;
+    margin-top: 2.0rem;
     width: 60%;
     height: 50px;
     display: -webkit-box;
@@ -9010,17 +8842,17 @@ body {
   }
 
   .calc-block-inner form .rowBlock .form-submit .txt {
-    width: 70%;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-    background-color: black;
+    width: 80%;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    background-color: transparent;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    border-radius: 0 0 0 0.5rem;
+    border: 1px solid #ffb118;
   }
 
   .calc-block-inner form .rowBlock .key {
@@ -9059,7 +8891,7 @@ body {
   .calc-block-inner .calc-result .rowBlock .key .txt {
     color: #ffffff;
     font-family: "LatoRegular", sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 
@@ -9068,9 +8900,9 @@ body {
   }
 
   .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
-    width: 70%;
+    width: 50%;
     background: #ffffff;
-    height: 2.0rem;
+    height: 3.0rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -9084,15 +8916,14 @@ body {
     text-align: center;
     color: #000000;
     font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.0rem;
+    font-size: 1.6rem;
     line-height: 2.0rem;
     font-weight: 500;
     text-transform: uppercase;
   }
 
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .img a img {
     padding-right: 0.5rem;
-    width: 1.5rem;
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock {
@@ -9115,13 +8946,13 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
-    width: 10%;
+    width: 2.0rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -9134,12 +8965,12 @@ body {
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img img {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.0rem;
+    height: 2.0rem;
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
-    width: 65%;
+    width: 100%;
     padding-left: 2.0rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9152,12 +8983,42 @@ body {
     align-items: center;
     color: #ffffff;
     font-family: "LatoRegular", sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     font-weight: 400;
   }
 
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
-    width: 25%;
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt a {
+    text-transform: uppercase;
+    color: #ffb118;
+  }
+
+  .calc-block-inner hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .calc-block {
+    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
+    color: #ffffff;
+  }
+
+  .calc-block-inner {
+    padding-bottom: 5.0rem;
+  }
+
+  .calc-block-inner a.linkCalculator {
+    display: block;
+    width: 100%;
+    height: 6.0rem;
+    text-decoration: none;
+  }
+
+  .calc-block-inner a.linkCalculator .titleBlockH1 {
+    width: 100%;
+    height: 8.0rem;
+    text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -9169,53 +9030,16 @@ body {
     align-items: center;
   }
 
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
-    background-color: #000000;
-    width: 100%;
-    height: 3.0rem;
-    display: block;
-    line-height: 3.0rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 0.6rem;
-    font-family: "LatoRegular", sans-serif;
-    text-transform: uppercase;
-    color: #ffffff;
-    border-radius: 0 0 0 0.5rem;
-  }
-
-  .calc-block-inner hr {
-    margin-top: 2.0rem;
-    margin-bottom: 2.0rem;
-  }
-}
-
-@media all and (max-width: 320px) {
-  .calc-block {
-    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat;
-    color: #ffffff;
-  }
-
-  .calc-block-inner {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .calc-block-inner .titleBlockH1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  .calc-block-inner .titleBlockH1 .title {
+  .calc-block-inner a.linkCalculator .titleBlockH1 .title {
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-transform: uppercase;
   }
 
   .calc-block-inner form {
-    margin-top: 2.0rem;
+    margin-top: 1.0rem;
   }
 
   .calc-block-inner form .rowBlock {
@@ -9240,9 +9064,10 @@ body {
   }
 
   .calc-block-inner form .rowBlock .label label {
+    margin: 0;
     color: #ffffff;
     font-family: "LatoRegular", sans-serif;
-    font-size: 0.7rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 
@@ -9251,10 +9076,17 @@ body {
     min-height: 1rem;
   }
 
+  .calc-block-inner form .rowBlock .input select {
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    background-color: #ffffff;
+  }
+
   .calc-block-inner form .rowBlock .input input {
-    width: 70%;
-    font-size: 0.7rem;
-    line-height: 1.0rem;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     background-color: #ffffff;
   }
 
@@ -9266,7 +9098,7 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 2.0rem;
+    margin-top: 1.3rem;
   }
 
   .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
@@ -9274,16 +9106,17 @@ body {
   }
 
   .calc-block-inner form .rowBlock .check-box label {
-    font-size: 0.7rem;
+    font-size: 1.3rem;
     font-weight: 300;
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-bottom: 0;
   }
 
   .calc-block-inner form .rowBlock .check-box #check1div,
   .calc-block-inner form .rowBlock .check-box #check2div,
   .calc-block-inner form .rowBlock .check-box #check3div {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-color: #222222;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9305,11 +9138,11 @@ body {
   .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
   .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
   .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
-    width: 1.1rem;
+    width: 1.5rem;
   }
 
   .calc-block-inner form .rowBlock .form-submit {
-    margin-top: 1.0rem;
+    margin-top: 2.0rem;
     width: 60%;
     height: 50px;
     display: -webkit-box;
@@ -9324,17 +9157,17 @@ body {
   }
 
   .calc-block-inner form .rowBlock .form-submit .txt {
-    width: 70%;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-    background-color: black;
+    width: 100%;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    background-color: transparent;
     color: #ffffff;
     font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 0.6rem;
+    font-size: 1.3rem;
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    border-radius: 0 0 0 0.5rem;
+    border: 1px solid #ffb118;
   }
 
   .calc-block-inner form .rowBlock .key {
@@ -9373,7 +9206,7 @@ body {
   .calc-block-inner .calc-result .rowBlock .key .txt {
     color: #ffffff;
     font-family: "LatoRegular", sans-serif;
-    font-size: 0.6rem;
+    font-size: 1.0rem;
     font-weight: 500;
   }
 
@@ -9382,9 +9215,9 @@ body {
   }
 
   .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth {
-    width: 70%;
+    width: 100%;
     background: #ffffff;
-    height: 2.0rem;
+    height: 3.0rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -9398,15 +9231,14 @@ body {
     text-align: center;
     color: #000000;
     font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     line-height: 2.0rem;
     font-weight: 500;
     text-transform: uppercase;
   }
 
-  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth img {
+  .calc-block-inner .calc-result .rowBlock .result-meth-wrap .result-meth .img a img {
     padding-right: 0.5rem;
-    width: 1.5rem;
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock {
@@ -9429,13 +9261,13 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .img {
-    width: 8%;
+    width: 1.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -9453,7 +9285,7 @@ body {
   }
 
   .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt {
-    width: 65%;
+    width: 100%;
     padding-left: 1.0rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9466,36 +9298,13 @@ body {
     align-items: center;
     color: #ffffff;
     font-family: "LatoRegular", sans-serif;
-    font-size: 0.6rem;
+    font-size: 1.1rem;
     font-weight: 400;
   }
 
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn {
-    width: 27%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .btn a {
-    background-color: #000000;
-    width: 100%;
-    height: 2.5rem;
-    display: block;
-    line-height: 3.0rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 0.5rem;
-    font-family: "LatoRegular", sans-serif;
+  .calc-block-inner .calcDescriptionBlock .rowBlock .calcDescription .txt a {
     text-transform: uppercase;
-    color: #ffffff;
-    border-radius: 0 0 0 0.5rem;
+    color: #ffb118;
   }
 
   .calc-block-inner hr {

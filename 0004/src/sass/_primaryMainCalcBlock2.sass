@@ -1,21 +1,29 @@
 .calc-block
-  //background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat
   background: $active-background-color-dark url("../img/mainCalc/bg-image.png") top no-repeat
   color: #ffffff
   &-inner
-    padding-top: 120px
+    //padding-top: 120px
     padding-bottom: 110px
-    .titleBlockH1
+    a.linkCalculator
+      display: block
       width: 100%
-      text-align: center
-      .title
-        color: #ffffff
-        font-family: $font-agora
-        font-size: 38px
-        font-weight: 700
-        text-transform: uppercase
+      height: 10.0rem
+      text-decoration: none
+      .titleBlockH1
+        width: 100%
+        height: 10.0rem
+        text-align: center
+        display: flex
+        justify-content: center
+        align-items: center
+        .title
+          color: #ffffff
+          font-family: $font-agora
+          font-size: 38px
+          font-weight: 700
+          text-transform: uppercase
     form
-      margin-top: 7.0rem
+      margin-top: 1.0rem
       .rowBlock
         padding-top: 0.5rem
         padding-bottom: 0.5rem
@@ -78,14 +86,14 @@
             width: 50%
             padding-top: 1.5rem
             padding-bottom: 1.5rem
-            background-color: black
+            background-color: transparent
             color: #ffffff
             font-family: $font-agora
             font-size: 2.0rem
             font-weight: 500
             text-transform: uppercase
             text-align: center
-            border-radius: 0 0 0 0.5rem
+            border: 1px solid $active-background-color-gold
         .key
           width: 39%
           text-align: right
@@ -132,8 +140,10 @@
               line-height: 2.0rem
               font-weight: 500
               text-transform: uppercase
-            img
-              padding-right: 0.5rem
+            .img
+              a
+                img
+                  padding-right: 1.5rem
     .calcDescriptionBlock
       .rowBlock
         padding-top: 0.5rem
@@ -145,7 +155,7 @@
         .calcDescription
           width: 100%
           display: flex
-          justify-content: space-between
+          justify-content: flex-start
           .img
             width: 10%
             //background-color: red
@@ -166,50 +176,41 @@
             font-family: $font-lato
             font-size: 1.5rem
             font-weight: 400
-          .btn
-            width: 20%
-            //background-color: blueviolet
-            display: flex
-            justify-content: center
-            align-items: center
-
             a
-              background-color: #000000
-              width: 100%
-              height: 3.0rem
-              display: block
-              line-height: 3.0rem
-              text-decoration: none
-              text-align: center
-              font-size: 14px
-              font-family: $font-lato
               text-transform: uppercase
-              color: #ffffff
-              border-radius: 0 0 0 0.5rem
+              color: $active-background-color-gold
     hr
       margin-top: 2.0rem
       margin-bottom: 2.0rem
 
 
-@media  all and (max-width: 1200px)
+@media all and (min-width: 992px) and (max-width: 1199px)
   .calc-block
-    //background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat
     background: $active-background-color-dark url("../img/mainCalc/bg-image.png") top no-repeat
     color: #ffffff
     &-inner
-      padding-top: 8.0rem
-      padding-bottom: 8.0rem
-      .titleBlockH1
+      //padding-top: 120px
+      padding-bottom: 110px
+      a.linkCalculator
+        display: block
         width: 100%
-        text-align: center
-        .title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 3.0rem
-          font-weight: 700
-          text-transform: uppercase
+        height: 10.0rem
+        text-decoration: none
+        .titleBlockH1
+          width: 100%
+          height: 10.0rem
+          text-align: center
+          display: flex
+          justify-content: center
+          align-items: center
+          .title
+            color: #ffffff
+            font-family: $font-agora
+            font-size: 3.0rem
+            font-weight: 700
+            text-transform: uppercase
       form
-        margin-top: 6.0rem
+        margin-top: 1.0rem
         .rowBlock
           padding-top: 0.5rem
           padding-bottom: 0.5rem
@@ -223,14 +224,21 @@
             //background: rebeccapurple
             min-height: 1rem
             label
+              margin: 0
               color: #ffffff
               font-family: $font-lato
-              font-size: 1.8rem
+              font-size: 2.0rem
               font-weight: 500
+
           .input
             width: 60%
             //background: #ffb118
             min-height: 1rem
+            select
+              width: 50%
+              font-size: 2.0rem
+              line-height: 2.0rem
+              background-color: #ffffff
             input
               width: 50%
               font-size: 2.0rem
@@ -267,14 +275,14 @@
               width: 50%
               padding-top: 1.5rem
               padding-bottom: 1.5rem
-              background-color: black
+              background-color: transparent
               color: #ffffff
               font-family: $font-agora
-              font-size: 1.8rem
+              font-size: 2.0rem
               font-weight: 500
               text-transform: uppercase
               text-align: center
-              border-radius: 0 0 0 0.5rem
+              border: 1px solid $active-background-color-gold
           .key
             width: 39%
             text-align: right
@@ -321,8 +329,10 @@
                 line-height: 2.0rem
                 font-weight: 500
                 text-transform: uppercase
-              img
-                padding-right: 0.5rem
+              .img
+                a
+                  img
+                    padding-right: 1.5rem
       .calcDescriptionBlock
         .rowBlock
           padding-top: 0.5rem
@@ -334,7 +344,7 @@
           .calcDescription
             width: 100%
             display: flex
-            justify-content: space-between
+            justify-content: flex-start
             .img
               width: 10%
               //background-color: red
@@ -355,51 +365,41 @@
               font-family: $font-lato
               font-size: 1.5rem
               font-weight: 400
-            .btn
-              width: 20%
-              //background-color: blueviolet
-              display: flex
-              justify-content: center
-              align-items: center
-
               a
-                background-color: #000000
-                width: 100%
-                height: 3.0rem
-                display: block
-                line-height: 3.0rem
-                text-decoration: none
-                text-align: center
-                font-size: 14px
-                font-family: $font-lato
                 text-transform: uppercase
-                color: #ffffff
-                border-radius: 0 0 0 0.5rem
+                color: $active-background-color-gold
       hr
         margin-top: 2.0rem
         margin-bottom: 2.0rem
 
 
-
-@media  all and (max-width: 992px)
+@media all and (min-width: 768px) and (max-width: 991px)
   .calc-block
-    //background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat
     background: $active-background-color-dark url("../img/mainCalc/bg-image.png") top no-repeat
     color: #ffffff
     &-inner
-      padding-top: 6.0rem
-      padding-bottom: 5.0rem
-      .titleBlockH1
+      //padding-top: 120px
+      padding-bottom: 110px
+      a.linkCalculator
+        display: block
         width: 100%
-        text-align: center
-        .title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 2.5rem
-          font-weight: 700
-          text-transform: uppercase
+        height: 8.0rem
+        text-decoration: none
+        .titleBlockH1
+          width: 100%
+          height: 10.0rem
+          text-align: center
+          display: flex
+          justify-content: center
+          align-items: center
+          .title
+            color: #ffffff
+            font-family: $font-agora
+            font-size: 2.5rem
+            font-weight: 700
+            text-transform: uppercase
       form
-        margin-top: 4.0rem
+        margin-top: 1.0rem
         .rowBlock
           padding-top: 0.5rem
           padding-bottom: 0.5rem
@@ -413,30 +413,38 @@
             //background: rebeccapurple
             min-height: 1rem
             label
+              margin: 0
               color: #ffffff
               font-family: $font-lato
-              font-size: 1.6rem
+              font-size: 1.8rem
               font-weight: 500
+
           .input
             width: 60%
             //background: #ffb118
             min-height: 1rem
+            select
+              width: 50%
+              font-size: 1.8rem
+              line-height: 1.8rem
+              background-color: #ffffff
             input
               width: 50%
-              font-size: 2.0rem
-              line-height: 2.0rem
+              font-size: 1.8rem
+              line-height: 1.8rem
               background-color: #ffffff
           .check-box
             width: 60%
             display: flex
             align-items: center
-            margin-top: 30px
+            margin-top: 2.0rem
             input[type=checkbox]
               display: none
             label
-              font-size: 1.6rem
+              font-size: 1.5rem
               font-weight: 300
               margin-left: 20px
+              margin-bottom: 0
             #check1div, #check2div, #check3div
               width: 25px
               height: 25px
@@ -454,17 +462,17 @@
             justify-content: flex-start
             align-items: center
             .txt
-              width: 50%
-              padding-top: 1.5rem
-              padding-bottom: 1.5rem
-              background-color: black
+              width: 70%
+              padding-top: 1.3rem
+              padding-bottom: 1.3rem
+              background-color: transparent
               color: #ffffff
               font-family: $font-agora
-              font-size: 1.6rem
+              font-size: 1.8rem
               font-weight: 500
               text-transform: uppercase
               text-align: center
-              border-radius: 0 0 0 0.5rem
+              border: 1px solid $active-background-color-gold
           .key
             width: 39%
             text-align: right
@@ -498,7 +506,7 @@
             .result-meth
               width: 50%
               background: #ffffff
-              height: 2.5rem
+              height: 3.0rem
               display: flex
               align-items: center
               .price
@@ -507,12 +515,14 @@
                 text-align: center
                 color: #000000
                 font-family: $font-agora
-                font-size: 2.0rem
+                font-size: 1.8rem
                 line-height: 2.0rem
                 font-weight: 500
                 text-transform: uppercase
-              img
-                padding-right: 0.5rem
+              .img
+                a
+                  img
+                    padding-right: 1.5rem
       .calcDescriptionBlock
         .rowBlock
           padding-top: 0.5rem
@@ -524,7 +534,7 @@
           .calcDescription
             width: 100%
             display: flex
-            justify-content: space-between
+            justify-content: flex-start
             .img
               width: 10%
               //background-color: red
@@ -535,7 +545,7 @@
                 width: 2.5rem
                 height: 2.5rem
             .txt
-              width: 70%
+              width: 90%
               padding-left: 2.0rem
               //background-color: green
               display: flex
@@ -543,52 +553,43 @@
               align-items: center
               color: #ffffff
               font-family: $font-lato
-              font-size: 1.3rem
+              font-size: 1.5rem
               font-weight: 400
-            .btn
-              width: 20%
-              //background-color: blueviolet
-              display: flex
-              justify-content: center
-              align-items: center
-
               a
-                background-color: #000000
-                width: 100%
-                height: 3.0rem
-                display: block
-                line-height: 3.0rem
-                text-decoration: none
-                text-align: center
-                font-size: 1.1rem
-                font-family: $font-lato
                 text-transform: uppercase
-                color: #ffffff
-                border-radius: 0 0 0 0.5rem
+                color: $active-background-color-gold
       hr
         margin-top: 2.0rem
         margin-bottom: 2.0rem
 
 
-@media  all and (max-width: 768px)
+@media all and (min-width: 576px) and (max-width: 767px)
   .calc-block
-    //background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat
     background: $active-background-color-dark url("../img/mainCalc/bg-image.png") top no-repeat
     color: #ffffff
     &-inner
-      padding-top: 4.0rem
-      padding-bottom: 3.0rem
-      .titleBlockH1
+      //padding-top: 120px
+      padding-bottom: 5.0rem
+      a.linkCalculator
+        display: block
         width: 100%
-        text-align: center
-        .title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 2.0rem
-          font-weight: 700
-          text-transform: uppercase
+        height: 8.0rem
+        text-decoration: none
+        .titleBlockH1
+          width: 100%
+          height: 10.0rem
+          text-align: center
+          display: flex
+          justify-content: center
+          align-items: center
+          .title
+            color: #ffffff
+            font-family: $font-agora
+            font-size: 2.0rem
+            font-weight: 700
+            text-transform: uppercase
       form
-        margin-top: 3.0rem
+        margin-top: 1.0rem
         .rowBlock
           padding-top: 0.5rem
           padding-bottom: 0.5rem
@@ -602,58 +603,66 @@
             //background: rebeccapurple
             min-height: 1rem
             label
+              margin: 0
               color: #ffffff
               font-family: $font-lato
-              font-size: 1.3rem
+              font-size: 1.6rem
               font-weight: 500
+
           .input
             width: 60%
             //background: #ffb118
             min-height: 1rem
+            select
+              width: 50%
+              font-size: 1.6rem
+              line-height: 1.6rem
+              background-color: #ffffff
             input
               width: 50%
-              font-size: 1.3rem
-              line-height: 2.0rem
+              font-size: 1.8rem
+              line-height: 1.8rem
               background-color: #ffffff
           .check-box
             width: 60%
             display: flex
             align-items: center
-            margin-top: 2.0rem
+            margin-top: 1.5rem
             input[type=checkbox]
               display: none
             label
               font-size: 1.3rem
               font-weight: 300
               margin-left: 20px
+              margin-bottom: 0
             #check1div, #check2div, #check3div
-              width: 20px
-              height: 20px
+              width: 25px
+              height: 25px
               background-color: #222222
               display: flex
               align-items: center
               justify-content: center
               #check-img1, #check-img2, #check-img3
-                width: 1.3rem
+                width: 70%
           .form-submit
-            margin-top: 1.0rem
+            margin-top: 2.0rem
             width: 60%
             height: 50px
             display: flex
             justify-content: flex-start
             align-items: center
             .txt
-              width: 50%
-              padding-top: 1.3rem
-              padding-bottom: 1.3rem
-              background-color: black
+              width: 70%
+              padding-top: 1.1rem
+              padding-bottom: 1.1rem
+              background-color: transparent
               color: #ffffff
               font-family: $font-agora
-              font-size: 1.2rem
+              font-size: 1.6rem
               font-weight: 500
               text-transform: uppercase
               text-align: center
-              border-radius: 0 0 0 0.5rem
+              border: 1px solid $active-background-color-gold
           .key
             width: 39%
             text-align: right
@@ -680,14 +689,14 @@
             .txt
               color: #ffffff
               font-family: $font-lato
-              font-size: 1.2rem
+              font-size: 1.3rem
               font-weight: 500
           .result-meth-wrap
             width: 60%
             .result-meth
               width: 50%
               background: #ffffff
-              height: 2.0rem
+              height: 3.0rem
               display: flex
               align-items: center
               .price
@@ -696,13 +705,14 @@
                 text-align: center
                 color: #000000
                 font-family: $font-agora
-                font-size: 1.3rem
+                font-size: 1.8rem
                 line-height: 2.0rem
                 font-weight: 500
                 text-transform: uppercase
-              img
-                padding-right: 0.5rem
-                width: 1.8rem
+              .img
+                a
+                  img
+                    padding-right: 1.5rem
       .calcDescriptionBlock
         .rowBlock
           padding-top: 0.5rem
@@ -713,198 +723,8 @@
           align-items: center
           .calcDescription
             width: 100%
-            display: flex
-            justify-content: space-between
-            .img
-              width: 10%
-              //background-color: red
-              display: flex
-              justify-content: center
-              align-items: center
-              img
-                width: 2.3rem
-                height: 2.3rem
-            .txt
-              width: 70%
-              padding-left: 2.0rem
-              //background-color: green
-              display: flex
-              justify-content: flex-start
-              align-items: center
-              color: #ffffff
-              font-family: $font-lato
-              font-size: 1.1rem
-              font-weight: 400
-            .btn
-              width: 20%
-              //background-color: blueviolet
-              display: flex
-              justify-content: center
-              align-items: center
-
-              a
-                background-color: #000000
-                width: 100%
-                height: 3.0rem
-                display: block
-                line-height: 3.0rem
-                text-decoration: none
-                text-align: center
-                font-size: 1.0rem
-                font-family: $font-lato
-                text-transform: uppercase
-                color: #ffffff
-                border-radius: 0 0 0 0.5rem
-      hr
-        margin-top: 2.0rem
-        margin-bottom: 2.0rem
-
-
-@media  all and (max-width: 576px)
-  .calc-block
-    //background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat
-    background: $active-background-color-dark url("../img/mainCalc/bg-image.png") top no-repeat
-    color: #ffffff
-    &-inner
-      padding-top: 4.0rem
-      padding-bottom: 3.0rem
-      .titleBlockH1
-        width: 100%
-        text-align: center
-        .title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 2.0rem
-          font-weight: 700
-          text-transform: uppercase
-      form
-        margin-top: 3.0rem
-        .rowBlock
-          padding-top: 0.5rem
-          padding-bottom: 0.5rem
-          width: 100%
-          display: flex
-          justify-content: space-between
-          align-items: center
-          .label
-            width: 39%
-            text-align: right
-            //background: rebeccapurple
-            min-height: 1rem
-            label
-              color: #ffffff
-              font-family: $font-lato
-              font-size: 1.1rem
-              font-weight: 500
-          .input
-            width: 60%
-            //background: #ffb118
-            min-height: 1rem
-            input
-              width: 50%
-              font-size: 1.3rem
-              line-height: 2.0rem
-              background-color: #ffffff
-          .check-box
-            width: 60%
-            display: flex
-            align-items: center
-            margin-top: 2.0rem
-            input[type=checkbox]
-              display: none
-            label
-              font-size: 1.1rem
-              font-weight: 300
-              margin-left: 20px
-            #check1div, #check2div, #check3div
-              width: 20px
-              height: 20px
-              background-color: #222222
-              display: flex
-              align-items: center
-              justify-content: center
-              #check-img1, #check-img2, #check-img3
-                width: 1.3rem
-          .form-submit
-            margin-top: 1.0rem
-            width: 60%
-            height: 50px
             display: flex
             justify-content: flex-start
-            align-items: center
-            .txt
-              width: 50%
-              padding-top: 1.3rem
-              padding-bottom: 1.3rem
-              background-color: black
-              color: #ffffff
-              font-family: $font-agora
-              font-size: 1.0rem
-              font-weight: 500
-              text-transform: uppercase
-              text-align: center
-              border-radius: 0 0 0 0.5rem
-          .key
-            width: 39%
-            text-align: right
-            //background: rebeccapurple
-            min-height: 1rem
-            .txt
-              width: 39%
-              text-align: right
-              //background: rebeccapurple
-              min-height: 1rem
-      .calc-result
-        .rowBlock
-          padding-top: 0.5rem
-          padding-bottom: 0.5rem
-          width: 100%
-          display: flex
-          justify-content: space-between
-          align-items: center
-
-          .key
-            width: 39%
-            text-align: right
-            min-height: 1rem
-            .txt
-              color: #ffffff
-              font-family: $font-lato
-              font-size: 1.0rem
-              font-weight: 500
-          .result-meth-wrap
-            width: 60%
-            .result-meth
-              width: 50%
-              background: #ffffff
-              height: 2.0rem
-              display: flex
-              align-items: center
-              .price
-                width: 100%
-                //height: 36px
-                text-align: center
-                color: #000000
-                font-family: $font-agora
-                font-size: 1.3rem
-                line-height: 2.0rem
-                font-weight: 500
-                text-transform: uppercase
-              img
-                padding-right: 0.5rem
-                width: 1.8rem
-      .calcDescriptionBlock
-        .rowBlock
-          padding-top: 0.5rem
-          padding-bottom: 0.5rem
-          width: 100%
-          display: flex
-          justify-content: space-between
-          align-items: center
-          .calcDescription
-            width: 100%
-            display: flex
-            justify-content: space-between
             .img
               width: 10%
               //background-color: red
@@ -912,10 +732,10 @@
               justify-content: center
               align-items: center
               img
-                width: 2.3rem
-                height: 2.3rem
+                width: 2.5rem
+                height: 2.5rem
             .txt
-              width: 70%
+              width: 100%
               padding-left: 2.0rem
               //background-color: green
               display: flex
@@ -923,52 +743,43 @@
               align-items: center
               color: #ffffff
               font-family: $font-lato
-              font-size: 1.0rem
+              font-size: 1.3rem
               font-weight: 400
-            .btn
-              width: 20%
-              //background-color: blueviolet
-              display: flex
-              justify-content: center
-              align-items: center
-
               a
-                background-color: #000000
-                width: 100%
-                height: 3.0rem
-                display: block
-                line-height: 3.0rem
-                text-decoration: none
-                text-align: center
-                font-size: 0.8rem
-                font-family: $font-lato
                 text-transform: uppercase
-                color: #ffffff
-                border-radius: 0 0 0 0.5rem
+                color: $active-background-color-gold
       hr
         margin-top: 2.0rem
         margin-bottom: 2.0rem
 
 
-@media  all and (max-width: 480px)
+@media all and (min-width: 480px) and (max-width: 575px)
   .calc-block
-    //background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat
     background: $active-background-color-dark url("../img/mainCalc/bg-image.png") top no-repeat
     color: #ffffff
     &-inner
-      padding-top: 4.0rem
-      padding-bottom: 3.0rem
-      .titleBlockH1
+      //padding-top: 120px
+      padding-bottom: 5.0rem
+      a.linkCalculator
+        display: block
         width: 100%
-        text-align: center
-        .title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 1.5rem
-          font-weight: 700
-          text-transform: uppercase
+        height: 8.0rem
+        text-decoration: none
+        .titleBlockH1
+          width: 100%
+          height: 10.0rem
+          text-align: center
+          display: flex
+          justify-content: center
+          align-items: center
+          .title
+            color: #ffffff
+            font-family: $font-agora
+            font-size: 2.0rem
+            font-weight: 700
+            text-transform: uppercase
       form
-        margin-top: 3.0rem
+        margin-top: 1.0rem
         .rowBlock
           padding-top: 0.5rem
           padding-bottom: 0.5rem
@@ -982,30 +793,38 @@
             //background: rebeccapurple
             min-height: 1rem
             label
+              margin: 0
               color: #ffffff
               font-family: $font-lato
-              font-size: 1.1rem
+              font-size: 1.5rem
               font-weight: 500
+
           .input
             width: 60%
             //background: #ffb118
             min-height: 1rem
+            select
+              width: 50%
+              font-size: 1.5rem
+              line-height: 1.5rem
+              background-color: #ffffff
             input
-              width: 70%
-              font-size: 1.1rem
+              width: 50%
+              font-size: 1.5rem
               line-height: 1.5rem
               background-color: #ffffff
           .check-box
             width: 60%
             display: flex
             align-items: center
-            margin-top: 2.0rem
+            margin-top: 1.3rem
             input[type=checkbox]
               display: none
             label
-              font-size: 1.0rem
+              font-size: 1.3rem
               font-weight: 300
-              margin-left: 20px
+              margin-left: 10px
+              margin-bottom: 0
             #check1div, #check2div, #check3div
               width: 20px
               height: 20px
@@ -1014,26 +833,26 @@
               align-items: center
               justify-content: center
               #check-img1, #check-img2, #check-img3
-                width: 1.1rem
+                width: 1.5rem
           .form-submit
-            margin-top: 1.0rem
+            margin-top: 2.0rem
             width: 60%
             height: 50px
             display: flex
             justify-content: flex-start
             align-items: center
             .txt
-              width: 70%
-              padding-top: 1.3rem
-              padding-bottom: 1.3rem
-              background-color: black
+              width: 80%
+              padding-top: 1.0rem
+              padding-bottom: 1.0rem
+              background-color: transparent
               color: #ffffff
               font-family: $font-agora
-              font-size: 0.8rem
+              font-size: 1.6rem
               font-weight: 500
               text-transform: uppercase
               text-align: center
-              border-radius: 0 0 0 0.5rem
+              border: 1px solid $active-background-color-gold
           .key
             width: 39%
             text-align: right
@@ -1060,14 +879,14 @@
             .txt
               color: #ffffff
               font-family: $font-lato
-              font-size: 0.8rem
+              font-size: 1.3rem
               font-weight: 500
           .result-meth-wrap
             width: 60%
             .result-meth
-              width: 70%
+              width: 50%
               background: #ffffff
-              height: 2.0rem
+              height: 3.0rem
               display: flex
               align-items: center
               .price
@@ -1076,13 +895,14 @@
                 text-align: center
                 color: #000000
                 font-family: $font-agora
-                font-size: 1.0rem
+                font-size: 1.6rem
                 line-height: 2.0rem
                 font-weight: 500
                 text-transform: uppercase
-              img
-                padding-right: 0.5rem
-                width: 1.5rem
+              .img
+                a
+                  img
+                    padding-right: 0.5rem
       .calcDescriptionBlock
         .rowBlock
           padding-top: 0.5rem
@@ -1094,18 +914,18 @@
           .calcDescription
             width: 100%
             display: flex
-            justify-content: space-between
+            justify-content: flex-start
             .img
-              width: 10%
+              width: 2.0rem
               //background-color: red
               display: flex
               justify-content: center
               align-items: center
               img
-                width: 1.5rem
-                height: 1.5rem
+                width: 2.0rem
+                height: 2.0rem
             .txt
-              width: 65%
+              width: 100%
               padding-left: 2.0rem
               //background-color: green
               display: flex
@@ -1113,52 +933,43 @@
               align-items: center
               color: #ffffff
               font-family: $font-lato
-              font-size: 0.8rem
+              font-size: 1.3rem
               font-weight: 400
-            .btn
-              width: 25%
-              //background-color: blueviolet
-              display: flex
-              justify-content: center
-              align-items: center
-
               a
-                background-color: #000000
-                width: 100%
-                height: 3.0rem
-                display: block
-                line-height: 3.0rem
-                text-decoration: none
-                text-align: center
-                font-size: 0.6rem
-                font-family: $font-lato
                 text-transform: uppercase
-                color: #ffffff
-                border-radius: 0 0 0 0.5rem
+                color: $active-background-color-gold
       hr
         margin-top: 2.0rem
         margin-bottom: 2.0rem
 
 
-@media  all and (max-width: 320px)
+@media all and (min-width: 320px) and (max-width: 479px)
   .calc-block
-    //background: #235c8c url("../img/mainCalc/bg-image.png") top no-repeat
-    background: #02458D url("../img/mainCalc/bg-image.png") top no-repeat
+    background: $active-background-color-dark url("../img/mainCalc/bg-image.png") top no-repeat
     color: #ffffff
     &-inner
-      padding-top: 2.5rem
-      padding-bottom: 2.5rem
-      .titleBlockH1
+      //padding-top: 120px
+      padding-bottom: 5.0rem
+      a.linkCalculator
+        display: block
         width: 100%
-        text-align: center
-        .title
-          color: #ffffff
-          font-family: $font-agora
-          font-size: 1.0rem
-          font-weight: 700
-          text-transform: uppercase
+        height: 6.0rem
+        text-decoration: none
+        .titleBlockH1
+          width: 100%
+          height: 8.0rem
+          text-align: center
+          display: flex
+          justify-content: center
+          align-items: center
+          .title
+            color: #ffffff
+            font-family: $font-agora
+            font-size: 1.5rem
+            font-weight: 700
+            text-transform: uppercase
       form
-        margin-top: 2.0rem
+        margin-top: 1.0rem
         .rowBlock
           padding-top: 0.5rem
           padding-bottom: 0.5rem
@@ -1172,58 +983,66 @@
             //background: rebeccapurple
             min-height: 1rem
             label
+              margin: 0
               color: #ffffff
               font-family: $font-lato
-              font-size: 0.7rem
+              font-size: 1.3rem
               font-weight: 500
+
           .input
             width: 60%
             //background: #ffb118
             min-height: 1rem
+            select
+              width: 100%
+              font-size: 1.5rem
+              line-height: 1.5rem
+              background-color: #ffffff
             input
-              width: 70%
-              font-size: 0.7rem
-              line-height: 1.0rem
+              width: 100%
+              font-size: 1.5rem
+              line-height: 1.5rem
               background-color: #ffffff
           .check-box
             width: 60%
             display: flex
             align-items: center
-            margin-top: 2.0rem
+            margin-top: 1.3rem
             input[type=checkbox]
               display: none
             label
-              font-size: 0.7rem
+              font-size: 1.3rem
               font-weight: 300
-              margin-left: 15px
+              margin-left: 10px
+              margin-bottom: 0
             #check1div, #check2div, #check3div
-              width: 15px
-              height: 15px
+              width: 20px
+              height: 20px
               background-color: #222222
               display: flex
               align-items: center
               justify-content: center
               #check-img1, #check-img2, #check-img3
-                width: 1.1rem
+                width: 1.5rem
           .form-submit
-            margin-top: 1.0rem
+            margin-top: 2.0rem
             width: 60%
             height: 50px
             display: flex
             justify-content: flex-start
             align-items: center
             .txt
-              width: 70%
-              padding-top: 1.3rem
-              padding-bottom: 1.3rem
-              background-color: black
+              width: 100%
+              padding-top: 1.0rem
+              padding-bottom: 1.0rem
+              background-color: transparent
               color: #ffffff
               font-family: $font-agora
-              font-size: 0.6rem
+              font-size: 1.3rem
               font-weight: 500
               text-transform: uppercase
               text-align: center
-              border-radius: 0 0 0 0.5rem
+              border: 1px solid $active-background-color-gold
           .key
             width: 39%
             text-align: right
@@ -1250,14 +1069,14 @@
             .txt
               color: #ffffff
               font-family: $font-lato
-              font-size: 0.6rem
+              font-size: 1.0rem
               font-weight: 500
           .result-meth-wrap
             width: 60%
             .result-meth
-              width: 70%
+              width: 100%
               background: #ffffff
-              height: 2.0rem
+              height: 3.0rem
               display: flex
               align-items: center
               .price
@@ -1266,13 +1085,14 @@
                 text-align: center
                 color: #000000
                 font-family: $font-agora
-                font-size: 0.8rem
+                font-size: 1.3rem
                 line-height: 2.0rem
                 font-weight: 500
                 text-transform: uppercase
-              img
-                padding-right: 0.5rem
-                width: 1.5rem
+              .img
+                a
+                  img
+                    padding-right: 0.5rem
       .calcDescriptionBlock
         .rowBlock
           padding-top: 0.5rem
@@ -1284,9 +1104,9 @@
           .calcDescription
             width: 100%
             display: flex
-            justify-content: space-between
+            justify-content: flex-start
             .img
-              width: 8%
+              width: 1.5rem
               //background-color: red
               display: flex
               justify-content: center
@@ -1295,7 +1115,7 @@
                 width: 1.5rem
                 height: 1.5rem
             .txt
-              width: 65%
+              width: 100%
               padding-left: 1.0rem
               //background-color: green
               display: flex
@@ -1303,31 +1123,36 @@
               align-items: center
               color: #ffffff
               font-family: $font-lato
-              font-size: 0.6rem
+              font-size: 1.1rem
               font-weight: 400
-            .btn
-              width: 27%
-              //background-color: blueviolet
-              display: flex
-              justify-content: center
-              align-items: center
-
               a
-                background-color: #000000
-                width: 100%
-                height: 2.5rem
-                display: block
-                line-height: 3.0rem
-                text-decoration: none
-                text-align: center
-                font-size: 0.5rem
-                font-family: $font-lato
                 text-transform: uppercase
-                color: #ffffff
-                border-radius: 0 0 0 0.5rem
+                color: $active-background-color-gold
       hr
         margin-top: 2.0rem
         margin-bottom: 2.0rem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

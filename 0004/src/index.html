@@ -318,6 +318,8 @@
     <a name="calculator"></a>
     <div class="main-calc-block">
 
+        <script src="js/main_form_calc.js"></script>
+
         <div class="calc-block">
             <div class="container">
                 <div class="calc-block-inner">
@@ -425,23 +427,27 @@
                             </div>
                         </div>
 
-                        <div class="rowBlock">
-                            <div class="label">
-                                <label for="weight-1">Вес 1 места (кг):</label>
+                        <div id="negabarit" class="negabarit">
+                            <div class="rowBlock">
+                                <div class="label">
+                                    <label for="weight-1">Вес 1 места (кг):</label>
+                                </div>
+                                <div class="input">
+                                    <input id="weight-1" type="text" size="40">
+                                </div>
                             </div>
-                            <div class="input">
-                                <input id="weight-1" type="text" size="40">
+                            <div class="rowBlock">
+                                <div class="label">
+                                    <label for="volume-1">Объем 1 места (м3):</label>
+                                </div>
+                                <div class="input">
+                                    <input id="volume-1" type="text" size="40">
+                                </div>
                             </div>
+
                         </div>
 
-                        <div class="rowBlock">
-                            <div class="label">
-                                <label for="volume-1">Объем 1 места (м3):</label>
-                            </div>
-                            <div class="input">
-                                <input id="volume-1" type="text" size="40">
-                            </div>
-                        </div>
+
 
                         <div class="rowBlock">
                             <div class="label"></div>
@@ -454,32 +460,42 @@
                             </div>
                         </div>
 
-                        <div class="rowBlock">
-                            <div class="label">
-                                <label for="support-departure-from">Адрес:</label>
-                            </div>
-                            <div class="input">
-                                <input id="support-departure-from" type="text" size="40">
-                            </div>
-                        </div>
 
-                        <!--<div class="rowBlock">-->
+                        <div id="supportSend" class="supportSend">
+
+                            <div class="rowBlock">
+                                <div class="label">
+                                    <label for="support-departure-from">Адрес:</label>
+                                </div>
+                                <div class="input">
+                                    <input id="support-departure-from" type="text" size="40">
+                                </div>
+                            </div>
+
+                            <!--<div class="rowBlock">-->
                             <!--<div class="label">-->
-                                <!--<label for="support-departure-to">Куда:</label>-->
+                            <!--<label for="support-departure-to">Куда:</label>-->
                             <!--</div>-->
                             <!--<div class="input">-->
-                                <!--<input id="support-departure-to" type="text" size="40">-->
+                            <!--<input id="support-departure-to" type="text" size="40">-->
                             <!--</div>-->
-                        <!--</div>-->
+                            <!--</div>-->
 
-                        <div class="rowBlock">
-                            <div class="label">
-                                <label for="support-departure-dist">Расстояние:</label>
+                            <div class="rowBlock">
+                                <div class="label">
+                                    <label for="support-departure-dist">Расстояние:</label>
+                                </div>
+                                <div class="input">
+                                    <input id="support-departure-dist" type="text" size="40">
+                                </div>
                             </div>
-                            <div class="input">
-                                <input id="support-departure-dist" type="text" size="40">
-                            </div>
+
                         </div>
+
+
+
+
+
 
                         <div class="rowBlock">
                             <div class="label"></div>
@@ -492,23 +508,27 @@
                             </div>
                         </div>
 
-                        <div class="rowBlock">
-                            <div class="label">
-                                <label for="support-arrival-to">Адрес:</label>
+
+                        <div id="supportAccept" class="supportAccept">
+                            <div class="rowBlock">
+                                <div class="label">
+                                    <label for="support-arrival-to">Адрес:</label>
+                                </div>
+                                <div class="input">
+                                    <input id="support-arrival-to" type="text" size="40">
+                                </div>
                             </div>
-                            <div class="input">
-                                <input id="support-arrival-to" type="text" size="40">
+
+                            <div class="rowBlock">
+                                <div class="label">
+                                    <label for="support-arrival-dist">Расстояние:</label>
+                                </div>
+                                <div class="input">
+                                    <input id="support-arrival-dist" type="text" size="40">
+                                </div>
                             </div>
                         </div>
 
-                        <div class="rowBlock">
-                            <div class="label">
-                                <label for="support-arrival-dist">Расстояние:</label>
-                            </div>
-                            <div class="input">
-                                <input id="support-arrival-dist" type="text" size="40">
-                            </div>
-                        </div>
 
                         <div class="rowBlock">
                             <div class="label"></div>
@@ -1127,7 +1147,6 @@
     <script src="js/script_prices_slider_03.js"></script>
 
     <script src="js/script_primary.js"></script>
-    <script src="js/main_form_calc.js"></script>
 
 
     <!--наверх-->

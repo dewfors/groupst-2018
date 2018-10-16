@@ -25,23 +25,100 @@
 <body>
 
 <div class="main">
+
     <header class="header">
-        "header" - sass
-        <div class="logo-info">
+
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light d-sm-none xsNavBar">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/header/header-logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--<span>меню</span>-->
+                    <!--<span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>-->
+                    <span class="menu">меню</span>
+                    <span class="toggler"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item"><a href='services.html' class="nav-link mItem">Услуги</a></li>
+                        <li class="nav-item"><a href='prices.html' class="nav-link mItem">Тарифы</a></li>
+                        <li class="nav-item"><a href='routes.html' class="nav-link mItem">Направления</a></li>
+                        <li class="nav-item"><a href='index.html#calculator' class="nav-link mItem">Калькулятор</a></li>
+                        <li class="nav-item"><a href='tracking.html' class="nav-link mItem">Отслеживание груза</a></li>
+                        <li class="nav-item"><a href='docsArticles.html' class="nav-link mItem">Документы и полезные статьи</a></li>
+                        <li class="nav-item"><a href='contacts.html' class="nav-link mItem">Контакты</a></li>
+                        <li class="nav-item"><a href='about.html' class="nav-link mItem">О компании</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="brend-info-block">
             <div class="container">
-                <div class="card w-100">
-                    "logo-info" - sass include
+                <div class="brend-info-block-inner">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 logo-dv-block">
+                            <a href="index.html">
+                                <img src="img/header/header-logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-10 col-md-10 info-dv-block">
+                            <div class="info">Центральный офис Москва: Г. ДОМОДЕДОВО, ТЕРРИТОРИЯ "КЕС"-"ЯМ", часы работы: 10:00-21:00</div>
+                        </div>
+                        <!--<div class="col-sm-12 col-md-4 callselect-dv-block">-->
+                        <!--<div class="callselect" id="callselect_select">Выбрать филиал</div>-->
+                        <!--<div class="callselect" id="callselect_call">Перезвоните мне</div>-->
+                        <!--</div>-->
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- /.logo-info -->
+        <!-- /.brend-info-block -->
 
         <div class="menu-primary">
+
             <div class="container">
-                <div class="card w-100">
-                    "menu-primary" - sass include
-                </div>
+
+                <!--<nav class='nav-menu-02' id="nav_menu_02">-->
+                <!--<nav class='nav-menu-02' id="nav_menu_02">-->
+                <nav class='nav-menu-main' id="nav_menu_main">
+
+                    <div class="wrap-menu-main">
+                        <!--<div class="logo-brend" id="logo_brend">GROUPST</div>-->
+                        <!--<div class="open-menu-02" id="open_menu_02">-->
+                        <div class="open-menu-main" id="open_menu_main">
+                            <div class="img"><img src="img/icons/icon-menu-48.png" alt="icon-menu"></div>
+                            <!--Открыть меню-->
+                        </div>
+                    </div>
+
+                    <!--<ul class="ul-menu-02" id="ul_menu_02">-->
+                    <ul class="ul-menu-main" id="ul_menu_main">
+                        <!--<li class="logo"><div class="logo-brend">GROUPST</div></li>-->
+
+                        <li><a href='services.html'>Услуги</a></li>
+                        <li><a href='prices.html'>Тарифы</a></li>
+                        <li><a href='routes.html'>Направления</a></li>
+                        <li><a href='calculator.html' target="_blank">Калькулятор</a></li>
+                        <li><a href='tracking.html' target="_blank">Отслеживание груза</a></li>
+                        <li><a href='docsArticles.html'>Документы и полезные статьи</a></li>
+                        <li><a href='contacts.html'>Контакты</a></li>
+                        <li><a href='about.html'>О компании</a></li>
+
+                    </ul>
+                </nav>
+
+
             </div>
+            <!-- /.container -->
+
+
         </div>
         <!-- /.menu-primary -->
     </header>

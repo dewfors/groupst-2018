@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 ul.nav1 {
   width: 100%;
   display: -webkit-box;
@@ -7471,6 +7473,70 @@ body {
   margin-top: 1.0rem;
 }
 
+.calc-block-inner form .void {
+  height: 2.0rem;
+}
+
+.calc-block-inner form .rowBlockCheck {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.calc-block-inner form .rowBlockCheck .void {
+  width: 40%;
+  height: 2.0rem;
+}
+
+.calc-block-inner form .rowBlockCheck label .checkbox {
+  display: none;
+}
+
+.calc-block-inner form .rowBlockCheck label .checkbox-custom {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+}
+
+.calc-block-inner form .rowBlockCheck label .checkbox-custom,
+.calc-block-inner form .rowBlockCheck label .label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.calc-block-inner form .rowBlockCheck label .label {
+  margin-left: 1.0rem;
+  color: #ffffff;
+  font-family: "LatoRegular", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.calc-block-inner form .rowBlockCheck label .checkbox:checked + .checkbox-custom::before {
+  content: "";
+  display: block;
+  position: absolute;
+  /* Задаем расстояние от верхней, правой, нижней и левой границы */
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  background: #ffb118;
+  border-radius: 2px;
+}
+
 .calc-block-inner form .rowBlock {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -7516,56 +7582,6 @@ body {
   font-size: 2.0rem;
   line-height: 2.0rem;
   background-color: #ffffff;
-}
-
-.calc-block-inner form .rowBlock .check-box {
-  width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.calc-block-inner form .rowBlock .check-box input[type=checkbox] {
-  display: none;
-}
-
-.calc-block-inner form .rowBlock .check-box label {
-  font-size: 17px;
-  font-weight: 300;
-  margin-left: 20px;
-}
-
-.calc-block-inner form .rowBlock .check-box #check1div,
-.calc-block-inner form .rowBlock .check-box #check2div,
-.calc-block-inner form .rowBlock .check-box #check3div {
-  width: 25px;
-  height: 25px;
-  background-color: #222222;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.calc-block-inner form .rowBlock .check-box #check1div #check-img1,
-.calc-block-inner form .rowBlock .check-box #check1div #check-img2,
-.calc-block-inner form .rowBlock .check-box #check1div #check-img3,
-.calc-block-inner form .rowBlock .check-box #check2div #check-img1,
-.calc-block-inner form .rowBlock .check-box #check2div #check-img2,
-.calc-block-inner form .rowBlock .check-box #check2div #check-img3,
-.calc-block-inner form .rowBlock .check-box #check3div #check-img1,
-.calc-block-inner form .rowBlock .check-box #check3div #check-img2,
-.calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
-  width: 70%;
 }
 
 .calc-block-inner form .rowBlock .form-submit {
@@ -7783,6 +7799,66 @@ body {
     margin-top: 1.0rem;
   }
 
+  .calc-block-inner form .rowBlockCheck {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlockCheck .void {
+    width: 40%;
+    height: 1.0rem;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox-custom {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox-custom,
+  .calc-block-inner form .rowBlockCheck label .label {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .label {
+    margin-left: 1.0rem;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox:checked + .checkbox-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background: #ffb118;
+    border-radius: 2px;
+  }
+
   .calc-block-inner form .rowBlock {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -7805,7 +7881,6 @@ body {
   }
 
   .calc-block-inner form .rowBlock .label label {
-    margin: 0;
     color: #ffffff;
     font-family: "LatoRegular", sans-serif;
     font-size: 2.0rem;
@@ -7829,56 +7904,6 @@ body {
     font-size: 2.0rem;
     line-height: 2.0rem;
     background-color: #ffffff;
-  }
-
-  .calc-block-inner form .rowBlock .check-box {
-    width: 60%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-top: 30px;
-  }
-
-  .calc-block-inner form .rowBlock .check-box input[type=checkbox] {
-    display: none;
-  }
-
-  .calc-block-inner form .rowBlock .check-box label {
-    font-size: 17px;
-    font-weight: 300;
-    margin-left: 20px;
-  }
-
-  .calc-block-inner form .rowBlock .check-box #check1div,
-  .calc-block-inner form .rowBlock .check-box #check2div,
-  .calc-block-inner form .rowBlock .check-box #check3div {
-    width: 25px;
-    height: 25px;
-    background-color: #222222;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  .calc-block-inner form .rowBlock .check-box #check1div #check-img1,
-  .calc-block-inner form .rowBlock .check-box #check1div #check-img2,
-  .calc-block-inner form .rowBlock .check-box #check1div #check-img3,
-  .calc-block-inner form .rowBlock .check-box #check2div #check-img1,
-  .calc-block-inner form .rowBlock .check-box #check2div #check-img2,
-  .calc-block-inner form .rowBlock .check-box #check2div #check-img3,
-  .calc-block-inner form .rowBlock .check-box #check3div #check-img1,
-  .calc-block-inner form .rowBlock .check-box #check3div #check-img2,
-  .calc-block-inner form .rowBlock .check-box #check3div #check-img3 {
-    width: 70%;
   }
 
   .calc-block-inner form .rowBlock .form-submit {
@@ -8097,6 +8122,66 @@ body {
     margin-top: 1.0rem;
   }
 
+  .calc-block-inner form .rowBlockCheck {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlockCheck .void {
+    width: 40%;
+    height: 1.0rem;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox-custom {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox-custom,
+  .calc-block-inner form .rowBlockCheck label .label {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .label {
+    margin-left: 1.0rem;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox:checked + .checkbox-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background: #ffb118;
+    border-radius: 2px;
+  }
+
   .calc-block-inner form .rowBlock {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -8218,7 +8303,7 @@ body {
     background-color: transparent;
     color: #ffb118;
     font-family: "AgoraSansProRegular", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
@@ -8410,6 +8495,66 @@ body {
 
   .calc-block-inner form {
     margin-top: 1.0rem;
+  }
+
+  .calc-block-inner form .rowBlockCheck {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlockCheck .void {
+    width: 20%;
+    height: 1.0rem;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox-custom {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox-custom,
+  .calc-block-inner form .rowBlockCheck label .label {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .label {
+    margin-left: 1.0rem;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox:checked + .checkbox-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background: #ffb118;
+    border-radius: 2px;
   }
 
   .calc-block-inner form .rowBlock {
@@ -8727,6 +8872,66 @@ body {
     margin-top: 1.0rem;
   }
 
+  .calc-block-inner form .rowBlockCheck {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlockCheck .void {
+    width: 15%;
+    height: 1.0rem;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox-custom {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox-custom,
+  .calc-block-inner form .rowBlockCheck label .label {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .label {
+    margin-left: 1.0rem;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox:checked + .checkbox-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background: #ffb118;
+    border-radius: 2px;
+  }
+
   .calc-block-inner form .rowBlock {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -9040,6 +9245,66 @@ body {
 
   .calc-block-inner form {
     margin-top: 1.0rem;
+  }
+
+  .calc-block-inner form .rowBlockCheck {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .calc-block-inner form .rowBlockCheck .void {
+    width: 0%;
+    height: 1.0rem;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox {
+    display: none;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox-custom {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox-custom,
+  .calc-block-inner form .rowBlockCheck label .label {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .label {
+    margin-left: 1.0rem;
+    color: #ffffff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    font-weight: 400;
+  }
+
+  .calc-block-inner form .rowBlockCheck label .checkbox:checked + .checkbox-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background: #ffb118;
+    border-radius: 2px;
   }
 
   .calc-block-inner form .rowBlock {

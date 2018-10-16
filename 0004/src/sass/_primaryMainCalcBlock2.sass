@@ -24,6 +24,50 @@
           text-transform: uppercase
     form
       margin-top: 1.0rem
+      .void
+        height: 2.0rem
+      .rowBlockCheck
+        padding-top: 0.5rem
+        padding-bottom: 0.5rem
+        width: 100%
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        .void
+          width: 40%
+          height: 2.0rem
+          //margin-top: 1.0rem
+        label
+          .checkbox
+            display: none
+          .checkbox-custom
+            position: relative      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+            width: 20px             /* Обязательно задаем ширину */
+            height: 20px           /* Обязательно задаем высоту */
+            border: 2px solid #ccc
+            border-radius: 3px
+          .checkbox-custom, .label
+            display: inline-block
+            vertical-align: middle
+          .label
+            margin-left: 1.0rem
+            color: #ffffff
+            font-family: $font-lato
+            font-size: 1.5rem
+            line-height: 1.5rem
+            font-weight: 500
+          .checkbox:checked + .checkbox-custom::before
+            content: ""             /* Добавляем наш псевдоэлемент */
+            display: block			 /* Делаем его блочным элементом */
+            position: absolute      /* Позиционируем его абсолютным образом */
+            /* Задаем расстояние от верхней, правой, нижней и левой границы */
+            top: 2px
+            right: 2px
+            bottom: 2px
+            left: 2px
+            background: $active-background-color-gold     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+            border-radius: 2px
+
       .rowBlock
         padding-top: 0.5rem
         padding-bottom: 0.5rem
@@ -55,26 +99,26 @@
             font-size: 2.0rem
             line-height: 2.0rem
             background-color: #ffffff
-        .check-box
-          width: 60%
-          display: flex
-          align-items: center
-          margin-top: 30px
-          input[type=checkbox]
-            display: none
-          label
-            font-size: 17px
-            font-weight: 300
-            margin-left: 20px
-          #check1div, #check2div, #check3div
-            width: 25px
-            height: 25px
-            background-color: #222222
-            display: flex
-            align-items: center
-            justify-content: center
-            #check-img1, #check-img2, #check-img3
-              width: 70%
+        //.check-box
+        //  width: 60%
+        //  display: flex
+        //  align-items: center
+        //  margin-top: 30px
+        //  input[type=checkbox]
+        //    display: none
+        //  label
+        //    font-size: 17px
+        //    font-weight: 300
+        //    margin-left: 20px
+        //  #check1div, #check2div, #check3div
+        //    width: 25px
+        //    height: 25px
+        //    background-color: #222222
+        //    display: flex
+        //    align-items: center
+        //    justify-content: center
+        //    #check-img1, #check-img2, #check-img3
+        //      width: 70%
         .form-submit
           margin-top: 3.0rem
           width: 60%
@@ -211,6 +255,47 @@
             text-transform: uppercase
       form
         margin-top: 1.0rem
+        .rowBlockCheck
+          padding-top: 0.5rem
+          padding-bottom: 0.5rem
+          width: 100%
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          .void
+            width: 40%
+            height: 1.0rem
+          label
+            .checkbox
+              display: none
+            .checkbox-custom
+              position: relative      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+              width: 20px             /* Обязательно задаем ширину */
+              height: 20px           /* Обязательно задаем высоту */
+              border: 2px solid #ccc
+              border-radius: 3px
+            .checkbox-custom, .label
+              display: inline-block
+              vertical-align: middle
+            .label
+              margin-left: 1.0rem
+              color: #ffffff
+              font-family: $font-lato
+              font-size: 1.5rem
+              line-height: 1.5rem
+              font-weight: 500
+            .checkbox:checked + .checkbox-custom::before
+              content: ""             /* Добавляем наш псевдоэлемент */
+              display: block			 /* Делаем его блочным элементом */
+              position: absolute      /* Позиционируем его абсолютным образом */
+              /* Задаем расстояние от верхней, правой, нижней и левой границы */
+              top: 2px
+              right: 2px
+              bottom: 2px
+              left: 2px
+              background: $active-background-color-gold     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+              border-radius: 2px
+
         .rowBlock
           padding-top: 0.5rem
           padding-bottom: 0.5rem
@@ -224,12 +309,10 @@
             //background: rebeccapurple
             min-height: 1rem
             label
-              margin: 0
               color: #ffffff
               font-family: $font-lato
               font-size: 2.0rem
               font-weight: 500
-
           .input
             width: 60%
             //background: #ffb118
@@ -244,26 +327,26 @@
               font-size: 2.0rem
               line-height: 2.0rem
               background-color: #ffffff
-          .check-box
-            width: 60%
-            display: flex
-            align-items: center
-            margin-top: 30px
-            input[type=checkbox]
-              display: none
-            label
-              font-size: 17px
-              font-weight: 300
-              margin-left: 20px
-            #check1div, #check2div, #check3div
-              width: 25px
-              height: 25px
-              background-color: #222222
-              display: flex
-              align-items: center
-              justify-content: center
-              #check-img1, #check-img2, #check-img3
-                width: 70%
+          //.check-box
+          //  width: 60%
+          //  display: flex
+          //  align-items: center
+          //  margin-top: 30px
+          //  input[type=checkbox]
+          //    display: none
+          //  label
+          //    font-size: 17px
+          //    font-weight: 300
+          //    margin-left: 20px
+          //  #check1div, #check2div, #check3div
+          //    width: 25px
+          //    height: 25px
+          //    background-color: #222222
+          //    display: flex
+          //    align-items: center
+          //    justify-content: center
+          //    #check-img1, #check-img2, #check-img3
+          //      width: 70%
           .form-submit
             margin-top: 3.0rem
             width: 60%
@@ -400,6 +483,47 @@
             text-transform: uppercase
       form
         margin-top: 1.0rem
+        .rowBlockCheck
+          padding-top: 0.5rem
+          padding-bottom: 0.5rem
+          width: 100%
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          .void
+            width: 40%
+            height: 1.0rem
+          label
+            .checkbox
+              display: none
+            .checkbox-custom
+              position: relative      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+              width: 20px             /* Обязательно задаем ширину */
+              height: 20px           /* Обязательно задаем высоту */
+              border: 2px solid #ccc
+              border-radius: 3px
+            .checkbox-custom, .label
+              display: inline-block
+              vertical-align: middle
+            .label
+              margin-left: 1.0rem
+              color: #ffffff
+              font-family: $font-lato
+              font-size: 1.5rem
+              line-height: 1.5rem
+              font-weight: 500
+            .checkbox:checked + .checkbox-custom::before
+              content: ""             /* Добавляем наш псевдоэлемент */
+              display: block			 /* Делаем его блочным элементом */
+              position: absolute      /* Позиционируем его абсолютным образом */
+              /* Задаем расстояние от верхней, правой, нижней и левой границы */
+              top: 2px
+              right: 2px
+              bottom: 2px
+              left: 2px
+              background: $active-background-color-gold     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+              border-radius: 2px
+
         .rowBlock
           padding-top: 0.5rem
           padding-bottom: 0.5rem
@@ -468,7 +592,7 @@
               background-color: transparent
               color: $active-background-color-gold
               font-family: $font-agora
-              font-size: 1.8rem
+              font-size: 1.6rem
               font-weight: 500
               text-transform: uppercase
               text-align: center
@@ -590,6 +714,47 @@
             text-transform: uppercase
       form
         margin-top: 1.0rem
+        .rowBlockCheck
+          padding-top: 0.5rem
+          padding-bottom: 0.5rem
+          width: 100%
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          .void
+            width: 20%
+            height: 1.0rem
+          label
+            .checkbox
+              display: none
+            .checkbox-custom
+              position: relative      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+              width: 20px             /* Обязательно задаем ширину */
+              height: 20px           /* Обязательно задаем высоту */
+              border: 2px solid #ccc
+              border-radius: 3px
+            .checkbox-custom, .label
+              display: inline-block
+              vertical-align: middle
+            .label
+              margin-left: 1.0rem
+              color: #ffffff
+              font-family: $font-lato
+              font-size: 1.5rem
+              line-height: 1.5rem
+              font-weight: 500
+            .checkbox:checked + .checkbox-custom::before
+              content: ""             /* Добавляем наш псевдоэлемент */
+              display: block			 /* Делаем его блочным элементом */
+              position: absolute      /* Позиционируем его абсолютным образом */
+              /* Задаем расстояние от верхней, правой, нижней и левой границы */
+              top: 2px
+              right: 2px
+              bottom: 2px
+              left: 2px
+              background: $active-background-color-gold     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+              border-radius: 2px
+
         .rowBlock
           padding-top: 0.5rem
           padding-bottom: 0.5rem
@@ -780,6 +945,47 @@
             text-transform: uppercase
       form
         margin-top: 1.0rem
+        .rowBlockCheck
+          padding-top: 0.5rem
+          padding-bottom: 0.5rem
+          width: 100%
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          .void
+            width: 15%
+            height: 1.0rem
+          label
+            .checkbox
+              display: none
+            .checkbox-custom
+              position: relative      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+              width: 20px             /* Обязательно задаем ширину */
+              height: 20px           /* Обязательно задаем высоту */
+              border: 2px solid #ccc
+              border-radius: 3px
+            .checkbox-custom, .label
+              display: inline-block
+              vertical-align: middle
+            .label
+              margin-left: 1.0rem
+              color: #ffffff
+              font-family: $font-lato
+              font-size: 1.3rem
+              line-height: 1.3rem
+              font-weight: 500
+            .checkbox:checked + .checkbox-custom::before
+              content: ""             /* Добавляем наш псевдоэлемент */
+              display: block			 /* Делаем его блочным элементом */
+              position: absolute      /* Позиционируем его абсолютным образом */
+              /* Задаем расстояние от верхней, правой, нижней и левой границы */
+              top: 2px
+              right: 2px
+              bottom: 2px
+              left: 2px
+              background: $active-background-color-gold     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+              border-radius: 2px
+
         .rowBlock
           padding-top: 0.5rem
           padding-bottom: 0.5rem
@@ -970,6 +1176,47 @@
             text-transform: uppercase
       form
         margin-top: 1.0rem
+        .rowBlockCheck
+          padding-top: 0.5rem
+          padding-bottom: 0.5rem
+          width: 100%
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          .void
+            width: 0%
+            height: 1.0rem
+          label
+            .checkbox
+              display: none
+            .checkbox-custom
+              position: relative      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+              width: 15px             /* Обязательно задаем ширину */
+              height: 15px           /* Обязательно задаем высоту */
+              border: 2px solid #ccc
+              border-radius: 3px
+            .checkbox-custom, .label
+              display: inline-block
+              vertical-align: middle
+            .label
+              margin-left: 1.0rem
+              color: #ffffff
+              font-family: $font-lato
+              font-size: 1.1rem
+              line-height: 1.1rem
+              font-weight: 400
+            .checkbox:checked + .checkbox-custom::before
+              content: ""             /* Добавляем наш псевдоэлемент */
+              display: block			 /* Делаем его блочным элементом */
+              position: absolute      /* Позиционируем его абсолютным образом */
+              /* Задаем расстояние от верхней, правой, нижней и левой границы */
+              top: 2px
+              right: 2px
+              bottom: 2px
+              left: 2px
+              background: $active-background-color-gold     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+              border-radius: 2px
+
         .rowBlock
           padding-top: 0.5rem
           padding-bottom: 0.5rem

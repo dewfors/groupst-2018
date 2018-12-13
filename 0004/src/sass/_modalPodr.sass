@@ -1,0 +1,109 @@
+@import 'https://fonts.googleapis.com/css?family=Prompt:400,700'
+
+
+header.header
+  .modal-overlay-podr
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    z-index: 50
+    background: rgba(0, 0, 0, 0.6)
+    display: none
+
+  .modal-podr
+    /* Не обязательно  block */
+    display: block
+    /*width: 600px;*/
+    width: 50vw
+    max-width: 100%
+    /*height: 400px;*/
+    height: 60vh
+    max-height: 100%
+    position: fixed
+    z-index: 100
+    left: 50%
+    top: 50%
+    /* Центруем */
+    transform: translate(-50%, -50%)
+    background: white
+    box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9)
+    display: none
+
+  .modal-podr .close-button
+    position: absolute
+    z-index: 1
+    top: 10px
+    right: 20px
+
+    border: 0
+    background: $active-background-color-dark
+    color: white
+    padding: 5px 10px
+    font-size: 1.3rem
+
+  .modal-podr
+    .modal-guts
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      overflow: auto
+      padding: 50px 20px 20px 20px
+      .selectOptions
+        background: $active-background-color-lite
+        .boxes
+          //margin: auto
+          padding: 30px
+
+          fieldset
+            legend
+              color: $active-background-color-gold
+              margin-bottom: 1.0rem
+
+          input[type="radio"]
+            display: none
+
+          input[type="radio"] + label
+            display: block
+            position: relative
+            padding-left: 35px
+            margin-bottom: 20px
+            font: 14px/20px 'Open Sans', Arial, sans-serif
+            color: #ddd
+            cursor: pointer
+            -webkit-user-select: none
+            -moz-user-select: none
+            -ms-user-select: none
+
+          input[type="radio"] + label:last-child
+            margin-bottom: 0
+
+          input[type="radio"] + label:before
+            content: ''
+            display: block
+            width: 20px
+            height: 20px
+            border: 1px solid #6cc0e5
+            position: absolute
+            left: 0
+            top: 0
+            opacity: .6
+            -webkit-transition: all .12s, border-color .08s
+            transition: all .12s, border-color .08s
+
+
+          input[type="radio"]:checked + label:before
+            width: 10px
+            top: -5px
+            left: 5px
+            border-radius: 0
+            opacity: 1
+            border-top-color: transparent
+            border-left-color: transparent
+            -webkit-transform: rotate(45deg)
+            transform: rotate(45deg)
+      .selePodrInfo
+        padding: 1rem

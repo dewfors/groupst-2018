@@ -31,6 +31,46 @@
 <div class="main">
 
     <header class="header">
+        <!--окно выбора подразделения-->
+        <script src="js/header_sele_podr.js"></script>
+        <div class="modal-overlay-podr" id="modal_overlay_podr"></div>
+
+        <div class="modal-podr" id="modal_podr" aria-hidden="true" aria-labelledby="modalTitle" aria-describedby="modalDescription" role="dialog">
+            <button class="close-button" id="close-button" title="Закрыть модальное окно">Закрыть</button>
+            <div class="modal-guts" role="document">
+                <div class="selectOptions">
+                    <div class="boxes">
+                        <fieldset>
+                            <legend>Выберите подразделение</legend>
+                            <input name="radioPodrazdel" type="radio" id="sp_MSK">
+                            <label for="sp_MSK">Москва</label>
+
+                            <input name="radioPodrazdel" type="radio" id="sp_SPB">
+                            <label for="sp_SPB">С-Петербург</label>
+
+                            <input name="radioPodrazdel" type="radio" id="sp_NSB">
+                            <label for="sp_NSB">Новосибирск</label>
+
+                            <input name="radioPodrazdel" type="radio" id="sp_HBR">
+                            <label for="sp_HBR">Хабаровск</label>
+
+                            <input name="radioPodrazdel" type="radio" id="sp_VLD">
+                            <label for="sp_VLD">Владивосток</label>
+
+                            <input name="radioPodrazdel" type="radio" id="sp_PK">
+                            <label for="sp_PK">П-Камчатский</label>
+
+                            <input name="radioPodrazdel" type="radio" id="sp_USH">
+                            <label for="sp_USH">Ю-Сахалинск</label>
+
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="selePodrInfo" id="selePodrInfo"></div>
+
+            </div>
+        </div>
+
 
         <div class="container">
             <nav class="navbar navbar-expand-sm navbar-light d-sm-none xsNavBar">
@@ -73,7 +113,7 @@
                             </a>
                         </div>
                         <div class="col-12 col-sm-10 col-md-10 info-dv-block">
-                            <div class="info">Центральный офис Москва: Г. ДОМОДЕДОВО, ТЕРРИТОРИЯ "КЕС"-"ЯМ", часы работы: 10:00-21:00</div>
+                            <div class="info" id="selePodrInfo1">Центральный офис Москва: Г. ДОМОДЕДОВО, ТЕРРИТОРИЯ "КЕС"-"ЯМ", часы работы: 10:00-21:00</div>
                         </div>
                         <!--<div class="col-sm-12 col-md-4 callselect-dv-block">-->
                             <!--<div class="callselect" id="callselect_select">Выбрать филиал</div>-->
@@ -129,6 +169,9 @@
     <!-- /.header -->
 
     <div class="main-slider-block">
+
+
+
         <div class="slider-block">
             <div class="slider-overlay"></div>
             <div class="container">
@@ -176,7 +219,7 @@
                     </div>
 
                     <div class="slider-title-buttons-2">
-                        <div class="st-btn-filial">Выбрать филиал</div>
+                        <div id="sele_podr_open" class="st-btn-filial">Выбрать филиал</div>
                         <div class="st-btn-call">Перезвоните мне</div>
                         <a href="personal.html" target="_blank">
                             <div class="st-btn-personal">Личный кабинет</div>

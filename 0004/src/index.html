@@ -1049,6 +1049,9 @@
     <footer class="footer">
 
         <div class="howToContactUs">
+
+            <script src="js/footer_howToContactUs.js"></script>
+
             <div class="howToContactUsBlock">
                 <div class="container">
                     <div class="row">
@@ -1072,6 +1075,22 @@
 
                                     <input name="radioFilial" type="radio" id="rf_NSB">
                                     <label for="rf_NSB">Новосибирск</label>
+
+                                    <input name="radioFilial" type="radio" id="rf_HBR">
+                                    <label for="rf_HBR">Хабаровск</label>
+
+                                    <input name="radioFilial" type="radio" id="rf_VLD">
+                                    <label for="rf_VLD">Владивосток</label>
+
+                                    <input name="radioFilial" type="radio" id="rf_PK">
+                                    <label for="rf_PK">П-Камчатский</label>
+
+                                    <input name="radioFilial" type="radio" id="rf_USH">
+                                    <label for="rf_USH">Ю-Сахалинск</label>
+
+
+
+
                                 </fieldset>
 
                             </div>
@@ -1085,6 +1104,12 @@
 
                                     <input name="radioType" type="radio" id="rt_JD">
                                     <label for="rt_JD">ЖД перевозка</label>
+
+                                    <input name="radioType" type="radio" id="rt_EXP">
+                                    <label for="rt_EXP">Экспресс доставка</label>
+
+                                    <input name="radioType" type="radio" id="rt_MLT">
+                                    <label for="rt_MLT">Мультимодальная перевозка</label>
 
                                     <input name="radioType" type="radio" id="rt_MORE">
                                     <label for="rt_MORE">Морская перевозка</label>
@@ -1102,10 +1127,10 @@
                                     <img src="img/mainCalc/customer-service.png" alt="face">
                                 </div>
                                 <div class="infoblock">
-                                    <div class="txt-f fio-info">ФИО: Иванов Иван Иванович</div>
-                                    <div class="txt-f schedule-info">часы работы: с 9-00 до 18-00</div>
-                                    <div class="txt-f tel-info">тел.: 8 (999) 123-45-67</div>
-                                    <div class="txt-f email-info">email: info@groupst.ru</div>
+                                    <div class="txt-f fio-info"         id="fio_info1">ФИО: Иванов Иван Иванович</div>
+                                    <div class="txt-f schedule-info"    id="schedule_info1">часы работы: с 9-00 до 18-00</div>
+                                    <div class="txt-f tel-info"         id="tel_info1">тел.: 8 (999) 123-45-67</div>
+                                    <div class="txt-f email-info"       id="email_info1">email: info@groupst.ru</div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6 manager-info">
@@ -1113,10 +1138,10 @@
                                     <img src="img/mainCalc/customer-service.png" alt="face">
                                 </div>
                                 <div class="infoblock">
-                                    <div class="txt-f fio-info">ФИО: Иванов Иван Иванович</div>
-                                    <div class="txt-f schedule-info">часы работы: с 9-00 до 18-00</div>
-                                    <div class="txt-f tel-info">тел.: 8 (999) 123-45-67</div>
-                                    <div class="txt-f email-info">email: info@groupst.ru</div>
+                                    <div class="txt-f fio-info"         id="fio_info2">ФИО: Иванов Иван Иванович</div>
+                                    <div class="txt-f schedule-info"    id="schedule_info2">часы работы: с 9-00 до 18-00</div>
+                                    <div class="txt-f tel-info"         id="tel_info2">тел.: 8 (999) 123-45-67</div>
+                                    <div class="txt-f email-info"       id="email_info2">email: info@groupst.ru</div>
                                 </div>
                             </div>
                         </div>
@@ -1125,8 +1150,8 @@
                     <div class="viewButtons">
                         <div class="row">
                             <div class="col-12 colViewButtons">
-                                <div class="btnClear">Очистить</div>
-                                <div class="btnShow">Показать</div>
+                                <!--<div class="btnClear">Очистить</div>-->
+                                <div class="btnShow" id="btnShowManagers">Показать</div>
                             </div>
                         </div>
                     </div>

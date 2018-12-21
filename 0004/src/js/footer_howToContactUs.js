@@ -167,77 +167,77 @@ function ready() {
     let manager70 = new Manager("podr_USH","type_MORE", "ЮСХ менеджер 70", "9-00 до 18-00", "8 (999) 123-45-67", "info@groupst.ru");
 
 
-    let allManafers = [];
-    allManafers.push(manager01);
-    allManafers.push(manager02);
-    allManafers.push(manager03);
-    allManafers.push(manager04);
-    allManafers.push(manager05);
-    allManafers.push(manager06);
-    allManafers.push(manager07);
-    allManafers.push(manager08);
-    allManafers.push(manager09);
-    allManafers.push(manager10);
-    allManafers.push(manager11);
-    allManafers.push(manager12);
-    allManafers.push(manager13);
-    allManafers.push(manager14);
-    allManafers.push(manager15);
-    allManafers.push(manager16);
-    allManafers.push(manager17);
-    allManafers.push(manager18);
-    allManafers.push(manager19);
-    allManafers.push(manager20);
-    allManafers.push(manager21);
-    allManafers.push(manager22);
-    allManafers.push(manager23);
-    allManafers.push(manager24);
-    allManafers.push(manager25);
-    allManafers.push(manager26);
-    allManafers.push(manager27);
-    allManafers.push(manager28);
-    allManafers.push(manager29);
-    allManafers.push(manager30);
-    allManafers.push(manager31);
-    allManafers.push(manager32);
-    allManafers.push(manager33);
-    allManafers.push(manager34);
-    allManafers.push(manager35);
-    allManafers.push(manager36);
-    allManafers.push(manager37);
-    allManafers.push(manager38);
-    allManafers.push(manager39);
-    allManafers.push(manager40);
-    allManafers.push(manager41);
-    allManafers.push(manager42);
-    allManafers.push(manager43);
-    allManafers.push(manager44);
-    allManafers.push(manager45);
-    allManafers.push(manager46);
-    allManafers.push(manager47);
-    allManafers.push(manager48);
-    allManafers.push(manager49);
-    allManafers.push(manager50);
-    allManafers.push(manager51);
-    allManafers.push(manager52);
-    allManafers.push(manager53);
-    allManafers.push(manager54);
-    allManafers.push(manager55);
-    allManafers.push(manager56);
-    allManafers.push(manager57);
-    allManafers.push(manager58);
-    allManafers.push(manager59);
-    allManafers.push(manager60);
-    allManafers.push(manager61);
-    allManafers.push(manager62);
-    allManafers.push(manager63);
-    allManafers.push(manager64);
-    allManafers.push(manager65);
-    allManafers.push(manager66);
-    allManafers.push(manager67);
-    allManafers.push(manager68);
-    allManafers.push(manager69);
-    allManafers.push(manager70);
+    let allManagers = [];
+    allManagers.push(manager01);
+    allManagers.push(manager02);
+    allManagers.push(manager03);
+    allManagers.push(manager04);
+    allManagers.push(manager05);
+    allManagers.push(manager06);
+    allManagers.push(manager07);
+    allManagers.push(manager08);
+    allManagers.push(manager09);
+    allManagers.push(manager10);
+    allManagers.push(manager11);
+    allManagers.push(manager12);
+    allManagers.push(manager13);
+    allManagers.push(manager14);
+    allManagers.push(manager15);
+    allManagers.push(manager16);
+    allManagers.push(manager17);
+    allManagers.push(manager18);
+    allManagers.push(manager19);
+    allManagers.push(manager20);
+    allManagers.push(manager21);
+    allManagers.push(manager22);
+    allManagers.push(manager23);
+    allManagers.push(manager24);
+    allManagers.push(manager25);
+    allManagers.push(manager26);
+    allManagers.push(manager27);
+    allManagers.push(manager28);
+    allManagers.push(manager29);
+    allManagers.push(manager30);
+    allManagers.push(manager31);
+    allManagers.push(manager32);
+    allManagers.push(manager33);
+    allManagers.push(manager34);
+    allManagers.push(manager35);
+    allManagers.push(manager36);
+    allManagers.push(manager37);
+    allManagers.push(manager38);
+    allManagers.push(manager39);
+    allManagers.push(manager40);
+    allManagers.push(manager41);
+    allManagers.push(manager42);
+    allManagers.push(manager43);
+    allManagers.push(manager44);
+    allManagers.push(manager45);
+    allManagers.push(manager46);
+    allManagers.push(manager47);
+    allManagers.push(manager48);
+    allManagers.push(manager49);
+    allManagers.push(manager50);
+    allManagers.push(manager51);
+    allManagers.push(manager52);
+    allManagers.push(manager53);
+    allManagers.push(manager54);
+    allManagers.push(manager55);
+    allManagers.push(manager56);
+    allManagers.push(manager57);
+    allManagers.push(manager58);
+    allManagers.push(manager59);
+    allManagers.push(manager60);
+    allManagers.push(manager61);
+    allManagers.push(manager62);
+    allManagers.push(manager63);
+    allManagers.push(manager64);
+    allManagers.push(manager65);
+    allManagers.push(manager66);
+    allManagers.push(manager67);
+    allManagers.push(manager68);
+    allManagers.push(manager69);
+    allManagers.push(manager70);
 
 
 
@@ -275,9 +275,9 @@ function ready() {
         let viewManagers = [];
 
 
-        for (let i=0; i < allManafers.length; i++){
-            if(allManafers[i].podr == podr_selected && allManafers[i].type == type_selected){
-                viewManagers.push(allManafers[i]);
+        for (let i=0; i < allManagers.length; i++){
+            if(allManagers[i].podr == podr_selected && allManagers[i].type == type_selected){
+                viewManagers.push(allManagers[i]);
             }
         }
 

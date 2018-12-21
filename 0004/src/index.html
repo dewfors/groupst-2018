@@ -362,6 +362,8 @@
     <div class="main-calc-block">
 
         <script src="js/main_form_calc.js"></script>
+        <script src="js/calc/tarifs.js"></script>
+        <script src="js/main_form_calc_process.js"></script>
 
         <div class="calc-block">
             <div class="container">
@@ -385,6 +387,10 @@
                                     <option value="msk">Москва</option>
                                     <option value="spb">Санкт-Петербург</option>
                                     <option value="nsb">Новосибирск</option>
+                                    <option value="hbr">Хабаровск</option>
+                                    <option value="vld">Владивосток</option>
+                                    <option value="pk">П-Камчатский</option>
+                                    <option value="ush">Ю-Сахалинск</option>
                                 </select>
                             </div>
                         </div>
@@ -405,18 +411,28 @@
                             </div>
                             <div class="input">
                                 <select id="toCity" name="toCity">
-                                    <option value="pk">Петропавловск-Камчатский</option>
-                                    <option value="vld">Владивосток</option>
-                                    <option value="ush">Южно-Сахалинск</option>
-                                    <option value="hbr">Хабаровск</option>
+                                    <option value="msk">Москва</option>
+                                    <option value="spb">Санкт-Петербург</option>
                                     <option value="nsb">Новосибирск</option>
-                                    <option value="anad">Анадырь</option>
-                                    <option value="irku">Иркутск</option>
-                                    <option value="ekat">Екатеринбург</option>
-                                    <option value="yaku">Якутск</option>
-                                    <option value="omsk">Омск</option>
-                                    <option value="maga">Магадан</option>
-                                    <option value="kras">Красноярск</option>
+                                    <option value="hbr">Хабаровск</option>
+                                    <option value="vld">Владивосток</option>
+                                    <option value="pk" selected>П-Камчатский</option>
+                                    <option value="ush">Ю-Сахалинск</option>
+
+
+
+                                    <!--<option value="pk">Петропавловск-Камчатский</option>-->
+                                    <!--<option value="vld">Владивосток</option>-->
+                                    <!--<option value="ush">Южно-Сахалинск</option>-->
+                                    <!--<option value="hbr">Хабаровск</option>-->
+                                    <!--<option value="nsb">Новосибирск</option>-->
+                                    <!--<option value="anad">Анадырь</option>-->
+                                    <!--<option value="irku">Иркутск</option>-->
+                                    <!--<option value="ekat">Екатеринбург</option>-->
+                                    <!--<option value="yaku">Якутск</option>-->
+                                    <!--<option value="omsk">Омск</option>-->
+                                    <!--<option value="maga">Магадан</option>-->
+                                    <!--<option value="kras">Красноярск</option>-->
                                 </select>
                             </div>
                         </div>
@@ -437,7 +453,7 @@
                                 <label for="weight">Вес (кг):</label>
                             </div>
                             <div class="input">
-                                <input id="weight" type="text">
+                                <input id="weight" type="text" placeholder="115.35">
                             </div>
                         </div>
 
@@ -446,7 +462,7 @@
                                 <label for="volume">Объем (м3):</label>
                             </div>
                             <div class="input">
-                                <input id="volume" type="text">
+                                <input id="volume" type="text" placeholder="1.25" >
                             </div>
                         </div>
 
@@ -604,7 +620,7 @@
                         <div class="rowBlock">
                             <div class="label"></div>
                             <div class="form-submit">
-                                <div class="txt">РАССЧИТАТЬ СТОИМОСТЬ</div>
+                                <div class="txt" id="calculate">РАССЧИТАТЬ СТОИМОСТЬ</div>
                             </div>
                         </div>
 
@@ -693,6 +709,42 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="rowBlock">
+                            <div class="key">
+                                <div class="txt">Морская перевозка</div>
+                            </div>
+                            <div class="result-meth-wrap">
+                                <div class="result-meth">
+                                    <div class="price">0.00</div>
+                                    <div class="img" title="Связаться с менеджером">
+                                        <a href="#linkToManager">
+                                            <img src="img/mainCalc/customer-service.png" alt="customer-service">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="rowBlock">
+                            <div class="key">
+                                <div class="txt">Мультимодальная перевозка</div>
+                            </div>
+                            <div class="result-meth-wrap">
+                                <div class="result-meth">
+                                    <div class="price">0.00</div>
+                                    <div class="img" title="Связаться с менеджером">
+                                        <a href="#linkToManager">
+                                            <img src="img/mainCalc/customer-service.png" alt="customer-service">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
 
                     </div>
 

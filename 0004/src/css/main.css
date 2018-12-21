@@ -9277,6 +9277,7 @@ footer.footer .howToContactUs .howToContactUsBlock .viewButtons .colViewButtons 
   text-transform: uppercase;
   text-align: center;
   border: 1px solid #ffb118;
+  cursor: pointer;
 }
 
 .calc-block-inner form .rowBlock .key {

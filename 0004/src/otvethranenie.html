@@ -8,7 +8,7 @@
     <meta name="autor" content="">
     <meta name="icon" content="./favicon.ico">
 
-    <title>О компании</title>
+    <title>Главная</title>
 
     <link rel="stylesheet" href="css/reset-all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -29,7 +29,6 @@
 
 
 <div class="main">
-
 
     <header class="header">
 
@@ -129,38 +128,22 @@
     </header>
     <!-- /.header -->
 
-    <div class="about-block">
+    <div class="main-calc-block">
+
         <div class="container">
-            <div class="about-block-inner">
-                <div class="row">
-                    <div class="col-12 title-dv">
-                        <div class="title">СТРАНИЦА В РАЗРАБОТКЕ</div>
-                        <!--<div class="title">О компании</div>-->
-                    </div>
+            <div class="row">
+                <div class="col-12">
+                    <br><br><br>
+                    <div class="d-flex justify-content-center">СТРАНИЦА В РАЗРАБОТКЕ</div>
+                    <br><br><br>
                 </div>
-                <!--<div class="row">-->
-                    <!--<div class="col-12 descr-dv">-->
-                        <!--<div class="descr">-->
-                            <!--<div class="foto"></div>-->
-                            <!--<div class="description">-->
-                                <!--Задача организации, в особенности же новая модель-->
-                                <!--организационной деятельности позволяет выполнять-->
-                                <!--важные задания по разработке систем массового-->
-                                <!--участия. Разнообразный и богатый опыт начало-->
-                                <!--повседневной работы по формированию позиции-->
-                                <!--играет важную роль в формировании системы-->
-                                <!--обучения кадров, соответствует насущным-->
-                                <!--потребностям. С другой стороны консультация-->
-                                <!--с широким активом играет важную роль в-->
-                                <!--формировании позиций, занимаемых участниками в-->
-                                <!--отношении поставленных задач. Идейные-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
             </div>
         </div>
+
     </div>
+    <!-- /.main-calc-block -->
+
+
 
     <footer class="footer">
 
@@ -423,11 +406,37 @@
 
 
     <script src="js/script_primary_slider_01.js"></script>
-    <!--<s<script src="js/script_primary_slider_01.js"></script>-->
     <script src="js/script_primary_slider_02.js"></script>
     <script src="js/script_prices_slider_03.js"></script>
-    <script src="js/script_main_slider_04.js"></script>
+
     <script src="js/script_primary.js"></script>
-    <script src="js/main_form_calc.js"></script>
+
+
+    <!--наверх-->
+    <p id="back-top"><a href="#top"><span></span></a></p>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#back-top").hide();
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        $('#back-top').fadeIn();
+                    } else {
+                        $('#back-top').fadeOut();
+                    }
+                });
+                $('#back-top a').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 400);
+                    return false;
+                });
+            });
+        });
+    </script>
+
+
+
 </body>
 </html>
